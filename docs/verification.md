@@ -33,3 +33,17 @@ The extension rejected `fileChooser.setFiles` because file URL access was disabl
 | Backup dialog could pass scrolling through          | Contained overscroll                                             | Keep the underlying reading position stable      |
 
 Controls use short colour/transform feedback and reduced-motion support. Hidden details are omitted rather than blurred. Final polish retained the application state model.
+
+## Published site
+
+[GitHub Actions run 36186675635](https://github.com/Vanexia/the-velvet-room/actions/runs/36186675635) passed its build and deployment jobs for application commit `25c7df4`. The final test result was:
+
+```text
+ℹ tests 20
+ℹ pass 20
+ℹ fail 0
+```
+
+The published HTML, CSS, JavaScript and cover image each returned HTTP 200 and matched the SHA-256 of the local build. The live Chrome page displayed the library and opened Metaphor from its cover. Its eight stages and 32 reveal cards started with zero protected details rendered. A safe checkbox was checked, reloaded and then cleared. Skip to content retained the game route and focused its main region. Images loaded and the page had no horizontal overflow at the inspected desktop size.
+
+Test progress was left at zero on the live site. The temporary phone viewport was reset, the original PSNProfiles tab was restored, and the local preview server was stopped after verification. Import through Chrome remains unverified at the file-picker boundary described above; the application import tests passed.

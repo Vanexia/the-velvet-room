@@ -81,7 +81,7 @@ Files: .github/workflows/pages.yml, README.md, LICENSE.
 
 - [x] Add a Pages workflow with Node 24, `npm ci`, `npm test`, `npm run build`, upload-pages-artifact and deploy-pages. Scope deployment permissions to Pages and OIDC.
 - [x] Record adding-game instructions, local run commands, backup behaviour, source attribution and independent fan-project status.
-- [ ] Run tests, build and `git diff --check`. Commit the reviewed implementation.
-- [ ] Create Vanexia/the-velvet-room as a public repository after confirming the slug is unused; push the implementation and enable Pages workflow hosting.
-- [ ] Inspect the deployment result and fetch the published HTML, CSS and JavaScript. Exercise the deployed UI through Chrome when the background tab is available.
-- [ ] Preserve the user's guide tab. Close only agent-created research/verification tabs when no longer needed. Deliver the live site and repository links.
+- [x] Run tests, build and `git diff --check`. Commit the reviewed implementation.
+- [x] Create Vanexia/the-velvet-room as a public repository after confirming the slug is unused; push the implementation and enable Pages workflow hosting.
+- [x] Inspect the deployment result and fetch the published HTML, CSS and JavaScript. Exercise the deployed UI through Chrome when the background tab is available.
+- [x] Preserve the user's guide tab. Close only agent-created research/verification tabs when no longer needed. Deliver the live site and repository links.
