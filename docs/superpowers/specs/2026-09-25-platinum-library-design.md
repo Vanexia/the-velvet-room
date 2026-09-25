@@ -1,10 +1,10 @@
-# Platinum Library design
+# The Velvet Room design
 
 Date: 25 September 2026
 
 ## Purpose and agreed direction
 
-Build a personal game and platinum companion for the user's GitHub. The home page uses game cover images to open individual companions. Start with Metaphor: ReFantazio and support additional games through a shared layout.
+The user selected the name **The Velvet Room**. Build a personal game and platinum companion for the user's GitHub. The home page uses game cover images to open individual companions. Start with Metaphor: ReFantazio and support additional games through a shared layout.
 
 The user selected a complete companion with manually revealed spoilers. Advice does not unlock according to an in-game date or a reported story milestone. Prepare each game's content before adding it to the library, so the user can continue playing without requesting another page update.
 

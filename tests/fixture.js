@@ -1,0 +1,40 @@
+export const game = {
+  id: "demo",
+  title: "Demo Game",
+  subtitle: "A test companion",
+  cover: "./assets/test.jpg",
+  platform: "PS5",
+  defaultStatus: "playing",
+  guideUrl: "https://psnprofiles.com/guide/test",
+  tips: [{ id: "save", title: "Keep a save", body: "Use more than one slot." }],
+  stages: [
+    {
+      id: "stage-one",
+      label: "First steps",
+      when: "Start here",
+      intro: "Read at your own pace.",
+      cards: [
+        {
+          id: "detail-a",
+          title: "An optional item",
+          summary: "Check before leaving.",
+          cue: "Once you can explore.",
+          warning: "Location names",
+          paragraphs: ["SECRET_SENTINEL"],
+          checks: [{ id: "item-a", text: "Secret item collected" }],
+          source: "https://psnprofiles.com/guide/test#item",
+        },
+        {
+          id: "detail-b",
+          title: "A later check",
+          summary: "Come back later.",
+          cue: "After this stage.",
+          warning: "Later details",
+          paragraphs: ["SECOND_SECRET"],
+          checks: [{ id: "item-b", text: "Second check" }],
+          source: "https://psnprofiles.com/guide/test#second",
+        },
+      ],
+    },
+  ],
+};

@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en-GB">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="theme-color" content="#141a19" />
+    <meta
+      name="description"
+      content="Your game journal. Chronological platinum reminders, spoiler controls and a place to save your progress."
+    />
+    <title>The Velvet Room · Your game journal</title>
+    <link rel="icon" href="./assets/room-mark.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="./styles.css" />
+    <script type="module" src="./assets/app.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#app">Skip to content</a>
+    <header class="site-header">
+      <a class="brand" href="#library"
+        ><img src="./assets/room-mark.svg" width="34" height="40" alt="" /><span
+          >The Velvet Room</span
+        ></a
+      >
+      <nav aria-label="Main navigation">
+        <a class="nav-link" href="#library">Library</a
+        ><button class="nav-link" data-action="backup">
+          Backups <span aria-hidden="true">↗</span>
+        </button>
+      </nav>
+    </header>
+    <div id="storage-warning" class="storage-warning" role="alert" hidden></div>
+    <main id="app" tabindex="-1">
+      <p class="loading-copy">Opening your library…</p>
+    </main>
+    <noscript
+      ><p class="noscript">
+        Enable JavaScript to use the library and its spoiler controls. The full
+        PSNProfiles guide contains spoilers.
+      </p></noscript
+    >
+    <footer class="site-footer">
+      <span
+        >The Velvet Room <span aria-hidden="true">·</span> A personal game
+        journal</span
+      ><span>Unofficial fan project. Game artwork © ATLUS / SEGA.</span>
+    </footer>
+    <div id="toast" class="toast" role="status" aria-live="polite"></div>
+    <dialog id="backup-dialog" aria-labelledby="backup-title">
+      <div id="backup-content"></div>
+    </dialog>
+  </body>
+</html>
