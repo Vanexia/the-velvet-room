@@ -22,12 +22,26 @@ One device is enough for the first version. Progress, notes and revealed section
 
 The first part is a short, readable "Things to know" area. It contains spoiler-free habits, platinum planning and warnings that remain useful throughout the game. Important missables receive a general warning here even when their exact instructions are hidden below. This helps the user decide when to reveal more detail.
 
-The rest contains small, clearly separated sections for missables, collectibles, cleanup and subsequent-playthrough requirements. Every section is available from the start. The user chooses which details to open.
+The rest follows the order in which the user plays the game. Arrange missables, collectibles and other advice within their relevant stages, rather than collecting them into topic groups that mix early and late events. Put endgame cleanup and subsequent-playthrough information at the bottom. Every section is available from the start. The user chooses which details to open.
+
+Within each stage, distinguish three reading points:
+
+- **Before this stage:** a spoiler-free warning that gives the user enough information to avoid passing an opportunity unknowingly.
+- **When you reach this point:** a small, independently revealed set of instructions with a precise, recognisable cue for when to open it.
+- **Before moving on:** a checklist of that stage's outstanding missables or preparation, with any protected details still behind their own reveal controls.
+
+This is a reading order, not an automatic progress gate. The user does not need to enter their date, report their progress or request updated content. Opening a stage must not automatically reveal its protected instructions or later events within it.
+
+Use the game's own structure for the timing cues. For Metaphor, use verified in-game dates where appropriate, supplemented by an already-encountered milestone when a date alone would reveal information too early. Do not invent chapter numbers for games that do not use them. A cue may say to wait until the player has arrived and regained control; it must not assume that reaching a date means the player has seen every event that day.
+
+All visible timing cues must themselves be spoiler-free. Use neutral stage labels and dates instead of future location names, character names or story-event summaries. A later detail that cannot be safely cued at the stage's beginning needs its own later reveal point. Never use completion of a stage as the cue for advice that was needed during that stage.
+
+Author and verify each warning's timing: the general warning must precede the opportunity, the exact instructions must be available while the action can still be taken, and later results or story explanations stay in a separate disclosure. If these cannot all be satisfied without some spoiler exposure, state the specific spoiler category and offer the least revealing actionable instruction first. Do not label uncertain material as safe.
 
 Each hidden section shows:
 
 1. A neutral heading that does not reveal the protected information.
-2. A short, spoiler-free explanation of why the section matters or when to consult it.
+2. A short, spoiler-free explanation of why it matters and an explicit recommended reveal point, so the user does not have to guess when it is safe to read.
 3. A content warning such as "Contains location and character names."
 4. An explicit "Reveal details" button.
 
@@ -97,6 +111,10 @@ Make the game page comfortable for reading on desktop and a phone. Reveal contro
 - A backup restores reveals and progress; malformed or unsupported backups leave existing state intact.
 - Storage failure produces a visible warning and allows an export.
 - A source audit covers the whole Metaphor platinum companion and verifies the top-level missable warnings.
+- Stages and their instructions follow play order; late-game and subsequent-playthrough advice appear at the bottom.
+- Every protected section has an explicit spoiler-free reveal cue. A date alone is not used where an event within that day must first be completed.
+- Every missable has an advance warning and instructions that can be revealed before its opportunity expires.
+- Revealing a stage or its first instruction does not reveal later details from the same stage.
 - Keyboard navigation, small-screen layout and deployment under a repository subpath work.
 
 ## Scope exclusions
