@@ -37,3 +37,9 @@ Background Chrome checks on localhost:
 - No captured warning or error console entries during these interactions.
 
 The browser checks used localhost progress, separate from the user's live saved checklist. They verify this interface change, not the factual accuracy of every route instruction.
+
+## Live deployment
+
+Commit `7495111ad9908872213217094286017e84bf820c` deployed through [GitHub Actions run 36273800190](https://github.com/Vanexia/the-velvet-room/actions/runs/36273800190). Both build and deploy jobs succeeded. Chrome on the live Pages site confirmed 13 June displayed eight steps, no whole-day gate and the navy sheet. Separate encounter help remained closed, with no captured console errors. No live checklist or note edits were made. Date navigation saved 13 June as the reading place.
+
+The live screenshot is stored locally at `work/dark-reader-preview.png`; it is not part of the published site. The agent's verification tab was closed afterwards.
