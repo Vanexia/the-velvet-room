@@ -316,19 +316,6 @@ img {
   aspect-ratio: 2/3;
   object-fit: cover;
 }
-.case-platform {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  font-size: 9px;
-  letter-spacing: 0.13em;
-  color: #e5eafa;
-  background: #101b30;
-  padding: 5px 7px;
-}
-.case-platform span {
-  color: var(--accent);
-}
 .case-hover {
   position: absolute;
   bottom: 16px;

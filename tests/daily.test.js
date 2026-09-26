@@ -74,6 +74,47 @@ test("reference navigation focuses the reference heading and keeps daily content
   );
   w.close();
 });
+test("calendar selection keeps the viewport and keyboard focus in the calendar", () => {
+  const w = setup(),
+    d = w.document;
+  try {
+    w.scrollTo(0, 460);
+    assert.equal(w.scrollY, 460);
+    const next = d.querySelector('.date-cell[href="#game/demo/day-june-13"]');
+    next.click();
+    w.dispatchEvent(new w.Event("hashchange"));
+    assert.match(d.getElementById("day-heading").textContent, /13 June/);
+    assert.equal(w.scrollY, 460);
+    assert.equal(d.activeElement.getAttribute("aria-current"), "date");
+    assert.equal(
+      d.activeElement.getAttribute("href"),
+      "#game/demo/day-june-13",
+    );
+    d.activeElement.click();
+    assert.equal(w.scrollY, 460);
+  } finally {
+    w.close();
+  }
+});
+test("calendar month selection keeps its viewport and focus without changing library navigation", () => {
+  const w = setup("#game/demo/day-june-13"),
+    d = w.document;
+  try {
+    w.scrollTo(0, 380);
+    const month = d.querySelector("[data-month]");
+    month.dispatchEvent(new w.Event("change", { bubbles: true }));
+    w.dispatchEvent(new w.Event("hashchange"));
+    assert.match(d.getElementById("day-heading").textContent, /12 June/);
+    assert.equal(w.scrollY, 380);
+    assert.equal(d.activeElement.id, "guide-month");
+    w.location.hash = "#library";
+    w.dispatchEvent(new w.Event("hashchange"));
+    assert.equal(w.scrollY, 0);
+    assert.equal(d.activeElement.tagName, "H1");
+  } finally {
+    w.close();
+  }
+});
 test("old progress migrates without losing existing checks, reveals, notes or bookmark", () => {
   const old = {
     version: 1,

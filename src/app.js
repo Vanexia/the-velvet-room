@@ -17,6 +17,7 @@ export function mountApp(win, games) {
     activeSection = "",
     hasRouted = false,
     pendingBackup = null,
+    pendingCalendar = null,
     toastTimer;
   const getGame = () => games.find((g) => g.id === activeGame);
   const progress = () => store.state.games[activeGame];
@@ -56,6 +57,9 @@ export function mountApp(win, games) {
   }
   function route() {
     const shouldFocus = hasRouted;
+    const calendarPosition =
+      pendingCalendar?.hash === win.location.hash ? pendingCalendar : null;
+    pendingCalendar = null;
     hasRouted = true;
     const parts = win.location.hash.slice(1).split("/");
     const next =
@@ -78,7 +82,14 @@ export function mountApp(win, games) {
         });
     }
     if (changed || !app.firstElementChild) render();
-    if (isDaily() && changed && shouldFocus) {
+    if (isDaily() && calendarPosition) {
+      win.scrollTo({
+        left: calendarPosition.left,
+        top: calendarPosition.top,
+        behavior: "instant",
+      });
+      doc.querySelector(calendarPosition.focus)?.focus({ preventScroll: true });
+    } else if (isDaily() && changed && shouldFocus) {
       win.scrollTo(0, 0);
       doc.getElementById("day-heading")?.focus({ preventScroll: true });
     } else if (next && parts[2]) {
@@ -99,6 +110,11 @@ export function mountApp(win, games) {
       h?.setAttribute("tabindex", "-1");
       h?.focus({ preventScroll: true });
     }
+  }
+  function navigateCalendar(hash, focus) {
+    pendingCalendar = { hash, focus, left: win.scrollX, top: win.scrollY };
+    if (hash === win.location.hash) route();
+    else win.location.hash = hash;
   }
   function update(patch) {
     store.update(activeGame, patch);
@@ -130,7 +146,21 @@ export function mountApp(win, games) {
     const button = event.target.closest("button");
     if (!button) {
       const a = event.target.closest("a");
-      if (a?.classList.contains("skip-link")) {
+      if (
+        a?.classList.contains("date-cell") &&
+        isDaily() &&
+        event.button === 0 &&
+        !event.ctrlKey &&
+        !event.metaKey &&
+        !event.shiftKey &&
+        !event.altKey
+      ) {
+        event.preventDefault();
+        navigateCalendar(
+          a.getAttribute("href"),
+          '.date-cell[aria-current="date"]',
+        );
+      } else if (a?.classList.contains("skip-link")) {
         event.preventDefault();
         app.focus({ preventScroll: true });
         app.scrollIntoView({ block: "start" });
@@ -227,7 +257,7 @@ export function mountApp(win, games) {
         );
       }
     } else if (target.matches("[data-month]") && getGame()) {
-      win.location.hash = `#game/${getGame().id}/${target.value}`;
+      navigateCalendar(`#game/${getGame().id}/${target.value}`, "[data-month]");
     } else if (target.matches("[data-status]") && getGame()) {
       update({ status: target.value });
       toast("Shelf updated");

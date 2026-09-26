@@ -16,7 +16,7 @@ export function renderCollection(games, state) {
           const p = state.games[g.id],
             day = g.days?.find((d) => d.id === p.dayBookmark);
           const href = `#game/${g.id}${day ? "/" + day.id : !g.days && p.bookmark ? "/" + p.bookmark : ""}`;
-          return `<article class="game-case"><a class="case-cover" href="${e(href)}" aria-label="Open ${e(g.title)} guide"><span class="case-platform">${e(g.platform)}<span aria-hidden="true">◇</span></span><img src="${e(g.cover)}" alt="${e(g.title)} cover artwork" width="200" height="300" fetchpriority="high"><span class="case-hover">Open guide <span aria-hidden="true">↗</span></span></a><div class="case-caption"><h3><a href="${e(href)}">${e(g.title)}</a></h3><p>${g.days ? "Day-by-day platinum guide" : "Platinum companion"}</p><a class="case-resume" href="${e(href)}">${day ? `Continue · ${e(day.label)}` : "Open guide"}<span aria-hidden="true">→</span></a></div></article>`;
+          return `<article class="game-case"><a class="case-cover" href="${e(href)}" aria-label="Open ${e(g.title)} guide"><img src="${e(g.cover)}" alt="${e(g.title)} cover artwork" width="200" height="300" fetchpriority="high"><span class="case-hover">Open guide <span aria-hidden="true">↗</span></span></a><div class="case-caption"><h3><a href="${e(href)}">${e(g.title)}</a></h3><p>${g.days ? "Day-by-day platinum guide" : "Platinum companion"}</p><a class="case-resume" href="${e(href)}">${day ? `Continue · ${e(day.label)}` : "Open guide"}<span aria-hidden="true">→</span></a></div></article>`;
         })
         .join("")}</div></section>`;
     })

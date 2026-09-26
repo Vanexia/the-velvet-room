@@ -25,7 +25,7 @@ function renderCard(card, p) {
 }
 
 export function renderGame(game, p) {
-  return `<a href="#library" class="back-link">← Your library</a><header class="game-header"><img src="${e(game.cover)}" width="130" height="195" alt="${e(game.title)} cover artwork"><div class="game-heading"><p class="eyebrow">${e(game.platform)} / Platinum companion</p><h1>${e(game.title)}</h1><p class="quiet">${e(game.subtitle)}</p><div class="game-meta"><label class="status-select">On your shelf <select aria-label="Game status" data-status name="shelf-status">${Object.entries(
+  return `<a href="#library" class="back-link">← Your library</a><header class="game-header"><img src="${e(game.cover)}" width="130" height="195" alt="${e(game.title)} cover artwork"><div class="game-heading"><p class="eyebrow">Platinum companion</p><h1>${e(game.title)}</h1><p class="quiet">${e(game.subtitle)}</p><div class="game-meta"><label class="status-select">On your shelf <select aria-label="Game status" data-status name="shelf-status">${Object.entries(
     statusLabels,
   )
     .map(
