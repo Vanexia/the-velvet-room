@@ -2,6 +2,7 @@ import { build } from "esbuild";
 import { cp, mkdir } from "node:fs/promises";
 await mkdir("dist/assets", { recursive: true });
 await cp("public", "dist", { recursive: true });
+await cp("content/metaphor-schedule.md", "dist/metaphor-schedule.md");
 await build({
   entryPoints: ["src/main.js"],
   bundle: true,

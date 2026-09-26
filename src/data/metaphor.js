@@ -1,3 +1,5 @@
+import days from "./metaphor-days.json" with { type: "json" };
+import { dayHelp } from "./day-help.js";
 const guide =
   "https://psnprofiles.com/guide/20665-metaphor-refantazio-trophy-guide";
 const item = (id, text) => ({ id, text });
@@ -25,6 +27,8 @@ const card = (
 
 export const metaphor = {
   id: "metaphor",
+  days,
+  dayHelp,
   title: "Metaphor: ReFantazio",
   subtitle: "Enjoy the first journey. Keep the platinum in reach.",
   platform: "PS5 / PS4",

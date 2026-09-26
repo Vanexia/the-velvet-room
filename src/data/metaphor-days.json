@@ -1,0 +1,3694 @@
+[
+  {
+    "id": "day-june-02",
+    "label": "02 June",
+    "month": "June",
+    "number": 2,
+    "steps": [
+      {
+        "id": "june-02-step-01",
+        "label": "Afternoon",
+        "text": "Begin the game. Pick whichever interview answer suits your preferred stats. Collect the two Medicinal Herbs in the desert if useful.",
+        "kind": "time"
+      },
+      {
+        "id": "june-02-step-02",
+        "label": "Night",
+        "text": "Story.",
+        "kind": "night"
+      }
+    ]
+  },
+  {
+    "id": "day-june-03",
+    "label": "03 June",
+    "month": "June",
+    "number": 3,
+    "steps": [
+      {
+        "id": "june-03-step-01",
+        "label": "Story day",
+        "text": "Follow the main objective. No separate free-time activity is scheduled; continue until the game advances the date.",
+        "kind": "story"
+      }
+    ]
+  },
+  {
+    "id": "day-june-04",
+    "label": "04 June",
+    "month": "June",
+    "number": 4,
+    "steps": [
+      {
+        "id": "june-04-step-01",
+        "label": "Story day",
+        "text": "Follow the main objective. No separate free-time activity is scheduled; continue until the game advances the date.",
+        "kind": "story"
+      }
+    ]
+  },
+  {
+    "id": "day-june-05",
+    "label": "05 June",
+    "month": "June",
+    "number": 5,
+    "steps": [
+      {
+        "id": "june-05-step-01",
+        "label": "Afternoon",
+        "text": "Complete the Northern Border Fort sequence.",
+        "kind": "time"
+      },
+      {
+        "id": "june-05-step-02",
+        "label": "Night",
+        "text": "At the outdoor camp afterwards, collect the Gold Beetle near the tree behind Strohl before continuing. This camp is a one-time visit. If you have already passed it, keep playing: there are other beetles and a later run available.",
+        "kind": "night"
+      }
+    ]
+  },
+  {
+    "id": "day-june-06",
+    "label": "06 June",
+    "month": "June",
+    "number": 6,
+    "steps": [
+      {
+        "id": "june-06-step-01",
+        "label": "Afternoon",
+        "text": "Progress through Nord Mines. Save at the Magla Hollow when available.",
+        "kind": "time"
+      },
+      {
+        "id": "june-06-step-02",
+        "label": "Optional",
+        "text": "The sleeping dragon is a reward fight, not a platinum requirement. Challenge it only with enough healing and MP. Mage must reach rank 2 to learn Blizz; simply switching to Mage does not provide it. Skip the fight if your resources are poor. The original triple-Mage suggestion does not guarantee an easy win on Normal.",
+        "kind": "optional"
+      },
+      {
+        "id": "june-06-step-03",
+        "label": "MP tip",
+        "text": "With the protagonist channeling Mage, eligible field stuns and defeats restore 1 MP to the party. Check your MP after an encounter before committing to a recovery loop.",
+        "kind": "task"
+      },
+      {
+        "id": "june-06-step-04",
+        "label": "Night",
+        "text": "Story.",
+        "kind": "night"
+      }
+    ]
+  },
+  {
+    "id": "day-june-07",
+    "label": "07 June",
+    "month": "June",
+    "number": 7,
+    "steps": [
+      {
+        "id": "june-07-step-01",
+        "label": "Story day",
+        "text": "Follow the main objective. No separate free-time activity is scheduled; continue until the game advances the date.",
+        "kind": "story"
+      }
+    ]
+  },
+  {
+    "id": "day-june-08",
+    "label": "08 June",
+    "month": "June",
+    "number": 8,
+    "steps": [
+      {
+        "id": "june-08-step-01",
+        "label": "Story day",
+        "text": "Follow the main objective. No separate free-time activity is scheduled; continue until the game advances the date.",
+        "kind": "story"
+      }
+    ]
+  },
+  {
+    "id": "day-june-09",
+    "label": "09 June",
+    "month": "June",
+    "number": 9,
+    "steps": [
+      {
+        "id": "june-09-step-01",
+        "label": "Story day",
+        "text": "Follow the main objective. No separate free-time activity is scheduled; continue until the game advances the date.",
+        "kind": "story"
+      }
+    ]
+  },
+  {
+    "id": "day-june-10",
+    "label": "10 June",
+    "month": "June",
+    "number": 10,
+    "steps": [
+      {
+        "id": "june-10-step-01",
+        "label": "To do",
+        "text": "Follow the story and the initial Maria event. Idlesday falls on dates ending in 0 or 5; check shop discounts when shopping is available.",
+        "kind": "task"
+      }
+    ]
+  },
+  {
+    "id": "day-june-11",
+    "label": "11 June",
+    "month": "June",
+    "number": 11,
+    "steps": [
+      {
+        "id": "june-11-step-01",
+        "label": "To do",
+        "text": "Follow the required story sequence. Accept More's Foreword and Prologue task when available. Start training Healer toward rank 10 on a party member. You do not need preorder items.",
+        "kind": "task"
+      },
+      {
+        "id": "june-11-step-02",
+        "label": "To do",
+        "text": "Use equipment that suits your current Archetype. The mine's optional reward is not assumed here.",
+        "kind": "task"
+      },
+      {
+        "id": "june-11-step-03",
+        "label": "Habit",
+        "text": "Use different Synthesis skills as they become available and keep track of which ones you have used. Enter squad battles with an advantage often; instant field defeats do not count as squad ambushes. Aim for unscathed wins where practical. Talk to Gallica and sword-surf around town regularly so those counters do not all become endgame chores.",
+        "kind": "task"
+      }
+    ]
+  },
+  {
+    "id": "day-june-12",
+    "label": "12 June",
+    "month": "June",
+    "number": 12,
+    "steps": [
+      {
+        "id": "june-12-step-01",
+        "label": "Today's plan",
+        "text": "Finish the free errands first, use the afternoon bench for Wisdom, then cook at the inn at night. Walking between districts, shopping and accepting these requests do not use the main activity slot.",
+        "kind": "task"
+      },
+      {
+        "id": "june-12-step-02",
+        "label": "Free errand · Sunshade Row",
+        "text": "Outside the Hushed Honeybee Inn, speak to the Mustari Man and accept Pagan's Dilemma.",
+        "kind": "free"
+      },
+      {
+        "id": "june-12-step-03",
+        "label": "Free errand · informant",
+        "text": "Still OUTSIDE the inn, speak to the winged Knowledgeable Man by the stairs. His name is Ardea. Buy Grand Cathedral Status now so he will be available inside the inn tonight. He is not beside the Young Nidia on Sunlumeo Street.",
+        "kind": "free"
+      },
+      {
+        "id": "june-12-step-04",
+        "label": "Free errand · Sunshade Row",
+        "text": "Give one Medicinal Herb to the Man in Pain in the alley near More's Phantom. You receive a Hero's Incense.",
+        "kind": "free"
+      },
+      {
+        "id": "june-12-step-05",
+        "label": "Free errand · Sunlumeo Street",
+        "text": "Speak to the Young Nidia at the southeastern quest marker and accept Help the Hushed Honeybee. If you already accepted it, continue with the other errands; you do not need to accept it again.",
+        "kind": "free"
+      },
+      {
+        "id": "june-12-step-06",
+        "label": "Free errand · church",
+        "text": "Enter St. Fermis Church on the northwest side of Sunlumeo Street. Speak to the Sanctor, choose to buy, and purchase Breath of Fresh Air for 500 reeve. The quest medicine is available even if you cannot yet purify equipment.",
+        "kind": "free"
+      },
+      {
+        "id": "june-12-step-07",
+        "label": "Free hand-in · Sunshade Row",
+        "text": "Return to the Mustari Man outside the inn and give him the medicine. Make sure you receive the reward and Tolerance increase.",
+        "kind": "free"
+      },
+      {
+        "id": "june-12-step-08",
+        "label": "Free collection · Sunshade Row",
+        "text": "Check behind the stairs near the armour shop, then go inside Comfort Concoctions and inspect the spice sack for a second Gold Beetle. Follow the prompt to put your hand in the sack. A beetle you can see but cannot reach elsewhere in the shop is a separate, later pickup.",
+        "kind": "free"
+      },
+      {
+        "id": "june-12-step-09",
+        "label": "Free collection · Recruitment Centre",
+        "text": "Enter from Sunlumeo Street and check the side hallway/room for another Gold Beetle. These three town pickups do not spend the afternoon.",
+        "kind": "free"
+      },
+      {
+        "id": "june-12-step-10",
+        "label": "Afternoon · uses time",
+        "text": "Return to Sunlumeo Street. Sit on the bench near the magic shop, marked with the Wisdom activity icon, and observe the city. This ends the afternoon. Do it only after the errands above.",
+        "kind": "time"
+      },
+      {
+        "id": "june-12-step-11",
+        "label": "Night · free errand",
+        "text": "Go INSIDE the Hushed Honeybee Inn on Sunshade Row. Find Ardea, the Knowledgeable Man, and buy Secret of the Redgrass Shop for 600 reeve. Also buy Ox Demon of Belega Corridor if offered, for tomorrow's preparation.",
+        "kind": "free"
+      },
+      {
+        "id": "june-12-step-12",
+        "label": "Night · free shopping",
+        "text": "Go to the food stalls in the Regalith Grand Cathedral market area. At the Herb-Seller, ask “Do you know Grius?” to unlock Redgrass. Buy enough Redgrass, Bidou Meat from the butcher, and Pristine Clearwater from the water seller for four inn meals; check what you already own before buying. The water seller is in the northwest market, the butcher in the middle, and the herb seller toward the northeast.",
+        "kind": "free"
+      },
+      {
+        "id": "june-12-step-13",
+        "label": "Night · optional free errands",
+        "text": "Enter shops to add them to your map. You can appraise the Rusted Accessory from Pagan's Dilemma at a shop that offers appraisal; this identifies the item and is different from church purification. Visit Gloamhall while it is open at night. The meat-skewer eating contest at the market also fits here without using the cooking slot.",
+        "kind": "optional"
+      },
+      {
+        "id": "june-12-step-14",
+        "label": "Night · uses time",
+        "text": "Return to Fabienne behind the inn counter. Ask to make Redgrass-Roasted Bidou and choose “Let's stick to the recipe.” This is tonight's activity and gives Tolerance.",
+        "kind": "time"
+      },
+      {
+        "id": "june-12-step-15",
+        "label": "Before moving on",
+        "text": "Pagan's Dilemma should be reported, and Help the Hushed Honeybee should be ready to report tomorrow. Keep the remaining meal ingredients. You do not need Wisdom rank 2 before tonight's cooking; tomorrow's quest reward helps reach it.",
+        "kind": "check"
+      }
+    ]
+  },
+  {
+    "id": "day-june-13",
+    "label": "13 June",
+    "month": "June",
+    "number": 13,
+    "steps": [
+      {
+        "id": "june-13-step-01",
+        "label": "Free hand-in · Sunlumeo Street",
+        "text": "Return to the Young Nidia who gave you Help the Hushed Honeybee. Claim the reward. Cooking last night alone did not finish the hand-in.",
+        "kind": "free"
+      },
+      {
+        "id": "june-13-step-02",
+        "label": "Checkpoint",
+        "text": "Open your Royal Virtues display and check Wisdom is rank 2, Informed. Yesterday's bench and today's request reward are the planned gains. If it is still rank 1, check both were completed before spending another time slot.",
+        "kind": "check"
+      },
+      {
+        "id": "june-13-step-03",
+        "label": "Free request · Sunlumeo Street",
+        "text": "Speak to the Igniter Merchantess outside Lycaon Magic Association. With Wisdom 2, choose “At least describe the job” and accept A Bullish Embargo. She introduces herself as Brigitta; Belega Corridor should now be a destination.",
+        "kind": "free"
+      },
+      {
+        "id": "june-13-step-04",
+        "label": "Optional free preparation",
+        "text": "At St. Fermis Church, use Purify on eligible equipment if the upgrade is useful and you have the required water and money. This is not necessary for every item. Appraise unidentified loot at the appropriate shop instead.",
+        "kind": "optional"
+      },
+      {
+        "id": "june-13-step-05",
+        "label": "Preparation before entering",
+        "text": "Read the Ox Demon of Belega Corridor report bought from Ardea. Mage and Healer in your active battle party provoke the enemies here; use a different combat setup. You can still inherit healing skills if you have unlocked the required inheritance. Do not force Healer training in this dungeon just to follow a checklist.",
+        "kind": "check"
+      },
+      {
+        "id": "june-13-step-06",
+        "label": "Afternoon · departure uses time",
+        "text": "Leave by the main gate at the south end of Sunlumeo Street and select Belega Corridor. Finish shopping first. The original 80,000-reeve target is optional, not an entry fee or trophy condition.",
+        "kind": "time"
+      },
+      {
+        "id": "june-13-step-07",
+        "label": "Dungeon",
+        "text": "Work through Belega Corridor and defeat the request target. Before leaving, look for the Gold Beetle reached through a crawl passage off a large room on a lower floor. Check walls with Fae Sight if the passage is hard to see.",
+        "kind": "task"
+      },
+      {
+        "id": "june-13-step-08",
+        "label": "Night",
+        "text": "The dungeon uses today's outing; there is no separate evening activity. Return to town when ready. Tomorrow you will report to Brigitta, so keep the request reward pending until that scheduled event.",
+        "kind": "night"
+      }
+    ]
+  },
+  {
+    "id": "day-june-14",
+    "label": "14 June",
+    "month": "June",
+    "number": 14,
+    "steps": [
+      {
+        "id": "june-14-step-01",
+        "label": "Afternoon · uses time",
+        "text": "Meet Brigitta outside Lycaon Magic Association on Sunlumeo Street. Report A Bullish Embargo and complete the introductory bond event. Check Brigitta is now rank 1; this unlocks the Merchant study path.",
+        "kind": "time"
+      },
+      {
+        "id": "june-14-step-02",
+        "label": "Night · uses time",
+        "text": "Go to Fabienne at the Hushed Honeybee Inn in Sunshade Row. Make Redgrass-Roasted Bidou using another set of ingredients and stick to the recipe again. This meal is for Tolerance, even though the Young Nidia's quest is already finished.",
+        "kind": "time"
+      }
+    ]
+  },
+  {
+    "id": "day-june-15",
+    "label": "15 June",
+    "month": "June",
+    "number": 15,
+    "steps": [
+      {
+        "id": "june-15-step-01",
+        "label": "Free preparation",
+        "text": "Shop before leaving; today is an Idlesday sale. Buy useful healing and available MP restoratives without spending your entire reeve or MAG reserve.",
+        "kind": "check"
+      },
+      {
+        "id": "june-15-step-02",
+        "label": "Afternoon · dungeon outing",
+        "text": "Enter the Grand Cathedral through its Mausoleum entrance and work toward completing the main objective today. Keep a separate save before entering.",
+        "kind": "time"
+      },
+      {
+        "id": "june-15-step-03",
+        "label": "Side request during the visit",
+        "text": "Speak to Catherina near the Mausoleum entrance to accept A Friend in Need. Find the key, unlock the room holding the captives, and return to report to her before finishing this visit. Check her follower bond unlocks. Locked sections associated with other requests can wait.",
+        "kind": "task"
+      },
+      {
+        "id": "june-15-step-04",
+        "label": "Training during the dungeon",
+        "text": "Have a party member study Healer in Akademeia and earn Archetype experience toward rank 10, using it where the team can fight safely. Character level 10 is not the same as Healer rank 10. A-EXP items can fill a small shortfall.",
+        "kind": "task"
+      },
+      {
+        "id": "june-15-step-05",
+        "label": "Free More hand-in",
+        "text": "When Healer reaches rank 10, enter Akademeia through More's Phantom and speak to More about his completed task. Confirm More rank 2 and accept the next task. Aim to finish this today; 19 June is the next planned dungeon opportunity. His hand-in does not consume a town activity slot.",
+        "kind": "free"
+      },
+      {
+        "id": "june-15-step-06",
+        "label": "Night",
+        "text": "Used by the dungeon. The schedule assumes a one-visit clear. Use the protagonist's Mage field recovery where safe, save at Magla Hollows and preserve an earlier save if resources force a second visit. Do not force an unwinnable battle solely to match the date.",
+        "kind": "night"
+      }
+    ]
+  },
+  {
+    "id": "day-june-16",
+    "label": "16 June",
+    "month": "June",
+    "number": 16,
+    "steps": [
+      {
+        "id": "june-16-step-01",
+        "label": "Free errand · Grand Trad Recruitment Centre",
+        "text": "Speak to the bounty desk and accept the Manjula hunt. Accepting it is free; the actual desert visit is scheduled for 19 June.",
+        "kind": "free"
+      },
+      {
+        "id": "june-16-step-02",
+        "label": "Afternoon · uses time",
+        "text": "Find Strohl through Followers and take the bond event, finishing at rank 2.",
+        "kind": "time"
+      },
+      {
+        "id": "june-16-step-03",
+        "label": "Night · uses time",
+        "text": "Find Brigitta through Followers and take the bond event, finishing at rank 2.",
+        "kind": "time"
+      }
+    ]
+  },
+  {
+    "id": "day-june-17",
+    "label": "17 June",
+    "month": "June",
+    "number": 17,
+    "steps": [
+      {
+        "id": "june-17-step-01",
+        "label": "Afternoon · uses time",
+        "text": "Find Hulkenberg through Followers and take the bond event, finishing at rank 2.",
+        "kind": "time"
+      },
+      {
+        "id": "june-17-step-02",
+        "label": "Night · uses time",
+        "text": "Visit Fabienne at the Hushed Honeybee Inn in Sunshade Row. Cook Redgrass-Roasted Bidou and stick to the recipe.",
+        "kind": "time"
+      }
+    ]
+  },
+  {
+    "id": "day-june-18",
+    "label": "18 June",
+    "month": "June",
+    "number": 18,
+    "steps": [
+      {
+        "id": "june-18-step-01",
+        "label": "Afternoon · uses time",
+        "text": "Find Strohl through Followers and take the bond event, finishing at rank 3.",
+        "kind": "time"
+      },
+      {
+        "id": "june-18-step-02",
+        "label": "Night · uses time",
+        "text": "Find Brigitta through Followers and take the bond event, finishing at rank 3.",
+        "kind": "time"
+      }
+    ]
+  },
+  {
+    "id": "day-june-19",
+    "label": "19 June",
+    "month": "June",
+    "number": 19,
+    "steps": [
+      {
+        "id": "june-19-step-01",
+        "label": "Afternoon · dungeon outing",
+        "text": "After accepting the Manjula bounty, leave through Grand Trad's main gate on Sunlumeo Street and choose Tradia Desert. Defeat Manjula and collect the area's Gold Beetle before returning. Ignore the much stronger optional roaming enemy if it appears on a revisit.",
+        "kind": "time"
+      },
+      {
+        "id": "june-19-step-02",
+        "label": "Checkpoint before leaving",
+        "text": "Healer rank 10, More's first task reported, More rank 2. Spend saved A-EXP items if needed; do not postpone the hand-in until a later stat check.",
+        "kind": "check"
+      },
+      {
+        "id": "june-19-step-03",
+        "label": "Night",
+        "text": "Used by the dungeon.",
+        "kind": "night"
+      }
+    ]
+  },
+  {
+    "id": "day-june-20",
+    "label": "20 June",
+    "month": "June",
+    "number": 20,
+    "steps": [
+      {
+        "id": "june-20-step-01",
+        "label": "Free hand-in",
+        "text": "Return to the bounty desk in Grand Trad's Recruitment Centre and claim the Manjula reward. Optional discounted shopping and MAG exchange; keep a reserve for Archetypes.",
+        "kind": "free"
+      },
+      {
+        "id": "june-20-step-02",
+        "label": "Afternoon",
+        "text": "Spend time with the Activist Woman in Sunshade Row for Eloquence. This spends the afternoon and provides part of the Eloquence preparation needed by the schedule.",
+        "kind": "time"
+      },
+      {
+        "id": "june-20-step-03",
+        "label": "Night · uses time",
+        "text": "Find Brigitta through Followers and take the bond event, finishing at rank 4.",
+        "kind": "time"
+      }
+    ]
+  },
+  {
+    "id": "day-june-21",
+    "label": "21 June",
+    "month": "June",
+    "number": 21,
+    "steps": [
+      {
+        "id": "june-21-step-01",
+        "label": "Afternoon",
+        "text": "Spend time with the Activist Woman again for Eloquence.",
+        "kind": "time"
+      },
+      {
+        "id": "june-21-step-02",
+        "label": "Night · uses time",
+        "text": "Speak to Fabienne at the Hushed Honeybee and cook Redgrass-Roasted Bidou; stick to the recipe. Check Tolerance 2 before the next Maria event. If short, check Pagan's Dilemma was reported and all four planned meals were completed correctly.",
+        "kind": "time"
+      }
+    ]
+  },
+  {
+    "id": "day-june-22",
+    "label": "22 June",
+    "month": "June",
+    "number": 22,
+    "steps": [
+      {
+        "id": "june-22-step-01",
+        "label": "Story day",
+        "text": "Follow the main objective. No separate free-time activity is scheduled; continue until the game advances the date.",
+        "kind": "story"
+      }
+    ]
+  },
+  {
+    "id": "day-june-23",
+    "label": "23 June",
+    "month": "June",
+    "number": 23,
+    "steps": [
+      {
+        "id": "june-23-step-01",
+        "label": "To do",
+        "text": "Follow the story and accept the requests introduced during it.",
+        "kind": "task"
+      }
+    ]
+  },
+  {
+    "id": "day-june-24",
+    "label": "24 June",
+    "month": "June",
+    "number": 24,
+    "steps": [
+      {
+        "id": "june-24-step-01",
+        "label": "First runner visit",
+        "text": "Explore the rooms and locate the bookshelf, kitchen/cooking table, pantry and toilet. The runner is your travelling base. Reading or spending time with someone is a main activity; checking the pantry is a free errand.",
+        "kind": "task"
+      },
+      {
+        "id": "june-24-step-02",
+        "label": "Free routine",
+        "text": "Inspect the cooking table for recipes and check the pantry on each available day, including days parked in town. Keep at least five Gauntlet Shrooms for a later recipe rather than selling them.",
+        "kind": "free"
+      },
+      {
+        "id": "june-24-step-03",
+        "label": "Reading instructions",
+        "text": "Use the lounge bookshelf, choose the named book and complete one session. A session spends the current travel period. “First”, “second” and “finish” below refer to separate sessions, not three readings to do at once.",
+        "kind": "task"
+      },
+      {
+        "id": "june-24-step-04",
+        "label": "Afternoon",
+        "text": "Read Pride and Persuasion, first session. Choose “To gain the upper hand.”",
+        "kind": "time"
+      },
+      {
+        "id": "june-24-step-05",
+        "label": "Night · free errand",
+        "text": "When camped, inspect the campfire for an ingredient before choosing the main activity.",
+        "kind": "free"
+      },
+      {
+        "id": "june-24-step-06",
+        "label": "Night · uses time",
+        "text": "Spend the evening on Hulkenberg's Imagination conversation, not a different activity. “It's cool” is a suitable reply; check that the activity awards Imagination.",
+        "kind": "time"
+      },
+      {
+        "id": "june-24-step-07",
+        "label": "Routine from now on",
+        "text": "Take the free campfire ingredient on nights spent camping. Use the toilet on accessible Idlesdays for Luck. These free errands are separate from the day's main activity.",
+        "kind": "task"
+      }
+    ]
+  },
+  {
+    "id": "day-june-25",
+    "label": "25 June",
+    "month": "June",
+    "number": 25,
+    "steps": [
+      {
+        "id": "june-25-step-01",
+        "label": "Afternoon",
+        "text": "Read Pride and Persuasion, second session; choose “Scare them.” Collect the automatic drawing during the journey.",
+        "kind": "time"
+      },
+      {
+        "id": "june-25-step-02",
+        "label": "Night",
+        "text": "Collect the free campfire ingredient first, then spend the evening on Strohl's Imagination conversation. “They had no allies” is a suitable reply.",
+        "kind": "night"
+      },
+      {
+        "id": "june-25-step-03",
+        "label": "To do",
+        "text": "These two evening conversations and More's first hand-in are part of the original schedule's early Imagination assumptions.",
+        "kind": "task"
+      }
+    ]
+  },
+  {
+    "id": "day-june-26",
+    "label": "26 June",
+    "month": "June",
+    "number": 26,
+    "steps": [
+      {
+        "id": "june-26-step-01",
+        "label": "To do",
+        "text": "Follow the story and required combat. Keep Providing a Spark in your quest log for the later Komero trip.",
+        "kind": "task"
+      }
+    ]
+  },
+  {
+    "id": "day-june-27",
+    "label": "27 June",
+    "month": "June",
+    "number": 27,
+    "steps": [
+      {
+        "id": "june-27-step-01",
+        "label": "Free collection · Martira",
+        "text": "Enter Visca Alba Tavern and inspect the fireplace for a Gold Beetle.",
+        "kind": "free"
+      },
+      {
+        "id": "june-27-step-02",
+        "label": "Free collection · guest room",
+        "text": "Inspect the pitcher/desk beside your bed for the other beetle. This reward is random; if you get something else, retry on later visits. Record the pickup when it appears so you do not keep searching after collecting it.",
+        "kind": "free"
+      }
+    ]
+  },
+  {
+    "id": "day-june-28",
+    "label": "28 June",
+    "month": "June",
+    "number": 28,
+    "steps": [
+      {
+        "id": "june-28-step-01",
+        "label": "To do",
+        "text": "Follow the main investigation and story.",
+        "kind": "task"
+      }
+    ]
+  },
+  {
+    "id": "day-june-29",
+    "label": "29 June",
+    "month": "June",
+    "number": 29,
+    "steps": [
+      {
+        "id": "june-29-step-01",
+        "label": "Free errands · Martira",
+        "text": "Check the weapon/armour sale. Accept Hatching a Plan from the quest giver in Thoroughfare Square, and accept the Goborn King bounty at the Recruitment Centre. Neither request requires you to leave town today.",
+        "kind": "free"
+      },
+      {
+        "id": "june-29-step-02",
+        "label": "Free hand-in · Grand Trad",
+        "text": "Use the world map's town travel to return to Grand Trad. Report Promising Returns to its requester on Sunlumeo Street if still active. Town teleportation is different from setting out on a runner journey.",
+        "kind": "free"
+      },
+      {
+        "id": "june-29-step-03",
+        "label": "Afternoon · uses time",
+        "text": "Visit Maria at the Hushed Honeybee Inn, show her your drawing and take her bond event. You need Tolerance 2. Finish at Maria rank 2.",
+        "kind": "time"
+      },
+      {
+        "id": "june-29-step-04",
+        "label": "Night · uses time",
+        "text": "Return to Martira and visit the Courage jumping activity in Thoroughfare Square. Save before paying/starting and attempt the first tier. If it fails, reload that save and try again. Later dates cover the higher tiers; do not repeat extra jumps tonight.",
+        "kind": "time"
+      }
+    ]
+  },
+  {
+    "id": "day-june-30",
+    "label": "30 June",
+    "month": "June",
+    "number": 30,
+    "steps": [
+      {
+        "id": "june-30-step-01",
+        "label": "Before travel",
+        "text": "Restock during the Idlesday sale and use the toilet if accessible.",
+        "kind": "task"
+      },
+      {
+        "id": "june-30-step-02",
+        "label": "Afternoon · set the route",
+        "text": "On the runner's round table map, choose Imp's Den for the Goborn King bounty. Confirm the destination before departure.",
+        "kind": "time"
+      },
+      {
+        "id": "june-30-step-03",
+        "label": "While travelling",
+        "text": "Speak to Hulkenberg and choose her bond event, reaching rank 3. This uses the travel activity, not an additional day.",
+        "kind": "task"
+      },
+      {
+        "id": "june-30-step-04",
+        "label": "At the destination",
+        "text": "Clear the Goborn King bounty and collect the Gold Beetle before returning.",
+        "kind": "task"
+      },
+      {
+        "id": "june-30-step-05",
+        "label": "Night",
+        "text": "Return; no additional free activity.",
+        "kind": "night"
+      }
+    ]
+  },
+  {
+    "id": "day-july-01",
+    "label": "01 July",
+    "month": "July",
+    "number": 1,
+    "steps": [
+      {
+        "id": "july-01-step-01",
+        "label": "Free hand-in · Recruitment Centre",
+        "text": "Claim the Goborn King bounty reward.",
+        "kind": "free"
+      },
+      {
+        "id": "july-01-step-02",
+        "label": "Free requests · Grand Trad",
+        "text": "At the Mausoleum/Catacombs entrance, speak to the quest giver and accept Skullduggery without committing to entering the dungeon. Then accept A Haunted Heirloom from the quest giver on Sunlumeo Street. Both dungeon objectives are scheduled together for 11 July.",
+        "kind": "free"
+      },
+      {
+        "id": "july-01-step-03",
+        "label": "Afternoon · uses time",
+        "text": "Meet Maria at the Hushed Honeybee Inn and take her next bond event, finishing at rank 3.",
+        "kind": "time"
+      },
+      {
+        "id": "july-01-step-04",
+        "label": "Night · uses time",
+        "text": "Return to the jumping activity in Martira's Thoroughfare Square. Save first and complete the next tier, rather than repeating the easiest one.",
+        "kind": "time"
+      }
+    ]
+  },
+  {
+    "id": "day-july-02",
+    "label": "02 July",
+    "month": "July",
+    "number": 2,
+    "steps": [
+      {
+        "id": "july-02-step-01",
+        "label": "Afternoon",
+        "text": "Depart for the Giant Sandworm's Nest. Read New World Travel Diary, first session. Follow the required travel encounter; check Catherina reaches rank 2. Receive the drawing en route.",
+        "kind": "time"
+      },
+      {
+        "id": "july-02-step-02",
+        "label": "Night",
+        "text": "Read New World Travel Diary, second session; choose the pavilion answer.",
+        "kind": "night"
+      },
+      {
+        "id": "july-02-step-03",
+        "label": "Checkpoint",
+        "text": "The source expects Imagination 2 here. If you are still rank 1, do not restart or spend an extra day: the third reading and More hand-in on 06 July provide another buffer before the request pickup on 07 July.",
+        "kind": "check"
+      }
+    ]
+  },
+  {
+    "id": "day-july-03",
+    "label": "03 July",
+    "month": "July",
+    "number": 3,
+    "steps": [
+      {
+        "id": "july-03-step-01",
+        "label": "To do",
+        "text": "Complete the timed story dungeon. Explore for loot while watching the timer; the schedule does not require fighting every enemy.",
+        "kind": "task"
+      }
+    ]
+  },
+  {
+    "id": "day-july-04",
+    "label": "04 July",
+    "month": "July",
+    "number": 4,
+    "steps": [
+      {
+        "id": "july-04-step-01",
+        "label": "Story day",
+        "text": "Follow the main objective. No separate free-time activity is scheduled; continue until the game advances the date.",
+        "kind": "story"
+      }
+    ]
+  },
+  {
+    "id": "day-july-05",
+    "label": "05 July",
+    "month": "July",
+    "number": 5,
+    "steps": [
+      {
+        "id": "july-05-step-01",
+        "label": "Free errands · Martira",
+        "text": "Accept the Alpha Rockworm Valmo bounty at the Recruitment Centre. Inspect the runner kitchen for new recipes and use the pantry/toilet when available.",
+        "kind": "free"
+      },
+      {
+        "id": "july-05-step-02",
+        "label": "Afternoon · uses time",
+        "text": "Return to Maria at the Hushed Honeybee Inn and complete her rank 4 bond event. Check the reward includes Speed Cooking. From tomorrow, cooking can be done before the main travelling activity without consuming that period. Until this unlock, do not combine cooking with reading as if both were free.",
+        "kind": "time"
+      },
+      {
+        "id": "july-05-step-03",
+        "label": "Night",
+        "text": "Give the Stairstone Market speech; choose the answer promoting local delicacies. Check Eloquence 2 for the upcoming Heismay bond. The two June Eloquence activities matter here.",
+        "kind": "night"
+      },
+      {
+        "id": "july-05-step-04",
+        "label": "Change",
+        "text": "A Dagger, a Ring, and a Rake is deliberately picked up on 07 July, after another reading session, so this plan does not depend on reaching Imagination 2 on 02 July.",
+        "kind": "task"
+      }
+    ]
+  },
+  {
+    "id": "day-july-06",
+    "label": "06 July",
+    "month": "July",
+    "number": 6,
+    "steps": [
+      {
+        "id": "july-06-step-01",
+        "label": "Before departure",
+        "text": "Confirm Hatching a Plan, Providing a Spark and the Alpha Rockworm Valmo bounty are active. Check Maria rank 4 and Speed Cooking.",
+        "kind": "task"
+      },
+      {
+        "id": "july-06-step-02",
+        "label": "Afternoon · route",
+        "text": "Use the runner map to set a journey through Komero to Man-Eater's Grotto. Include Komero as the village stop; going straight to the dungeon would miss today's errands.",
+        "kind": "time"
+      },
+      {
+        "id": "july-06-step-03",
+        "label": "While travelling",
+        "text": "At the kitchen, cook Redgrass-Roasted Bidou first. Then use the bookshelf to finish New World Travel Diary, choosing “Sounds pretty.” The reading spends the travel period; Speed Cooking is what allows the meal beforehand.",
+        "kind": "task"
+      },
+      {
+        "id": "july-06-step-04",
+        "label": "At Komero",
+        "text": "Complete Providing a Spark to unlock Neuras' bond. In the village shop, buy the Practical Pigeon Parcel for Hatching a Plan and at least one Orgo Sugar for later cooking. Confirm the purchases before continuing.",
+        "kind": "task"
+      },
+      {
+        "id": "july-06-step-05",
+        "label": "At the dungeon entrance · free",
+        "text": "Enter Akademeia, study Gunner on an eligible party member and speak to More to turn in Chapter One, reaching More rank 3. Accept Chapter Two and study Merchant on a party member; it must reach rank 15 for the next task.",
+        "kind": "free"
+      },
+      {
+        "id": "july-06-step-06",
+        "label": "Dungeon",
+        "text": "Defeat Alpha Rockworm Valmo, find the Screwed-Up Material relic and collect the Gold Beetle before leaving. Keep the relic for Neuras. If you have unlocked Steal, use it successfully in a squad battle once.",
+        "kind": "task"
+      },
+      {
+        "id": "july-06-step-07",
+        "label": "Return",
+        "text": "Head back to town after completing the objectives. There is no extra free night activity.",
+        "kind": "task"
+      },
+      {
+        "id": "july-06-step-08",
+        "label": "If Speed Cooking is missing",
+        "text": "Finish the scheduled book today and postpone the dish until a later travelling slot after Maria rank 4. Do not replace today's reading with time-consuming cooking.",
+        "kind": "task"
+      }
+    ]
+  },
+  {
+    "id": "day-july-07",
+    "label": "07 July",
+    "month": "July",
+    "number": 7,
+    "steps": [
+      {
+        "id": "july-07-step-01",
+        "label": "Free hand-ins · Martira",
+        "text": "Give the Practical Pigeon Parcel to the Hatching a Plan requester in Thoroughfare Square. Claim the Alpha Rockworm reward at the Recruitment Centre. With Imagination 2, accept A Dagger, a Ring, and a Rake from the Pompous Man in Thoroughfare Square. Check that the Abandoned Tomb is on your map before the 13 July trip.",
+        "kind": "free"
+      },
+      {
+        "id": "july-07-step-02",
+        "label": "Afternoon · uses time",
+        "text": "Find Maria through Followers and take the bond event, finishing at rank 5.",
+        "kind": "time"
+      },
+      {
+        "id": "july-07-step-03",
+        "label": "Night · uses time",
+        "text": "Find Neuras on the runner and give him the Screwed-Up Material. Complete the relic/bond event, reaching rank 2, and accept the next search. Relic discovery and this report are separate steps.",
+        "kind": "time"
+      },
+      {
+        "id": "july-07-step-04",
+        "label": "To do",
+        "text": "If Imagination is still below 2, report any unclaimed More tasks first. A missing book completion or More hand-in needs correcting before the Tomb trip; do not travel there without the request.",
+        "kind": "task"
+      }
+    ]
+  },
+  {
+    "id": "day-july-08",
+    "label": "08 July",
+    "month": "July",
+    "number": 8,
+    "steps": [
+      {
+        "id": "july-08-step-01",
+        "label": "Afternoon",
+        "text": "Clear the Castle Waterways objective. Train Merchant to rank 15 on a party member and report More's Chapter Two task for rank 4. Accept the 15-Archetype task.",
+        "kind": "time"
+      },
+      {
+        "id": "july-08-step-02",
+        "label": "To do",
+        "text": "Steal useful items from mimics if your party supports it. The strong enemy in the stealth section is optional; avoiding it is valid.",
+        "kind": "task"
+      },
+      {
+        "id": "july-08-step-03",
+        "label": "Night",
+        "text": "Used by the dungeon.",
+        "kind": "night"
+      }
+    ]
+  },
+  {
+    "id": "day-july-09",
+    "label": "09 July",
+    "month": "July",
+    "number": 9,
+    "steps": [
+      {
+        "id": "july-09-step-01",
+        "label": "Free request · Martira",
+        "text": "Speak to the cuisine requester in Visca Alba Tavern and accept The Queen of Cuisine: Heart. You will cook the requested Benevolent Bread on the next long trip; do not use or sell that serving before handing it in.",
+        "kind": "free"
+      },
+      {
+        "id": "july-09-step-02",
+        "label": "Afternoon · uses time",
+        "text": "Speak to Bardon in Martira's Thoroughfare Square to begin his follower bond, rank 1. Study Commander if useful. Check your total of different studied Archetypes; after 15 distinct types across the party, report More's next task for rank 5. A follower unlock without studying the type does not count as a study.",
+        "kind": "time"
+      },
+      {
+        "id": "july-09-step-03",
+        "label": "Night · uses time",
+        "text": "Go to the speech podium in Martira's Stairstone Market. Check that Roger is the opponent and take the debate. Choose “Taxes benefit us all.” Record a win, not merely a speech. Save before the event if you want the option to retry.",
+        "kind": "time"
+      }
+    ]
+  },
+  {
+    "id": "day-july-10",
+    "label": "10 July",
+    "month": "July",
+    "number": 10,
+    "steps": [
+      {
+        "id": "july-10-step-01",
+        "label": "Afternoon · uses time",
+        "text": "Find Hulkenberg through Followers and take the bond event, finishing at rank 4.",
+        "kind": "time"
+      },
+      {
+        "id": "july-10-step-02",
+        "label": "Night · uses time",
+        "text": "Find Heismay through Followers and take the bond event, finishing at rank 2; requires Eloquence 2. If short, raise Eloquence instead and move this bond to the next available evening, keeping the debate dates intact.",
+        "kind": "time"
+      }
+    ]
+  },
+  {
+    "id": "day-july-11",
+    "label": "11 July",
+    "month": "July",
+    "number": 11,
+    "steps": [
+      {
+        "id": "july-11-step-01",
+        "label": "Before departure",
+        "text": "Check both Skullduggery and A Haunted Heirloom are in your quest log.",
+        "kind": "task"
+      },
+      {
+        "id": "july-11-step-02",
+        "label": "Afternoon · dungeon outing",
+        "text": "Re-enter the Grand Trad Mausoleum/Catacombs and explore the sections relevant to those requests. Gather eight Mortaskulls and retrieve the Black Jewel Necklace.",
+        "kind": "time"
+      },
+      {
+        "id": "july-11-step-03",
+        "label": "Before leaving",
+        "text": "Check the quest objectives show the required items. Leaving after only one objective would cost another dungeon visit.",
+        "kind": "task"
+      },
+      {
+        "id": "july-11-step-04",
+        "label": "Night",
+        "text": "Used by the dungeon.",
+        "kind": "night"
+      }
+    ]
+  },
+  {
+    "id": "day-july-12",
+    "label": "12 July",
+    "month": "July",
+    "number": 12,
+    "steps": [
+      {
+        "id": "july-12-step-01",
+        "label": "Free hand-ins · Grand Trad",
+        "text": "Return the eight Mortaskulls to the Skullduggery requester at the Catacombs entrance, then return the Black Jewel Necklace to the A Haunted Heirloom requester on Sunlumeo Street.",
+        "kind": "free"
+      },
+      {
+        "id": "july-12-step-02",
+        "label": "Afternoon · uses time",
+        "text": "Find Heismay through Followers and take the bond event, finishing at rank 3.",
+        "kind": "time"
+      },
+      {
+        "id": "july-12-step-03",
+        "label": "Night",
+        "text": "Debate Lina at Stairstone Market. Choose “What are your policies?” Record the win.",
+        "kind": "night"
+      }
+    ]
+  },
+  {
+    "id": "day-july-13",
+    "label": "13 July",
+    "month": "July",
+    "number": 13,
+    "steps": [
+      {
+        "id": "july-13-step-01",
+        "label": "Free shopping · Martira",
+        "text": "On Cattleracket Road, collect vegetables from the Kind Old Woman and buy Fragrant Spice from the Greengrocer Girl. Buy Mellow Milk from the water seller in the square. Check you still have the Orgo Sugar bought in Komero.",
+        "kind": "free"
+      },
+      {
+        "id": "july-13-step-02",
+        "label": "Before departure",
+        "text": "Open the runner kitchen and inspect the requirements for Benevolent Bread, Magical Bread and Invincible Noodles. Obtain missing ingredients before setting the route to Abandoned Tomb. Keep one Benevolent Bread for the cuisine request.",
+        "kind": "task"
+      },
+      {
+        "id": "july-13-step-03",
+        "label": "Afternoon",
+        "text": "Travel toward Abandoned Tomb. Cook Benevolent Bread for the cuisine request, then take Strohl's runner bond, target rank 4.",
+        "kind": "time"
+      },
+      {
+        "id": "july-13-step-04",
+        "label": "Night",
+        "text": "Cook Magical Bread, then take Hulkenberg's runner bond, target rank 5. Speed Cooking allows cooking before a main activity; cook at most once in each available time slot.",
+        "kind": "night"
+      }
+    ]
+  },
+  {
+    "id": "day-july-14",
+    "label": "14 July",
+    "month": "July",
+    "number": 14,
+    "steps": [
+      {
+        "id": "july-14-step-01",
+        "label": "Afternoon · cooking first",
+        "text": "Cook Invincible Noodles.",
+        "kind": "time"
+      },
+      {
+        "id": "july-14-step-02",
+        "label": "Afternoon · main activity",
+        "text": "Finish Pride and Persuasion; choose “Plead with them.” Clear Abandoned Tomb, retrieve Malveno's Ring and collect the Gold Beetle before returning.",
+        "kind": "time"
+      },
+      {
+        "id": "july-14-step-03",
+        "label": "Checkpoint",
+        "text": "Eloquence 3 is the source's target after this reading. Keep training and reporting More's tasks during dungeon visits. His Imagination rewards support the later Strohl request.",
+        "kind": "check"
+      },
+      {
+        "id": "july-14-step-04",
+        "label": "Night",
+        "text": "Used by the dungeon.",
+        "kind": "night"
+      }
+    ]
+  },
+  {
+    "id": "day-july-15",
+    "label": "15 July",
+    "month": "July",
+    "number": 15,
+    "steps": [
+      {
+        "id": "july-15-step-01",
+        "label": "Free hand-in · Visca Alba Tavern, Martira",
+        "text": "Give Benevolent Bread to the requester for The Queen of Cuisine: Heart.",
+        "kind": "free"
+      },
+      {
+        "id": "july-15-step-02",
+        "label": "Afternoon · uses time",
+        "text": "Return Malveno's Ring to the Pompous Man in Martira's Thoroughfare Square for A Dagger, a Ring, and a Rake. Complete the associated introductory event and confirm Alonzo rank 1.",
+        "kind": "time"
+      },
+      {
+        "id": "july-15-step-03",
+        "label": "Night · uses time",
+        "text": "Find Heismay through Followers and take the bond event, finishing at rank 4.",
+        "kind": "time"
+      }
+    ]
+  },
+  {
+    "id": "day-july-16",
+    "label": "16 July",
+    "month": "July",
+    "number": 16,
+    "steps": [
+      {
+        "id": "july-16-step-01",
+        "label": "Afternoon · uses time",
+        "text": "Find Strohl through Followers and take the bond event, finishing at rank 5; accept A Noble's Legacy.",
+        "kind": "time"
+      },
+      {
+        "id": "july-16-step-02",
+        "label": "Night",
+        "text": "Debate Loveless at Stairstone Market. Choose “Alcohol won't bring equality.” Record the win.",
+        "kind": "night"
+      },
+      {
+        "id": "july-16-step-03",
+        "label": "Before the story moves on",
+        "text": "Confirm the three Martira debate wins and the town's dated requests are complete.",
+        "kind": "story"
+      }
+    ]
+  },
+  {
+    "id": "day-july-17",
+    "label": "17 July",
+    "month": "July",
+    "number": 17,
+    "steps": [
+      {
+        "id": "july-17-step-01",
+        "label": "Afternoon",
+        "text": "During story travel, cook Curative Coney Roast and begin Bygone Days.",
+        "kind": "time"
+      },
+      {
+        "id": "july-17-step-02",
+        "label": "Night",
+        "text": "Cook Coney Stew if you have its ingredients. Take a party Imagination conversation. Collect the campfire ingredient.",
+        "kind": "night"
+      },
+      {
+        "id": "july-17-step-03",
+        "label": "Checkpoint",
+        "text": "Aim for Imagination 3 before completing Strohl's request on 23 July. Report More's 15-Archetype task as soon as eligible. A missing cooking ingredient can wait for another travel slot; the reading and virtue activity take priority.",
+        "kind": "check"
+      }
+    ]
+  },
+  {
+    "id": "day-july-18",
+    "label": "18 July",
+    "month": "July",
+    "number": 18,
+    "steps": [
+      {
+        "id": "july-18-step-01",
+        "label": "Afternoon",
+        "text": "Cook Critical Meatballs, read Bygone Days a second time and receive the route drawing.",
+        "kind": "time"
+      },
+      {
+        "id": "july-18-step-02",
+        "label": "Night",
+        "text": "Finish Bygone Days. Keep gathering pantry and campfire ingredients.",
+        "kind": "night"
+      }
+    ]
+  },
+  {
+    "id": "day-july-19",
+    "label": "19 July",
+    "month": "July",
+    "number": 19,
+    "steps": [
+      {
+        "id": "july-19-step-01",
+        "label": "Afternoon",
+        "text": "Reread Bygone Days for Tolerance.",
+        "kind": "time"
+      },
+      {
+        "id": "july-19-step-02",
+        "label": "Night",
+        "text": "Reread Bygone Days again. Repeated readings still give the base virtue reward, but only the first completion counts toward the book collection.",
+        "kind": "night"
+      },
+      {
+        "id": "july-19-step-03",
+        "label": "To do",
+        "text": "Follow the required travel encounter and confirm Catherina rank 3 by the time this journey ends.",
+        "kind": "task"
+      }
+    ]
+  },
+  {
+    "id": "day-july-20",
+    "label": "20 July",
+    "month": "July",
+    "number": 20,
+    "steps": [
+      {
+        "id": "july-20-step-01",
+        "label": "Free exploration · Brilehaven",
+        "text": "Walk around and enter the available shops. Buy upgrades only within your budget. Find the inn when you have completed the free exploration.",
+        "kind": "free"
+      },
+      {
+        "id": "july-20-step-02",
+        "label": "Gold Beetle · Seabreeze Street",
+        "text": "Search the northwest part of the eastern back alleys, near the crates.",
+        "kind": "task"
+      },
+      {
+        "id": "july-20-step-03",
+        "label": "Gold Beetle · Seabreeze Street",
+        "text": "Search the northeastern corner of the western dock area, behind/below the ramp.",
+        "kind": "task"
+      },
+      {
+        "id": "july-20-step-04",
+        "label": "Gold Beetle · Merchants' Bazaar",
+        "text": "Check the northwest edge of the southern group of stalls.",
+        "kind": "task"
+      },
+      {
+        "id": "july-20-step-05",
+        "label": "Gold Beetle · Recruitment Centre",
+        "text": "Search the nearby outdoor corner, rather than only going inside the centre.",
+        "kind": "task"
+      },
+      {
+        "id": "july-20-step-06",
+        "label": "Gold Beetle · Arenafront Wharf",
+        "text": "Check the northeastern edge of the wharf near the wall/crates.",
+        "kind": "task"
+      },
+      {
+        "id": "july-20-step-07",
+        "label": "Free introduction · Arenafront Wharf",
+        "text": "Speak to the Gold Beetle collector to activate his collection. This schedule holds beetles until your inventory reaches 46, then completes the exchanges together. If you already exchanged some, note the rewards you claimed; a lower held count does not mean those beetles were lost.",
+        "kind": "free"
+      },
+      {
+        "id": "july-20-step-08",
+        "label": "Optional shopping",
+        "text": "Inspect the accessory seller's stock in Merchants' Bazaar. It changes with the weekday. Follow the story after finding the inn.",
+        "kind": "optional"
+      }
+    ]
+  },
+  {
+    "id": "day-july-21",
+    "label": "21 July",
+    "month": "July",
+    "number": 21,
+    "steps": [
+      {
+        "id": "july-21-step-01",
+        "label": "Story day",
+        "text": "Follow the main objective. No separate free-time activity is scheduled; continue until the game advances the date.",
+        "kind": "story"
+      }
+    ]
+  },
+  {
+    "id": "day-july-22",
+    "label": "22 July",
+    "month": "July",
+    "number": 22,
+    "steps": [
+      {
+        "id": "july-22-step-01",
+        "label": "Optional",
+        "text": "The accessory seller has the Archetypal Ring on Watersdays, including today. An A-EXP accessory can reduce training time. Buying seven is optional; the protagonist is the character who must master all available Archetypes for the trophy.",
+        "kind": "optional"
+      },
+      {
+        "id": "july-22-step-02",
+        "label": "To do",
+        "text": "Keep enough MAG for studies rather than converting it all to reeve. Follow the story.",
+        "kind": "task"
+      }
+    ]
+  },
+  {
+    "id": "day-july-23",
+    "label": "23 July",
+    "month": "July",
+    "number": 23,
+    "steps": [
+      {
+        "id": "july-23-step-01",
+        "label": "Free priority · Angler's Inn Square",
+        "text": "Speak to Julian beside the fountain and obtain The Future of Magic. Check the runner bookshelf afterwards. This is a book pickup, not today's reading activity; collect it during this stay.",
+        "kind": "free"
+      },
+      {
+        "id": "july-23-step-02",
+        "label": "Free request · Angler's Inn Square",
+        "text": "Accept Soldier's Solace from the quest giver near your inn. The needed berries are collected during the planned Gracia Forest trip.",
+        "kind": "free"
+      },
+      {
+        "id": "july-23-step-03",
+        "label": "Free request · Nightprowler",
+        "text": "Speak to the Overfamiliar Man and accept Deeds and Diversions.",
+        "kind": "free"
+      },
+      {
+        "id": "july-23-step-04",
+        "label": "Free request · Arenafront Wharf",
+        "text": "Accept The Chalice vs. The Brew from the Brewer. Give a Medicinal Herb to the Man in Pain here and keep the Tail Bait reward for fishing.",
+        "kind": "free"
+      },
+      {
+        "id": "july-23-step-05",
+        "label": "Free conversation · arena",
+        "text": "Go up to the arena and speak to the Pompous Noble involved in Deeds and Diversions. You cannot complete the deed hand-in yet; the tower visit comes first.",
+        "kind": "free"
+      },
+      {
+        "id": "july-23-step-06",
+        "label": "Free request · Merchants' Bazaar",
+        "text": "Accept Superior Scrimshaw from the Craftsman.",
+        "kind": "free"
+      },
+      {
+        "id": "july-23-step-07",
+        "label": "Free requests · Seabreeze Street",
+        "text": "Accept Efflorescent Youth from the Kindly Boy in the southern area and Dental Distress from the Sullen Man in the western area. The latter needs a village purchase during the next trip.",
+        "kind": "free"
+      },
+      {
+        "id": "july-23-step-08",
+        "label": "Free preparation",
+        "text": "At the Recruitment Centre, accept Grieving Ghost of the Goblet, the Fatolich bounty. Visit the informant in Brilehaven's tavern and buy the reports for your new requests, especially Fiend of the Forsaken Tower. Check the destinations appear on the runner map before the 29 July trip.",
+        "kind": "check"
+      },
+      {
+        "id": "july-23-step-09",
+        "label": "Free hand-in · Grand Trad and Brilehaven",
+        "text": "Teleport to Grand Trad, buy the Rainbow Flower from St. Fermis Church on Sunlumeo Street, then give it to the Efflorescent Youth requester on Seabreeze Street.",
+        "kind": "free"
+      },
+      {
+        "id": "july-23-step-10",
+        "label": "Free request steps · Grand Trad",
+        "text": "With Imagination 3, speak to the Fishmonger on the west side of the Regalith Grand Cathedral market for A Noble's Legacy, then the Capital Merchant on the north side. These NPCs appear during daytime. Finish the merchant conversations before reporting back to Strohl for his bond event.",
+        "kind": "free"
+      },
+      {
+        "id": "july-23-step-11",
+        "label": "Optional collectible check",
+        "text": "Check the Grand Trad market stalls and the cow/hay area of Martira's Cattleracket Road for the two beetles that may appear after meeting the collector. Sources disagree about their earliest availability. If absent, use the scheduled 26 September recheck; do not spend a time slot trying to force them.",
+        "kind": "optional"
+      },
+      {
+        "id": "july-23-step-12",
+        "label": "Afternoon · uses time",
+        "text": "Use Followers to find Strohl and complete the rank 6 event after the request steps above.",
+        "kind": "time"
+      },
+      {
+        "id": "july-23-step-13",
+        "label": "Night · uses time",
+        "text": "At the Merchants' Bazaar speech podium in Brilehaven, debate Jin and choose “We should help anyone.” Record the win.",
+        "kind": "time"
+      }
+    ]
+  },
+  {
+    "id": "day-july-24",
+    "label": "24 July",
+    "month": "July",
+    "number": 24,
+    "steps": [
+      {
+        "id": "july-24-step-01",
+        "label": "Afternoon · uses time",
+        "text": "Find Bardon through Followers and take the bond event, finishing at rank 2.",
+        "kind": "time"
+      },
+      {
+        "id": "july-24-step-02",
+        "label": "Night",
+        "text": "At the Merchants' Bazaar podium in Brilehaven, debate Glodell. Choose “You only parrot Louis!” Record the win.",
+        "kind": "night"
+      }
+    ]
+  },
+  {
+    "id": "day-july-25",
+    "label": "25 July",
+    "month": "July",
+    "number": 25,
+    "steps": [
+      {
+        "id": "july-25-step-01",
+        "label": "Afternoon",
+        "text": "Complete the Charadrius infiltration. Prepare your party and supplies before entering.",
+        "kind": "time"
+      },
+      {
+        "id": "july-25-step-02",
+        "label": "Night",
+        "text": "Used by the main objective.",
+        "kind": "night"
+      }
+    ]
+  },
+  {
+    "id": "day-july-26",
+    "label": "26 July",
+    "month": "July",
+    "number": 26,
+    "steps": [
+      {
+        "id": "july-26-step-01",
+        "label": "Afternoon · uses time",
+        "text": "Find Bardon through Followers and take the bond event, finishing at rank 3. This opens the General study path once its Archetype prerequisites are met.",
+        "kind": "time"
+      },
+      {
+        "id": "july-26-step-02",
+        "label": "Night",
+        "text": "At the Merchants' Bazaar podium in Brilehaven, debate Rudolf. Choose “The tribes must stand together.” Record the win.",
+        "kind": "night"
+      }
+    ]
+  },
+  {
+    "id": "day-july-27",
+    "label": "27 July",
+    "month": "July",
+    "number": 27,
+    "steps": [
+      {
+        "id": "july-27-step-01",
+        "label": "Afternoon · uses time",
+        "text": "Find Strohl through Followers and take the bond event, finishing at rank 7.",
+        "kind": "time"
+      },
+      {
+        "id": "july-27-step-02",
+        "label": "Night",
+        "text": "At the Merchants' Bazaar podium in Brilehaven, debate Milo. Choose “Beauty is deeper than our skin!” Record the win. The source targets Eloquence 4 here.",
+        "kind": "night"
+      }
+    ]
+  },
+  {
+    "id": "day-july-28",
+    "label": "28 July",
+    "month": "July",
+    "number": 28,
+    "steps": [
+      {
+        "id": "july-28-step-01",
+        "label": "Afternoon · uses time",
+        "text": "Find Maria through Followers and take the bond event, finishing at rank 6.",
+        "kind": "time"
+      },
+      {
+        "id": "july-28-step-02",
+        "label": "Night · uses time",
+        "text": "Go to the Coliseum via Arenafront Wharf in Brilehaven and speak to the arena staff. Choose the available ranked match and complete it. For later “next ranked match” entries, return here and advance that same ladder; do not choose an endurance Gauntlet instead. Check the request log after each match and keep a note of the last rank cleared.",
+        "kind": "time"
+      }
+    ]
+  },
+  {
+    "id": "day-july-29",
+    "label": "29 July",
+    "month": "July",
+    "number": 29,
+    "steps": [
+      {
+        "id": "july-29-step-01",
+        "label": "Before departure",
+        "text": "Stock up for six days away. Check Soldier's Solace, Superior Scrimshaw, The Chalice vs. The Brew, Dental Distress, Deeds and Diversions and the Fatolich bounty are active. Buy any missing destination reports from Brilehaven's tavern informant.",
+        "kind": "task"
+      },
+      {
+        "id": "july-29-step-02",
+        "label": "Route",
+        "text": "Inundo, Tomb of Lament, Forsaken Tower, Gracia Forest. Ensure the chosen tower route intersects Catherina's pink runner; you need the next encounter before leaving this region.",
+        "kind": "task"
+      },
+      {
+        "id": "july-29-step-03",
+        "label": "Afternoon · while travelling",
+        "text": "Take Hulkenberg's bond event on the runner, reaching rank 6.",
+        "kind": "time"
+      },
+      {
+        "id": "july-29-step-04",
+        "label": "Village stop · Inundo",
+        "text": "Open the shop and buy the Toothbrush of Hygienia for Dental Distress. Keep it for the 05 August hand-in, then continue toward Tomb of Lament.",
+        "kind": "task"
+      },
+      {
+        "id": "july-29-step-05",
+        "label": "Night",
+        "text": "Heismay runner bond, target rank 5.",
+        "kind": "night"
+      }
+    ]
+  },
+  {
+    "id": "day-july-30",
+    "label": "30 July",
+    "month": "July",
+    "number": 30,
+    "steps": [
+      {
+        "id": "july-30-step-01",
+        "label": "Afternoon",
+        "text": "Read The Future of Magic, first session; choose “It won't work for everyone.” Receive the route drawing. Clear Tomb of Lament for Fatolich and the relic, and find both Gold Beetles. Gather Giant Ribs if needed for cooking.",
+        "kind": "time"
+      },
+      {
+        "id": "july-30-step-02",
+        "label": "After the dungeon",
+        "text": "When choosing what to do next, camp here and select onward travel for tomorrow. Do not select the return-to-town route; the next several dates assume you remain on this trip.",
+        "kind": "task"
+      },
+      {
+        "id": "july-30-step-03",
+        "label": "Night",
+        "text": "Report the relic to Neuras, target rank 3.",
+        "kind": "night"
+      },
+      {
+        "id": "july-30-step-04",
+        "label": "Training checkpoint",
+        "text": "Commander rank 20 opens General with Bardon rank 3; More then needs General rank 15. Samurai has its own study prerequisites. A bond unlock does not automatically grant or level an Archetype.",
+        "kind": "check"
+      },
+      {
+        "id": "july-30-step-05",
+        "label": "Training tip",
+        "text": "A mastered Archetype still earns useful A-EXP. Each further 1,000 A-EXP produces an item worth 1,000 A-EXP that you can apply to another studied Archetype. Keep a strong combat setup when it helps rather than equipping an unsuitable class just to avoid wasting experience.",
+        "kind": "task"
+      }
+    ]
+  },
+  {
+    "id": "day-august-01",
+    "label": "01 August",
+    "month": "August",
+    "number": 1,
+    "steps": [
+      {
+        "id": "august-01-step-01",
+        "label": "Route",
+        "text": "Continue toward Forsaken Tower by the northeastern route indicated in the original schedule; check the map for Catherina's runner before confirming.",
+        "kind": "task"
+      },
+      {
+        "id": "august-01-step-02",
+        "label": "Afternoon · cooking first",
+        "text": "Cook Steadfast Stew.",
+        "kind": "time"
+      },
+      {
+        "id": "august-01-step-03",
+        "label": "Afternoon · main activity",
+        "text": "Read The Future of Magic, second session; choose “Immediately is too rash.”",
+        "kind": "time"
+      },
+      {
+        "id": "august-01-step-04",
+        "label": "Night · cooking first",
+        "text": "Cook Precision Fermented Ribs.",
+        "kind": "night"
+      },
+      {
+        "id": "august-01-step-05",
+        "label": "Night · main activity",
+        "text": "Finish The Future of Magic; choose “We have to live and fight on.” Check Wisdom 3.",
+        "kind": "night"
+      }
+    ]
+  },
+  {
+    "id": "day-august-02",
+    "label": "02 August",
+    "month": "August",
+    "number": 2,
+    "steps": [
+      {
+        "id": "august-02-step-01",
+        "label": "Afternoon",
+        "text": "Reread Bygone Days. Complete the Catherina runner encounter en route if it has not happened yet; confirm rank 4. Clear Forsaken Tower for Orgas and collect its Gold Beetle.",
+        "kind": "time"
+      },
+      {
+        "id": "august-02-step-02",
+        "label": "After the dungeon",
+        "text": "Camp and continue onward tomorrow.",
+        "kind": "task"
+      },
+      {
+        "id": "august-02-step-03",
+        "label": "Night",
+        "text": "Reread Bygone Days.",
+        "kind": "night"
+      }
+    ]
+  },
+  {
+    "id": "day-august-03",
+    "label": "03 August",
+    "month": "August",
+    "number": 3,
+    "steps": [
+      {
+        "id": "august-03-step-01",
+        "label": "Afternoon",
+        "text": "Travel toward Gracia Forest and reread Bygone Days.",
+        "kind": "time"
+      },
+      {
+        "id": "august-03-step-02",
+        "label": "Night",
+        "text": "Reread Bygone Days again. Check Tolerance 4 before Maria's next rank. If short, use the 04 August travel reading for Bygone Days as well; record one deferred Wisdom reading for a later travel slot.",
+        "kind": "night"
+      }
+    ]
+  },
+  {
+    "id": "day-august-04",
+    "label": "04 August",
+    "month": "August",
+    "number": 4,
+    "steps": [
+      {
+        "id": "august-04-step-01",
+        "label": "Afternoon",
+        "text": "Normally reread The Future of Magic. If Tolerance remains below 4, use Bygone Days as described yesterday. Clear Gracia Forest for Dragonthistle Berries and collect the Gold Beetle.",
+        "kind": "time"
+      },
+      {
+        "id": "august-04-step-02",
+        "label": "Night",
+        "text": "Return to town.",
+        "kind": "night"
+      }
+    ]
+  },
+  {
+    "id": "day-august-05",
+    "label": "05 August",
+    "month": "August",
+    "number": 5,
+    "steps": [
+      {
+        "id": "august-05-step-01",
+        "label": "Free hand-ins · Brilehaven",
+        "text": "Give the Dragonthistle Berries to the Soldier's Solace requester in Angler's Inn Square. Claim the Fatolich bounty at the Recruitment Centre, then give the chalice to the Brewer at Arenafront Wharf for The Chalice vs. The Brew.",
+        "kind": "free"
+      },
+      {
+        "id": "august-05-step-02",
+        "label": "Free hand-ins · Brilehaven",
+        "text": "Give the tower reward to the Superior Scrimshaw Craftsman in Merchants' Bazaar. Give the Toothbrush of Hygienia to the Dental Distress requester on Seabreeze Street and collect the Gold Beetle reward.",
+        "kind": "free"
+      },
+      {
+        "id": "august-05-step-03",
+        "label": "Free request completion · arena",
+        "text": "After clearing Forsaken Tower, return to the Pompous Noble at the arena. Discuss real fights and the Forsaken Tower, then ask for the deed. Return the deed to the Overfamiliar Man at Nightprowler for Deeds and Diversions.",
+        "kind": "free"
+      },
+      {
+        "id": "august-05-step-04",
+        "label": "Afternoon · uses time",
+        "text": "Meet Maria at the Hushed Honeybee Inn in Grand Trad. Show your drawings when prompted and take her rank 7 bond event. Check Tolerance 4 before starting; if short, record this event as delayed and raise Tolerance.",
+        "kind": "time"
+      },
+      {
+        "id": "august-05-step-05",
+        "label": "Night · uses time",
+        "text": "Go to the Courage jumping activity in Martira's Thoroughfare Square. With Courage 3, save and attempt the highest tier. Confirm the trophy after success. Repeating the easiest tier three times does not satisfy this requirement.",
+        "kind": "time"
+      }
+    ]
+  },
+  {
+    "id": "day-august-06",
+    "label": "06 August",
+    "month": "August",
+    "number": 6,
+    "steps": [
+      {
+        "id": "august-06-step-01",
+        "label": "Afternoon · uses time",
+        "text": "Find Bardon through Followers and take the bond event, finishing at rank 4.",
+        "kind": "time"
+      },
+      {
+        "id": "august-06-step-02",
+        "label": "Night · uses time",
+        "text": "Find Heismay through Followers and take the bond event, finishing at rank 6.",
+        "kind": "time"
+      }
+    ]
+  },
+  {
+    "id": "day-august-07",
+    "label": "07 August",
+    "month": "August",
+    "number": 7,
+    "steps": [
+      {
+        "id": "august-07-step-01",
+        "label": "Afternoon · uses time",
+        "text": "Find Maria through Followers and take the bond event, finishing at rank 8.",
+        "kind": "time"
+      },
+      {
+        "id": "august-07-step-02",
+        "label": "Night · uses time",
+        "text": "Find Brigitta through Followers and take the bond event, finishing at rank 5; check Courage 3.",
+        "kind": "time"
+      }
+    ]
+  },
+  {
+    "id": "day-august-08",
+    "label": "08 August",
+    "month": "August",
+    "number": 8,
+    "steps": [
+      {
+        "id": "august-08-step-01",
+        "label": "Afternoon · uses time",
+        "text": "Find Bardon through Followers and take the bond event, finishing at rank 5; check Eloquence 3.",
+        "kind": "time"
+      },
+      {
+        "id": "august-08-step-02",
+        "label": "Night · uses time",
+        "text": "Find Alonzo through Followers and take the bond event, finishing at rank 2.",
+        "kind": "time"
+      }
+    ]
+  },
+  {
+    "id": "day-august-09",
+    "label": "09 August",
+    "month": "August",
+    "number": 9,
+    "steps": [
+      {
+        "id": "august-09-step-01",
+        "label": "Afternoon · uses time",
+        "text": "Find Strohl through Followers and take the bond event, finishing at rank 8.",
+        "kind": "time"
+      },
+      {
+        "id": "august-09-step-02",
+        "label": "Night · uses time",
+        "text": "Find Brigitta through Followers and take the bond event, finishing at rank 6.",
+        "kind": "time"
+      }
+    ]
+  },
+  {
+    "id": "day-august-10",
+    "label": "10 August",
+    "month": "August",
+    "number": 10,
+    "steps": [
+      {
+        "id": "august-10-step-01",
+        "label": "Afternoon · uses time",
+        "text": "Find Bardon through Followers and take the bond event, finishing at rank 6; keep the resulting request in your log.",
+        "kind": "time"
+      },
+      {
+        "id": "august-10-step-02",
+        "label": "Night · uses time",
+        "text": "Find Alonzo through Followers and take the bond event, finishing at rank 3; check Wisdom 3.",
+        "kind": "time"
+      }
+    ]
+  },
+  {
+    "id": "day-august-11",
+    "label": "11 August",
+    "month": "August",
+    "number": 11,
+    "steps": [
+      {
+        "id": "august-11-step-01",
+        "label": "Afternoon · uses time",
+        "text": "Return to the Coliseum at Brilehaven's Arenafront Wharf and complete the next ranked match. Continue your current rank ladder; do not choose an endurance Gauntlet.",
+        "kind": "time"
+      },
+      {
+        "id": "august-11-step-02",
+        "label": "Night · uses time",
+        "text": "Return to the Coliseum at Brilehaven's Arenafront Wharf and complete the next ranked match. Continue your current rank ladder; do not choose an endurance Gauntlet.",
+        "kind": "time"
+      },
+      {
+        "id": "august-11-step-03",
+        "label": "Buffer",
+        "text": "If an earlier bond or virtue check is still behind, you can defer one of these matches to October. Record the missing match; its Courage gain may also be delayed, so check the upcoming Courage gates rather than assuming they are met.",
+        "kind": "task"
+      }
+    ]
+  },
+  {
+    "id": "day-august-12",
+    "label": "12 August",
+    "month": "August",
+    "number": 12,
+    "steps": [
+      {
+        "id": "august-12-step-01",
+        "label": "Afternoon · uses time",
+        "text": "Return to the Coliseum at Brilehaven's Arenafront Wharf and complete the next ranked match. Continue your current rank ladder; do not choose an endurance Gauntlet.",
+        "kind": "time"
+      },
+      {
+        "id": "august-12-step-02",
+        "label": "Night · uses time",
+        "text": "Find Alonzo through Followers and take the bond event, finishing at rank 4; check Tolerance 3.",
+        "kind": "time"
+      },
+      {
+        "id": "august-12-step-03",
+        "label": "Before departure",
+        "text": "Confirm Catherina rank 4, all four Brilehaven debate wins, the optional book and all dated regional requests. Do not use the arena buffer to skip a departing-region requirement.",
+        "kind": "task"
+      }
+    ]
+  },
+  {
+    "id": "day-august-13",
+    "label": "13 August",
+    "month": "August",
+    "number": 13,
+    "steps": [
+      {
+        "id": "august-13-step-01",
+        "label": "Story day",
+        "text": "Follow the main objective. No separate free-time activity is scheduled; continue until the game advances the date.",
+        "kind": "story"
+      }
+    ]
+  },
+  {
+    "id": "day-august-14",
+    "label": "14 August",
+    "month": "August",
+    "number": 14,
+    "steps": [
+      {
+        "id": "august-14-step-01",
+        "label": "Afternoon · free cooking first",
+        "text": "During the sea journey, make Cursed Love Ballad at the runner kitchen before the main activity.",
+        "kind": "free"
+      },
+      {
+        "id": "august-14-step-02",
+        "label": "Afternoon · uses time",
+        "text": "Use the runner's fishing spot, select Tail Bait and respond to the prompt you actually receive: give in to a nap, thrash and splash, or think like a fish. These are alternatives for different prompts, not a sequence of three choices. Save beforehand if possible. Check your catch for one Lord of the Lake and two Queen's Honey Jars; keep them for later recipes.",
+        "kind": "time"
+      },
+      {
+        "id": "august-14-step-03",
+        "label": "Night",
+        "text": "Cook Secretest of Secrets and take Junah's Imagination conversation. Keep the rare fishing ingredients for the later recipes.",
+        "kind": "night"
+      }
+    ]
+  },
+  {
+    "id": "day-august-15",
+    "label": "15 August",
+    "month": "August",
+    "number": 15,
+    "steps": [
+      {
+        "id": "august-15-step-01",
+        "label": "Afternoon",
+        "text": "Begin Top Secret Poetry! Do Not Read!",
+        "kind": "time"
+      },
+      {
+        "id": "august-15-step-02",
+        "label": "Night",
+        "text": "Follow the required combat/story.",
+        "kind": "night"
+      }
+    ]
+  },
+  {
+    "id": "day-august-16",
+    "label": "16 August",
+    "month": "August",
+    "number": 16,
+    "steps": [
+      {
+        "id": "august-16-step-01",
+        "label": "Afternoon",
+        "text": "Choose whichever companion you want for the special free-time event. The accessory choice is optional and does not affect platinum completion.",
+        "kind": "time"
+      },
+      {
+        "id": "august-16-step-02",
+        "label": "Night",
+        "text": "Take Junah's Imagination conversation.",
+        "kind": "night"
+      }
+    ]
+  },
+  {
+    "id": "day-august-17",
+    "label": "17 August",
+    "month": "August",
+    "number": 17,
+    "steps": [
+      {
+        "id": "august-17-step-01",
+        "label": "Story day",
+        "text": "Follow the main objective. No separate free-time activity is scheduled; continue until the game advances the date.",
+        "kind": "story"
+      }
+    ]
+  },
+  {
+    "id": "day-august-18",
+    "label": "18 August",
+    "month": "August",
+    "number": 18,
+    "steps": [
+      {
+        "id": "august-18-step-01",
+        "label": "Errands",
+        "text": "In the island village, collect the four beetles by the tavern walkway, the western raised area, the dragon statue and the boxes near the runner. Buy a Monster Bone for cooking. Save major shopping for the discount day if supplies allow.",
+        "kind": "task"
+      },
+      {
+        "id": "august-18-step-02",
+        "label": "Afternoon",
+        "text": "Travel to Dragon Temple, cook Finisher Noodles and read the poetry book a second time. Follow the required first visit; the full clear is scheduled for 20 August.",
+        "kind": "time"
+      }
+    ]
+  },
+  {
+    "id": "day-august-19",
+    "label": "19 August",
+    "month": "August",
+    "number": 19,
+    "steps": [
+      {
+        "id": "august-19-step-01",
+        "label": "Free requests · island village",
+        "text": "Outside the inn, accept Peak Curiosity. Follow the path to the Enthusiastic Woman near the central rock and accept The Price of Hope.",
+        "kind": "free"
+      },
+      {
+        "id": "august-19-step-02",
+        "label": "Free preparation",
+        "text": "Buy the island informant's reports in the tavern, and accept the Psyocropos bounty at a Recruitment Centre. Check the destination for Peak Curiosity has been revealed.",
+        "kind": "check"
+      },
+      {
+        "id": "august-19-step-03",
+        "label": "Free errands · Grand Trad",
+        "text": "Buy Parchwater from the Key Items category at Comfort Concoctions. While inside, collect the previously unreachable Gold Beetle in the shop corner. Go to Lycaon Magic Association on Sunlumeo Street and select Listen with the clerk to have the quest Igniter appraised for The Price of Hope.",
+        "kind": "free"
+      },
+      {
+        "id": "august-19-step-04",
+        "label": "Free hand-ins · island village",
+        "text": "Give the Parchwater to Edeni at Dragon Statue Plaza for Ancestral Solution, then report the appraisal result to the Enthusiastic Woman for The Price of Hope. These are separate requests; check both objectives before moving on.",
+        "kind": "free"
+      },
+      {
+        "id": "august-19-step-05",
+        "label": "Free requests · island village",
+        "text": "Speak to Junah nearby after the Parchwater hand-in and accept Save the Mourning Snakes. Return toward the inn to accept A Guiding Gift. Continue past its requester toward the eastern edge of the area for a Gold Beetle.",
+        "kind": "free"
+      },
+      {
+        "id": "august-19-step-06",
+        "label": "Optional shopping · Brilehaven",
+        "text": "The new informant information unlocks the Eugief seller's expanded stock on Seabreeze Street. Buy missing mask materials as needed; the selection changes by weekday. Check Akademeia's experiment menu before buying duplicates.",
+        "kind": "optional"
+      },
+      {
+        "id": "august-19-step-07",
+        "label": "Afternoon · uses time",
+        "text": "Go to Brilehaven's Coliseum and complete the next ranked match. Check whether Courage has reached rank 4.",
+        "kind": "time"
+      },
+      {
+        "id": "august-19-step-08",
+        "label": "Night · uses time",
+        "text": "Meet Brigitta for her rank 7 bond event. Courage 4 is required. If blocked, improve Courage and record this event as delayed rather than spending the period on an unrelated chat.",
+        "kind": "time"
+      }
+    ]
+  },
+  {
+    "id": "day-august-20",
+    "label": "20 August",
+    "month": "August",
+    "number": 20,
+    "steps": [
+      {
+        "id": "august-20-step-01",
+        "label": "Free preparation · island village",
+        "text": "Shop for useful discounted equipment and buy a Queen's Honey Jar from the water seller if available. Check your kitchen ingredients and that A Guiding Gift is active before departure.",
+        "kind": "check"
+      },
+      {
+        "id": "august-20-step-02",
+        "label": "Afternoon",
+        "text": "Travel to Dragon Temple. Cook Sweeter than Poison and finish the poetry book. Clear the main dungeon and collect all three Polar Stones for A Guiding Gift before leaving.",
+        "kind": "time"
+      },
+      {
+        "id": "august-20-step-03",
+        "label": "Training",
+        "text": "Report More's General-rank-15 task as soon as you meet it. Then work toward 25 different studied Archetypes and one mastered Elite Archetype. These quest rewards help the coming Imagination check.",
+        "kind": "task"
+      },
+      {
+        "id": "august-20-step-04",
+        "label": "Night",
+        "text": "Used by the dungeon. This is a long dungeon; allow a substantial real-world session.",
+        "kind": "night"
+      }
+    ]
+  },
+  {
+    "id": "day-august-21",
+    "label": "21 August",
+    "month": "August",
+    "number": 21,
+    "steps": [
+      {
+        "id": "august-21-step-01",
+        "label": "Free hand-in · island village",
+        "text": "Bring the three Polar Stones back to the A Guiding Gift requester near the inn.",
+        "kind": "free"
+      },
+      {
+        "id": "august-21-step-02",
+        "label": "Free request · Eupha",
+        "text": "Accept The Trial of Malnova, then speak to the nearby Clumsy Boy for a Gold Beetle.",
+        "kind": "free"
+      },
+      {
+        "id": "august-21-step-03",
+        "label": "Afternoon",
+        "text": "Depart from Virga Island toward Land of Ceremony. Cook Holistic Whitefish Platter, then meditate with Eupha. Confirm that you receive the Prismatic Sea drawing on this route before the later story departure.",
+        "kind": "time"
+      },
+      {
+        "id": "august-21-step-04",
+        "label": "Night",
+        "text": "Cook Stale Blackbread and take Junah's Imagination conversation.",
+        "kind": "night"
+      },
+      {
+        "id": "august-21-step-05",
+        "label": "Weather",
+        "text": "Use the available weather-clearing service when it will still cover your arrival. Bad weather increases some rewards but makes exploiting weaknesses harder; fighting in it is optional on Normal.",
+        "kind": "task"
+      }
+    ]
+  },
+  {
+    "id": "day-august-22",
+    "label": "22 August",
+    "month": "August",
+    "number": 22,
+    "steps": [
+      {
+        "id": "august-22-step-01",
+        "label": "Afternoon · cooking first",
+        "text": "Cook Almighty Golden Stew, then reread The Future of Magic.",
+        "kind": "time"
+      },
+      {
+        "id": "august-22-step-02",
+        "label": "Afternoon · main activity",
+        "text": "Clear Land of Ceremony, collect its relic and Gold Beetle, and finish The Trial of Malnova to unlock Eupha's bond.",
+        "kind": "time"
+      },
+      {
+        "id": "august-22-step-03",
+        "label": "Night",
+        "text": "Return to town.",
+        "kind": "night"
+      }
+    ]
+  },
+  {
+    "id": "day-august-23",
+    "label": "23 August",
+    "month": "August",
+    "number": 23,
+    "steps": [
+      {
+        "id": "august-23-step-01",
+        "label": "Before spending time",
+        "text": "Visit More and claim every completed task in order. Check Wisdom and Imagination. Tomorrow's targets require Wisdom 4 and Imagination 4 respectively.",
+        "kind": "task"
+      },
+      {
+        "id": "august-23-step-02",
+        "label": "Afternoon · uses time",
+        "text": "In the island village, use the beach activity marked for Wisdom. If Wisdom is already 4, you may use an Imagination activity instead if needed.",
+        "kind": "time"
+      },
+      {
+        "id": "august-23-step-03",
+        "label": "Night",
+        "text": "Help Fabienne at the Hushed Honeybee while Maria is present to earn Chef in Training. The inn task has different cooking prompts; choose the answer appropriate to the dish. The original “scrape the top” is not a universal answer for every prompt.",
+        "kind": "night"
+      },
+      {
+        "id": "august-23-step-04",
+        "label": "Recovery rule",
+        "text": "Keep this trophy night. If a virtue is still short, use tomorrow's blocked bond slot to improve it. Do not follow advice to earn the trophy and reload unless you intentionally want to undo that activity on your save.",
+        "kind": "task"
+      }
+    ]
+  },
+  {
+    "id": "day-august-24",
+    "label": "24 August",
+    "month": "August",
+    "number": 24,
+    "steps": [
+      {
+        "id": "august-24-step-01",
+        "label": "Afternoon · uses time",
+        "text": "Find Hulkenberg through Followers and take the bond event, finishing at rank 7, only with Wisdom 4. If blocked, use another Wisdom activity instead and record Hulkenberg rank 7 as delayed.",
+        "kind": "time"
+      },
+      {
+        "id": "august-24-step-02",
+        "label": "Night · uses time",
+        "text": "Find Heismay through Followers and take the bond event, finishing at rank 7, only with Imagination 4. If blocked, use an available Imagination activity instead and record the delay.",
+        "kind": "time"
+      },
+      {
+        "id": "august-24-step-03",
+        "label": "Before either activity",
+        "text": "Recheck More's task hand-ins. General rank 15, 25 distinct studies and Elite rank 20 are separate objectives, each requiring its own turn-in. The source's promise of More rank 8 today assumes that training is already done.",
+        "kind": "task"
+      }
+    ]
+  },
+  {
+    "id": "day-august-25",
+    "label": "25 August",
+    "month": "August",
+    "number": 25,
+    "steps": [
+      {
+        "id": "august-25-step-01",
+        "label": "Afternoon",
+        "text": "Travel to Orbwise Path, meditate with Eupha and choose the deep-breathing response. Clear Save the Mourning Snakes and find both Gold Beetles. This unlocks Junah's bond.",
+        "kind": "time"
+      },
+      {
+        "id": "august-25-step-02",
+        "label": "After the dungeon",
+        "text": "Choose to camp here, then continue toward Silento and Spire of Blind Faith tomorrow. Do not return to town; the next three dates rely on continuing this journey.",
+        "kind": "task"
+      },
+      {
+        "id": "august-25-step-03",
+        "label": "Night",
+        "text": "Report the Land of Ceremony relic to Neuras, target rank 4.",
+        "kind": "night"
+      }
+    ]
+  },
+  {
+    "id": "day-august-26",
+    "label": "26 August",
+    "month": "August",
+    "number": 26,
+    "steps": [
+      {
+        "id": "august-26-step-01",
+        "label": "Afternoon",
+        "text": "Continue the journey, meditate with Eupha and choose the response about focusing on numbness. At Silento, open the village shop before continuing. Merely passing its map marker is not the intended shop visit.",
+        "kind": "time"
+      },
+      {
+        "id": "august-26-step-02",
+        "label": "Night",
+        "text": "Take Junah's Imagination conversation. If you deferred a Wisdom reading and Imagination is already sufficient, this is a possible catch-up slot; check that tomorrow's rank events are eligible before swapping.",
+        "kind": "night"
+      }
+    ]
+  },
+  {
+    "id": "day-august-27",
+    "label": "27 August",
+    "month": "August",
+    "number": 27,
+    "steps": [
+      {
+        "id": "august-27-step-01",
+        "label": "Afternoon",
+        "text": "Take Heismay's runner rank-up event, normally rank 8. If rank 7 was delayed, raise the missing virtue or take the next eligible rank instead. Receive the route drawing.",
+        "kind": "time"
+      },
+      {
+        "id": "august-27-step-02",
+        "label": "Night",
+        "text": "Take Hulkenberg's runner rank-up event, normally rank 8. If the bond is delayed, do the next eligible event rather than expecting it to jump a rank.",
+        "kind": "night"
+      },
+      {
+        "id": "august-27-step-03",
+        "label": "To do",
+        "text": "Record any remaining rank 8. The free runner slots on 06 October provide a planned recovery trip, with more time available afterwards. Keep the trip and book schedule moving.",
+        "kind": "task"
+      }
+    ]
+  },
+  {
+    "id": "day-august-28",
+    "label": "28 August",
+    "month": "August",
+    "number": 28,
+    "steps": [
+      {
+        "id": "august-28-step-01",
+        "label": "Afternoon",
+        "text": "Reread The Future of Magic, then clear Spire of Blind Faith and collect its Gold Beetle.",
+        "kind": "time"
+      },
+      {
+        "id": "august-28-step-02",
+        "label": "Preparation",
+        "text": "The source suggests grinding to level 57 for a coming optional bond battle. That number is not an entry requirement. Improve your build, healing and defences as needed; you can postpone the difficult bond fight instead.",
+        "kind": "check"
+      },
+      {
+        "id": "august-28-step-03",
+        "label": "Night",
+        "text": "Return to town.",
+        "kind": "night"
+      }
+    ]
+  },
+  {
+    "id": "day-august-29",
+    "label": "29 August",
+    "month": "August",
+    "number": 29,
+    "steps": [
+      {
+        "id": "august-29-step-01",
+        "label": "Free hand-in · island village",
+        "text": "Return to the Peak Curiosity requester outside the inn and claim the reward. Optional weapon/armour sale and MAG exchange. Ignore the original multi-million-MAG budget unless you want to develop the whole party beyond the platinum requirement.",
+        "kind": "free"
+      },
+      {
+        "id": "august-29-step-02",
+        "label": "Afternoon · uses time",
+        "text": "Find Eupha through Followers and take the bond event, finishing at rank 2.",
+        "kind": "time"
+      },
+      {
+        "id": "august-29-step-03",
+        "label": "Night · uses time",
+        "text": "Find Alonzo through Followers and take the bond event, finishing at rank 5.",
+        "kind": "time"
+      }
+    ]
+  },
+  {
+    "id": "day-august-30",
+    "label": "30 August",
+    "month": "August",
+    "number": 30,
+    "steps": [
+      {
+        "id": "august-30-step-01",
+        "label": "Afternoon",
+        "text": "Save before Bardon's rank 7 event, which includes a strong boss. Complete The Right to Rule if your team can handle it. Otherwise postpone this event to the free October days; do not force a large grind merely to match this date.",
+        "kind": "time"
+      },
+      {
+        "id": "august-30-step-02",
+        "label": "Night · uses time",
+        "text": "Find Junah through Followers and take the bond event, finishing at rank 2.",
+        "kind": "time"
+      }
+    ]
+  },
+  {
+    "id": "day-september-01",
+    "label": "01 September",
+    "month": "September",
+    "number": 1,
+    "steps": [
+      {
+        "id": "september-01-step-01",
+        "label": "Afternoon · uses time",
+        "text": "Find Eupha through Followers and take the bond event, finishing at rank 3.",
+        "kind": "time"
+      },
+      {
+        "id": "september-01-step-02",
+        "label": "Night · uses time",
+        "text": "Return to the Coliseum at Brilehaven's Arenafront Wharf and complete the next ranked match. Continue your current rank ladder; do not choose an endurance Gauntlet.",
+        "kind": "time"
+      }
+    ]
+  },
+  {
+    "id": "day-september-02",
+    "label": "02 September",
+    "month": "September",
+    "number": 2,
+    "steps": [
+      {
+        "id": "september-02-step-01",
+        "label": "Afternoon · uses time",
+        "text": "Find Alonzo through Followers and take the bond event, finishing at rank 6.",
+        "kind": "time"
+      },
+      {
+        "id": "september-02-step-02",
+        "label": "Night · uses time",
+        "text": "Find Junah through Followers and take the bond event, finishing at rank 3.",
+        "kind": "time"
+      }
+    ]
+  },
+  {
+    "id": "day-september-03",
+    "label": "03 September",
+    "month": "September",
+    "number": 3,
+    "steps": [
+      {
+        "id": "september-03-step-01",
+        "label": "Afternoon · uses time",
+        "text": "Find Eupha through Followers and take the bond event, finishing at rank 4.",
+        "kind": "time"
+      },
+      {
+        "id": "september-03-step-02",
+        "label": "Night · uses time",
+        "text": "Return to the Coliseum at Brilehaven's Arenafront Wharf and complete the next ranked match. Continue your current rank ladder; do not choose an endurance Gauntlet. Check Courage 5 before the later Alonzo gate. If you moved arena sessions, their Courage rewards must still be earned.",
+        "kind": "time"
+      }
+    ]
+  },
+  {
+    "id": "day-september-04",
+    "label": "04 September",
+    "month": "September",
+    "number": 4,
+    "steps": [
+      {
+        "id": "september-04-step-01",
+        "label": "Before departure · free errand",
+        "text": "In the island village, help the man near the meat seller with the local food challenge to obtain more Tail Bait if you have not done so.",
+        "kind": "free"
+      },
+      {
+        "id": "september-04-step-02",
+        "label": "Afternoon",
+        "text": "Set a route toward Inundo to intercept the candidate's runner shown on your map. Check your active party before leaving. Meditate with Eupha; choose “A burning fire.” Complete the runner encounter, then return to base.",
+        "kind": "time"
+      },
+      {
+        "id": "september-04-step-03",
+        "label": "Night · uses time",
+        "text": "Find Junah through Followers and take the bond event, finishing at rank 4.",
+        "kind": "time"
+      }
+    ]
+  },
+  {
+    "id": "day-september-05",
+    "label": "05 September",
+    "month": "September",
+    "number": 5,
+    "steps": [
+      {
+        "id": "september-05-step-01",
+        "label": "Afternoon",
+        "text": "Buy the available talismans in the island market for later vessel experiments, then take Eupha's bond, target rank 5. Use the kitchen menu and experiment menu to track what you still need.",
+        "kind": "time"
+      },
+      {
+        "id": "september-05-step-02",
+        "label": "Night",
+        "text": "Story.",
+        "kind": "night"
+      }
+    ]
+  },
+  {
+    "id": "day-september-06",
+    "label": "06 September",
+    "month": "September",
+    "number": 6,
+    "steps": [
+      {
+        "id": "september-06-step-01",
+        "label": "To do",
+        "text": "Follow the story. Choose whichever companion you prefer for the evening event. Its equipment reward is optional; no repeated runs are needed to collect every version for the platinum.",
+        "kind": "task"
+      },
+      {
+        "id": "september-06-step-02",
+        "label": "To do",
+        "text": "If still needed, use the quiet inn opportunity to work toward 100 conversations with Gallica.",
+        "kind": "task"
+      }
+    ]
+  },
+  {
+    "id": "day-september-07",
+    "label": "07 September",
+    "month": "September",
+    "number": 7,
+    "steps": [
+      {
+        "id": "september-07-step-01",
+        "label": "Afternoon",
+        "text": "Fish with Tail Bait and the appropriate successful answer, as on 14 August. Aim for another Lord of the Lake and two Queen's Honey Jars; check the actual catch before moving on.",
+        "kind": "time"
+      },
+      {
+        "id": "september-07-step-02",
+        "label": "Night",
+        "text": "Take Eupha's virtue conversation.",
+        "kind": "night"
+      }
+    ]
+  },
+  {
+    "id": "day-september-08",
+    "label": "08 September",
+    "month": "September",
+    "number": 8,
+    "steps": [
+      {
+        "id": "september-08-step-01",
+        "label": "Afternoon",
+        "text": "Begin How to Walk Outside the Island. Receive the route drawing.",
+        "kind": "time"
+      },
+      {
+        "id": "september-08-step-02",
+        "label": "Night",
+        "text": "Read its second session.",
+        "kind": "night"
+      }
+    ]
+  },
+  {
+    "id": "day-september-09",
+    "label": "09 September",
+    "month": "September",
+    "number": 9,
+    "steps": [
+      {
+        "id": "september-09-step-01",
+        "label": "Afternoon",
+        "text": "Finish How to Walk Outside the Island. Check Tolerance 5. Receive the next route drawing.",
+        "kind": "time"
+      },
+      {
+        "id": "september-09-step-02",
+        "label": "Evening errands",
+        "text": "Collect five outdoor/shop beetles in Altabury: the right-hand arrival pavement, the stairs near the bridge, the pot in Whitepeaks Magic Shop, the Blue Sky Bridge pillars and the far end of the Opera House Square bridge. Find the inn.",
+        "kind": "task"
+      }
+    ]
+  },
+  {
+    "id": "day-september-10",
+    "label": "10 September",
+    "month": "September",
+    "number": 10,
+    "steps": [
+      {
+        "id": "september-10-step-01",
+        "label": "Before the required destination",
+        "text": "Collect the Gold Beetle behind barrels in Skyward Tavern and do any available shopping.",
+        "kind": "task"
+      },
+      {
+        "id": "september-10-step-02",
+        "label": "To do",
+        "text": "Follow the Opera House objective and story. Do not assume an extra toilet visit or free activity is possible today.",
+        "kind": "task"
+      }
+    ]
+  },
+  {
+    "id": "day-september-11",
+    "label": "11 September",
+    "month": "September",
+    "number": 11,
+    "steps": [
+      {
+        "id": "september-11-step-01",
+        "label": "Story day",
+        "text": "Follow the main objective. No separate free-time activity is scheduled; continue until the game advances the date.",
+        "kind": "story"
+      }
+    ]
+  },
+  {
+    "id": "day-september-12",
+    "label": "12 September",
+    "month": "September",
+    "number": 12,
+    "steps": [
+      {
+        "id": "september-12-step-01",
+        "label": "Story day",
+        "text": "Follow the main objective. No separate free-time activity is scheduled; continue until the game advances the date.",
+        "kind": "story"
+      }
+    ]
+  },
+  {
+    "id": "day-september-13",
+    "label": "13 September",
+    "month": "September",
+    "number": 13,
+    "steps": [
+      {
+        "id": "september-13-step-01",
+        "label": "Keep a start-of-day save",
+        "text": "Today's debate and short trip share a tight schedule. Read this day's instructions before committing to travel.",
+        "kind": "task"
+      },
+      {
+        "id": "september-13-step-02",
+        "label": "Free conversations · Dia Franco Street, Altabury",
+        "text": "Speak to Loveless and Rudolf so their runners appear on the map.",
+        "kind": "free"
+      },
+      {
+        "id": "september-13-step-03",
+        "label": "Free requests · Altabury",
+        "text": "Accept Warmth in Winter from the man outside the inn. Accept Proof of Power from the soldier near the arrival point in Opera House Square.",
+        "kind": "free"
+      },
+      {
+        "id": "september-13-step-04",
+        "label": "Free preparation",
+        "text": "Accept the Icebeast Chimenzahn bounty at the Recruitment Centre. Buy the Tower of Insolence report from the informant to reveal that destination. On Lower Blue Sky Bridge, give a Medicinal Herb to the Man in Pain and keep the Tail Bait.",
+        "kind": "check"
+      },
+      {
+        "id": "september-13-step-05",
+        "label": "Afternoon · route",
+        "text": "Set out toward Malva on a route that meets Loveless' runner. Check the encounter marker before confirming the route.",
+        "kind": "time"
+      },
+      {
+        "id": "september-13-step-06",
+        "label": "While travelling",
+        "text": "Cook Amber Stew first, then take Basilio's first bond event on the runner. Complete the Loveless encounter en route.",
+        "kind": "task"
+      },
+      {
+        "id": "september-13-step-07",
+        "label": "Village stop · Malva",
+        "text": "Open the shop, buy Durable Spider Silk for Warmth in Winter and return to Altabury.",
+        "kind": "task"
+      },
+      {
+        "id": "september-13-step-08",
+        "label": "Night · free hand-in",
+        "text": "Give the Durable Spider Silk to the Warmth in Winter requester outside the inn. Speak to Loveless there to accept Defeat Milo, then find Milo near the Recruitment Centre to put his runner on the map.",
+        "kind": "free"
+      },
+      {
+        "id": "september-13-step-09",
+        "label": "Night · uses time, priority",
+        "text": "Go to the podium on Upper Blue Sky Bridge and debate Julian. Choose “The present day matters too.” Confirm the debate trophy if all seven earlier debates were wins.",
+        "kind": "time"
+      },
+      {
+        "id": "september-13-step-10",
+        "label": "If Julian is absent at night",
+        "text": "PSNProfiles shows an afternoon appearance, while the original sheet and other schedules support evening availability. Keep your morning save. Reload if necessary, complete his observed afternoon debate, and move the Malva trip plus its dependent hand-ins to the next available day. This is a conditional fallback, not a claim that he only appears today.",
+        "kind": "night"
+      },
+      {
+        "id": "september-13-step-11",
+        "label": "Check before moving on",
+        "text": "Verify your actual Eloquence and Imagination ranks; the source expects both at 5 but the date does not guarantee them. Imagination 5 is needed for Basilio's later rank 6 event.",
+        "kind": "check"
+      }
+    ]
+  },
+  {
+    "id": "day-september-14",
+    "label": "14 September",
+    "month": "September",
+    "number": 14,
+    "steps": [
+      {
+        "id": "september-14-step-01",
+        "label": "Afternoon",
+        "text": "Intercept Milo's runner. Cook Enchanted Pottage and begin Literacy Workbook during the journey.",
+        "kind": "time"
+      },
+      {
+        "id": "september-14-step-02",
+        "label": "Night · free hand-in first",
+        "text": "Report Defeat Milo to Loveless outside the Altabury inn.",
+        "kind": "free"
+      },
+      {
+        "id": "september-14-step-03",
+        "label": "Night · uses time",
+        "text": "Find Catherina through Followers and take her rank 5 bond event.",
+        "kind": "time"
+      }
+    ]
+  },
+  {
+    "id": "day-september-15",
+    "label": "15 September",
+    "month": "September",
+    "number": 15,
+    "steps": [
+      {
+        "id": "september-15-step-01",
+        "label": "Afternoon · uses time",
+        "text": "Find Basilio through Followers and take the bond event, finishing at rank 2.",
+        "kind": "time"
+      },
+      {
+        "id": "september-15-step-02",
+        "label": "Night · uses time",
+        "text": "Find Junah through Followers and take the bond event, finishing at rank 5.",
+        "kind": "time"
+      }
+    ]
+  },
+  {
+    "id": "day-september-16",
+    "label": "16 September",
+    "month": "September",
+    "number": 16,
+    "steps": [
+      {
+        "id": "september-16-step-01",
+        "label": "Afternoon · uses time",
+        "text": "Find Eupha through Followers and take the bond event, finishing at rank 6; check Eloquence 4 and accept Wayward Shepherd.",
+        "kind": "time"
+      },
+      {
+        "id": "september-16-step-02",
+        "label": "Night · uses time",
+        "text": "Find Catherina through Followers and take the bond event, finishing at rank 6; requires Tolerance 5.",
+        "kind": "time"
+      }
+    ]
+  },
+  {
+    "id": "day-september-17",
+    "label": "17 September",
+    "month": "September",
+    "number": 17,
+    "steps": [
+      {
+        "id": "september-17-step-01",
+        "label": "Afternoon",
+        "text": "Intercept Rudolf's runner. Cook Indestructible Honey Cake and take Basilio's runner bond, target rank 3.",
+        "kind": "time"
+      },
+      {
+        "id": "september-17-step-02",
+        "label": "Night · uses time",
+        "text": "Find Alonzo through Followers and take the bond event, finishing at rank 7; check Courage 5.",
+        "kind": "time"
+      }
+    ]
+  },
+  {
+    "id": "day-september-18",
+    "label": "18 September",
+    "month": "September",
+    "number": 18,
+    "steps": [
+      {
+        "id": "september-18-step-01",
+        "label": "Afternoon",
+        "text": "Travel to Everfrost Forest. Cook Adamantine Honey Cake and take Junah's runner bond, target rank 6. Receive the route drawing. Defeat Icebeast Chimenzahn, collect the relic and Gold Beetle, then return.",
+        "kind": "time"
+      },
+      {
+        "id": "september-18-step-02",
+        "label": "Cooking checkpoint",
+        "text": "After preparing the first 20 different runner recipes, Sublime Spoonful becomes available. Verify the menu rather than expecting an automatic unlock on this date. If it is missing, list the uncooked recipes and use later travelling slots to finish them.",
+        "kind": "check"
+      },
+      {
+        "id": "september-18-step-03",
+        "label": "Night",
+        "text": "Used by the dungeon.",
+        "kind": "night"
+      }
+    ]
+  },
+  {
+    "id": "day-september-19",
+    "label": "19 September",
+    "month": "September",
+    "number": 19,
+    "steps": [
+      {
+        "id": "september-19-step-01",
+        "label": "Free hand-in · Recruitment Centre",
+        "text": "Claim the reward for the Icebeast Chimenzahn bounty.",
+        "kind": "free"
+      },
+      {
+        "id": "september-19-step-02",
+        "label": "Afternoon · uses time",
+        "text": "Find Basilio through Followers and take the bond event, finishing at rank 4.",
+        "kind": "time"
+      },
+      {
+        "id": "september-19-step-03",
+        "label": "Night · uses time",
+        "text": "Find Catherina through Followers and take the bond event, finishing at rank 7.",
+        "kind": "time"
+      }
+    ]
+  },
+  {
+    "id": "day-september-20",
+    "label": "20 September",
+    "month": "September",
+    "number": 20,
+    "steps": [
+      {
+        "id": "september-20-step-01",
+        "label": "Afternoon",
+        "text": "Travel toward Scoundrel's Hold via Ligno. Visit the village shop so it counts toward the village collection. Read Literacy Workbook, second session.",
+        "kind": "time"
+      },
+      {
+        "id": "september-20-step-02",
+        "label": "Night",
+        "text": "Report the Everfrost relic to Neuras, target rank 5.",
+        "kind": "night"
+      }
+    ]
+  },
+  {
+    "id": "day-september-21",
+    "label": "21 September",
+    "month": "September",
+    "number": 21,
+    "steps": [
+      {
+        "id": "september-21-step-01",
+        "label": "Afternoon",
+        "text": "Play Hexachess with Hulkenberg for Wisdom, or use a needed reading catch-up if a checkpoint remains short. Clear Scoundrel's Hold for Psyocropos; collect the relic and Gold Beetle before returning.",
+        "kind": "time"
+      },
+      {
+        "id": "september-21-step-02",
+        "label": "Night",
+        "text": "Used by the dungeon.",
+        "kind": "night"
+      }
+    ]
+  },
+  {
+    "id": "day-september-22",
+    "label": "22 September",
+    "month": "September",
+    "number": 22,
+    "steps": [
+      {
+        "id": "september-22-step-01",
+        "label": "Free hand-in · Recruitment Centre",
+        "text": "Claim the Psyocropos bounty reward.",
+        "kind": "free"
+      },
+      {
+        "id": "september-22-step-02",
+        "label": "Afternoon · uses time",
+        "text": "Find Basilio through Followers and take the bond event, finishing at rank 5.",
+        "kind": "time"
+      },
+      {
+        "id": "september-22-step-03",
+        "label": "Night",
+        "text": "Complete the next Alonzo bond event, target rank 8. Follow the resulting request and dialogue prompts; there is a separate free follow-up scheduled on 26 September.",
+        "kind": "night"
+      }
+    ]
+  },
+  {
+    "id": "day-september-23",
+    "label": "23 September",
+    "month": "September",
+    "number": 23,
+    "steps": [
+      {
+        "id": "september-23-step-01",
+        "label": "Story day",
+        "text": "Follow the main objective. No separate free-time activity is scheduled; continue until the game advances the date.",
+        "kind": "story"
+      }
+    ]
+  },
+  {
+    "id": "day-september-24",
+    "label": "24 September",
+    "month": "September",
+    "number": 24,
+    "steps": [
+      {
+        "id": "september-24-step-01",
+        "label": "During the story visit",
+        "text": "On the second outdoor map, after the scene overlooking the settlement, check the other branch near the fork/fountain before proceeding. Collect the Gold Beetle there. This visit is not freely repeatable, so keep a save until you have collected it.",
+        "kind": "story"
+      },
+      {
+        "id": "september-24-step-02",
+        "label": "To do",
+        "text": "Then follow the story.",
+        "kind": "task"
+      }
+    ]
+  },
+  {
+    "id": "day-september-25",
+    "label": "25 September",
+    "month": "September",
+    "number": 25,
+    "steps": [
+      {
+        "id": "september-25-step-01",
+        "label": "Story day",
+        "text": "Follow the main objective. No separate free-time activity is scheduled; continue until the game advances the date.",
+        "kind": "story"
+      }
+    ]
+  },
+  {
+    "id": "day-september-26",
+    "label": "26 September",
+    "month": "September",
+    "number": 26,
+    "steps": [
+      {
+        "id": "september-26-step-01",
+        "label": "Free requests · Grand Trad",
+        "text": "Accept The Edge of Glory near the MAG trader. On the west side of Sunlumeo Street, accept The Queen of Cuisine: Soul and immediately talk to its requester again to hand over Indestructible Honey Cake. Keep the Lord of the Lake reward for Sublime Spoonful.",
+        "kind": "free"
+      },
+      {
+        "id": "september-26-step-02",
+        "label": "Free request · Brilehaven",
+        "text": "In Angler's Inn Square, accept Trial of the Dragon: Mad Mischief.",
+        "kind": "free"
+      },
+      {
+        "id": "september-26-step-03",
+        "label": "Free request · island village",
+        "text": "At Dragon Statue Plaza, accept Trial of the Dragon: Heroes' Rest.",
+        "kind": "free"
+      },
+      {
+        "id": "september-26-step-04",
+        "label": "Free requests · Altabury",
+        "text": "On the east side of Upper Blue Sky Bridge, accept Trial of the Dragon: Bygone Legacy. On the west side, accept Deliver Hot Spring Water. You are accepting the trials today, not fighting all of them now.",
+        "kind": "free"
+      },
+      {
+        "id": "september-26-step-05",
+        "label": "Free bounty preparation",
+        "text": "At the Recruitment Centre, accept Ordemos, Bandit Chief Cistus and Kokamordos. Visit the relevant town informants and purchase missing destination reports. Check your map before the coming trips.",
+        "kind": "check"
+      },
+      {
+        "id": "september-26-step-06",
+        "label": "Free collection · earlier towns",
+        "text": "If not already collected, recheck the Grand Trad market beetle and Martira's Cattleracket Road beetle. In Martira, inspect the sack in MesmerEyes Apothecary for the later beetle. Keep a note of which pickups you actually found.",
+        "kind": "free"
+      },
+      {
+        "id": "september-26-step-07",
+        "label": "Afternoon · uses time",
+        "text": "Meet Basilio for rank 6, which needs Imagination 5. If short, report any completed More tasks first; if still blocked, use this slot for Imagination and record the delayed bond.",
+        "kind": "time"
+      },
+      {
+        "id": "september-26-step-08",
+        "label": "Night · free follow-up",
+        "text": "Speak to Daturam in Brilehaven's Angler's Inn Square to finish the separate Alonzo follow-up. This conversation does not consume the main night activity.",
+        "kind": "free"
+      },
+      {
+        "id": "september-26-step-09",
+        "label": "Night · uses time",
+        "text": "Teleport to Altabury and visit the hot springs on Lower Blue Sky Bridge for Deliver Hot Spring Water. Complete any optional MAG exchange before entering. The request hand-in is tomorrow.",
+        "kind": "time"
+      },
+      {
+        "id": "september-26-step-10",
+        "label": "Ingredient check",
+        "text": "Keep the rare fish reward, Gauntlet Shrooms and Queen's Honey Jars for the final new recipe. If the kitchen shows a shortage, record it now rather than using those items in duplicate dishes.",
+        "kind": "check"
+      }
+    ]
+  },
+  {
+    "id": "day-september-27",
+    "label": "27 September",
+    "month": "September",
+    "number": 27,
+    "steps": [
+      {
+        "id": "september-27-step-01",
+        "label": "Free hand-in · Upper Blue Sky Bridge, Altabury",
+        "text": "Return the hot spring water to the requester on the west side and collect the Gold Beetle reward.",
+        "kind": "free"
+      },
+      {
+        "id": "september-27-step-02",
+        "label": "Afternoon",
+        "text": "Travel to Mt. Vulkano. Cook Sublime Spoonful if all previous recipes and ingredients are ready; confirm the cooking trophy. Finish Literacy Workbook and confirm the book trophy. Clear Wayward Shepherd, collect the relic, Gold Beetle and Rusty Greatsword before returning.",
+        "kind": "time"
+      },
+      {
+        "id": "september-27-step-03",
+        "label": "If a recipe is still missing",
+        "text": "Cook the missing recipe instead, keep its ingredients on your list and finish the collection on the next travel days. Do not spend the rare ingredients on unnecessary duplicate dishes.",
+        "kind": "task"
+      },
+      {
+        "id": "september-27-step-04",
+        "label": "Night",
+        "text": "Used by the dungeon.",
+        "kind": "night"
+      }
+    ]
+  },
+  {
+    "id": "day-september-28",
+    "label": "28 September",
+    "month": "September",
+    "number": 28,
+    "steps": [
+      {
+        "id": "september-28-step-01",
+        "label": "Free hand-in · Grand Trad",
+        "text": "Give the Rusty Greatsword to The Edge of Glory requester near the MAG trader.",
+        "kind": "free"
+      },
+      {
+        "id": "september-28-step-02",
+        "label": "Free collection reward · Arenafront Wharf, Brilehaven",
+        "text": "If your inventory contains 46 unspent Gold Beetles, save and complete the collector's exchanges through the final reward. If you traded earlier, include those previous exchanges in your record. A short held count alone does not prove you missed a pickup; do not assume the trophy must unlock today.",
+        "kind": "free"
+      },
+      {
+        "id": "september-28-step-03",
+        "label": "Afternoon · uses time",
+        "text": "Find Basilio through Followers and take the bond event, finishing at rank 7. Follow his request; the later completion requires Eloquence 5.",
+        "kind": "time"
+      },
+      {
+        "id": "september-28-step-04",
+        "label": "Night",
+        "text": "Report the Scoundrel's Hold relic to Neuras, target rank 6.",
+        "kind": "night"
+      }
+    ]
+  },
+  {
+    "id": "day-september-29",
+    "label": "29 September",
+    "month": "September",
+    "number": 29,
+    "steps": [
+      {
+        "id": "september-29-step-01",
+        "label": "Afternoon · uses time",
+        "text": "Find Bardon through Followers and take the bond event, finishing at rank 8, provided his rank 7 boss was completed earlier. Otherwise this remains a recovery item for October.",
+        "kind": "time"
+      },
+      {
+        "id": "september-29-step-02",
+        "label": "Night",
+        "text": "Report the Mt. Vulkano relic to Neuras, target rank 7. Accept the resulting recovery request before tomorrow's trip.",
+        "kind": "night"
+      },
+      {
+        "id": "september-29-step-03",
+        "label": "Optional",
+        "text": "Check the weapon and armour sale.",
+        "kind": "optional"
+      }
+    ]
+  },
+  {
+    "id": "day-september-30",
+    "label": "30 September",
+    "month": "September",
+    "number": 30,
+    "steps": [
+      {
+        "id": "september-30-step-01",
+        "label": "Before departure",
+        "text": "Speak to the guard near Grand Trad's Recruitment Centre to locate Jin's runner.",
+        "kind": "task"
+      },
+      {
+        "id": "september-30-step-02",
+        "label": "Afternoon · route",
+        "text": "Select Jin's runner on the map. During the journey, reread The Future of Magic. Complete the encounter and follow Neuras' recovery quest through its report/event; confirm his bond reaches rank 8.",
+        "kind": "time"
+      },
+      {
+        "id": "september-30-step-03",
+        "label": "Night · uses time",
+        "text": "Find Junah through Followers and take the bond event, finishing at rank 7.",
+        "kind": "time"
+      }
+    ]
+  },
+  {
+    "id": "day-october-01",
+    "label": "01 October",
+    "month": "October",
+    "number": 1,
+    "steps": [
+      {
+        "id": "october-01-step-01",
+        "label": "Afternoon",
+        "text": "Depart from Grand Trad toward Disgraced Ruins, reread The Future of Magic and collect the Malibelo Stope drawing on the route. Clear the Cistus bounty and collect the Gold Beetle.",
+        "kind": "time"
+      },
+      {
+        "id": "october-01-step-02",
+        "label": "Optional training",
+        "text": "The dungeon has useful repeatable enemies for A-EXP. Train toward remaining study prerequisites and More's tasks; do not assume this is the single best farm for every build. Keep a save before the coming optional challenges.",
+        "kind": "optional"
+      },
+      {
+        "id": "october-01-step-03",
+        "label": "Night",
+        "text": "Return to town.",
+        "kind": "night"
+      }
+    ]
+  },
+  {
+    "id": "day-october-02",
+    "label": "02 October",
+    "month": "October",
+    "number": 2,
+    "steps": [
+      {
+        "id": "october-02-step-01",
+        "label": "Free errands",
+        "text": "Claim the Cistus bounty at the Recruitment Centre. Open Basilio's request in the quest log, follow its remaining marked conversations and return to him once the objective is ready.",
+        "kind": "free"
+      },
+      {
+        "id": "october-02-step-02",
+        "label": "Afternoon · uses time",
+        "text": "Find Basilio through Followers and take the bond event, finishing at rank 8; check Eloquence 5 and the request completion.",
+        "kind": "time"
+      },
+      {
+        "id": "october-02-step-03",
+        "label": "Night · uses time",
+        "text": "Find Brigitta through Followers and take the bond event, finishing at rank 8.",
+        "kind": "time"
+      }
+    ]
+  },
+  {
+    "id": "day-october-03",
+    "label": "03 October",
+    "month": "October",
+    "number": 3,
+    "steps": [
+      {
+        "id": "october-03-step-01",
+        "label": "Afternoon · uses time",
+        "text": "Return to the Coliseum at Brilehaven's Arenafront Wharf and complete the next ranked match. Continue your current rank ladder; do not choose an endurance Gauntlet.",
+        "kind": "time"
+      },
+      {
+        "id": "october-03-step-02",
+        "label": "Night · uses time",
+        "text": "Find Catherina through Followers and take the bond event, finishing at rank 8.",
+        "kind": "time"
+      },
+      {
+        "id": "october-03-step-03",
+        "label": "Archetype checkpoint",
+        "text": "Check which bonds, studies and ranks remain. The source's claim that everything is now available assumes you have not delayed any bonds and have completed More's chain. Focus the full mastery trophy on the protagonist; other characters' complete trees are optional.",
+        "kind": "check"
+      }
+    ]
+  },
+  {
+    "id": "day-october-04",
+    "label": "04 October",
+    "month": "October",
+    "number": 4,
+    "steps": [
+      {
+        "id": "october-04-step-01",
+        "label": "Afternoon",
+        "text": "Depart from Altabury toward Tower of Insolence. Reread The Future of Magic, collect the Decaying Estate drawing on the route, collect the Gold Beetle, clear Proof of Power and the tower's dragon trial.",
+        "kind": "time"
+      },
+      {
+        "id": "october-04-step-02",
+        "label": "Checkpoint",
+        "text": "The source expects Wisdom 5 and the completed vista collection here. Confirm the actual rewards. If a drawing is missing, check the scenic routes before committing all remaining days. Show completed drawings to Maria when next in town.",
+        "kind": "check"
+      },
+      {
+        "id": "october-04-step-03",
+        "label": "Preparation",
+        "text": "This is a difficult optional fight on Normal. If needed, clear the ordinary quest objective, postpone the trial and use the later free days to prepare. A guide date does not establish that your build is ready.",
+        "kind": "check"
+      },
+      {
+        "id": "october-04-step-04",
+        "label": "Night",
+        "text": "Return to town.",
+        "kind": "night"
+      }
+    ]
+  },
+  {
+    "id": "day-october-05",
+    "label": "05 October",
+    "month": "October",
+    "number": 5,
+    "steps": [
+      {
+        "id": "october-05-step-01",
+        "label": "Free hand-in · Opera House Square, Altabury",
+        "text": "Report Proof of Power to the soldier who gave you the request.",
+        "kind": "free"
+      },
+      {
+        "id": "october-05-step-02",
+        "label": "Afternoon · uses time",
+        "text": "Find Eupha through Followers and take the bond event, finishing at rank 7.",
+        "kind": "time"
+      },
+      {
+        "id": "october-05-step-03",
+        "label": "Night · uses time",
+        "text": "Find Junah through Followers and take the bond event, finishing at rank 8.",
+        "kind": "time"
+      }
+    ]
+  },
+  {
+    "id": "day-october-06",
+    "label": "06 October",
+    "month": "October",
+    "number": 6,
+    "steps": [
+      {
+        "id": "october-06-step-01",
+        "label": "Afternoon",
+        "text": "Begin the trip to Abandoned Path. Use the free runner slot for a delayed Hulkenberg or Heismay rank-up if eligible; otherwise finish a missing book/virtue activity.",
+        "kind": "time"
+      },
+      {
+        "id": "october-06-step-02",
+        "label": "Night",
+        "text": "Use the other available runner slot for a delayed bond or reading. Cook any missing recipe before the activity if the kitchen permits it.",
+        "kind": "night"
+      },
+      {
+        "id": "october-06-step-03",
+        "label": "To do",
+        "text": "If both delayed bonds need the same period, take one now and use another short trip during the remaining free days. Do not assume two main activities fit into a single period.",
+        "kind": "task"
+      }
+    ]
+  },
+  {
+    "id": "day-october-07",
+    "label": "07 October",
+    "month": "October",
+    "number": 7,
+    "steps": [
+      {
+        "id": "october-07-step-01",
+        "label": "Afternoon",
+        "text": "Take Eupha's runner bond, target rank 8, with Wisdom 5. Clear Abandoned Path for Ordemos and collect the Gold Beetle. Finish any available cooking before the main activity.",
+        "kind": "time"
+      },
+      {
+        "id": "october-07-step-02",
+        "label": "Night",
+        "text": "Return to town.",
+        "kind": "night"
+      },
+      {
+        "id": "october-07-step-03",
+        "label": "Bond checkpoint",
+        "text": "Check all 14 followers in the menu. The source expects them complete now, but your delayed events take priority over optional grinding in the remaining free days.",
+        "kind": "check"
+      }
+    ]
+  },
+  {
+    "id": "day-october-08",
+    "label": "08 October",
+    "month": "October",
+    "number": 8,
+    "steps": [
+      {
+        "id": "october-08-step-01",
+        "label": "Free hand-in · Recruitment Centre",
+        "text": "Claim the Ordemos bounty reward.",
+        "kind": "free"
+      },
+      {
+        "id": "october-08-step-02",
+        "label": "Afternoon",
+        "text": "Clear the Skybound Avatar main objective, then return when the game permits it. Check the quest log and avoid advancing past a warning without a separate save.",
+        "kind": "time"
+      },
+      {
+        "id": "october-08-step-03",
+        "label": "Night",
+        "text": "Used by the dungeon.",
+        "kind": "night"
+      }
+    ]
+  },
+  {
+    "id": "day-october-09",
+    "label": "09 October",
+    "month": "October",
+    "number": 9,
+    "steps": [
+      {
+        "id": "october-09-step-01",
+        "label": "Afternoon",
+        "text": "Visit Manor of the Ascendant, use the travelling slot for a missing bond/virtue/book activity, defeat Kokamordos and collect the Gold Beetle.",
+        "kind": "time"
+      },
+      {
+        "id": "october-09-step-02",
+        "label": "Night",
+        "text": "Return to town.",
+        "kind": "night"
+      }
+    ]
+  },
+  {
+    "id": "day-october-10",
+    "label": "10 October",
+    "month": "October",
+    "number": 10,
+    "steps": [
+      {
+        "id": "october-10-step-01",
+        "label": "Free hand-in · Recruitment Centre",
+        "text": "Claim the Kokamordos bounty reward.",
+        "kind": "free"
+      },
+      {
+        "id": "october-10-step-02",
+        "label": "Afternoon",
+        "text": "Revisit Forsaken Tower for its dragon trial. Use the journey for any remaining travel activity or cooking.",
+        "kind": "time"
+      },
+      {
+        "id": "october-10-step-03",
+        "label": "Night",
+        "text": "Return to town.",
+        "kind": "night"
+      }
+    ]
+  },
+  {
+    "id": "day-october-11",
+    "label": "11 October",
+    "month": "October",
+    "number": 11,
+    "steps": [
+      {
+        "id": "october-11-step-01",
+        "label": "Afternoon",
+        "text": "Revisit Spire of Blind Faith for its dragon trial. Use the journey for any remaining travel activity or cooking.",
+        "kind": "time"
+      },
+      {
+        "id": "october-11-step-02",
+        "label": "Night",
+        "text": "Return to town. Check missing mask/vessel ingredients against Akademeia's experiment menu and the sellers' rotating stock.",
+        "kind": "night"
+      }
+    ]
+  },
+  {
+    "id": "day-october-12",
+    "label": "12 October",
+    "month": "October",
+    "number": 12,
+    "steps": [
+      {
+        "id": "october-12-step-01",
+        "label": "Free hand-ins first",
+        "text": "Check each of the three Trial of the Dragon requests in your log. Return to any requester still awaiting a report; use the 26 September pickup locations if you need to find them. Confirm the follow-up request is available before travelling.",
+        "kind": "free"
+      },
+      {
+        "id": "october-12-step-02",
+        "label": "Afternoon · dungeon outing",
+        "text": "Save separately and visit Dragon Temple for the follow-up challenge. If your party needs more preparation, use a later free day rather than forcing the fight now.",
+        "kind": "time"
+      },
+      {
+        "id": "october-12-step-03",
+        "label": "Night",
+        "text": "Return to town and report any resulting requests.",
+        "kind": "night"
+      }
+    ]
+  },
+  {
+    "id": "day-october-13",
+    "label": "13 October",
+    "month": "October",
+    "number": 13,
+    "steps": [
+      {
+        "id": "october-13-step-01",
+        "label": "Afternoon · uses time",
+        "text": "Return to the Coliseum at Brilehaven's Arenafront Wharf and complete the next ranked match. Continue your current rank ladder; do not choose an endurance Gauntlet.",
+        "kind": "time"
+      },
+      {
+        "id": "october-13-step-02",
+        "label": "Night",
+        "text": "Once your arena rank unlocks it, complete the Gold Gauntlet's 30 consecutive battles for Coliseum Champion. Bronze and Silver endurance runs are not needed to unlock Gold; progression comes from ranked matches.",
+        "kind": "night"
+      }
+    ]
+  },
+  {
+    "id": "day-october-14",
+    "label": "14 October",
+    "month": "October",
+    "number": 14,
+    "steps": [
+      {
+        "id": "october-14-step-01",
+        "label": "Afternoon and evening",
+        "text": "Recovery slots. Finish delayed follower events, missing virtue ranks or an arena match moved from August. A bond may require a day's gap before its next event.",
+        "kind": "time"
+      }
+    ]
+  },
+  {
+    "id": "day-october-15",
+    "label": "15 October",
+    "month": "October",
+    "number": 15,
+    "steps": [
+      {
+        "id": "october-15-step-01",
+        "label": "Afternoon · uses time",
+        "text": "Return to the Coliseum at Brilehaven's Arenafront Wharf and complete the next ranked match. Continue your current rank ladder; do not choose an endurance Gauntlet.",
+        "kind": "time"
+      },
+      {
+        "id": "october-15-step-02",
+        "label": "Night",
+        "text": "Complete the arena's Special Match and check that the ranked request chain is finished. If you changed the earlier arena schedule, follow the remaining sequence rather than expecting the same match name today.",
+        "kind": "night"
+      },
+      {
+        "id": "october-15-step-03",
+        "label": "Combat checkpoint",
+        "text": "The Synthesis trophy requires 50 different skills used in battle, not 50 repetitions. For money attacks, spend at least 100,000 reeve in total; ten uses costing 9,999 leave you ten reeve short.",
+        "kind": "check"
+      }
+    ]
+  },
+  {
+    "id": "day-october-16",
+    "label": "16 October",
+    "month": "October",
+    "number": 16,
+    "steps": [
+      {
+        "id": "october-16-step-01",
+        "label": "To do",
+        "text": "Recovery day. Prioritise unfinished requests and bonds. Keep today's start-of-day save until you know what remains.",
+        "kind": "task"
+      }
+    ]
+  },
+  {
+    "id": "day-october-17",
+    "label": "17 October",
+    "month": "October",
+    "number": 17,
+    "steps": [
+      {
+        "id": "october-17-step-01",
+        "label": "To do",
+        "text": "Recovery day. Complete a delayed boss or dungeon, or use the town slots for bonds and virtues.",
+        "kind": "task"
+      }
+    ]
+  },
+  {
+    "id": "day-october-18",
+    "label": "18 October",
+    "month": "October",
+    "number": 18,
+    "steps": [
+      {
+        "id": "october-18-step-01",
+        "label": "To do",
+        "text": "Recovery day. If travel-only bonds, cooking or books remain, schedule a short runner journey and use its available activity slots.",
+        "kind": "task"
+      }
+    ]
+  },
+  {
+    "id": "day-october-19",
+    "label": "19 October",
+    "month": "October",
+    "number": 19,
+    "steps": [
+      {
+        "id": "october-19-step-01",
+        "label": "To do",
+        "text": "Recovery day. Check all request entries and reports, including the arena and follower chains. Report completed bounties rather than leaving them pending.",
+        "kind": "task"
+      }
+    ]
+  },
+  {
+    "id": "day-october-20",
+    "label": "20 October",
+    "month": "October",
+    "number": 20,
+    "steps": [
+      {
+        "id": "october-20-step-01",
+        "label": "To do",
+        "text": "Recovery day. Verify seven books fully read, 21 different runner dishes cooked, all followers at rank 8, five shop villages visited and the complete vista collection. The relevant trophies/menu records are better evidence than ticking a date off this document.",
+        "kind": "task"
+      },
+      {
+        "id": "october-20-step-02",
+        "label": "Village checklist",
+        "text": "Komero, Inundo, Silento, Ligno and Malva. Check map locations revealed by candidate conversations and their runner encounters as well.",
+        "kind": "check"
+      }
+    ]
+  },
+  {
+    "id": "day-october-21",
+    "label": "21 October",
+    "month": "October",
+    "number": 21,
+    "steps": [
+      {
+        "id": "october-21-step-01",
+        "label": "To do",
+        "text": "Recovery day. Complete missing experiments and train the protagonist's remaining Archetypes. Study prerequisites and mastery are separate: each required Archetype must reach rank 20 for mastery.",
+        "kind": "task"
+      }
+    ]
+  },
+  {
+    "id": "day-october-22",
+    "label": "22 October",
+    "month": "October",
+    "number": 22,
+    "steps": [
+      {
+        "id": "october-22-step-01",
+        "label": "To do",
+        "text": "Recovery day. Finish any outstanding 50-different-Synthesis, 100 squad-ambush, 50 unscathed-win, 10 Elementa, money-skill, stealing, Gallica-chat and sword-surfing requirements. Field instant kills do not replace squad ambushes.",
+        "kind": "task"
+      }
+    ]
+  },
+  {
+    "id": "day-october-23",
+    "label": "23 October",
+    "month": "October",
+    "number": 23,
+    "steps": [
+      {
+        "id": "october-23-step-01",
+        "label": "To do",
+        "text": "Recovery day. Check every outstanding request, relic report, optional trial and arena chain. Keep a separate save before entering any long dungeon.",
+        "kind": "task"
+      }
+    ]
+  },
+  {
+    "id": "day-october-24",
+    "label": "24 October",
+    "month": "October",
+    "number": 24,
+    "steps": [
+      {
+        "id": "october-24-step-01",
+        "label": "To do",
+        "text": "Final flexible day in this schedule. Finish remaining activities that need free time. Keep tomorrow evening available for the farewell visits. Retain an older save if any completion requirement is still uncertain.",
+        "kind": "task"
+      }
+    ]
+  },
+  {
+    "id": "day-october-25",
+    "label": "25 October",
+    "month": "October",
+    "number": 25,
+    "steps": [
+      {
+        "id": "october-25-step-01",
+        "label": "Afternoon",
+        "text": "Final preparations or remaining eligible activity. Use free runner facilities if accessible.",
+        "kind": "time"
+      },
+      {
+        "id": "october-25-step-02",
+        "label": "Night",
+        "text": "Visit your maxed followers for their farewell items. Gallica can help you travel between them. Save separately before resting.",
+        "kind": "night"
+      }
+    ]
+  },
+  {
+    "id": "day-october-26",
+    "label": "26 October",
+    "month": "October",
+    "number": 26,
+    "steps": [
+      {
+        "id": "october-26-step-01",
+        "label": "Before entering",
+        "text": "Keep a permanent pre-finale save. Read this entry fully before fighting optional bosses in the final area.",
+        "kind": "task"
+      },
+      {
+        "id": "october-26-step-02",
+        "label": "Trophy route",
+        "text": "Leave every optional boss in the final area undefeated and go to the final main objective. Defeating the final boss at full strength is the condition for Star Shatterer. Do not weaken it first. Save near the end if the game permits it.",
+        "kind": "task"
+      },
+      {
+        "id": "october-26-step-03",
+        "label": "Optional training",
+        "text": "Regular enemies and the final area's tooth spawners can provide substantial rewards. If a preparation plan uses gear that repels attacks, remember that the return-run challenge has its own restrictions.",
+        "kind": "optional"
+      },
+      {
+        "id": "october-26-step-04",
+        "label": "After the required victory",
+        "text": "Confirm the story, full-strength and all-request trophies, then save the clear data separately. If you want to see skipped optional encounters, you may reload the pre-finale save afterwards; keep your clear data too.",
+        "kind": "task"
+      }
+    ]
+  }
+]

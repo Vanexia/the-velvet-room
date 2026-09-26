@@ -1,5 +1,6 @@
 import { createStore, parseBackup, serializeBackup } from "./state.js";
 import { renderGame, renderLibrary } from "./render.js";
+import { renderDaily, selectDay } from "./daily-render.js";
 
 export function mountApp(win, games) {
   const doc = win.document,
@@ -13,10 +14,15 @@ export function mountApp(win, games) {
   }
   const store = createStore(storage, games);
   let activeGame,
+    activeSection = "",
+    hasRouted = false,
     pendingBackup = null,
     toastTimer;
   const getGame = () => games.find((g) => g.id === activeGame);
   const progress = () => store.state.games[activeGame];
+  const isDaily = () =>
+    getGame()?.days?.length &&
+    (!activeSection || activeSection.startsWith("day-"));
   function notice() {
     const el = doc.getElementById("storage-warning");
     el.textContent = store.warning;
@@ -33,7 +39,9 @@ export function mountApp(win, games) {
     const old = focusId ? doc.getElementById(focusId) : null;
     const before = old?.getBoundingClientRect().top;
     app.innerHTML = getGame()
-      ? renderGame(getGame(), progress())
+      ? isDaily()
+        ? renderDaily(getGame(), progress(), activeSection)
+        : `${getGame().days ? `<a class="daily-return" href="#game/${getGame().id}">← Back to daily guide</a>` : ""}${renderGame(getGame(), progress())}`
       : renderLibrary(games, store.state);
     doc.title = getGame()
       ? `${getGame().title} · The Velvet Room`
@@ -47,22 +55,34 @@ export function mountApp(win, games) {
     }
   }
   function route() {
+    const shouldFocus = hasRouted;
+    hasRouted = true;
     const parts = win.location.hash.slice(1).split("/");
     const next =
       parts[0] === "game" && games.some((g) => g.id === parts[1])
         ? parts[1]
         : null;
-    const changed = next !== activeGame;
+    const nextSection = parts[2] ?? "";
+    const changed = next !== activeGame || nextSection !== activeSection;
     activeGame = next;
+    activeSection = nextSection;
     if (changed || !app.firstElementChild) render();
-    if (next && parts[2]) {
+    if (isDaily() && changed && shouldFocus) {
+      win.scrollTo(0, 0);
+      doc.getElementById("day-heading")?.focus({ preventScroll: true });
+    } else if (next && parts[2]) {
       const target = doc.getElementById(parts[2]);
       if (target) {
         target.setAttribute("tabindex", "-1");
         target.focus({ preventScroll: true });
         target.scrollIntoView({ block: "start", behavior: "instant" });
+      } else if (changed && shouldFocus) {
+        win.scrollTo(0, 0);
+        const heading = app.querySelector("h1");
+        heading?.setAttribute("tabindex", "-1");
+        heading?.focus({ preventScroll: true });
       }
-    } else if (changed) {
+    } else if (changed && shouldFocus) {
       win.scrollTo(0, 0);
       const h = app.querySelector("h1");
       h?.setAttribute("tabindex", "-1");
@@ -112,7 +132,32 @@ export function mountApp(win, games) {
     const reveal = button.dataset.reveal,
       bookmark = button.dataset.bookmark,
       action = button.dataset.action;
-    if (reveal && getGame()) {
+    if (button.dataset.openDay && isDaily()) {
+      const day = selectDay(getGame(), progress(), activeSection);
+      update({
+        openedDays: [...new Set([...progress().openedDays, day.id])],
+        dayBookmark: day.id,
+      });
+      render();
+      doc.getElementById("day-heading")?.focus({ preventScroll: true });
+      toast("Day opened. Reading place saved.");
+    } else if (button.dataset.hideDay && isDaily()) {
+      update({
+        openedDays: progress().openedDays.filter(
+          (id) => id !== button.dataset.hideDay,
+        ),
+      });
+      render();
+      doc.getElementById("open-day")?.focus({ preventScroll: true });
+    } else if (button.dataset.help && getGame()) {
+      const id = button.dataset.help;
+      update({
+        help: progress().help.includes(id)
+          ? progress().help.filter((h) => h !== id)
+          : [...progress().help, id],
+      });
+      render(`help-${id}`);
+    } else if (reveal && getGame()) {
       const ids = progress().revealed;
       const open = ids.includes(reveal);
       update({
@@ -130,7 +175,7 @@ export function mountApp(win, games) {
         progress().bookmark ? "Reading place saved" : "Reading place cleared",
       );
     } else if (action === "hide-all" && getGame()) {
-      update({ revealed: [] });
+      update({ revealed: [], openedDays: [], help: [] });
       render();
       doc
         .querySelector('[data-action="hide-all"]')
@@ -169,6 +214,26 @@ export function mountApp(win, games) {
       const count = doc.querySelector(".reminder-count");
       if (count)
         count.textContent = `${progress().checked.length} reminders checked`;
+      target
+        .closest(".daily-step")
+        ?.classList.toggle("is-checked", target.checked);
+      if (isDaily()) {
+        const day = selectDay(getGame(), progress(), activeSection),
+          done = day.steps.filter((s) =>
+            progress().checked.includes(s.id),
+          ).length;
+        doc.querySelector("[data-day-count]").textContent =
+          `${done} of ${day.steps.length} steps checked`;
+        doc.querySelector(".day-progress progress").value = done;
+        const dateCell = doc.querySelector('.date-cell[aria-current="date"]');
+        dateCell?.classList.toggle("complete", done === day.steps.length);
+        dateCell?.setAttribute(
+          "aria-label",
+          `${day.label}, ${done === day.steps.length ? "all steps checked" : "opened"}`,
+        );
+      }
+    } else if (target.matches("[data-month]") && getGame()) {
+      win.location.hash = `#game/${getGame().id}/${target.value}`;
     } else if (target.matches("[data-status]") && getGame()) {
       update({ status: target.value });
       toast("Shelf updated");

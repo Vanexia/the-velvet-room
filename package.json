@@ -4,7 +4,9 @@
   "description": "A personal game library with chronological platinum companions and remembered spoiler reveals.",
   "private": true,
   "scripts": {
+    "pretest": "node scripts/compile-schedule.mjs",
     "test": "node --test",
+    "prebuild": "node scripts/compile-schedule.mjs",
     "build": "node scripts/build.mjs",
     "start": "node scripts/serve.mjs"
   },

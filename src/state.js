@@ -8,6 +8,9 @@ const progressSchema = z.strictObject({
   checked: z.array(id).max(4000),
   notes: z.string().max(5000),
   bookmark: id.or(z.literal("")),
+  openedDays: z.array(id).max(400).default([]),
+  dayBookmark: id.or(z.literal("")).default(""),
+  help: z.array(id).max(2000).default([]),
 });
 const backupSchema = z.strictObject({
   version: z.literal(1),
@@ -26,6 +29,9 @@ export function createState(games) {
           checked: [],
           notes: "",
           bookmark: "",
+          openedDays: [],
+          dayBookmark: "",
+          help: [],
         },
       ]),
     ),
@@ -57,15 +63,26 @@ export function parseBackup(text, games) {
     const saved = parsed.data.games[game.id];
     if (!saved) continue;
     const cards = game.stages.flatMap((s) => s.cards);
+    const days = game.days ?? [];
+    const dayIds = new Set(days.map((d) => d.id));
+    const helpIds = new Set(
+      Object.values(game.dayHelp ?? {})
+        .flat()
+        .map((h) => h.id),
+    );
     const revealIds = new Set(cards.map((c) => c.id));
     const checkIds = new Set([
       ...game.tips.map((t) => t.id),
       ...cards.flatMap((c) => c.checks.map((t) => t.id)),
+      ...days.flatMap((d) => d.steps.map((s) => s.id)),
     ]);
     next.games[game.id] = {
       ...saved,
       revealed: [...new Set(saved.revealed)].filter((i) => revealIds.has(i)),
       checked: [...new Set(saved.checked)].filter((i) => checkIds.has(i)),
+      openedDays: [...new Set(saved.openedDays)].filter((i) => dayIds.has(i)),
+      help: [...new Set(saved.help)].filter((i) => helpIds.has(i)),
+      dayBookmark: dayIds.has(saved.dayBookmark) ? saved.dayBookmark : "",
       bookmark: game.stages.some((s) => s.id === saved.bookmark)
         ? saved.bookmark
         : "",

@@ -1,3 +1,4 @@
+import { renderCollection } from "./library-render.js";
 export const escapeHtml = (value) =>
   String(value ?? "").replace(
     /[&<>"']/g,
@@ -16,23 +17,8 @@ const check = (item, p) =>
   `<label class="check-row"><input type="checkbox" data-check="${e(item.id)}" aria-label="${e(item.label || item.text)}" ${p.checked.includes(item.id) ? "checked" : ""}><span>${e(item.text)}</span></label>`;
 
 export function renderLibrary(games, state) {
-  return `<div class="library-heading"><div><p class="eyebrow">Your game journal</p><h1>Your library<span class="gold-dot">.</span></h1></div><p class="quiet library-note">Pick a game. Read at your own pace.</p></div>
-  ${Object.entries(statusLabels)
-    .map(([status, label]) => {
-      const group = games.filter((g) => state.games[g.id].status === status);
-      if (!group.length) return "";
-      return `<section class="shelf" aria-label="${label}"><div class="shelf-label"><span class="status-dot ${status}"></span><h2>${label}</h2><span class="count">${group.length}</span></div><div class="game-grid">${group
-        .map((g) => {
-          const p = state.games[g.id];
-          return `<article class="game-entry"><a class="cover-link" href="#game/${e(g.id)}" aria-label="Open ${e(g.title)}"><img class="game-cover" src="${e(g.cover)}" alt="${e(g.title)} cover artwork" width="300" height="450" fetchpriority="high"><span class="cover-open">Open companion <span aria-hidden="true">↗</span></span></a><div class="game-caption"><p class="eyebrow">${e(g.platform)} <span aria-hidden="true">/</span> Platinum companion</p><h3><a href="#game/${e(g.id)}">${e(g.title)}</a></h3><p class="quiet">${e(g.subtitle)}</p><div class="entry-bottom"><span>${p.checked.length} reminders checked</span><a class="text-link" href="#game/${e(g.id)}${p.bookmark ? "/" + e(p.bookmark) : ""}">${p.bookmark ? "Continue reading" : "Open companion"} <span aria-hidden="true">→</span></a></div></div></article>`;
-        })
-        .join("")}</div></section>`;
-    })
-    .join(
-      "",
-    )}<aside class="library-footnote"><span class="mini-mark" aria-hidden="true">◇</span><div><strong>Your progress stays with you.</strong><p>Reveals, checklists and notes save in this browser. Export a backup when you want a copy.</p></div><button class="button subtle" data-action="backup">Manage backups</button></aside>`;
+  return renderCollection(games, state);
 }
-
 function renderCard(card, p) {
   const open = p.revealed.includes(card.id);
   return `<article class="advice-card ${open ? "is-revealed" : ""}" id="card-${e(card.id)}"><div class="card-heading"><div><p class="card-kind">${e(card.kind ?? "Watch for this")}</p><h3>${e(card.title)}</h3></div><span class="disclosure-state">${open ? "Revealed" : "Details hidden"}</span></div><p class="card-summary">${e(card.summary)}</p><div class="reveal-cue"><span class="cue-mark" aria-hidden="true">↳</span><p><strong>When to reveal</strong><br>${e(card.cue)}</p></div><div class="reveal-controls"><button class="button ${open ? "subtle" : "reveal-button"}" id="toggle-${e(card.id)}" data-reveal="${e(card.id)}" aria-expanded="${open}" aria-controls="detail-${e(card.id)}">${open ? "Hide again" : "Reveal details"} <span aria-hidden="true">${open ? "−" : "+"}</span></button><span class="spoiler-label">${e(card.warning)}</span></div><div id="detail-${e(card.id)}" ${open ? "" : "hidden"}>${open ? `<div class="revealed-content">${card.paragraphs.map((p) => `<p>${e(p)}</p>`).join("")}${card.table ? `<div class="table-scroll"><table><thead><tr>${card.table.head.map((h) => `<th scope="col">${e(h)}</th>`).join("")}</tr></thead><tbody>${card.table.rows.map((r) => `<tr>${r.map((c) => `<td>${e(c)}</td>`).join("")}</tr>`).join("")}</tbody></table></div>` : ""}<div class="card-checks">${card.checks.map((i) => check(i, p)).join("")}</div><a class="source-link" href="${e(card.source)}" target="_blank" rel="noopener noreferrer">PSNProfiles source ↗ <span>(full guide contains spoilers)</span></a></div>` : ""}</div></article>`;

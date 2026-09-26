@@ -1,10 +1,22 @@
 # The Velvet Room
 
-A personal game journal with platinum reminders in play order. Choose a game by its cover, read the safe advice, and reveal individual details when their cues match where you are.
+A compact game collection with daily guides and platinum reminders. Choose a game by its cover, select your in-game date, and open only the instructions you need.
 
 [Open The Velvet Room](https://vanexia.github.io/the-velvet-room/)
 
-The first companion is **Metaphor: ReFantazio**, with advice from the opening hours through New Game Plus. It is a planning companion, not a daily itinerary or a replacement for every step in a trophy guide.
+The first guide is **Metaphor: ReFantazio**: 145 dates and 422 ordered instructions adapted from the audited personal schedule. The existing chronological platinum reminders remain under **Reference & notes**. Preparation and separate boss help are available for the early dungeon scheduled on 13 June.
+
+## Following the daily guide
+
+- Pick a month and date. Navigation alone does not open that day's route.
+- Choose **Open [date]** when it matches your in-game progress. Opening it saves your reading place.
+- Follow the steps in order and check them as you finish. Free errands come before activities that use time.
+- Preparation and encounter help have separate remembered reveals. Opening a day does not open its boss help.
+- **Next day** navigates to another date; it does not reveal that date or mark anything complete.
+- **Hide this day** closes the route and keeps your checks. **Hide all spoilers** closes daily routes, encounter help and reference reveals while preserving checklists, notes and bookmarks.
+- The calendar follows the game's 30-day months. Checkpoints are checks on your actual save, not guarantees that the schedule has raised a rank.
+
+The website is now the maintained reading edition. The earlier personal Google Doc remains a backup; it does not automatically synchronise with website changes. Downloading the full Markdown route exposes all dates and future details.
 
 ## Using the journal
 
@@ -19,9 +31,17 @@ Progress is saved in this browser at this site address. There is no account, clo
 
 ## Spoiler boundaries
 
-Unrevealed instructions and checklist text are absent from the rendered document, including its accessibility tree. Navigation and scrolling never reveal them. Neutral headings, dates and explicit reveal cues remain visible.
+Unrevealed instructions and checklist text are absent from the rendered document, including its accessibility tree. Only the selected day can enter the daily reader, and only after an explicit reveal. Navigation and scrolling never reveal closed dates or encounter help. Neutral headings, dates and explicit reveal cues remain visible.
 
 Full-source links warn that PSNProfiles contains unhidden spoilers. Repository content and compiled scripts include the complete companion; inspecting them can expose spoilers. The site's disclosure controls protect ordinary reading, not deliberate source inspection.
+
+## Maintaining the route
+
+`content/metaphor-schedule.md` is the source for the daily route. `npm test` and `npm run build` compile it to `src/data/metaphor-days.json`; edit the Markdown rather than that generated file. The build also provides a downloadable Markdown edition. `src/data/day-help.js` contains separately gated explanations and combat help.
+
+Keep each instruction's `<!-- id: ... -->` marker when editing or moving it. New instructions need new IDs; never reuse one for an unrelated task. The compiler rejects duplicate dates or IDs, and requires all 145 dates. Tests check full instruction preservation, order, old backup migration and spoiler isolation. Mark materially more revealing new help with a new ID so it starts hidden.
+
+Existing version-1 backups are accepted and gain empty daily-progress fields. The storage key and all existing reference IDs are retained. No browser data is deleted during migration.
 
 ## Local development
 
@@ -50,5 +70,7 @@ The interface is shared between games. Each game needs its content prepared once
 ## Sources and rights
 
 Trophy advice is based on the [PSNProfiles guide](https://psnprofiles.com/guide/20665-metaphor-refantazio-trophy-guide), which contains spoilers, by MakoSOLIDER, RaveNScythE18, The_Kopite and zekunlu. See the spoiler-labelled [content audit](docs/content-audit.md) for coverage and source discrepancies.
+
+The daily route derives from [Goonan's Minimalist Schedule](https://docs.google.com/spreadsheets/d/12GQgDqTKej90EGcpk2fiUKaW8R2wmxW77yb2Msueq-M/edit), expanded and corrected in the user's authorised document audit. That audit allowed other walkthroughs for activity cross-checks. Original attribution and source references remain in the full Markdown. No end-to-end gameplay test or fresh whole-guide PSNProfiles verification is claimed for this conversion.
 
 This is an unofficial fan project. Code and original companion wording are MIT licensed. Game artwork and game names belong to their respective owners and are not included in that licence. Cover attribution is in [asset credits](public/assets/credits.md).
