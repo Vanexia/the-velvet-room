@@ -29,7 +29,7 @@ test("the complete route covers June 2 to October 26 without dropped instruction
   const md = readFileSync(
     new URL("../content/metaphor-schedule.md", import.meta.url),
     "utf8",
-  );
+  ).replace(/\r\n/g, "\n");
   const days = parseSchedule(md);
   assert.equal(days.length, 145);
   assert.equal(days[0].label, "02 June");

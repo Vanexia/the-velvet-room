@@ -8,12 +8,11 @@ The first guide is **Metaphor: ReFantazio**: 145 dates and 422 ordered instructi
 
 ## Following the daily guide
 
-- Pick a month and date. Navigation alone does not open that day's route.
-- Choose **Open [date]** when it matches your in-game progress. Opening it saves your reading place.
+- Pick your current in-game month and date. Its instructions appear immediately and your reading place saves automatically.
 - Follow the steps in order and check them as you finish. Free errands come before activities that use time.
 - Preparation and encounter help have separate remembered reveals. Opening a day does not open its boss help.
-- **Next day** navigates to another date; it does not reveal that date or mark anything complete.
-- **Hide this day** closes the route and keeps your checks. **Hide all spoilers** closes daily routes, encounter help and reference reveals while preserving checklists, notes and bookmarks.
+- **Next day** shows the next date's instructions without marking anything complete. Other dates' instructions are absent from the page.
+- **Hide extra details** closes encounter help and reference reveals while preserving the visible day, checklists, notes and reading place.
 - The calendar follows the game's 30-day months. Checkpoints are checks on your actual save, not guarantees that the schedule has raised a rank.
 
 The website is now the maintained reading edition. The earlier personal Google Doc remains a backup; it does not automatically synchronise with website changes. Downloading the full Markdown route exposes all dates and future details.
@@ -31,7 +30,7 @@ Progress is saved in this browser at this site address. There is no account, clo
 
 ## Spoiler boundaries
 
-Unrevealed instructions and checklist text are absent from the rendered document, including its accessibility tree. Only the selected day can enter the daily reader, and only after an explicit reveal. Navigation and scrolling never reveal closed dates or encounter help. Neutral headings, dates and explicit reveal cues remain visible.
+Only the selected day's instructions appear in the daily reader, including its accessibility tree. Selecting a date shows its instructions immediately; scrolling cannot expose another date. Encounter help and reference cards keep their separate reveal controls, and their protected text is absent until revealed. Neutral headings, dates and explicit reveal cues remain visible.
 
 Full-source links warn that PSNProfiles contains unhidden spoilers. Repository content and compiled scripts include the complete companion; inspecting them can expose spoilers. The site's disclosure controls protect ordinary reading, not deliberate source inspection.
 

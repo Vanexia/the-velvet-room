@@ -8,6 +8,7 @@ const progressSchema = z.strictObject({
   checked: z.array(id).max(4000),
   notes: z.string().max(5000),
   bookmark: id.or(z.literal("")),
+  // Retain the old field name for backups; it now records visited dates.
   openedDays: z.array(id).max(400).default([]),
   dayBookmark: id.or(z.literal("")).default(""),
   help: z.array(id).max(2000).default([]),

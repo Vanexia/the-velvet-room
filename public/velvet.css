@@ -558,7 +558,7 @@ input[type="file"] {
   line-height: 1.8;
 }
 .day-sheet :focus-visible {
-  outline-color: #315c98;
+  outline-color: var(--accent);
 }
 dialog {
   overscroll-behavior: contain;
@@ -698,16 +698,22 @@ dialog {
   color: var(--muted);
 }
 .day-sheet {
-  background: var(--paper);
-  color: var(--ink);
+  --reader-ink: #d6dfed;
+  --reader-muted: #a6b5ca;
+  --reader-line: #34445e;
+  --reader-panel: #1e2d43;
+  --reader-label: #b4c8e3;
+  background: #18243a;
+  border: 1px solid #2d3e59;
+  color: var(--reader-ink);
   border-radius: 3px;
-  box-shadow: 8px 8px 0 #1b2d4f;
+  box-shadow: 8px 8px 0 #080f25;
   padding: 34px 40px 0;
-  color-scheme: light;
+  color-scheme: dark;
   min-width: 0;
 }
 .day-sheet .eyebrow {
-  color: #5c6a80;
+  color: var(--reader-muted);
 }
 .day-heading {
   display: flex;
@@ -715,7 +721,7 @@ dialog {
   justify-content: space-between;
   gap: 16px;
   padding-bottom: 25px;
-  border-bottom: 1px solid #cdd5e1;
+  border-bottom: 1px solid var(--reader-line);
 }
 .day-heading h2 {
   font-size: 32px;
@@ -731,15 +737,6 @@ dialog {
 .day-heading h2:focus {
   outline: none;
 }
-.day-status {
-  font-size: 10px;
-  text-transform: uppercase;
-  letter-spacing: 0.12em;
-  border: 1px solid #c5cedd;
-  border-radius: 2px;
-  padding: 7px 9px;
-  color: #52617a;
-}
 .day-progress {
   display: flex;
   flex-wrap: wrap;
@@ -747,34 +744,28 @@ dialog {
   align-items: center;
   margin: 20px 0;
   font-size: 11px;
-  color: #52617a;
+  color: var(--reader-muted);
 }
 .day-progress progress {
   width: 100px;
   height: 4px;
   border: 0;
   border-radius: 0;
-  accent-color: #274b7d;
+  accent-color: #a4b8d6;
 }
 .day-progress progress::-webkit-progress-bar {
-  background: #d9e0eb;
+  background: #31435f;
 }
 .day-progress progress::-webkit-progress-value {
-  background: #274b7d;
-}
-.day-progress .text-button {
-  margin-left: auto;
-  color: #465977;
-  font-size: 11px;
-  padding: 0;
+  background: #a4b8d6;
 }
 .day-guidance {
   font-size: 12px;
   line-height: 1.7;
   padding: 13px 16px;
-  background: #e6ebf3;
-  border-left: 2px solid #496992;
-  color: #344863;
+  background: var(--reader-panel);
+  border-left: 2px solid #809abf;
+  color: var(--reader-ink);
   margin-bottom: 24px;
 }
 .day-guidance strong {
@@ -790,7 +781,7 @@ dialog {
   grid-template-columns: 32px minmax(0, 1fr);
   gap: 17px;
   padding: 22px 0;
-  border-bottom: 1px solid #dbe1eb;
+  border-bottom: 1px solid var(--reader-line);
 }
 .daily-step:last-child {
   border-bottom: 0;
@@ -806,11 +797,11 @@ dialog {
   font:
     10px Consolas,
     monospace;
-  color: #617189;
+  color: var(--reader-muted);
 }
 .step-side input {
   margin: 0;
-  accent-color: #365781;
+  accent-color: #a4b8d6;
 }
 .step-label {
   display: inline-block;
@@ -819,7 +810,7 @@ dialog {
   font-weight: 700;
   letter-spacing: 0.055em;
   text-transform: uppercase;
-  color: #4b6485;
+  color: var(--reader-label);
   margin-bottom: 9px;
   cursor: pointer;
 }
@@ -829,32 +820,32 @@ dialog {
   overflow-wrap: anywhere;
 }
 .kind-time .step-label {
-  color: #764721;
-  border-bottom: 1px solid #b1865e;
+  color: #dec08e;
+  border-bottom: 1px solid #8c7653;
   padding-bottom: 3px;
 }
 .kind-optional .step-label {
-  color: #665073;
+  color: #c9b5dd;
 }
 .kind-check .step-label {
-  color: #275d53;
+  color: #a1cfbe;
 }
 .daily-step.is-checked .step-label {
   text-decoration: line-through;
 }
 .daily-step.is-checked .step-copy p {
-  color: #606d80;
+  color: var(--reader-muted);
 }
 .day-help {
   display: grid;
   grid-template-columns: 1fr auto;
   align-items: start;
   gap: 10px 16px;
-  border: 1px solid #bbc9da;
-  border-left: 3px solid #46648c;
+  border: 1px solid var(--reader-line);
+  border-left: 3px solid #809abf;
   padding: 17px 19px;
   margin: 15px 0 25px;
-  background: #e9edf5;
+  background: var(--reader-panel);
 }
 .day-help h3 {
   font-size: 13px;
@@ -863,42 +854,42 @@ dialog {
   font-size: 12px;
   line-height: 1.7;
   margin-top: 5px;
-  color: #485d78;
+  color: var(--reader-muted);
 }
 .day-help .button {
-  border-color: #8b9cb5;
-  color: #243c62;
+  border-color: #7d95b8;
+  color: var(--reader-ink);
   background: transparent;
   white-space: nowrap;
   font-size: 11px;
 }
 .day-help .button:hover {
-  background: #d8e1ee;
+  background: #2a3c58;
 }
 .day-help > div[id] {
   grid-column: 1/-1;
-  border-top: 1px solid #c5d0e0;
+  border-top: 1px solid var(--reader-line);
   padding-top: 9px;
 }
 .day-help > div[id] > p {
   font-size: 14px;
   line-height: 1.8;
-  color: var(--ink);
+  color: var(--reader-ink);
   margin: 12px 0;
 }
 .day-help .source-link {
-  color: #475d7a;
+  color: var(--reader-label);
 }
 .end-day {
   display: flex;
   gap: 15px;
   padding: 24px 0 28px;
-  border-top: 1px solid #bcc9db;
+  border-top: 1px solid var(--reader-line);
   margin-top: 20px;
 }
 .end-day > span {
   font-size: 18px;
-  color: #3f665e;
+  color: #a1cfbe;
 }
 .end-day h3 {
   font-size: 13px;
@@ -906,50 +897,15 @@ dialog {
 }
 .end-day p {
   font-size: 12px;
-  color: #53647c;
+  color: var(--reader-muted);
   line-height: 1.75;
-}
-.sealed-day {
-  padding: 47px 20px 55px;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.seal {
-  font-size: 37px;
-  color: #4c6489;
-  line-height: 1;
-  margin-bottom: 24px;
-}
-.sealed-day h3 {
-  font: 30px var(--display);
-  margin-bottom: 16px;
-}
-.sealed-day p {
-  max-width: 45ch;
-  font-size: 14px;
-  line-height: 1.8;
-  color: #4e607a;
-}
-.sealed-day .button {
-  margin: 25px 0 12px;
-  background: #1f3d68;
-  color: white;
-  border-color: #1f3d68;
-}
-.sealed-day .button:hover {
-  background: #132b4e;
-}
-.sealed-day .small-note {
-  font-size: 11px;
 }
 .day-pagination {
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 20px;
-  border-top: 1px solid #c9d3e2;
+  border-top: 1px solid var(--reader-line);
   padding: 23px 0;
   font-size: 13px;
 }
@@ -963,12 +919,12 @@ dialog {
 }
 .day-pagination a span {
   font-size: 10px;
-  color: #5b6b81;
+  color: var(--reader-muted);
   text-transform: uppercase;
   letter-spacing: 0.08em;
 }
 .day-pagination a:hover {
-  color: #426da1;
+  color: #c6d5ed;
 }
 .guide-about {
   margin: 30px 0 0 246px;
@@ -1530,7 +1486,7 @@ dialog p {
   }
   .day-sheet {
     padding: 23px 20px 0;
-    box-shadow: 4px 5px 0 #1b2d4f;
+    box-shadow: 4px 5px 0 #080f25;
   }
   .day-heading h2 {
     font-size: 28px;
@@ -1538,15 +1494,8 @@ dialog p {
   .day-heading h2 span {
     font-size: 57px;
   }
-  .day-status {
-    font-size: 8px;
-    padding: 5px 7px;
-  }
   .day-progress {
     gap: 8px;
-    font-size: 10px;
-  }
-  .day-progress .text-button {
     font-size: 10px;
   }
   .day-progress progress {
@@ -1571,15 +1520,6 @@ dialog p {
     padding: 15px;
   }
   .day-help > div[id] > p {
-    font-size: 13px;
-  }
-  .sealed-day {
-    padding: 36px 2px 40px;
-  }
-  .sealed-day h3 {
-    font-size: 27px;
-  }
-  .sealed-day p {
     font-size: 13px;
   }
   .day-pagination {
@@ -1683,6 +1623,14 @@ dialog p {
     box-shadow: none;
     padding: 0;
     background: white;
+    --reader-ink: #172744;
+    --reader-muted: #52617a;
+    --reader-line: #cdd5e1;
+    --reader-panel: #e6ebf3;
+    --reader-label: #4b6485;
+  }
+  .day-sheet .step-label {
+    color: var(--reader-label);
   }
   .day-help button,
   .day-progress button {

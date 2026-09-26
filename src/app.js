@@ -66,6 +66,17 @@ export function mountApp(win, games) {
     const changed = next !== activeGame || nextSection !== activeSection;
     activeGame = next;
     activeSection = nextSection;
+    if (isDaily()) {
+      const day = selectDay(getGame(), progress(), activeSection);
+      if (
+        progress().dayBookmark !== day.id ||
+        !progress().openedDays.includes(day.id)
+      )
+        update({
+          dayBookmark: day.id,
+          openedDays: [...new Set([...progress().openedDays, day.id])],
+        });
+    }
     if (changed || !app.firstElementChild) render();
     if (isDaily() && changed && shouldFocus) {
       win.scrollTo(0, 0);
@@ -132,24 +143,7 @@ export function mountApp(win, games) {
     const reveal = button.dataset.reveal,
       bookmark = button.dataset.bookmark,
       action = button.dataset.action;
-    if (button.dataset.openDay && isDaily()) {
-      const day = selectDay(getGame(), progress(), activeSection);
-      update({
-        openedDays: [...new Set([...progress().openedDays, day.id])],
-        dayBookmark: day.id,
-      });
-      render();
-      doc.getElementById("day-heading")?.focus({ preventScroll: true });
-      toast("Day opened. Reading place saved.");
-    } else if (button.dataset.hideDay && isDaily()) {
-      update({
-        openedDays: progress().openedDays.filter(
-          (id) => id !== button.dataset.hideDay,
-        ),
-      });
-      render();
-      doc.getElementById("open-day")?.focus({ preventScroll: true });
-    } else if (button.dataset.help && getGame()) {
+    if (button.dataset.help && getGame()) {
       const id = button.dataset.help;
       update({
         help: progress().help.includes(id)
@@ -175,12 +169,12 @@ export function mountApp(win, games) {
         progress().bookmark ? "Reading place saved" : "Reading place cleared",
       );
     } else if (action === "hide-all" && getGame()) {
-      update({ revealed: [], openedDays: [], help: [] });
+      update({ revealed: [], help: [] });
       render();
       doc
         .querySelector('[data-action="hide-all"]')
         ?.focus({ preventScroll: true });
-      toast("Spoilers hidden. Checklist and notes kept.");
+      toast("Extra details hidden. Checklist and notes kept.");
     } else if (action === "backup") openBackup();
     else if (action === "close-backup") dialog.close();
     else if (action === "export") exportBackup();
@@ -229,7 +223,7 @@ export function mountApp(win, games) {
         dateCell?.classList.toggle("complete", done === day.steps.length);
         dateCell?.setAttribute(
           "aria-label",
-          `${day.label}, ${done === day.steps.length ? "all steps checked" : "opened"}`,
+          `${day.label}, ${done === day.steps.length ? "all steps checked" : "visited"}`,
         );
       }
     } else if (target.matches("[data-month]") && getGame()) {

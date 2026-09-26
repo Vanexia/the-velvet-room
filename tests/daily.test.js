@@ -68,7 +68,10 @@ test("reference navigation focuses the reference heading and keeps daily content
   w.location.hash = "#game/demo/reference";
   w.dispatchEvent(new w.Event("hashchange"));
   assert.equal(w.document.activeElement.tagName, "H1");
-  assert.doesNotMatch(w.document.getElementById("app").innerHTML, /CURRENT_DAY_SECRET|FUTURE_DAY_SECRET/);
+  assert.doesNotMatch(
+    w.document.getElementById("app").innerHTML,
+    /CURRENT_DAY_SECRET|FUTURE_DAY_SECRET/,
+  );
   w.close();
 });
 test("old progress migrates without losing existing checks, reveals, notes or bookmark", () => {
@@ -106,22 +109,19 @@ test("daily progress round trips and rejects unknown reveal IDs", () => {
   assert.deepEqual(p.checked, ["june-12-step-01"]);
   assert.equal(p.dayBookmark, "day-june-12");
 });
-test("date navigation alone exposes no daily instructions, even via a deep link", () => {
+test("a date deep link shows that day's instructions immediately but not another day's or boss help", () => {
   const w = setup();
   const html = w.document.getElementById("app").innerHTML;
-  assert.ok(w.document.querySelector('[data-open-day="day-june-12"]'));
-  for (const secret of [
-    "CURRENT_DAY_SECRET",
-    "FUTURE_DAY_SECRET",
-    "BOSS_SECRET",
-  ])
+  assert.match(html, /CURRENT_DAY_SECRET/);
+  assert.equal(Boolean(w.document.querySelector("[data-open-day]")), false);
+  assert.equal(Boolean(w.document.querySelector("[data-hide-day]")), false);
+  for (const secret of ["FUTURE_DAY_SECRET", "BOSS_SECRET"])
     assert.equal(html.includes(secret), false);
   w.close();
 });
-test("opening a day persists its place, leaves boss help separate and keeps future days out of DOM", () => {
+test("selecting dates saves the last read day and hiding extra help preserves the visible route and checks", () => {
   const w = setup(),
     d = w.document;
-  d.querySelector('[data-open-day="day-june-12"]')?.click();
   assert.match(d.getElementById("app").textContent, /CURRENT_DAY_SECRET/);
   assert.doesNotMatch(
     d.getElementById("app").innerHTML,
@@ -145,14 +145,17 @@ test("opening a day persists its place, leaves boss help separate and keeps futu
   restored.close();
   w.location.hash = "#game/demo/day-june-13";
   w.dispatchEvent(new w.Event("hashchange"));
+  assert.match(d.getElementById("app").innerHTML, /FUTURE_DAY_SECRET/);
   assert.doesNotMatch(
     d.getElementById("app").innerHTML,
-    /CURRENT_DAY_SECRET|FUTURE_DAY_SECRET|BOSS_SECRET/,
+    /CURRENT_DAY_SECRET|BOSS_SECRET/,
   );
   d.querySelector('[data-action="hide-all"]').click();
   const p = JSON.parse(w.localStorage.getItem(STORAGE_KEY)).games.demo;
-  assert.deepEqual(p.openedDays, []);
+  assert.deepEqual(p.openedDays, ["day-june-12", "day-june-13"]);
+  assert.equal(p.dayBookmark, "day-june-13");
   assert.deepEqual(p.help, []);
   assert.deepEqual(p.checked, ["june-12-step-01"]);
+  assert.match(d.getElementById("app").innerHTML, /FUTURE_DAY_SECRET/);
   w.close();
 });
