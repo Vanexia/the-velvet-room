@@ -46,8 +46,8 @@
 
 - [x] Review accessibility, copy, spoiler boundaries and final interaction polish with the applicable skills.
 - [x] Run `npm test` and `npm run build`; inspect the diff and content conversion totals.
-- [ ] Commit reviewed changes; publish using the existing GitHub Pages workflow under the user's instruction to update their hosted website.
-- [ ] Verify deployment and live bundle, close agent-created browser tabs, and report the site link with actual verification limits.
+- [x] Commit reviewed changes; publish using the existing GitHub Pages workflow under the user's instruction to update their hosted website.
+- [x] Verify deployment and live bundle, close agent-created browser tabs, and report the site link with actual verification limits.
 
 ## Review risks
 

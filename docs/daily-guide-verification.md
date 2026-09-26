@@ -34,4 +34,12 @@ Applied accessibility and Web Interface Guidelines checks for labels, native con
 
 ## Limits
 
+## Live deployment
+
+Implementation commit `a288808a3b380a6aa20c8754b403b2274ac2cddc` deployed successfully through [GitHub Actions run 36273074511](https://github.com/Vanexia/the-velvet-room/actions/runs/36273074511). Build and deployment jobs both succeeded.
+
+Chrome verification of `https://vanexia.github.io/the-velvet-room/` confirmed the new collection and game-cover link. Navigating to 13 June showed the explicit **Open 13 June** control with zero daily checkboxes rendered. No captured console errors. Live verification only navigated pages; it did not alter the user's checklists or reveal state. A spoiler-free screenshot is saved locally at `work/collection-preview.png` (not published).
+
+## Content limits
+
 This conversion preserves a researched route; it is not an independent full-game playtest or a guarantee of stat/virtue totals. The daily guide contains full future details in source files and downloadable exports. The Google Doc remains the prior backup edition, with no automatic sync. The browser verification above does not prove every game instruction's factual accuracy.
