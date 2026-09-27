@@ -238,7 +238,7 @@
       {
         "id": "june-12-step-09",
         "label": "Free collection · Recruitment Centre",
-        "text": "Enter from Sunlumeo Street and check the side hallway/room for another Gold Beetle. These three town pickups do not spend the afternoon.",
+        "text": "Go to the Regalith Grand Cathedral outdoor square in Grand Trad. Find the Recruitment Centre on the left-hand side of this area's map, near the Masked Shopkeeper. Inside, enter the hallway on your left, then turn around and check for the Gold Beetle. These three town pickups do not spend the afternoon.",
         "kind": "free"
       },
       {
@@ -407,8 +407,8 @@
     "steps": [
       {
         "id": "june-16-step-01",
-        "label": "Free errand · Grand Trad Recruitment Centre",
-        "text": "Speak to the bounty desk and accept the Manjula hunt. Accepting it is free; the actual desert visit is scheduled for 19 June.",
+        "label": "Free errand · Grand Trad, Regalith Grand Cathedral area",
+        "text": "Open the town map and select Recruitment Centre if it is already available for fast travel. Otherwise, travel to the Regalith Grand Cathedral outdoor square; the Recruitment Centre entrance is on the left-hand side of this area's map, near the Masked Shopkeeper. Go inside and speak to the Recruiter Dispatcher behind the counter. Accept Man's Not-So Best Friend (target: Maneater Manjula). Accepting the bounty does not spend the afternoon; the desert visit is scheduled for 19 June.",
         "kind": "free"
       },
       {

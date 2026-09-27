@@ -82,7 +82,7 @@ The game's calendar months have 30 days. These headings are in-game dates, not r
 - <!-- id: june-12-step-06 --> Free errand · church: Enter St. Fermis Church on the northwest side of Sunlumeo Street. Speak to the Sanctor, choose to buy, and purchase Breath of Fresh Air for 500 reeve. The quest medicine is available even if you cannot yet purify equipment.
 - <!-- id: june-12-step-07 --> Free hand-in · Sunshade Row: Return to the Mustari Man outside the inn and give him the medicine. Make sure you receive the reward and Tolerance increase.
 - <!-- id: june-12-step-08 --> Free collection · Sunshade Row: Check behind the stairs near the armour shop, then go inside Comfort Concoctions and inspect the spice sack for a second Gold Beetle. Follow the prompt to put your hand in the sack. A beetle you can see but cannot reach elsewhere in the shop is a separate, later pickup.
-- <!-- id: june-12-step-09 --> Free collection · Recruitment Centre: Enter from Sunlumeo Street and check the side hallway/room for another Gold Beetle. These three town pickups do not spend the afternoon.
+- <!-- id: june-12-step-09 --> Free collection · Recruitment Centre: Go to the Regalith Grand Cathedral outdoor square in Grand Trad. Find the Recruitment Centre on the left-hand side of this area's map, near the Masked Shopkeeper. Inside, enter the hallway on your left, then turn around and check for the Gold Beetle. These three town pickups do not spend the afternoon.
 - <!-- id: june-12-step-10 --> Afternoon · uses time: Return to Sunlumeo Street. Sit on the bench near the magic shop, marked with the Wisdom activity icon, and observe the city. This ends the afternoon. Do it only after the errands above.
 - <!-- id: june-12-step-11 --> Night · free errand: Go INSIDE the Hushed Honeybee Inn on Sunshade Row. Find Ardea, the Knowledgeable Man, and buy Secret of the Redgrass Shop for 600 reeve. Also buy Ox Demon of Belega Corridor if offered, for tomorrow's preparation.
 - <!-- id: june-12-step-12 --> Night · free shopping: Go to the food stalls in the Regalith Grand Cathedral market area. At the Herb-Seller, ask “Do you know Grius?” to unlock Redgrass. Buy enough Redgrass, Bidou Meat from the butcher, and Pristine Clearwater from the water seller for four inn meals; check what you already own before buying. The water seller is in the northwest market, the butcher in the middle, and the herb seller toward the northeast.
@@ -113,7 +113,7 @@ The game's calendar months have 30 days. These headings are in-game dates, not r
 - <!-- id: june-15-step-06 --> Night: Used by the dungeon. The schedule assumes a one-visit clear. Use the protagonist's Mage field recovery where safe, save at Magla Hollows and preserve an earlier save if resources force a second visit. Do not force an unwinnable battle solely to match the date.
 
 ### 16 June
-- <!-- id: june-16-step-01 --> Free errand · Grand Trad Recruitment Centre: Speak to the bounty desk and accept the Manjula hunt. Accepting it is free; the actual desert visit is scheduled for 19 June.
+- <!-- id: june-16-step-01 --> Free errand · Grand Trad, Regalith Grand Cathedral area: Open the town map and select Recruitment Centre if it is already available for fast travel. Otherwise, travel to the Regalith Grand Cathedral outdoor square; the Recruitment Centre entrance is on the left-hand side of this area's map, near the Masked Shopkeeper. Go inside and speak to the Recruiter Dispatcher behind the counter. Accept Man's Not-So Best Friend (target: Maneater Manjula). Accepting the bounty does not spend the afternoon; the desert visit is scheduled for 19 June.
 - <!-- id: june-16-step-02 --> Afternoon · uses time: Find Strohl through Followers and take the bond event, finishing at rank 2.
 - <!-- id: june-16-step-03 --> Night · uses time: Find Brigitta through Followers and take the bond event, finishing at rank 2.
 
@@ -801,6 +801,8 @@ Return-run difficulty selection: [Difficulty selection]
 
 Beginner directions: [Early informant] [Honeybee ingredients] [Church medicine] [Belega preparation] [Follower navigation] [July request steps] [Noble request steps] [Parchwater errand] [Igniter appraisal]
 
+Recruitment Centre directions checked 27 September 2026: [Grand Trad building location] [Bounty counter and NPC]. Corrected the 12 June district and expanded the 16 June pickup instructions. Dates and checklist IDs are unchanged.
+
 
 [Author and feedback]: https://steamcommunity.com/sharedfiles/filedetails/?id=3351847086
 [PSNProfiles]: https://psnprofiles.com/guide/20665-metaphor-refantazio-trophy-guide
@@ -822,3 +824,5 @@ Beginner directions: [Early informant] [Honeybee ingredients] [Church medicine] 
 [Noble request steps]: https://game8.co/games/Metaphor-ReFantazio/archives/478546
 [Parchwater errand]: https://game8.co/games/Metaphor-ReFantazio/archives/480781
 [Igniter appraisal]: https://nightlygamingbinge.com/the-price-of-hope-guide-metaphor-refantazio/
+[Grand Trad building location]: https://gamefaqs.gamespot.com/xbox-series-x/409958-metaphor-refantazio/faqs/81526/the-royal-funeral-and-grand-trad
+[Bounty counter and NPC]: https://nightlygamingbinge.com/metaphor-refantazio-days-06-12-through-06-21-walkthrough/
