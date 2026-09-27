@@ -160,7 +160,7 @@ The game's calendar months have 30 days. These headings are in-game dates, not r
 - <!-- id: june-25-step-03 --> These two evening conversations and More's first hand-in are part of the original schedule's early Imagination assumptions.
 
 ### 26 June
-- <!-- id: june-26-step-01 --> Follow the story and required combat. Keep Providing a Spark in your quest log for the later Komero trip.
+- <!-- id: june-26-step-01 --> Story day: Follow the story and required combat. During today's story conversations, you automatically receive a side quest from Neuras called Providing a Spark. If it is not in your quest log yet, continue the story; you do not need to find a separate quest giver. Leave this quest pending for the Komero visit scheduled later in the guide. There is no extra errand to complete for it today.
 
 ### 27 June
 - <!-- id: june-27-step-01 --> Free collection · Martira: Enter Visca Alba Tavern and inspect the fireplace for a Gold Beetle.
@@ -803,6 +803,8 @@ Beginner directions: [Early informant] [Honeybee ingredients] [Church medicine] 
 
 Recruitment Centre directions checked 27 September 2026: [Grand Trad building location] [Bounty counter and NPC]. Corrected the 12 June district and expanded the 16 June pickup instructions. Dates and checklist IDs are unchanged.
 
+26 June quest wording clarified 27 September 2026: [Providing a Spark quest]. The quest is received automatically during that day's story conversations; the entry now explains that timing. The later completion schedule is unchanged.
+
 
 [Author and feedback]: https://steamcommunity.com/sharedfiles/filedetails/?id=3351847086
 [PSNProfiles]: https://psnprofiles.com/guide/20665-metaphor-refantazio-trophy-guide
@@ -826,3 +828,4 @@ Recruitment Centre directions checked 27 September 2026: [Grand Trad building lo
 [Igniter appraisal]: https://nightlygamingbinge.com/the-price-of-hope-guide-metaphor-refantazio/
 [Grand Trad building location]: https://gamefaqs.gamespot.com/xbox-series-x/409958-metaphor-refantazio/faqs/81526/the-royal-funeral-and-grand-trad
 [Bounty counter and NPC]: https://nightlygamingbinge.com/metaphor-refantazio-days-06-12-through-06-21-walkthrough/
+[Providing a Spark quest]: https://game8.co/games/Metaphor-ReFantazio/archives/478537

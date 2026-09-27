@@ -649,9 +649,9 @@
     "steps": [
       {
         "id": "june-26-step-01",
-        "label": "To do",
-        "text": "Follow the story and required combat. Keep Providing a Spark in your quest log for the later Komero trip.",
-        "kind": "task"
+        "label": "Story day",
+        "text": "Follow the story and required combat. During today's story conversations, you automatically receive a side quest from Neuras called Providing a Spark. If it is not in your quest log yet, continue the story; you do not need to find a separate quest giver. Leave this quest pending for the Komero visit scheduled later in the guide. There is no extra errand to complete for it today.",
+        "kind": "story"
       }
     ]
   },
