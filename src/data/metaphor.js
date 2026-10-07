@@ -227,8 +227,8 @@ export const metaphor = {
           "Once you have free evenings in the town you visit after the first city.",
           "Local activity and virtue requirement",
           [
-            "In Martira, talk to the Spirited Youth beside the wooden ledge. Return across several sessions to progress through the test of courage.",
-            "The final super-fine rope challenge needs Courage rank 3 and costs 500 reeve. Complete that highest difficulty for At Your Own Risk. You can return later if you are not ready.",
+            "In Martira's Thoroughfare Square, talk to the Spirited Youth at the northwestern wooden ledge. The first cliff jump costs 250 reeve. After each successful challenge he offers a thinner rope: 375 reeve for the second, then 500 for the third. You do not select a difficulty from a menu.",
+            "Save before starting. A Foreign Coin reward confirms a successful jump; Courage also increases on failure. The second challenge requires Courage rank 2. The final super-fine rope requires rank 3 and awards At Your Own Risk on success. Each visit uses time, so return on the guide's scheduled evenings or a free evening if you need to catch up.",
           ],
           [
             item("courage-start", "Started the test of courage"),

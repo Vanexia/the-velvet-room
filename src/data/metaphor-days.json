@@ -722,7 +722,7 @@
       {
         "id": "june-29-step-04",
         "label": "Night · uses time",
-        "text": "Return to Martira → Thoroughfare Square. Speak to the Spirited Youth at the cliff-jumping activity on the northwestern side of the square. Save before paying/starting and attempt the first tier. If it fails, reload that save and try again. Later dates cover the higher tiers; do not repeat extra jumps tonight.",
+        "text": "Return to Martira → Thoroughfare Square. Speak to the Spirited Youth at the wooden ledge on the northwestern side of the square. Save, then pay 250 reeve for your first cliff jump. Receiving a Foreign Coin confirms success; gaining Courage alone does not. If you fail, reload the save before retrying. After a successful jump, he offers a thinner rope on your next visit. Stop after tonight's success; the guide schedules the other visits later.",
         "kind": "time"
       }
     ]
@@ -792,7 +792,7 @@
       {
         "id": "july-01-step-04",
         "label": "Night · uses time",
-        "text": "Return to the Spirited Youth at the cliff-jumping activity on the northwestern side of Martira's Thoroughfare Square. Save first and complete the next tier, rather than repeating the easiest one.",
+        "text": "Return to the Spirited Youth at the wooden ledge on the northwestern side of Martira's Thoroughfare Square. Save before starting. After your first successful jump, he offers a thinner rope for 375 reeve; this second challenge needs Courage rank 2. Accept it and check for a Foreign Coin reward to confirm success. The jump can look the same as before; the fee and reward identify your progress. If he still asks for 250 reeve, you have not cleared the first challenge on this save. If you fail despite meeting the Courage requirement, reload before retrying.",
         "kind": "time"
       }
     ]
@@ -1796,7 +1796,7 @@
       {
         "id": "august-05-step-05",
         "label": "Night · uses time",
-        "text": "Go to the Courage jumping activity in Martira's Thoroughfare Square. With Courage 3, save and attempt the highest tier. Confirm the trophy after success. Repeating the easiest tier three times does not satisfy this requirement.",
+        "text": "In Martira → Thoroughfare Square, return to the Spirited Youth at the wooden ledge on the northwestern side. After two successful jumps, he offers the super-fine rope for 500 reeve. This third challenge needs Courage rank 3. Save before paying, complete it, and check that At Your Own Risk unlocks. If it fails, reload before retrying. A 250- or 375-reeve offer means you still have an earlier challenge to clear; complete the offered challenge and use a later free evening for the next one. Each visit uses an evening.",
         "kind": "time"
       }
     ]
