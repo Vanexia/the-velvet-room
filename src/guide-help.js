@@ -9,7 +9,7 @@ export const guideHelp = [
   ],
   [
     "Report or hand in",
-    "Return to the person who gave you the request and claim the reward. Defeating a target or collecting an item may not finish the quest. Bounties are reported at the Recruitment Centre.",
+    "Follow the named hand-in step or the quest log's current objective; the recipient may differ from the original requester. Report bounties to a Recruiter Dispatcher. Defeating a target or collecting an item may not finish the quest; check completion after claiming the reward.",
   ],
   [
     "Checkpoints",

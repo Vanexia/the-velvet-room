@@ -40,6 +40,8 @@ Full-source links warn that PSNProfiles contains unhidden spoilers. Repository c
 
 Keep each instruction's `<!-- id: ... -->` marker when editing or moving it. New instructions need new IDs; never reuse one for an unrelated task. The compiler rejects duplicate dates or IDs, and requires all 145 dates. Tests check full instruction preservation, order, old backup migration and spoiler isolation. Mark materially more revealing new help with a new ID so it starts hidden.
 
+Verify added NPC names, locations, quest triggers and time costs against sources, and record the evidence against the affected step IDs in [route direction checks](docs/route-direction-checks.md). Distinguish the original requester, the hand-in recipient and any separate bond event. A date used by another walkthrough is not by itself proof of an unlock date. Record conflicting evidence or missing information instead of filling gaps from memory. The automated checks verify the website and content conversion; they do not establish that the gameplay directions are correct.
+
 Existing version-1 backups are accepted and gain empty daily-progress fields. The storage key and all existing reference IDs are retained. No browser data is deleted during migration.
 
 ## Local development

@@ -19,7 +19,7 @@ Afternoon / night: These are separate activity periods. Reading, cooking at the 
 
 Ordered steps: Finish the listed errands before the next “uses time” activity or departure. “Optional” means you can skip it without removing a planned platinum step. A “checkpoint” asks you to inspect the actual result before continuing.
 
-Report / hand in: Go back to the person who gave you the request and speak to them to receive the reward. For a bounty, return to the Recruitment Centre's bounty desk. Collecting an item or defeating a target is not always the final step. Check the quest log for the requester, location, deadline and current objective.
+Report / hand in: Speak to the person named in the hand-in step or the quest log's current objective; this can differ from the original requester. Bounties go to a Recruiter Dispatcher: inside Grand Trad's Recruitment Centre, or outdoors in Martira's Thoroughfare Square. Collecting an item or defeating a target is not always the final step. Check that the quest is marked complete after claiming the reward.
 
 Bond / target rank: This means a follower's rank-up event, not their character level or Archetype rank. Once available, use the Followers menu to locate the named person and travel to them. Look for the rank-up handshake icon and check any unmet requirement. Finish the event at the stated target rank; you are not being asked to gain that many ranks at once.
 
@@ -170,10 +170,10 @@ The game's calendar months have 30 days. These headings are in-game dates, not r
 - <!-- id: june-28-step-01 --> Follow the main investigation and story.
 
 ### 29 June
-- <!-- id: june-29-step-01 --> Free errands · Martira: Check the weapon/armour sale. Accept Hatching a Plan from the quest giver in Thoroughfare Square, and accept the Goborn King bounty at the Recruitment Centre. Neither request requires you to leave town today.
-- <!-- id: june-29-step-02 --> Free hand-in · Grand Trad: Use the world map's town travel to return to Grand Trad. Report Promising Returns to its requester on Sunlumeo Street if still active. Town teleportation is different from setting out on a runner journey.
-- <!-- id: june-29-step-03 --> Afternoon · uses time: Visit Maria at the Hushed Honeybee Inn, show her your drawing and take her bond event. You need Tolerance 2. Finish at Maria rank 2.
-- <!-- id: june-29-step-04 --> Night · uses time: Return to Martira and visit the Courage jumping activity in Thoroughfare Square. Save before paying/starting and attempt the first tier. If it fails, reload that save and try again. Later dates cover the higher tiers; do not repeat extra jumps tonight.
+- <!-- id: june-29-step-01 --> Free errands · Martira: Check the weapon/armour sale. In Thoroughfare Square, speak to the Gloomy Youth in the middle of the square and accept Hatching a Plan. Then speak to the Recruiter Dispatcher outside in the same square and accept The New King of the Imps, the Goborn King bounty. Accepting these requests does not use time; today's remaining activities are in town.
+- <!-- id: june-29-step-02 --> Free hand-in · Grand Trad: Open the map and switch to town-to-town travel, then teleport to Grand Trad. Go to Sunshade Row → Hushed Honeybee Inn and speak to Fabienne behind the counter. This hands over the drawing from your journey and completes Promising Returns. If your quest log already marks it complete, skip this hand-in. Teleporting between towns and this hand-in do not use the afternoon.
+- <!-- id: june-29-step-03 --> Afternoon · uses time: Stay at the Hushed Honeybee Inn. After the hand-in, speak to Fabienne about Maria and choose “I want to make Maria smile.” You need Tolerance rank 2 (Open-Minded). Accept the time-consuming outing and finish at Maria bond rank 2. Completing Promising Returns alone does not complete this bond event.
+- <!-- id: june-29-step-04 --> Night · uses time: Return to Martira → Thoroughfare Square. Speak to the Spirited Youth at the cliff-jumping activity on the northwestern side of the square. Save before paying/starting and attempt the first tier. If it fails, reload that save and try again. Later dates cover the higher tiers; do not repeat extra jumps tonight.
 
 ### 30 June
 - <!-- id: june-30-step-01 --> Before travel: Restock during the Idlesday sale and use the toilet if accessible.
@@ -184,10 +184,10 @@ The game's calendar months have 30 days. These headings are in-game dates, not r
 
 ## July
 ### 01 July
-- <!-- id: july-01-step-01 --> Free hand-in · Recruitment Centre: Claim the Goborn King bounty reward.
-- <!-- id: july-01-step-02 --> Free requests · Grand Trad: At the Mausoleum/Catacombs entrance, speak to the quest giver and accept Skullduggery without committing to entering the dungeon. Then accept A Haunted Heirloom from the quest giver on Sunlumeo Street. Both dungeon objectives are scheduled together for 11 July.
-- <!-- id: july-01-step-03 --> Afternoon · uses time: Meet Maria at the Hushed Honeybee Inn and take her next bond event, finishing at rank 3.
-- <!-- id: july-01-step-04 --> Night · uses time: Return to the jumping activity in Martira's Thoroughfare Square. Save first and complete the next tier, rather than repeating the easiest one.
+- <!-- id: july-01-step-01 --> Free hand-in · Martira: Go to Thoroughfare Square and speak to the Recruiter Dispatcher outdoors. Report The New King of the Imps to claim the Goborn King bounty reward.
+- <!-- id: july-01-step-02 --> Free requests · Grand Trad: After reporting the bounty, teleport to Grand Trad. On Sunlumeo Street, speak to the Resentful Noble just south of Lycaon Magic Association, the igniter shop, and accept A Haunted Heirloom. Then go through the Regalith Grand Cathedral area to Catacombs Entrance. Speak to the Nervous Soldier outside the Mausoleum and accept Skullduggery. Stop at the entrance; today's afternoon is reserved for Maria. Both dungeon objectives are scheduled together for 11 July.
+- <!-- id: july-01-step-03 --> Afternoon · uses time: Go to Grand Trad → Sunshade Row and find Maria near the Hushed Honeybee Inn using the Followers menu. This rank 3 event needs rank 2 completed at least two in-game days earlier; the schedule assumes you did that on 29 June. Check for her rank-up handshake, then take the event. If it is unavailable, leave this step unchecked and check the earlier bond before choosing an activity that spends time.
+- <!-- id: july-01-step-04 --> Night · uses time: Return to the Spirited Youth at the cliff-jumping activity on the northwestern side of Martira's Thoroughfare Square. Save first and complete the next tier, rather than repeating the easiest one.
 
 ### 02 July
 - <!-- id: july-02-step-01 --> Afternoon: Depart for the Giant Sandworm's Nest. Read New World Travel Diary, first session. Follow the required travel encounter; check Catherina reaches rank 2. Receive the drawing en route.
@@ -201,7 +201,7 @@ The game's calendar months have 30 days. These headings are in-game dates, not r
 - <!-- id: july-04-step-01 --> Story day: Follow the main objective. No separate free-time activity is scheduled; continue until the game advances the date.
 
 ### 05 July
-- <!-- id: july-05-step-01 --> Free errands · Martira: Accept the Alpha Rockworm Valmo bounty at the Recruitment Centre. Inspect the runner kitchen for new recipes and use the pantry/toilet when available.
+- <!-- id: july-05-step-01 --> Free errands · Martira: Speak to the Recruiter Dispatcher outdoors in Thoroughfare Square and accept The Man-Eater in the Mine, the Alpha Rockworm bounty. Inspect the runner kitchen for new recipes and use the pantry/toilet when available.
 - <!-- id: july-05-step-02 --> Afternoon · uses time: Return to Maria at the Hushed Honeybee Inn and complete her rank 4 bond event. Check the reward includes Speed Cooking. From tomorrow, cooking can be done before the main travelling activity without consuming that period. Until this unlock, do not combine cooking with reading as if both were free.
 - <!-- id: july-05-step-03 --> Night: Give the Stairstone Market speech; choose the answer promoting local delicacies. Check Eloquence 2 for the upcoming Heismay bond. The two June Eloquence activities matter here.
 - <!-- id: july-05-step-04 --> Change: A Dagger, a Ring, and a Rake is deliberately picked up on 07 July, after another reading session, so this plan does not depend on reaching Imagination 2 on 02 July.
@@ -210,14 +210,14 @@ The game's calendar months have 30 days. These headings are in-game dates, not r
 - <!-- id: july-06-step-01 --> Before departure: Confirm Hatching a Plan, Providing a Spark and the Alpha Rockworm Valmo bounty are active. Check Maria rank 4 and Speed Cooking.
 - <!-- id: july-06-step-02 --> Afternoon · route: Use the runner map to set a journey through Komero to Man-Eater's Grotto. Include Komero as the village stop; going straight to the dungeon would miss today's errands.
 - <!-- id: july-06-step-03 --> While travelling: At the kitchen, cook Redgrass-Roasted Bidou first. Then use the bookshelf to finish New World Travel Diary, choosing “Sounds pretty.” The reading spends the travel period; Speed Cooking is what allows the meal beforehand.
-- <!-- id: july-06-step-04 --> At Komero: Complete Providing a Spark to unlock Neuras' bond. In the village shop, buy the Practical Pigeon Parcel for Hatching a Plan and at least one Orgo Sugar for later cooking. Confirm the purchases before continuing.
+- <!-- id: july-06-step-04 --> At Komero: Watch the automatic event on arrival; it completes Providing a Spark and unlocks Neuras' bond and Gunner. You do not need to find a separate quest NPC in the village. In the shop's Key Items category, buy the Practical Pigeon Parcel for Hatching a Plan. Also buy at least one Orgo Sugar for later cooking. Check both purchases before continuing to the dungeon.
 - <!-- id: july-06-step-05 --> At the dungeon entrance · free: Enter Akademeia, study Gunner on an eligible party member and speak to More to turn in Chapter One, reaching More rank 3. Accept Chapter Two and study Merchant on a party member; it must reach rank 15 for the next task.
 - <!-- id: july-06-step-06 --> Dungeon: Defeat Alpha Rockworm Valmo, find the Screwed-Up Material relic and collect the Gold Beetle before leaving. Keep the relic for Neuras. If you have unlocked Steal, use it successfully in a squad battle once.
 - <!-- id: july-06-step-07 --> Return: Head back to town after completing the objectives. There is no extra free night activity.
 - <!-- id: july-06-step-08 --> If Speed Cooking is missing: Finish the scheduled book today and postpone the dish until a later travelling slot after Maria rank 4. Do not replace today's reading with time-consuming cooking.
 
 ### 07 July
-- <!-- id: july-07-step-01 --> Free hand-ins · Martira: Give the Practical Pigeon Parcel to the Hatching a Plan requester in Thoroughfare Square. Claim the Alpha Rockworm reward at the Recruitment Centre. With Imagination 2, accept A Dagger, a Ring, and a Rake from the Pompous Man in Thoroughfare Square. Check that the Abandoned Tomb is on your map before the 13 July trip.
+- <!-- id: july-07-step-01 --> Free hand-ins · Martira: In Thoroughfare Square, return the Practical Pigeon Parcel to the Gloomy Youth in the middle of the square to complete Hatching a Plan. Speak to the Recruiter Dispatcher outdoors in the same square to claim the Alpha Rockworm bounty reward. With Imagination 2, accept A Dagger, a Ring, and a Rake from the Pompous Man here. Check that the Abandoned Tomb is on your map before the 13 July trip.
 - <!-- id: july-07-step-02 --> Afternoon · uses time: Find Maria through Followers and take the bond event, finishing at rank 5.
 - <!-- id: july-07-step-03 --> Night · uses time: Find Neuras on the runner and give him the Screwed-Up Material. Complete the relic/bond event, reaching rank 2, and accept the next search. Relic discovery and this report are separate steps.
 - <!-- id: july-07-step-04 --> If Imagination is still below 2, report any unclaimed More tasks first. A missing book completion or More hand-in needs correcting before the Tomb trip; do not travel there without the request.
@@ -228,7 +228,7 @@ The game's calendar months have 30 days. These headings are in-game dates, not r
 - <!-- id: july-08-step-03 --> Night: Used by the dungeon.
 
 ### 09 July
-- <!-- id: july-09-step-01 --> Free request · Martira: Speak to the cuisine requester in Visca Alba Tavern and accept The Queen of Cuisine: Heart. You will cook the requested Benevolent Bread on the next long trip; do not use or sell that serving before handing it in.
+- <!-- id: july-09-step-01 --> Free request · Martira: Go to Thoroughfare Square → Visca Alba Tavern. Speak to the Classy Woman inside, near the door to the guest room, and accept The Queen of Cuisine: Heart. You will cook the requested Benevolent Bread on the next long trip; keep one serving to return to her.
 - <!-- id: july-09-step-02 --> Afternoon · uses time: Speak to Bardon in Martira's Thoroughfare Square to begin his follower bond, rank 1. Study Commander if useful. Check your total of different studied Archetypes; after 15 distinct types across the party, report More's next task for rank 5. A follower unlock without studying the type does not count as a study.
 - <!-- id: july-09-step-03 --> Night · uses time: Go to the speech podium in Martira's Stairstone Market. Check that Roger is the opponent and take the debate. Choose “Taxes benefit us all.” Record a win, not merely a speech. Save before the event if you want the option to retry.
 
@@ -239,11 +239,11 @@ The game's calendar months have 30 days. These headings are in-game dates, not r
 ### 11 July
 - <!-- id: july-11-step-01 --> Before departure: Check both Skullduggery and A Haunted Heirloom are in your quest log.
 - <!-- id: july-11-step-02 --> Afternoon · dungeon outing: Re-enter the Grand Trad Mausoleum/Catacombs and explore the sections relevant to those requests. Gather eight Mortaskulls and retrieve the Black Jewel Necklace.
-- <!-- id: july-11-step-03 --> Before leaving: Check the quest objectives show the required items. Leaving after only one objective would cost another dungeon visit.
+- <!-- id: july-11-step-03 --> Before ending the outing: Check you have both the eight Mortaskulls and the Black Jewel Necklace. Return to Catacombs Entrance and give the Mortaskulls to the Nervous Soldier to complete Skullduggery, then return to town. Keep the necklace for tomorrow's hand-in.
 - <!-- id: july-11-step-04 --> Night: Used by the dungeon.
 
 ### 12 July
-- <!-- id: july-12-step-01 --> Free hand-ins · Grand Trad: Return the eight Mortaskulls to the Skullduggery requester at the Catacombs entrance, then return the Black Jewel Necklace to the A Haunted Heirloom requester on Sunlumeo Street.
+- <!-- id: july-12-step-01 --> Free hand-in · Grand Trad: On Sunlumeo Street, give the Black Jewel Necklace to the Resentful Noble just south of the igniter shop to complete A Haunted Heirloom. Skullduggery should be complete from yesterday; if it is still active, return to the Nervous Soldier at Catacombs Entrance and hand in the eight Mortaskulls before today's bond event.
 - <!-- id: july-12-step-02 --> Afternoon · uses time: Find Heismay through Followers and take the bond event, finishing at rank 3.
 - <!-- id: july-12-step-03 --> Night: Debate Lina at Stairstone Market. Choose “What are your policies?” Record the win.
 
@@ -260,7 +260,7 @@ The game's calendar months have 30 days. These headings are in-game dates, not r
 - <!-- id: july-14-step-04 --> Night: Used by the dungeon.
 
 ### 15 July
-- <!-- id: july-15-step-01 --> Free hand-in · Visca Alba Tavern, Martira: Give Benevolent Bread to the requester for The Queen of Cuisine: Heart.
+- <!-- id: july-15-step-01 --> Free hand-in · Martira: Go to Thoroughfare Square → Visca Alba Tavern. Give one Benevolent Bread to the Classy Woman inside, near the door to the guest room, to complete The Queen of Cuisine: Heart.
 - <!-- id: july-15-step-02 --> Afternoon · uses time: Return Malveno's Ring to the Pompous Man in Martira's Thoroughfare Square for A Dagger, a Ring, and a Rake. Complete the associated introductory event and confirm Alonzo rank 1.
 - <!-- id: july-15-step-03 --> Night · uses time: Find Heismay through Followers and take the bond event, finishing at rank 4.
 
