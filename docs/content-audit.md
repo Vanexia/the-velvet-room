@@ -2,11 +2,11 @@
 
 **Contains trophy, character, location and late-game mechanic spoilers.** This document is for content maintenance, not a first-playthrough reading order.
 
-Verified 25 September 2026 against the [PSNProfiles trophy guide](https://psnprofiles.com/guide/20665-metaphor-refantazio-trophy-guide), by MakoSOLIDER, RaveNScythE18, The_Kopite and zekunlu, updated 4 November 2025. The roadmap and trophy sections were read in Chrome. No other trophy guide supplied this companion's advice.
+Source-reviewed again on 7 October 2026 against the [PSNProfiles trophy guide](https://psnprofiles.com/guide/20665-metaphor-refantazio-trophy-guide), by MakoSOLIDER, RaveNScythE18, The_Kopite and zekunlu, updated 4 November 2025. The roadmap and trophy sections were read in Chrome. No other trophy guide supplied this companion's advice.
 
 ## Scope
 
-The companion provides precautions, planning reminders and checklists across the entire platinum journey. It does not reproduce every quest step, item location, build or daily route. It cannot detect actual game progress or guarantee completion from reminders alone. Each detailed card links to the relevant source; following that link exposes the full guide's spoilers.
+The companion now includes a 145-date daily route as well as precautions and reference cards. The complete 7 October audit is recorded in [full-guide-validation.md](full-guide-validation.md), including coverage, corrections and remaining limits. It cannot detect actual game progress or guarantee completion from reminders alone. Reference links open the full source and may expose spoilers.
 
 ## Trophy coverage
 
@@ -48,8 +48,8 @@ Numbers correspond to the source guide's section anchors. A trophy can have more
 | 35 · Help Anyone in Need           | Regional request reminders, `september-encounters`, `late-bonds`, `late-trials` |
 | 36 · Blessed Power                 | `town-habits`                                                                   |
 | 37 · Shrewd Shopper                | `town-habits`                                                                   |
-| 38 · Globetrotter                  | `late-bonds`, regional routes, `september-encounters`                           |
-| 39 · Worldly Wisdom                | `late-bonds`, five shop towns                                                   |
+| 38 · Globetrotter                  | `late-bonds`, five shop towns                                                   |
+| 39 · Worldly Wisdom                | `late-bonds`, regional routes, `september-encounters`                           |
 | 40 · Vista Viewer                  | `scenic-route-one`, `island-requests`, `scenic-route-two`, `late-reading`       |
 | 41 · Debate Me!                    | `debates-first`, `debates-second`, `debate-last`                                |
 | 42 · Coliseum Champion             | `port-errands`, `late-training`, Gold endurance distinct from quest matches     |
@@ -61,7 +61,7 @@ Numbers correspond to the source guide's section anchors. A trophy can have more
 
 ## Timing and spoiler review
 
-The first card warns about the opening fort before leaving it. July debate and inn-activity reminders appear as soon as the relevant free-time window begins. The July 23 stage puts the book pickup, Catherina's rank requirement and local debates before its departure check. Optional scenic trips are prompted during their original travel windows. The September debate is prompted on September 13. Final-area instructions precede defeating any optional boss. The NG+ difficulty warning appears in the safe advice as well as the NG+ stage.
+The first card locates the beetle at the outdoor camp after the fort sequence. July debate and inn-activity reminders appear as soon as the relevant free-time window begins. The July 23 stage puts the book pickup, Catherina's rank requirement and local debates before its departure check. Optional scenic trips are prompted during their original travel windows. The September debate is prompted on September 13. Final-area instructions precede defeating any optional boss. The NG+ difficulty warning appears in the safe advice as well as the NG+ stage.
 
 Each card has its own reveal cue. Arrival dates also require regaining free exploration. Crafting details wait for both relevant menu options; trial mechanics have a separate voluntary reveal after the trial quests exist. No hidden card is expanded by stage navigation, bookmarks or checking another item.
 
@@ -73,8 +73,8 @@ Visible headings and cues avoid future location names, recruit names and boss id
 - **Debate count:** the guide says seven but its detailed candidate list has eight names. The companion provides checks for all eight listed opponents, grouped by city.
 - **Money-skill arithmetic:** ten attacks costing 9,999 spend 99,990, below the stated 100,000 requirement. The reminder calls for an additional money skill when starting from zero.
 - **Departure windows:** roadmap travel ranges and quest deadlines differ by a day in places. The companion prompts completion during the stay, before departure, and treats the player's quest log as the deadline reference. It does not promise that the final calendar day is free.
-- **Trial labels:** some quest subtitle/location associations differ between source tables. The companion uses quest-giver settlements and tower locations without repeating the inconsistent subtitles.
-- **Book naming:** the guide calls the optional pickup The Magical Future. The pickup card explicitly attributes that name to the guide and also identifies its giver and location.
+- **Trial labels:** some quest subtitle/location associations differ between source tables. The companion uses independently corroborated requesters, titles and destinations; the detailed trial section resolves conflicts in the quest table.
+- **Book naming:** the guide calls the optional pickup The Magical Future. The daily guide and reference card use that title consistently and identify its giver and location.
 - **Inn cooking:** use the dedicated Chef in Training instructions: Maria rank 2 or higher, nighttime inn activity during July–September. The Redgrass-Roasted Bidou request is distinct. A July reminder and August follow-up avoid dependence on a final September evening.
 - **Carryover:** unspent beetles, recipe completion and experiment completion are distinguished from one-playthrough requirements such as all quests and all books. Website checks do not automatically reset with NG+.
 

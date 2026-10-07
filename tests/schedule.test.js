@@ -35,7 +35,7 @@ test("the complete route covers June 2 to October 26 without dropped instruction
   assert.equal(days[0].label, "02 June");
   assert.equal(days.at(-1).label, "26 October");
   const june12 = days.find((d) => d.id === "day-june-12");
-  assert.equal(june12.steps.length, 15);
+  assert.equal(june12.steps.length, 16);
   assert.ok(
     june12.steps.some(
       (s) => s.text.includes("Ardea") && s.text.includes("OUTSIDE"),

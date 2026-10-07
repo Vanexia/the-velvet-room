@@ -37,7 +37,7 @@ export const metaphor = {
   guideUrl: guide,
   sourceCredit:
     "PSNProfiles trophy guide by MakoSOLIDER, RaveNScythE18, The_Kopite and zekunlu",
-  verifiedOn: "25 September 2026",
+  verifiedOn: "7 October 2026",
   tips: [
     {
       id: "tip-saves",
@@ -47,7 +47,7 @@ export const metaphor = {
     {
       id: "tip-beetles",
       title: "Hold on to your Gold Beetles",
-      body: "Wait until you have 46 before exchanging them. Unspent beetles carry into New Game Plus, and their locations refill, so missing a few need not derail the platinum.",
+      body: "Keep unspent beetles until you can finish the 46-beetle reward chain in one run. If you already traded some, include those in this run's total. Unspent beetles carry into New Game Plus and their locations refill.",
     },
     {
       id: "tip-priorities",
@@ -82,16 +82,16 @@ export const metaphor = {
           "opening-collectible",
           "An early collectible",
           "Explore before leaving a one-time location. Missing this one is recoverable across playthroughs.",
-          "When you are exploring the opening fort, before leaving it.",
+          "At the outdoor camp after the opening fort, before continuing the journey.",
           "Opening location name",
           [
-            "There is a Gold Beetle in the Northern Border Fort. Search the area before leaving; you cannot freely return later in the same run.",
+            "After the Northern Border Fort sequence, search the outdoor camp near the tree behind Strohl for a Gold Beetle. Collect it before continuing; this camp is a one-time visit.",
             "This is one beetle toward the exchange requirement. If you have already left, keep collecting and hold your beetles for New Game Plus rather than restarting solely for this.",
           ],
           [
             item(
               "opening-beetle",
-              "Checked the opening fort, or noted this for New Game Plus",
+              "Checked the opening camp, or noted this for New Game Plus",
             ),
           ],
           "29-all-that-glitters",
@@ -213,7 +213,7 @@ export const metaphor = {
           "From 6 July, once you can return to the first city’s inn.",
           "Early characters and an optional activity",
           [
-            "Once Maria is at follower rank 2 or higher, speak to Fabienne at night at the Hushed Honeybee Inn in Grand Trad and choose to cook with Maria. Do this while it is still July, August or September.",
+            "From 6 July, with Maria at follower rank 2 or higher, speak to Fabienne at night at the Hushed Honeybee Inn in Grand Trad's Sunshade Row. Choose her help option, “Let's do it, then”, while Maria is present. Complete this activity before October.",
             "Cooking Redgrass-Roasted Bidou does not count for this particular trophy. Check that Chef in Training has unlocked after the shared cooking activity. Do it early instead of relying on the end of September.",
           ],
           [item("inn-cooking", "Earned Chef in Training")],
@@ -273,7 +273,7 @@ export const metaphor = {
           "From 23 July, after arriving and regaining free exploration in the new city.",
           "Current city and an NPC name",
           [
-            "In Port Brilehaven, speak to Julian, the winged Ishkia near the fountain in Angler’s Inn Square, and accept the book. The PSNProfiles guide calls it The Magical Future.",
+            "In Port Brilehaven, speak to Julian, the winged Ishkia near the fountain in Angler’s Inn Square, and accept The Magical Future. Check that it appears on the runner's bookshelf.",
             "Get it during this first Brilehaven stay, before the August departure. The other books arrive naturally; this one does not. You still need to finish reading it for Bookworm.",
           ],
           [item("book-collected", "Collected the book from Julian")],
@@ -436,7 +436,7 @@ export const metaphor = {
       label: "September checks",
       when: "From 13 September",
       intro:
-        "Check the podium as soon as free exploration resumes. Finish the scenic detours during this stay rather than leaving them for much later.",
+        "Check the podium as soon as free exploration resumes. Follow the dated travel plan and check each drawing when its journey occurs.",
       cards: [
         card(
           "debate-last",
@@ -445,8 +445,8 @@ export const metaphor = {
           "On 13 September, after the day’s story scenes and when you can explore the current city.",
           "Current city, a candidate and an answer hint",
           [
-            "Check the podium on Blue Sky Bridge in Altabury for Julian. Choose the response that values the present day as well as the future. Save before the debate and tick the box only after winning.",
-            "The guide’s screenshot shows Julian at this podium on 13 September. Its roadmap names a different candidate and a later date; this reminder follows the detailed debate entry and screenshot so you check early.",
+            "On 13 September, the daily route uses the evening slot after returning from Malva. Find Julian at the podium on Upper Blue Sky Bridge in Altabury and choose ‘The present day matters too.’ Keep a save until you have won.",
+            "PSNProfiles' detailed entry identifies Julian on this date; its roadmap has a conflicting name and date. Independent daily routes also show his evening appearance, so an afternoon screenshot does not require moving the trip.",
           ],
           [item("debate-julian", "Won against Julian")],
           "41-debate-me",
@@ -460,7 +460,7 @@ export const metaphor = {
           "Current-region routes and drawings",
           [
             "Travel from Altabury toward Everfrost Forest to obtain Solstice Crossing, and toward the Tower of Insolence for Decaying Estate. Accept the corresponding bounties and requests before setting off.",
-            "Make these trips before leaving this story stage. Also confirm your earlier Peregrine Falls and Prismatic Sea drawings. Keep a save before the next major departure.",
+            "The daily route visits Everfrost Forest on 18 September and the Tower of Insolence on 04 October. No separate September deadline for these two drawings was established by the source check. The October first-visit event has not been play-tested; keep the pre-trip save until its drawing is confirmed. Also check the earlier Peregrine Falls, Prismatic Sea and Sporico Cave drawings.",
           ],
           [
             item("vista-crossing", "Collected Solstice Crossing"),
@@ -477,11 +477,11 @@ export const metaphor = {
           "september-encounters",
           "Talk before you travel",
           "Two conversations reveal optional encounters, and one leads to another quest.",
-          "Once you are free to explore the September city. Recheck outside the inn after the 20 September story scenes if the NPCs are not yet present.",
+          "From 13 September, once you are free to explore the new city.",
           "Current NPCs, routes and a quest",
           [
-            "On Lower Dia Franco Street in Altabury, speak to Loveless and Rudolf near the Skyward Tavern to mark their Gauntlet Runners on the map. Visit and defeat both for map completion.",
-            "After defeating Loveless on the road toward Malva, return and speak to him outside the inn again. That follow-up starts Defeat Milo, which counts toward all quests.",
+            "On Dia Franco Street in Altabury, speak to Loveless and Rudolf outside Skyward Tavern to mark their Gauntlet Runners on the map. Visit and defeat both for map completion.",
+            "After defeating Loveless on the road toward Malva, speak to him outside the inn again to accept Defeat Milo. Then speak to Milo near the Mountain Recruitment Centre in Lunlumo Approach to reveal his runner. Defeat Milo and return to Loveless for the hand-in.",
             "This reminder is about revisiting the NPC after the encounter; simply beating him is not the end of the chain.",
           ],
           [
@@ -498,7 +498,7 @@ export const metaphor = {
           "Before this stay’s next major departure, and again once free time resumes afterwards.",
           "Planning only",
           [
-            "Keep a separate manual save before the departure. Confirm the podium win and nearby scenic drawings rather than relying on a later return.",
+            "Keep a separate manual save before the departure. Confirm the podium win and the drawings on the journeys already completed; the Tower of Insolence trip remains scheduled for October.",
             "Check Chef in Training now if it has not unlocked. The guide limits it to July through September; finish it before October.",
             "When you reach 26 September and regain control, create a separate save that you do not overwrite. It is useful for alternate cleanup plans.",
           ],
@@ -564,8 +564,8 @@ export const metaphor = {
           [
             "Make each recipe at least once. The final recipe, Sublime Spoonful, appears after you have made the other 20. The in-game recipe checkmarks also carry into New Game Plus.",
             "Sublime Spoonful needs one Lord of the Lake, three Queen’s Honey Jars and three Gauntlet Shrooms. The shrooms come from the pantry, so keep checking it.",
-            "For the fishing ingredients, use Tail Bait while travelling toward Orbwise Path or Silento. Depending on the fishing prompt, choose the option about thinking like a fish, giving in to a nap, or thrashing and splashing. Queen’s Honey Jars can also be bought from the water seller on Virga Island.",
-            "For other missing ingredients, check the town merchants and the recipe requirements. Carryover makes New Game Plus an option if the pantry has not supplied enough.",
+            "For late fishing recovery, use the sea journey from Virga Island toward Land of Ceremony with Tail Bait. Keep a departure save until the catch is confirmed. Nausea prompt: ‘Think like a fish’; tiredness: ‘Give in to naptime’; no bites: ‘Thrash and splash’. Queen's Honey Jars can also be bought at Amblyrhy's Water Jug on Virga Island.",
+            "For missing Lumibees or Dreameater Moths after 25 September, visit Comfort Concoctions on Grand Trad's Sunshade Row. Krozelli Hunter in Virga Island's Dragon Statue Plaza sells monster ingredients. Check the daily shopping lists for the remaining quantities. Carryover makes New Game Plus an option if the pantry has not supplied enough.",
           ],
           [
             item("cooking-twenty", "Cooked the first 20 recipes"),
@@ -642,7 +642,7 @@ export const metaphor = {
           "Crafting shops and collectible exchange location",
           [
             "Review the unchecked masks and vessels in Special Experiments. Buy missing weekday mask materials in Brilehaven and available talismans from Krozelli on Virga Island before leaving. You can finish crafting on this run or continue its recorded progress in New Game Plus.",
-            "If you have 46 Gold Beetles, make the full set of exchanges with the Elderly Entomophile at Arenafront Wharf in Brilehaven. If you have fewer, keep them unspent for the next run.",
+            "Visit the Elderly Entomophile at Arenafront Wharf in Brilehaven once beetles held plus those exchanged this run reach 46. Finish every reward, counting earlier trades. If short, keep the remaining beetles for further pickups or New Game Plus. The daily guide includes a 20 October retry after its later pickups.",
             "Keep a manual save before the last departure and read the next section before clearing optional encounters in the final destination.",
           ],
           [
