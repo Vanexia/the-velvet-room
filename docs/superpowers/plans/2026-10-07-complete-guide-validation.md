@@ -32,7 +32,7 @@ Each dated step receives a record: `id`, `verdict` (`supported`, `correction`, `
 - [x] Run a mechanical coverage check: no missing/duplicate ledger rows, every changed factual claim recorded, every required item/action has acquisition and use where relevant.
 - [x] Review revised instructions for beginner directions and spoiler timing.
 - [x] Run the existing test suite and production build, compare IDs/order to the baseline, and render affected date pages without leaking other dates.
-- [ ] Publish only after reconciliation and review. Verify the deployed bundle and relevant rendered instructions, and report actual scope and remaining limits.
+- [x] Publish only after reconciliation and review. Verify the deployed bundle and relevant rendered instructions, and report actual scope and remaining limits.
 
 ## Completion standard
 
@@ -41,3 +41,5 @@ All source instructions and reference material have an explicit audit dispositio
 ## Verification before publication
 
 All 422 baseline instructions have dispositions; 433 current instructions preserve every old ID. The 30 tests passed, the production build passed, and a real-content DOM check passed. Chrome rendered June 29 with four instructions and the correct hand-in. The user's original Chrome tab was restored. Final bundle: 5a9da9ecd2fb. Source limitations are recorded in docs/full-guide-validation.md.
+
+Published content commit 587fa424f7525805e798b4bdf72bedac6929e0e0. Pages run 37646086014 passed. Live readback on 7 October 2026 matched bundle 5a9da9ecd2fb byte-for-byte and the full downloadable source after newline normalization: 145 dates, 433 steps. Positive and negative correction checks passed. The local preview server was stopped and the user's original Chrome tab restored.
