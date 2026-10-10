@@ -25,6 +25,7 @@ const daily = {
           text: "CURRENT_DAY_SECRET",
           label: "Free errand",
           kind: "free",
+          items: ["1 milk & 1 spice", "<img src=x onerror=alert(1)>"],
         },
       ],
     },
@@ -39,6 +40,7 @@ const daily = {
           text: "FUTURE_DAY_SECRET",
           label: "Afternoon",
           kind: "time",
+          items: ["FUTURE_INGREDIENT_SECRET"],
         },
       ],
     },
@@ -63,6 +65,26 @@ function setup(hash = "#game/demo/day-june-12", saved) {
   mountApp(w, [daily]);
   return w;
 }
+
+test("daily ingredient lists render as escaped text without exposing another date", () => {
+  const w = setup();
+  try {
+    const d = w.document;
+    assert.deepEqual(
+      [...d.querySelectorAll(".step-details li")].map((li) => li.textContent),
+      ["1 milk & 1 spice", "<img src=x onerror=alert(1)>"],
+    );
+    assert.equal(d.querySelector(".step-details img"), null);
+    assert.doesNotMatch(d.getElementById("app").innerHTML, /FUTURE_INGREDIENT_SECRET/);
+    assert.equal(d.querySelectorAll("[data-check]").length, 1);
+    const check = d.querySelector("[data-check]");
+    check.checked = true;
+    check.dispatchEvent(new w.Event("change", { bubbles: true }));
+    assert.deepEqual(JSON.parse(w.localStorage.getItem(STORAGE_KEY)).games.demo.checked, ["june-12-step-01"]);
+  } finally {
+    w.close();
+  }
+});
 test("reference navigation focuses the reference heading and keeps daily content absent", () => {
   const w = setup();
   w.location.hash = "#game/demo/reference";

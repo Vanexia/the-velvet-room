@@ -29,7 +29,10 @@ function instructions(day, p) {
   return `<ol class="daily-steps">${day.steps
     .map((s, i) => {
       const done = p.checked.includes(s.id);
-      return `<li class="daily-step kind-${e(s.kind)} ${done ? "is-checked" : ""}"><div class="step-side"><span class="step-number" aria-hidden="true">${String(i + 1).padStart(2, "0")}</span><input id="${e(s.id)}" type="checkbox" data-check="${e(s.id)}" aria-label="Complete step ${i + 1}: ${e(s.label)}" ${done ? "checked" : ""}></div><div class="step-copy"><label class="step-label" for="${e(s.id)}">${e(s.label)}</label><p>${e(s.text)}</p></div></li>`;
+      const details = s.items?.length
+        ? `<ul class="step-details">${s.items.map((item) => `<li>${e(item)}</li>`).join("")}</ul>`
+        : "";
+      return `<li class="daily-step kind-${e(s.kind)} ${done ? "is-checked" : ""}"><div class="step-side"><span class="step-number" aria-hidden="true">${String(i + 1).padStart(2, "0")}</span><input id="${e(s.id)}" type="checkbox" data-check="${e(s.id)}" aria-label="Complete step ${i + 1}: ${e(s.label)}" ${done ? "checked" : ""}></div><div class="step-copy"><label class="step-label" for="${e(s.id)}">${e(s.label)}</label><p>${e(s.text)}</p>${details}</div></li>`;
     })
     .join("")}</ol>`;
 }

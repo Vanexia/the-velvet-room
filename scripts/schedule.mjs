@@ -49,6 +49,9 @@ export function parseSchedule(markdown) {
         text,
         kind,
       });
+    } else if (current?.steps.length && line.startsWith("  - ")) {
+      const step = current.steps.at(-1);
+      (step.items ??= []).push(line.slice(4));
     }
   }
   if (

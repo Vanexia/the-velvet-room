@@ -2,6 +2,15 @@ import { test } from "node:test";
 import assert from "node:assert/strict";
 import { readFileSync } from "node:fs";
 import { parseSchedule } from "../scripts/schedule.mjs";
+test("ingredient details stay with their step without becoming extra checkboxes", () => {
+  const days = parseSchedule(
+    "### 13 July\n- <!-- id: bread --> Cook: Make bread.\n  - Use 1 milk.\n  - Keep 1 serving.\n- <!-- id: bond --> Afternoon: Talk to Strohl.\n### 14 July\n- <!-- id: noodles --> Cook: Make noodles.\n  - Use 1 Lumibee.\n## Appendix\n  - Not an instruction.",
+  );
+  assert.equal(days[0].steps.length, 2);
+  assert.deepEqual(days[0].steps[0].items, ["Use 1 milk.", "Keep 1 serving."]);
+  assert.equal(days[0].steps[1].items, undefined);
+  assert.deepEqual(days[1].steps[0].items, ["Use 1 Lumibee."]);
+});
 test("calendar compiler preserves action order, time warnings and whole text", () => {
   const days = parseSchedule(
     "## June\n### 12 June\n- Free errand · Sunshade Row: Talk to the informant. Buy the report.\n- Afternoon · uses time: Sit on the bench.\n### 13 June\n- Checkpoint: Check Wisdom 2.\n## Appendix\n- Not a daily step",

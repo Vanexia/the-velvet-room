@@ -250,19 +250,37 @@ The game's calendar months have 30 days. These headings are in-game dates, not r
 - <!-- id: july-12-step-03 --> Night: Debate Lina at Stairstone Market. Choose “What are your policies?” Record the win.
 
 ### 13 July
-- <!-- id: july-13-step-01 --> Free shopping · Martira: On Cattleracket Road, collect the Kind Old Woman's vegetables and use the Greengrocer Girl for Rockbeans and Fragrant Spice. Go to Fresh-Picked Meats, the butcher in Stairstone Market, for Mora Coney Meat and Bidou Meat, and the water trader in Thoroughfare Square for Mellow Milk and Pristine Clearwater. Buy only enough to reach these stocks: four Mora Coney Meat, five Rockbeans, five Fragrant Spice, three Mellow Milk, two Bidou Meat and two Pristine Clearwater. Keep two Orgo Sugar from Komero. Also stock four Redgrass from Grand Trad's cathedral-market Herb-Seller. Some of the beans, spice and Redgrass are reserves for later meals, not extra dishes to cook today.
-- <!-- id: july-13-step-02 --> Before departure: Check the kitchen's ingredient list and secure the shop ingredients for Benevolent Bread first; keep one serving for the cuisine request. Magical Bread also needs a Dreameater Moth, and Invincible Noodles needs a Lumibee. July campfire finds are random. If either bug is missing, leave that dish on your unfinished-cooking list and keep the scheduled bond/reading activity. Collect the glowing campfire item before attempting evening cooking.
-- <!-- id: july-13-step-03 --> Afternoon: Travel toward Abandoned Tomb. Cook Benevolent Bread for the cuisine request, then take Strohl's runner bond, target rank 4.
-- <!-- id: july-13-step-04 --> Night: With the ingredients, cook Magical Bread before Hulkenberg's runner bond, target rank 5. If the moth is missing, take the bond and record the uncooked dish for a later trip. Speed Cooking permits one meal before the main activity in each available period.
+- <!-- id: july-13-step-01 --> Free shopping · Martira: Top up to these inventory totals. Count ingredients you already own; you do not need to buy the full amount again.
+  - Cattleracket Road: accept the Kind Old Woman's vegetables if you have not collected them. At the Greengrocer Girl's stall, top up to 5 Rockbeans and 5 Fragrant Spice.
+  - Stairstone Market → Fresh-Picked Meats: top up to 4 Mora Coney Meat and 2 Bidou Meat.
+  - Thoroughfare Square → Opisth the Water Trader: top up to 3 Mellow Milk and 2 Pristine Clearwater.
+  - Keep 2 Orgo Sugar from the earlier Komero visit: one for today's bread and one for 17 July.
+  - Grand Trad → Regalith Grand Cathedral market: buy enough Redgrass from the Herb-Seller to hold 4.
+  - This shopping covers several upcoming meals. The extra 2 Rockbeans, 3 Fragrant Spice and 3 Redgrass are for later recipes; keep them until the guide asks for them.
+- <!-- id: july-13-step-02 --> Before departure · today's cooking: Your first dish is Benevolent Bread, for The Queen of Cuisine: Heart request.
+  - Check that you have 1 Fragrant Spice, 1 Mellow Milk and 1 Orgo Sugar. You do not need a moth or a bee for this dish.
+  - You will cook after setting off in the next step. Save one finished serving for the Classy Woman in Martira on 15 July.
+  - Cooking before another activity relies on Maria's rank-4 ability, Speed Cooking. If it is not unlocked, skip the cooking steps until it is; keep the scheduled bond and reading activities.
+- <!-- id: july-13-step-03 --> Afternoon · travel, cook, then bond: Set the runner's destination to Abandoned Tomb and begin the journey.
+  - In the runner's kitchen, inspect the stove to collect any new recipes. Cook Benevolent Bread: 1 Fragrant Spice + 1 Mellow Milk + 1 Orgo Sugar.
+  - Keep one serving in your inventory for the request. If you lack an ingredient, leave the recipe unfinished and continue with Strohl; the request has no deadline.
+  - Then take Strohl's runner bond event, finishing at rank 4.
+- <!-- id: july-13-step-04 --> Night · cook, then bond: Check the glowing pickup beside the campfire before using the kitchen.
+  - Cook Magical Bread if you have 2 Mora Coney Meat, 2 Rockbeans and 1 Dreameater Moth.
+  - The campfire pickup is random. If you have no moth, keep the meat and beans, note that Magical Bread is still unfinished, and skip cooking tonight.
+  - Then take Hulkenberg's runner bond event, finishing at rank 5. Speed Cooking allows one free cooking session in the afternoon and one at night, when the kitchen is available.
 
 ### 14 July
-- <!-- id: july-14-step-01 --> Afternoon · cooking first: Cook Invincible Noodles if you have its ingredients, including one Lumibee. If not, record the unfinished dish and continue with today's reading and dungeon.
+- <!-- id: july-14-step-01 --> Afternoon · cooking first: Cook Invincible Noodles in the runner's kitchen if you have all three ingredients.
+  - Ingredients: 1 Fragrant Spice + 2 Bidou Meat + 1 Lumibee.
+  - If you have no Lumibee, keep the other ingredients and leave this recipe unfinished. Continue with today's reading and dungeon; you can cook the noodles on a later trip.
 - <!-- id: july-14-step-02 --> Afternoon · main activity: Finish Pride and Persuasion; choose “Plead with them.” Clear Abandoned Tomb. After its boss, take the key back to the sealed wall near the entrance, unlock it and open the chest for Malveno's Ring; beating the boss alone does not give the ring. Collect the Gold Beetle before returning.
 - <!-- id: july-14-step-03 --> Checkpoint: Eloquence 3 is the source's target after this reading. Keep training and reporting More's tasks during dungeon visits. His Imagination rewards support the later Strohl request.
 - <!-- id: july-14-step-04 --> Night: Used by the dungeon.
 
 ### 15 July
-- <!-- id: july-15-step-01 --> Free hand-in · Martira: Go to Thoroughfare Square → Visca Alba Tavern. Give one Benevolent Bread to the Classy Woman inside, near the door to the guest room, to complete The Queen of Cuisine: Heart.
+- <!-- id: july-15-step-01 --> Free hand-in · Martira: Go to Thoroughfare Square → Visca Alba Tavern. Give one Benevolent Bread to the Classy Woman inside, near the guest-room door, to complete The Queen of Cuisine: Heart.
+  - If you could not cook the bread on 13 July, keep the request active and continue today's schedule. It has no deadline; bring her a serving after you make it on a later trip.
 - <!-- id: july-15-step-02 --> Afternoon · uses time: Return Malveno's Ring to the Pompous Man in Martira's Thoroughfare Square for A Dagger, a Ring, and a Rake. Complete the associated introductory event and confirm Alonzo rank 1.
 - <!-- id: july-15-step-03 --> Night · uses time: Find Heismay through Followers and take the bond event, finishing at rank 4.
 
@@ -272,13 +290,23 @@ The game's calendar months have 30 days. These headings are in-game dates, not r
 - <!-- id: july-16-step-03 --> Before the story moves on: Confirm the three Martira debate wins and the town's dated requests are complete.
 
 ### 17 July
-- <!-- id: july-17-cooking-stock --> Before departure: Keep one Orgo Sugar for today's Curative Coney Roast. Reserve one Giant Worm Meat from the castle, one Rockbeans and one Redgrass for tomorrow's Critical Meatballs. Check the kitchen's other ingredient requirements before setting off; cooking uses those supplies.
-- <!-- id: july-17-step-01 --> Afternoon: During story travel, cook Curative Coney Roast and begin Bygone Days.
-- <!-- id: july-17-step-02 --> Night: Cook Coney Stew if you hold one Mora Coney Meat, two Briny Salt and two Mellow Milk. Early salt depends on pantry supplies; if short, keep the meat and milk and defer the dish to 29 July after shopping in Brilehaven. Take a party Imagination conversation and collect the campfire ingredient.
+- <!-- id: july-17-cooking-stock --> Ingredient check: Keep these supplies for today's roast and tomorrow's meatballs.
+  - Curative Coney Roast: 1 Mora Coney Meat + 1 Orgo Sugar + 2 Pristine Clearwater.
+  - Critical Meatballs: 1 Giant Worm Meat from the castle + 1 Rockbeans + 1 Redgrass.
+  - Missing an ingredient only delays that dish. Continue the reading and bond activities on their scheduled dates.
+- <!-- id: july-17-step-01 --> Afternoon · cook, then read: During the story journey, use the runner's kitchen before starting your book.
+  - Cook Curative Coney Roast: 1 Mora Coney Meat + 1 Orgo Sugar + 2 Pristine Clearwater. If an ingredient is missing, leave the recipe unfinished.
+  - Then begin Bygone Days.
+- <!-- id: july-17-step-02 --> Night · cook, then talk: Collect the glowing campfire ingredient before your main activity.
+  - Cook Coney Stew only if you have 1 Mora Coney Meat, 2 Briny Salt and 2 Mellow Milk.
+  - If you lack the salt, skip the stew tonight and keep its meat and milk. The guide returns to this recipe on 29 July, after you can buy salt in Brilehaven.
+  - Then take a party conversation that raises Imagination.
 - <!-- id: july-17-step-03 --> Checkpoint: Aim for Imagination 3 before completing Strohl's request on 23 July. Report More's 15-Archetype task as soon as eligible. A missing cooking ingredient can wait for another travel slot; the reading and virtue activity take priority.
 
 ### 18 July
-- <!-- id: july-18-step-01 --> Afternoon: Cook Critical Meatballs using one Giant Worm Meat, one Rockbeans and one Redgrass, then read Bygone Days a second time and receive the route drawing. If an ingredient is missing, keep the reading schedule and record the dish for a later trip.
+- <!-- id: july-18-step-01 --> Afternoon · cook, then read: Use the runner's kitchen before your book.
+  - Cook Critical Meatballs: 1 Giant Worm Meat + 1 Rockbeans + 1 Redgrass. If anything is missing, leave the recipe unfinished and keep the remaining ingredients.
+  - Read Bygone Days for the second time and receive the route drawing.
 - <!-- id: july-18-step-02 --> Night: Finish Bygone Days. Keep gathering pantry and campfire ingredients.
 
 ### 19 July
@@ -340,11 +368,20 @@ The game's calendar months have 30 days. These headings are in-game dates, not r
 
 ### 29 July
 - <!-- id: july-29-step-01 --> Before departure: Stock up for six days away. Check Soldier's Solace, Superior Scrimshaw, The Chalice vs. The Brew, Dental Distress, Deeds and Diversions, Relic Search: Dregs of Destiny and the Fatolich bounty are active. Buy missing destination reports from the informant inside The Greatest Catch Tavern in Angler's Inn Square.
-- <!-- id: july-29-cooking-stock --> Free shopping before departure · Merchants' Bazaar, Brilehaven: At Castor Water Shop, stock five Briny Salt and three Pristine Clearwater. At The Ruffian's Reel, the Fervent Fishmonger, stock four Marbled Bluefin Tuna. Subtract two salt if Coney Stew is already cooked. The remaining salt and tuna are reserved for later recipes; do not cook duplicates with them.
+- <!-- id: july-29-cooking-stock --> Free shopping · Merchants' Bazaar, Brilehaven: Buy enough to reach these inventory totals before departure.
+  - Castor Water Shop: 3 Pristine Clearwater and 3 Briny Salt. If you have not cooked Coney Stew yet, hold 5 Briny Salt instead.
+  - The Ruffian's Reel, run by the Fervent Fishmonger: 4 Marbled Bluefin Tuna.
+  - If Coney Stew is unfinished, keep 1 Mora Coney Meat for tonight. Buy a replacement at The Ruffian's Reel if needed.
+  - Keep these supplies for the recipes named on the coming travel days. You will buy milk at today's Inundo stop.
 - <!-- id: july-29-step-02 --> Route: Inundo, Tomb of Lament, Forsaken Tower, Gracia Forest. Ensure the chosen tower route intersects Catherina's pink runner; you need the next encounter before leaving this region.
 - <!-- id: july-29-step-03 --> Afternoon · while travelling: Take Hulkenberg's bond event on the runner, reaching rank 6.
-- <!-- id: july-29-step-04 --> Village stop · Inundo: Open the shop's Key Items category and buy Toothbrush of Hygienia for 500 reeve. Its Dental Distress hand-in is 05 August, before the 09 August deadline. Buy enough Mellow Milk to hold three for later dishes, plus two more if Coney Stew is still uncooked and its milk was not retained. Continue toward Tomb of Lament.
-- <!-- id: july-29-step-05 --> Night · cooking first if needed: If Coney Stew was deferred, cook it with one Mora Coney Meat, two Briny Salt and two Mellow Milk before Heismay's travelling rank-5 bond. If the dish is already checked in the kitchen, skip cooking it again.
+- <!-- id: july-29-step-04 --> Village stop · Inundo: Use the shop menu when the runner arrives.
+  - Under Key Items, buy Toothbrush of Hygienia for 500 reeve. Keep it for the Dental Distress hand-in on 05 August, before the 09 August deadline.
+  - Buy enough Mellow Milk to hold 3. If Coney Stew is still unfinished, top up to 5 instead: 2 for tonight's stew and 3 to keep for later recipes.
+  - Continue toward Tomb of Lament.
+- <!-- id: july-29-step-05 --> Night · catch up on Coney Stew, then bond: Check whether you have already cooked this recipe.
+  - If unfinished, cook Coney Stew now: 1 Mora Coney Meat + 2 Briny Salt + 2 Mellow Milk. If already cooked, skip this cooking session.
+  - Then take Heismay's travelling bond event, finishing at rank 5.
 
 ### 30 July
 - <!-- id: july-30-step-01 --> Afternoon: Read The Magical Future, first session; choose ‘It won't work for everyone’. Receive the route drawing. Clear Tomb of Lament for Fatolich and the relic, and find both Gold Beetles. Check for two Giant's Ribs from the giant enemies for two separate recipes; if you leave with fewer, record which dishes must wait for later supplies.
@@ -356,9 +393,17 @@ The game's calendar months have 30 days. These headings are in-game dates, not r
 ## August
 ### 01 August
 - <!-- id: august-01-step-01 --> Route: Continue toward Forsaken Tower via Stillwood Camp. Before confirming the route, check that its path crosses Catherina's pink runner. Complete the encounter when it appears so her travelling bond reaches rank 4 on this trip.
-- <!-- id: august-01-step-02 --> Afternoon · cooking first: Cook Steadfast Stew with one Giant's Rib, one Briny Salt and three Pristine Clearwater. If short, leave the recipe pending and continue the scheduled reading.
+- <!-- id: august-01-step-02 --> Afternoon · free cooking: In the runner kitchen, make Steadfast Stew before reading.
+  - Giant's Rib ×1.
+  - Briny Salt ×1.
+  - Pristine Clearwater ×3.
+  - Missing the rib? Note that Steadfast Stew is still unfinished and continue to today's reading. You can buy a replacement on the island later; you do not need to interrupt this trip to farm one.
 - <!-- id: august-01-step-03 --> Afternoon · main activity: Read The Magical Future, second session; choose “Immediately is too rash.”
-- <!-- id: august-01-step-04 --> Night · cooking first: Cook Precision Fermented Ribs only if you hold one Fiendflower Nectar, one Giant's Rib and two Marbled Bluefin Tuna. Nectar is not guaranteed before this trip. If missing, keep the other ingredients and leave the dish pending for 25 August. Flower enemies in Gracia Forest on 04 August offer another source, and the island shopping step later supplies a replacement if needed.
+- <!-- id: august-01-step-04 --> Night · free cooking: In the runner kitchen, make Precision Fermented Ribs before reading.
+  - Fiendflower Nectar ×1.
+  - Giant's Rib ×1. This is a second rib; the afternoon stew used its own.
+  - Marbled Bluefin Tuna ×2.
+  - Missing an ingredient? Note that Precision Fermented Ribs is still unfinished and continue reading. Keep the ingredients you have. The guide checks supplies on 21 August and offers another cooking slot on 25 August.
 - <!-- id: august-01-step-05 --> Night · main activity: Finish The Magical Future; choose “We have to live and fight on.” Check Wisdom 3.
 
 ### 02 August
@@ -415,9 +460,22 @@ The game's calendar months have 30 days. These headings are in-game dates, not r
 - <!-- id: august-13-step-01 --> Story day: Follow the main objective. No separate free-time activity is scheduled; continue until the game advances the date.
 
 ### 14 August
-- <!-- id: august-14-step-01 --> Afternoon · free cooking first: Make Cursed Love Ballad with two Rockbeans, two Briny Salt and one Dreameater Moth before fishing. If the moth is missing, keep the main fishing activity and leave this recipe pending.
-- <!-- id: august-14-step-02 --> Afternoon · uses time: Save if possible and fish with Tail Bait. Nausea prompt: choose ‘Think like a fish’; tiredness: ‘Give in to naptime’; no bites: ‘Thrash and splash’. These are alternative answers to different prompts. Check for one Lord of the Lake and two Queen's Honey Jars in the catch; keep them for cooking.
-- <!-- id: august-14-step-03 --> Night · cooking before the conversation: Make Secretest of Secrets with one Lord of the Lake, two Mellow Milk and two Marbled Bluefin Tuna. The fish is consumed. Keep the honey. Then take Junah's Imagination conversation. If you lack an ingredient, record this dish for a later kitchen slot; only one recipe fits before the main activity in this period.
+- <!-- id: august-14-step-01 --> Afternoon · free cooking: In the runner kitchen, make Cursed Love Ballad before fishing.
+  - Rockbeans ×2.
+  - Briny Salt ×2.
+  - Dreameater Moth ×1.
+  - If you have no moth, note that Cursed Love Ballad is still unfinished and go fishing. Campfire bugs are random; you can cook this recipe on a later journey.
+- <!-- id: august-14-step-02 --> Afternoon · uses time: Go to the fishing point on the runner's deck and choose Tail Bait. Save beforehand if possible.
+  - If the prompt says you feel queasy, choose ‘Think like a fish’.
+  - If it says you are tired, choose ‘Give in to naptime’.
+  - If nothing is biting, choose ‘Thrash and splash’.
+  - You receive one of these prompts, not all three. Check that your catch contains Lord of the Lake ×1 and Queen's Honey Jar ×2. Save the fish for tonight's recipe and keep the honey for later cooking.
+- <!-- id: august-14-step-03 --> Night · cook, then conversation: Make Secretest of Secrets in the runner kitchen before taking Junah's Imagination conversation.
+  - Lord of the Lake ×1, from this afternoon's fishing.
+  - Mellow Milk ×2.
+  - Marbled Bluefin Tuna ×2.
+  - Keep both Queen's Honey Jars for later. This dish uses the fish, not the honey.
+  - If an ingredient is missing, write down Secretest of Secrets and the missing ingredient to cook on a later journey. Take Junah's Imagination conversation either way; that is tonight's main activity.
 
 ### 15 August
 - <!-- id: august-15-step-01 --> Afternoon: Begin Top Secret Poetry! Do Not Read!
@@ -431,8 +489,16 @@ The game's calendar months have 30 days. These headings are in-game dates, not r
 - <!-- id: august-17-step-01 --> Story day: Follow the main objective. No separate free-time activity is scheduled; continue until the game advances the date.
 
 ### 18 August
-- <!-- id: august-18-step-01 --> Free errands · Virga Island: Collect the four beetles by the tavern walkway, western raised area, dragon statue and boxes near the runner. At the Village Butcher on Sandy Coast, buy one Monster Bone for Finisher Noodles. At Amblyrhy's Water Jug, buy enough Pristine Clearwater to hold three for that dish; earlier cooking used its own water. Keep the Brocaded Koi from the cuisine reward. If you used the koi, leave the recipe pending until you can replace it.
-- <!-- id: august-18-step-02 --> Afternoon: Travel to Dragon Temple. Cook Finisher Noodles with one Brocaded Koi, one Monster Bone and three Pristine Clearwater, then read the poetry book's second session. If short, leave the dish pending and keep the reading. Follow the required first visit; the full clear is scheduled for 20 August.
+- <!-- id: august-18-step-01 --> Free errands · Virga Island: Collect the four beetles and buy the missing ingredients for Finisher Noodles before departing.
+  - Find the beetles by the tavern walkway, western raised area, dragon statue and boxes near the runner.
+  - On Sandy Coast, visit Graco Meat Market, the Village Butcher, for Monster Bone ×1.
+  - At Amblyrhy's Water Jug, buy enough Pristine Clearwater to hold 3. Earlier recipes used their own water.
+  - Check that you still have Brocaded Koi ×1 from The Queen of Cuisine: Heart. If you used it, leave the dish for a later journey; you cannot substitute another fish.
+- <!-- id: august-18-step-02 --> Afternoon · travel: Set Dragon Temple as your destination. Once the runner is moving, cook before reading.
+  - In the kitchen, select Finisher Noodles: Brocaded Koi ×1, Monster Bone ×1 and Pristine Clearwater ×3.
+  - If an ingredient is missing, write down Finisher Noodles and what you lack so you can cook it on a later journey.
+  - Main activity: read the poetry book's second session, whether or not you could cook.
+  - On arrival, follow the required first visit. The full Dragon Temple clear is scheduled for 20 August.
 
 ### 19 August
 - <!-- id: august-19-step-01 --> Free requests · island village: Outside the inn, accept Peak Curiosity. Follow the path to the Enthusiastic Woman near the central rock and accept The Price of Hope.
@@ -445,22 +511,48 @@ The game's calendar months have 30 days. These headings are in-game dates, not r
 - <!-- id: august-19-step-08 --> Night · uses time: Meet Brigitta for her rank 7 bond event. Courage 4 is required. If blocked, improve Courage and record this event as delayed rather than spending the period on an unrelated chat.
 
 ### 20 August
-- <!-- id: august-20-step-01 --> Free preparation · Virga Island: At Graco Meat Market, the Village Butcher on Sandy Coast, stock five White Peach Turnips: one for today's dish, two for tomorrow and two to keep for a later cake. At Amblyrhy's Water Jug, the Genial Water Seller, buy one Queen's Honey Jar in addition to the two from August fishing; aim to hold three now. This extra jar is needed because the two planned fishing catches alone do not supply all recipes. If unavailable, record the shortage for later shopping or fishing. Check A Guiding Gift is active and finish equipment shopping before departure.
-- <!-- id: august-20-step-02 --> Afternoon: Travel to Dragon Temple. With one White Peach Turnip, one Gauntlet Shrooms and one Lumibee, cook Sweeter than Poison...; if a random ingredient is missing, keep the dish pending. Finish the poetry book. Clear the main dungeon and collect all three Polar Stones for A Guiding Gift before leaving.
+- <!-- id: august-20-step-01 --> Free shopping · Virga Island: Restock these cooking ingredients on Sandy Coast before departure. Buy only the shortfall after checking what you hold.
+  - Graco Meat Market, the Village Butcher: reach White Peach Turnip ×5. Use one today, two tomorrow, and keep two for a later recipe.
+  - Amblyrhy's Water Jug, the Genial Water Seller: buy Queen's Honey Jar ×1. With the two jars caught on 14 August, you should now hold 3.
+  - Keep the honey for later cooking. If the shop has none or you missed the fishing jars, note how many you lack; later fishing and shopping checks offer another chance.
+  - Check A Guiding Gift is active and finish equipment shopping before leaving.
+- <!-- id: august-20-step-02 --> Afternoon · travel and dungeon: Set Dragon Temple as your destination. Once the runner is moving, visit the kitchen before reading.
+  - Cook Sweeter than Poison... using White Peach Turnip ×1, Gauntlet Shrooms ×1 and Lumibee ×1.
+  - The shroom comes from the pantry; the bug comes from campfire pickups. If either is missing, write down the uncooked dish and what you lack, then continue with today's plan.
+  - Main activity while travelling: finish the poetry book.
+  - On arrival: clear Dragon Temple and collect all three Polar Stones for A Guiding Gift before leaving.
 - <!-- id: august-20-step-03 --> Training: Report More's General-rank-15 task as soon as you meet it. Then work toward 25 different studied Archetypes and one mastered Elite Archetype. These quest rewards help the coming Imagination check.
 - <!-- id: august-20-step-04 --> Night: Used by the dungeon. This is a long dungeon; allow a substantial real-world session.
 
 ### 21 August
 - <!-- id: august-21-step-01 --> Free hand-in · island village: Give the three Polar Stones to the Hoarse Fisher-Crone near Rooster Inn to complete A Guiding Gift before its 30 August deadline.
 - <!-- id: august-21-step-02 --> Free request · Eupha: Accept The Trial of Malnova, then speak to the nearby Clumsy Boy for a Gold Beetle.
-- <!-- id: august-21-cooking-stock --> Free shopping · Virga Island: At Graco Meat Market on Sandy Coast, buy enough Limp Goldfish to hold three; the earlier cuisine reward supplied only one. Keep one Mellow Milk for tomorrow. Visit Krozelli Hunter, the Boastful Shopkeeper in Dragon Statue Plaza, for one Geldust and one Fiendflower Nectar for Stale Blackbread. If Precision Fermented Ribs is still pending, also replace its missing nectar or rib; the two dishes consume separate ingredients. Reserve three Fragrant Spice for Blackbread.
+- <!-- id: august-21-cooking-stock --> Free shopping · Virga Island: Buy the missing ingredients for the next three meals. These are inventory targets, including anything you already hold.
+  - Graco Meat Market, Sandy Coast: Limp Goldfish ×3. Two go into today's platter; keep one for tomorrow's stew.
+  - Krozelli the Hunter, the Boastful Shopkeeper in Dragon Statue Plaza: Geldust ×1 and Fiendflower Nectar ×1 for tonight's Blackbread.
+  - If Precision Fermented Ribs is still uncooked, keep a separate Fiendflower Nectar ×1 and Giant's Rib ×1 for it. Buy whichever of those two ingredients you lack.
+  - If Steadfast Stew is also unfinished, buy a separate Giant's Rib ×1 for it from Krozelli if needed. You need two ribs if both dishes are unfinished. Keep Briny Salt ×1 and Pristine Clearwater ×3 for the stew.
+  - Check that you still have Fragrant Spice ×3 for Blackbread and Mellow Milk ×1 for tomorrow. You reserved these earlier; do not use them for duplicate meals.
 - <!-- id: august-21-step-05 --> Optional free preparation · before departure: Speak to Edeni at Dragon Statue Plaza to clear the destination's weather if wanted. His effect lasts three days, covering tomorrow's Land of Ceremony visit. Bad weather removes bonus turn icons from weakness and critical hits; weakness damage still applies. This service will not last through the separate 25–28 August trip.
-- <!-- id: august-21-step-03 --> Afternoon: Depart from Virga Island toward Land of Ceremony. Cook Holistic Whitefish Platter with two Limp Goldfish, two White Peach Turnips and one Gauntlet Shrooms, then meditate with Eupha. If short, keep the meditation and defer the dish. Confirm the Prismatic Sea drawing on this route before the later story departure.
-- <!-- id: august-21-step-04 --> Night: Cook Stale Blackbread if you hold one Geldust, one Fiendflower Nectar and three Fragrant Spice. If its shop or ingredients are unavailable, use this free cooking slot for a pending recipe with supplies instead. Then take Junah's Imagination conversation.
+- <!-- id: august-21-step-03 --> Afternoon · travel: Depart from Virga Island toward Land of Ceremony. Once underway, cook before meditating.
+  - Make Holistic Whitefish Platter in the kitchen: Limp Goldfish ×2, White Peach Turnip ×2 and Gauntlet Shrooms ×1.
+  - Keep the remaining Limp Goldfish ×1 for tomorrow and White Peach Turnip ×2 for later. If an ingredient is missing, note this recipe and what you lack so you can cook it on a later journey.
+  - Main activity: meditate with Eupha, whether or not you could cook.
+  - Confirm you receive the Prismatic Sea drawing on this route before the later story departure.
+- <!-- id: august-21-step-04 --> Night · cook, then conversation: Make Stale Blackbread in the runner kitchen before taking Junah's Imagination conversation.
+  - Geldust ×1.
+  - Fiendflower Nectar ×1.
+  - Fragrant Spice ×3.
+  - If an ingredient is missing, note Stale Blackbread and what you lack for a later journey. Take Junah's Imagination conversation either way; that is tonight's main activity.
 
 ### 22 August
-- <!-- id: august-22-step-01 --> Afternoon · cooking first: Make Almighty Golden Stew with one Limp Goldfish, one Mellow Milk and one Lumibee if the recipe and ingredients are ready. Otherwise leave it pending and use the slot for another available unfinished recipe. Reread The Magical Future afterwards.
-- <!-- id: august-22-step-02 --> Afternoon · main activity: Clear Land of Ceremony, collect its relic and Gold Beetle, and finish The Trial of Malnova to unlock Eupha's bond.
+- <!-- id: august-22-step-01 --> Afternoon · cook, then read: Check the runner kitchen for the new recipe, then make Almighty Golden Stew before reading.
+  - Limp Goldfish ×1.
+  - Mellow Milk ×1.
+  - Lumibee ×1.
+  - If the recipe is unavailable or an ingredient is missing, note Almighty Golden Stew for a later journey.
+  - Main activity: reread The Magical Future, whether or not you could cook.
+- <!-- id: august-22-step-02 --> On arrival · dungeon: Clear Land of Ceremony, collect its relic and Gold Beetle, and finish The Trial of Malnova to unlock Eupha's bond.
 - <!-- id: august-22-step-03 --> Night: Used by the dungeon. Return and rest.
 
 ### 23 August
@@ -475,13 +567,21 @@ The game's calendar months have 30 days. These headings are in-game dates, not r
 - <!-- id: august-24-step-02 --> Night · uses time: Find Heismay through Followers and take the bond event, finishing at rank 7, only with Imagination 4. If blocked, use an available Imagination activity instead and record the delay.
 
 ### 25 August
-- <!-- id: august-25-cooking-recovery --> Before the travelling activity: With Speed Cooking, make Precision Fermented Ribs if it was deferred, using one Fiendflower Nectar, one Giant's Rib and two Marbled Bluefin Tuna. If it is already cooked, use the slot for another pending recipe with ingredients. Keep today's meditation after cooking.
-- <!-- id: august-25-step-01 --> Afternoon: Travel to Orbwise Path, meditate with Eupha and choose the deep-breathing response. Clear Save the Mourning Snakes and find both Gold Beetles. This unlocks Junah's bond.
+- <!-- id: august-25-cooking-recovery --> Afternoon · travel and cooking catch-up: Set Orbwise Path as your destination. Once the runner is moving, visit the kitchen before meditating.
+  - If you skipped Precision Fermented Ribs on 1 August, make it now: Fiendflower Nectar ×1, Giant's Rib ×1 and Marbled Bluefin Tuna ×2.
+  - If you already cooked it, skip this recipe. You may instead make one other unfinished dish if you have its ingredients.
+  - If supplies are still missing, note what you lack and continue to today's meditation below. Speed Cooking lets you cook one dish before that activity.
+- <!-- id: august-25-step-01 --> Afternoon · main activity: On the journey to Orbwise Path, meditate with Eupha and choose the deep-breathing response. On arrival, clear Save the Mourning Snakes and find both Gold Beetles. This unlocks Junah's bond.
 - <!-- id: august-25-step-02 --> After the dungeon: Choose to camp here, then continue toward Silento and Spire of Blind Faith tomorrow. Do not return to town; the next three dates rely on continuing this journey.
 - <!-- id: august-25-step-03 --> Night: Report the Land of Ceremony relic to Neuras, target rank 4.
 
 ### 26 August
-- <!-- id: august-26-cooking-recovery --> Kitchen recovery: Before each available daytime/night activity, cook at most one unfinished recipe if you have its ingredients. Start with Magical Bread or Invincible Noodles if an earlier campfire shortage delayed them. Inspect the glowing campfire pickup for bugs. Keep the scheduled main activity even if the ingredient does not appear.
+- <!-- id: august-26-cooking-recovery --> Cooking catch-up · this journey: Use the kitchen to make dishes you had to skip. With Speed Cooking, you can cook once before the daytime activity and once before the night activity.
+  - Open the kitchen recipe list and choose an uncooked dish for which you have all ingredients. Start with Magical Bread or Invincible Noodles if either is still unfinished.
+  - Magical Bread needs Mora Coney Meat ×2, Rockbeans ×2 and Dreameater Moth ×1.
+  - Invincible Noodles needs Fragrant Spice ×1, Bidou Meat ×2 and Lumibee ×1.
+  - At night, inspect the glowing campfire pickup before cooking. The bug is random; if you get neither bug you need, keep the scheduled conversation below.
+  - More dishes still uncooked? Keep their names and missing ingredients on your notes list for the next journey. Do not replace today's meditation or conversation with extra cooking.
 - <!-- id: august-26-step-01 --> Afternoon: Continue the journey, meditate with Eupha and choose the response about focusing on numbness. At Silento, open the village shop before continuing. Merely passing its map marker is not the intended shop visit.
 - <!-- id: august-26-step-02 --> Night: Take Junah's Imagination conversation. If you deferred a Wisdom reading and Imagination is already sufficient, this is a possible catch-up slot; check that tomorrow's rank events are eligible before swapping.
 
@@ -531,7 +631,10 @@ The game's calendar months have 30 days. These headings are in-game dates, not r
 - <!-- id: september-06-step-02 --> If still needed, use the quiet inn opportunity to work toward 100 conversations with Gallica.
 
 ### 07 September
-- <!-- id: september-07-step-01 --> Afternoon · fishing: Use Tail Bait. For the nausea prompt choose ‘Think like a fish’; for tiredness, ‘Give in to naptime’; for no bites, ‘Thrash and splash’. Check that the catch includes a Lord of the Lake and two Queen's Honey Jars. Keep them for cooking rather than using them as consumables.
+- <!-- id: september-07-step-01 --> Afternoon · fishing · uses time: Go to the fishing point on the runner's deck and select Tail Bait. Match your answer to Heismay's comment:
+  - Queasy: choose “Think like a fish”. Tired: choose “Give in to naptime”. Nothing biting: choose “Thrash and splash”.
+  - Check that you receive 1 Lord of the Lake and 2 Queen's Honey Jars.
+  - Keep this fish for Enchanted Pottage and the honey for cooking.
 - <!-- id: september-07-step-02 --> Night · uses time: Speak to Eupha in the runner's lounge and reminisce for Imagination.
 
 ### 08 September
@@ -557,17 +660,33 @@ The game's calendar months have 30 days. These headings are in-game dates, not r
 - <!-- id: september-13-step-02 --> Free conversations · Dia Franco Street, Altabury: Speak to Loveless and Rudolf outside Skyward Tavern so their runners appear on the map.
 - <!-- id: september-13-step-03 --> Free requests · Altabury: Accept Warmth in Winter from the man outside the inn. Accept Proof of Power from the soldier near the arrival point in Opera House Square.
 - <!-- id: september-13-step-04 --> Free preparation: Accept the Icebeast Chimenzahn bounty at the Recruitment Centre. Buy the Tower of Insolence report from the informant to reveal that destination. On Lower Blue Sky Bridge, give a Medicinal Herb to the Man in Pain and keep the Tail Bait.
-- <!-- id: september-13-cooking-stock --> Free cooking supplies before departure · Altabury: Use the Dedicated Butcher on Dia Franco Street for one Brocaded Koi and two Monster Bones, and Aurelia Water Shop on Upper Dia Franco Street for two Orgo Sugar. Keep three Redgrass from the Grand Trad Herb-Seller, two White Peach Turnips from Virga Island and two Lumibees for the next dishes. Before today's stew, aim to hold five Queen's Honey Jars and one Lord of the Lake from the two fishing trips and extra honey purchase. Buy missing honey from Amblyrhy's Water Jug on Virga Island; if still short, record a fishing recovery. These are inventory targets, so subtract what you already hold.
+- <!-- id: september-13-cooking-stock --> Before departure · free shopping: Buy only what you need to reach the quantities below. These are amounts to have in your inventory, not extra amounts to buy.
+  - Altabury → Upper Dia Franco Street → Dedicated Butcher / Korno Meat Market: have 1 Brocaded Koi and 2 Monster Bones.
+  - On the same street, visit Aurelia Water Shop: have 2 Orgo Sugar.
+  - If Finisher Noodles is still unfinished, increase your targets at Korno Meat Market to 2 Brocaded Koi and 3 Monster Bones. Also buy enough Pristine Clearwater at Aurelia Water Shop to hold 3. The extra fish, bone and water are for those noodles.
+  - Grand Trad → Regalith Grand Cathedral market → Herb-Seller: have 3 Redgrass.
+  - Virga Island → Sandy Coast → Village Butcher / Graco Meat Market: have 2 White Peach Turnips. Use town-to-town fast travel for these shopping stops, then return to Altabury.
+  - Check your rare ingredients: 1 Lord of the Lake, 5 Queen's Honey Jars and 2 Lumibees. The five honey cover today's stew, a later cake and the final recipe.
+  - If short on honey, check Amblyrhy's Water Jug on Virga Island's Sandy Coast for remaining stock. If a rare ingredient is still missing, continue today's trip and bond; leave the affected recipe for a later journey.
 - <!-- id: september-13-step-05 --> Afternoon · route: Set out toward Malva on a route that meets Loveless' runner. Check the encounter marker before confirming the route.
-- <!-- id: september-13-step-06 --> While travelling: Cook Amber Stew first, then take Basilio's first bond event on the runner. Complete the Loveless encounter en route.
-- <!-- id: september-13-step-07 --> Village stop · Malva: Open the shop and buy Durable Spider Silk for Warmth in Winter. Buy enough Altabury Wheat Flour to hold four: one for tomorrow's pottage, two for Indestructible Honey Cake and one for Adamantine Honey Cake. Return to Altabury.
+- <!-- id: september-13-step-06 --> While travelling · cooking, then bond: Visit the runner's kitchen before choosing Basilio's bond event.
+  - Cook Amber Stew with 1 Brocaded Koi, 1 Queen's Honey Jar and 3 Redgrass. Speed Cooking leaves your main activity available.
+  - If an ingredient is missing, skip this dish for now. Keep today's bond event.
+  - Take Basilio's first bond event on the runner, then complete the Loveless encounter on the route.
+- <!-- id: september-13-step-07 --> Village stop · Malva: Open the village shop before returning to Altabury.
+  - Buy Durable Spider Silk for Warmth in Winter.
+  - Buy enough Altabury Wheat Flour to hold 4: 1 for tomorrow's pottage, 2 for Indestructible Honey Cake on 17 September and 1 for Adamantine Honey Cake on 18 September.
+  - Return to Altabury.
 - <!-- id: september-13-step-08 --> Night · free hand-in: Give the Durable Spider Silk to the Warmth in Winter requester outside the inn. Speak to Loveless there to accept Defeat Milo, then find Milo near the Recruitment Centre to put his runner on the map.
 - <!-- id: september-13-step-09 --> Night · uses time, priority: Go to the podium on Upper Blue Sky Bridge and debate Julian. Choose “The present day matters too.” Confirm the debate trophy if all seven earlier debates were wins.
 - <!-- id: september-13-step-10 --> Keep the morning save until Julian's debate is won. The plan uses his evening appearance after returning from Malva. If he is absent, check that it is still 13 September at night and that you are at the Upper Blue Sky Bridge podium before spending the slot. Keep the save for recovery; do not move the whole trip and its hand-ins merely because another guide shows an afternoon debate.
 - <!-- id: september-13-step-11 --> Check before moving on: Verify your actual Eloquence and Imagination ranks; the source expects both at 5 but the date does not guarantee them. Imagination 5 is needed for Basilio's later rank 6 event.
 
 ### 14 September
-- <!-- id: september-14-step-01 --> Afternoon: Intercept Milo's runner. Cook Enchanted Pottage and begin Literacy Workbook during the journey.
+- <!-- id: september-14-step-01 --> Afternoon · travel, cook, then read: Set a route that intercepts Milo's runner.
+  - Once travelling, cook Enchanted Pottage with 1 Altabury Wheat Flour, 2 Monster Bones and 1 Lord of the Lake. This uses the fish saved from 7 September.
+  - If ingredients are missing, leave this dish for a later journey and keep today's reading.
+  - Read Literacy Workbook for the first time. Complete the Milo encounter and return for tonight's hand-in.
 - <!-- id: september-14-step-02 --> Night · free hand-in first: Report Defeat Milo to Loveless outside the Altabury inn.
 - <!-- id: september-14-step-03 --> Night · uses time: Find Catherina through Followers and take her rank 5 bond event.
 
@@ -580,12 +699,23 @@ The game's calendar months have 30 days. These headings are in-game dates, not r
 - <!-- id: september-16-step-02 --> Night · uses time: Find Catherina through Followers and take the bond event, finishing at rank 6; requires Tolerance 5.
 
 ### 17 September
-- <!-- id: september-17-step-01 --> Afternoon: Intercept Rudolf's runner. Cook Indestructible Honey Cake with two Altabury Wheat Flour, two White Peach Turnips and two Lumibees, then take Basilio's travelling bond to rank 3. Keep one cake for The Queen of Cuisine: Soul; do not consume every serving in battle. If bugs are missing, defer the dish and preserve the bond activity.
+- <!-- id: september-17-step-01 --> Afternoon · travel, cook, then bond: Set a route that intercepts Rudolf's runner. Visit the kitchen before choosing the bond event.
+  - Cook Indestructible Honey Cake with 2 White Peach Turnips, 2 Altabury Wheat Flour and 2 Lumibees.
+  - Keep at least 1 finished cake for The Queen of Cuisine: Soul on 26 September.
+  - If Lumibees are missing, skip the cake for now. You can buy them on 26 September and cook it on the next journey.
+  - Take Basilio's travelling bond event to rank 3. Complete the Rudolf encounter and return for tonight's Alonzo event.
 - <!-- id: september-17-step-02 --> Night · uses time: Find Alonzo through Followers and take the bond event, finishing at rank 7; check Courage 5.
 
 ### 18 September
-- <!-- id: september-18-step-01 --> Afternoon: Travel to Everfrost Forest. Cook Adamantine Honey Cake and take Junah's runner bond, target rank 6. Receive the route drawing. Defeat Icebeast Chimenzahn, collect the relic and Gold Beetle, then return.
-- <!-- id: september-18-step-02 --> Cooking checkpoint: Sublime Spoonful appears after the first 20 different runner recipes are actually cooked. List any unchecked recipes and their missing ingredients. Use later travelling kitchen slots to finish those first, one recipe per available period, without replacing the scheduled bond or book.
+- <!-- id: september-18-step-01 --> Afternoon · travel, cook, then bond: Travel to Everfrost Forest. Visit the kitchen before choosing Junah's bond event.
+  - Cook Adamantine Honey Cake with 1 Altabury Wheat Flour, 1 Queen's Honey Jar and 2 Orgo Sugar. Keep 3 honey for Sublime Spoonful.
+  - If ingredients are missing, skip the cake for now and continue today's bond and dungeon.
+  - Take Junah's travelling bond event to rank 6, provided her rank 5 is complete.
+  - Receive the route drawing. At Everfrost Forest, defeat Icebeast Chimenzahn, collect the relic and Gold Beetle, then return.
+- <!-- id: september-18-step-02 --> Cooking check: On your next journey, look for Sublime Spoonful in the kitchen menu. It appears after you cook the other 20 different runner dishes.
+  - If it is missing, check which recipes lack a cooked checkmark. Note their missing ingredients.
+  - Finish those dishes on later journeys, using Speed Cooking before the scheduled bond or book.
+  - You can cook one recipe in each available daytime or night period. Finish the other 20 before attempting Sublime Spoonful.
 - <!-- id: september-18-step-03 --> Night: Used by the dungeon.
 
 ### 19 September
@@ -617,25 +747,42 @@ The game's calendar months have 30 days. These headings are in-game dates, not r
 - <!-- id: september-25-step-01 --> Story day: Follow the main objective. No separate free-time activity is scheduled; continue until the game advances the date.
 
 ### 26 September
-- <!-- id: september-26-step-01 --> Free requests · Grand Trad: On Sunshade Row, speak to the Ornamented Man outside Spado Smithy to accept The Edge of Glory. On Sunlumeo Street, speak to the Classy Woman outside Nau Filono Tavern for The Queen of Cuisine: Soul; her earlier Heart request must be complete. Speak to her again to hand over one Indestructible Honey Cake. Keep the Lord of the Lake reward for Sublime Spoonful.
+- <!-- id: september-26-step-01 --> Free requests · Grand Trad: Accept the two requests below before spending your afternoon.
+  - Sunshade Row: speak to the Ornamented Man outside Spado Smithy and accept The Edge of Glory.
+  - Sunlumeo Street: speak to the Classy Woman outside Nau Filono Tavern and accept The Queen of Cuisine: Soul. Her earlier Heart request must be complete.
+  - If you have an Indestructible Honey Cake, speak to her again to hand it over. Keep the Lord of the Lake reward for Sublime Spoonful.
+  - If the cake is missing, accept the request today. Make the cake on tomorrow's journey, hand it in during your free errands on 28 September, then use a later journey for Sublime Spoonful.
 - <!-- id: september-26-step-02 --> Free request · Angler's Inn Square, Brilehaven: Speak to the Gabby Mustari north of The Greatest Catch tavern to accept Trial of the Dragon: Mad Mischief.
 - <!-- id: september-26-step-03 --> Free request · Dragon Statue Plaza, Virga Island: Speak to Edeni to accept Trial of the Dragon: Heroes' Rest.
 - <!-- id: september-26-step-04 --> Free requests · Upper Blue Sky Bridge, Altabury: Speak to the Enraged Mustari by the southeast carriage for Trial of the Dragon: Bygone Legacy. Speak to the Gentle Merchant outside Snowflower Pharmacy for Deliver Hot Spring Water. Accepting the trials is free; their battles are scheduled later.
 - <!-- id: september-26-step-05 --> Free bounty preparation · Recruitment Centre: Accept The Incarnate in the Woods (Ordemos, Abandoned Path), The Apostles of the Apocalypse (Cistus, Disgraced Ruins), and The Cockatrice in the Clouds (Kokamordos, Manor of the Ascendant). Buy any missing destination reports from the town informants and confirm the destinations are marked before travelling.
 - <!-- id: september-26-step-06 --> Free collection · earlier towns: If not already collected, recheck the Grand Trad market beetle and Martira's Cattleracket Road beetle. In Martira, inspect the sack in MesmerEyes Apothecary for the later beetle. Keep a note of which pickups you actually found.
-- <!-- id: september-26-step-10 --> Ingredient check before spending time: For Sublime Spoonful, keep one Lord of the Lake, three Queen's Honey Jars and three Gauntlet Shrooms after finishing the other 20 dishes. For missing Lumibees or Dreameater Moths, check Comfort Concoctions in Grand Trad's Sunshade Row now that the later stock is available. Compare the quantities with your pending recipe list and buy the shortfall. If a cake was delayed, cook it on the next journey and hand it to the Classy Woman afterwards before planning the final recipe.
+- <!-- id: september-26-step-10 --> Before spending time · cooking supplies: Check unfinished recipes before buying ingredients.
+  - Buy missing Lumibees or Dreameater Moths at Comfort Concoctions on Grand Trad's Sunshade Row.
+  - If Indestructible Honey Cake is unfinished, have 2 White Peach Turnips, 2 Altabury Wheat Flour and 2 Lumibees ready for tomorrow.
+  - Set aside 1 Lord of the Lake, 3 Queen's Honey Jars and 3 Gauntlet Shrooms for Sublime Spoonful. Keep extra ingredients for any earlier dishes still unfinished.
+  - If you still owe the Classy Woman a cake, cook it and complete her hand-in before counting the reward fish.
 - <!-- id: september-26-step-07 --> Afternoon · uses time: Meet Basilio for rank 6, which needs Imagination 5. If short, report any completed More tasks first; if still blocked, use this slot for Imagination and record the delayed bond.
 - <!-- id: september-26-step-08 --> Night · free follow-up: Speak to Daturam in Brilehaven's Angler's Inn Square to finish the separate Alonzo follow-up. This conversation does not consume the main night activity.
 - <!-- id: september-26-step-09 --> Night · uses time · Lower Blue Sky Bridge, Altabury: Enter the hot springs opposite Catherina for Deliver Hot Spring Water. Complete shopping and any optional MAG exchange before entering. Tomorrow you will take the water to the Gentle Merchant outside Snowflower Pharmacy on Upper Blue Sky Bridge.
 
 ### 27 September
 - <!-- id: september-27-step-01 --> Free hand-in · Upper Blue Sky Bridge, Altabury: Give the hot spring water to the Gentle Merchant outside Snowflower Pharmacy and collect the Gold Beetle reward.
-- <!-- id: september-27-step-02 --> Afternoon: Travel to Mt. Vulkano. Cook Sublime Spoonful if all previous recipes and ingredients are ready; confirm the cooking trophy. Finish Literacy Workbook and confirm the book trophy. Clear Wayward Shepherd, collect the relic, Gold Beetle and Rusty Greatsword before returning.
-- <!-- id: september-27-step-03 --> If a recipe is still missing: Cook the missing recipe instead, keep its ingredients on your list and finish the collection on the next travel days. Do not spend the rare ingredients on unnecessary duplicate dishes.
+- <!-- id: september-27-step-02 --> Afternoon · travel, cook, then read: Travel to Mt. Vulkano. Visit the kitchen before starting today's reading.
+  - If Sublime Spoonful is available, cook it with 1 Lord of the Lake, 3 Queen's Honey Jars and 3 Gauntlet Shrooms. Check that the cooking trophy unlocks.
+  - If it is locked or ingredients are missing, cook one unfinished dish for which you have supplies instead. Prioritise Indestructible Honey Cake if you still owe it to the Classy Woman. Keep the cake for tomorrow's hand-in.
+  - If no unfinished recipe has all its ingredients ready, skip cooking today and note what you still need. Continue with the reading below.
+  - Finish Literacy Workbook and check the book trophy.
+  - At Mt. Vulkano, clear Wayward Shepherd and collect the relic, Gold Beetle and Rusty Greatsword before returning.
+- <!-- id: september-27-step-03 --> Cooking check · after returning: If the cooking trophy is still missing, keep a note of the dishes and ingredients you still need.
+  - If you made the Classy Woman's cake today, keep it. Tomorrow's free errands include the hand-in and its Lord of the Lake reward.
+  - The next cooking catch-up is on the 30 September journey, before the scheduled reading. Keep today's remaining activities.
 - <!-- id: september-27-step-04 --> Night: Used by the dungeon.
 
 ### 28 September
-- <!-- id: september-28-step-01 --> Free hand-in · Sunshade Row, Grand Trad: Give the Rusty Greatsword from Mt. Vulkano to the Ornamented Man outside Spado Smithy to complete The Edge of Glory.
+- <!-- id: september-28-step-01 --> Free hand-ins · Grand Trad: Complete these errands before your afternoon activity.
+  - Sunshade Row → outside Spado Smithy: give the Rusty Greatsword from Mt. Vulkano to the Ornamented Man to complete The Edge of Glory.
+  - Only if The Queen of Cuisine: Soul is still active and you have its cake: go to Sunlumeo Street → outside Nau Filono Tavern. Give Indestructible Honey Cake to the Classy Woman. Keep her Lord of the Lake reward for Sublime Spoonful.
 - <!-- id: september-28-step-02 --> Free collection reward · Arenafront Wharf, Brilehaven: Visit the Elderly Entomophile. To finish every reward, you need 46 Gold Beetles across this run's exchanges. Count beetles already traded this run as well as those still held; you do not need 46 left in your bag after earlier trades. Save before exchanging. If short, keep the remaining beetles and retry on 20 October after the four scheduled October pickups. Today is a check, not a guaranteed trophy date.
 - <!-- id: september-28-step-03 --> Afternoon · uses time: Find Basilio through Followers and take the bond event, finishing at rank 7. Follow his request; the later completion requires Eloquence 5.
 - <!-- id: september-28-step-04 --> Night: Report the Scoundrel's Hold relic to Neuras, target rank 6.
@@ -647,7 +794,11 @@ The game's calendar months have 30 days. These headings are in-game dates, not r
 
 ### 30 September
 - <!-- id: september-30-step-01 --> Before departure: Speak to the guard near Grand Trad's Recruitment Centre to locate Jin's runner.
-- <!-- id: september-30-step-02 --> Afternoon · route: Select Jin's runner on the map. During the journey, reread The Magical Future. Defeat Jin and watch the resulting event: Petty Thief completes and Neuras reaches rank 8 automatically. Return to town for tonight's Junah event; there is no extra city hand-in for Neuras.
+- <!-- id: september-30-step-02 --> Afternoon · travel and encounter: Select Jin's runner on the map.
+  - Cooking catch-up, only if needed: before reading, use Speed Cooking for one unfinished dish. If the other 20 are complete, make Sublime Spoonful with 1 Lord of the Lake, 3 Queen's Honey Jars and 3 Gauntlet Shrooms.
+  - Skip cooking if you already have the trophy or lack ingredients. Reread The Magical Future during the journey.
+  - Defeat Jin and watch the resulting event: Petty Thief completes and Neuras reaches rank 8 automatically. No extra city hand-in is needed.
+  - Return to town for tonight's Junah event.
 - <!-- id: september-30-step-03 --> Night · uses time: Find Junah through Followers and take the bond event, finishing at rank 7.
 
 ## October
@@ -679,11 +830,18 @@ The game's calendar months have 30 days. These headings are in-game dates, not r
 
 ### 06 October
 - <!-- id: october-06-step-01 --> Afternoon · travel: Begin the two-day journey to Abandoned Path. If Hulkenberg is rank 7, take her travelling rank-8 event now. The recovery branch uses her town rank 7 from 02 October; rank 7 itself cannot be completed on the runner. If already rank 8, use the slot for an unfinished book or needed virtue.
-- <!-- id: october-06-step-02 --> Night · travel: If Heismay is rank 7, take his travelling rank-8 event. The recovery branch uses his town rank 7 from 02 October; a missing town event cannot be replaced by this runner slot. If already rank 8, choose an unfinished book or virtue. With Speed Cooking, make an unfinished dish before the main activity if the kitchen is available and you have its ingredients.
+- <!-- id: october-06-step-02 --> Night · cooking catch-up, then activity: If you still need the cooking trophy, check the kitchen before choosing tonight's main activity.
+  - With Speed Cooking, make one unfinished recipe if you have its ingredients. Finish the earlier recipes before making Sublime Spoonful. Skip cooking if you lack supplies.
+  - If Heismay is rank 7, take his travelling rank-8 event. The recovery branch uses his town rank 7 from 2 October; you cannot complete a missing town event here.
+  - If Heismay is already rank 8, choose an unfinished book or needed virtue activity.
 - <!-- id: october-06-step-03 --> If either town rank 7 is still missing, record both remaining events separately: first the town event with its virtue requirement, then a later travelling rank 8 after the required gap. Keep a start-of-day save and use the remaining recovery days to arrange that sequence. Two main activities do not fit in one period.
 
 ### 07 October
-- <!-- id: october-07-step-01 --> Afternoon · travel: If Eupha reached rank 7 on 05 October, take her travelling rank-8 event. Wisdom 5 was required for that town rank 7. Cook any unfinished dish before the bond if the kitchen permits it. On arrival, clear Abandoned Path for Ordemos and collect its Gold Beetle. If Eupha's town event was delayed, use a book/virtue activity today and record the town-then-travel recovery sequence.
+- <!-- id: october-07-step-01 --> Afternoon · travel, cooking and bond: During the journey to Abandoned Path, visit the kitchen before choosing today's main activity.
+  - Cooking catch-up, only if needed: use Speed Cooking for one unfinished dish. If the other 20 recipes are complete, make Sublime Spoonful with 1 Lord of the Lake, 3 Queen's Honey Jars and 3 Gauntlet Shrooms. Skip cooking if ingredients are missing or the trophy is complete.
+  - If Eupha reached rank 7 on 5 October, take her travelling rank-8 event. Wisdom 5 was required for that earlier town event.
+  - If her town event was delayed, use a book or virtue activity instead. You will need to complete her town event before a later travelling rank 8.
+  - On arrival, clear Abandoned Path for Ordemos and collect its Gold Beetle.
 - <!-- id: october-07-step-02 --> Night: Used by the dungeon. Return and rest.
 - <!-- id: october-07-step-03 --> Bond checkpoint: Inspect all 14 followers. Complete any delayed town events and their later travel events before spending recovery days on optional grinding. The date alone does not establish that every bond is finished.
 
@@ -698,11 +856,16 @@ The game's calendar months have 30 days. These headings are in-game dates, not r
 
 ### 10 October
 - <!-- id: october-10-step-01 --> Free hand-in · Recruitment Centre: Claim the Kokamordos bounty reward.
-- <!-- id: october-10-step-02 --> Afternoon · dungeon outing: Revisit Forsaken Tower for Trial of the Dragon: Mad Mischief. Check your loadout before departing: this trial punishes nullifying or repelling defences, so do not automatically reuse equipment prepared for the fire trial. Use the journey for an eligible unfinished travel activity or cooking.
+- <!-- id: october-10-step-02 --> Afternoon · dungeon outing: Revisit Forsaken Tower for Trial of the Dragon: Mad Mischief.
+  - Before departing, check your loadout. This trial punishes nullifying or repelling defences, so check equipment left over from the fire trial.
+  - During the journey, you may use Speed Cooking for one unfinished dish before choosing a travelling bond, book or virtue activity. Skip cooking if the trophy is complete or you lack ingredients.
 - <!-- id: october-10-step-03 --> Night: Used by the dungeon. Return and rest.
 
 ### 11 October
-- <!-- id: october-11-step-01 --> Before departure, buy any missing mask/vessel materials identified in Akademeia's experiment menu; stock can vary by weekday. Afternoon · dungeon outing: Revisit Spire of Blind Faith for Trial of the Dragon: Heroes' Rest. Prepare Fire protection for its 9,999-damage attack and protection or cures for Charm. Rewards from the earlier two trials help; guarding alone does not solve the Fire attack. Use the journey for an eligible unfinished activity or cooking.
+- <!-- id: october-11-step-01 --> Preparation and afternoon dungeon outing: Revisit Spire of Blind Faith for Trial of the Dragon: Heroes' Rest.
+  - Before departure, buy any missing mask or vessel materials identified in Akademeia's experiment menu. Stock can vary by weekday.
+  - Prepare Fire protection for the 9,999-damage attack, plus protection or cures for Charm. Rewards from the earlier two trials help; guarding alone does not solve the Fire attack.
+  - During the journey, you may use Speed Cooking for one unfinished dish before choosing a travelling bond, book or virtue activity. Skip cooking if the trophy is complete or you lack ingredients.
 - <!-- id: october-11-step-02 --> Night: Used by the dungeon. Return and rest; there is no extra town-shopping slot after this outing.
 
 ### 12 October
@@ -729,7 +892,16 @@ The game's calendar months have 30 days. These headings are in-game dates, not r
 - <!-- id: october-17-step-01 --> Recovery day. Complete a delayed boss or dungeon, or use the town slots for bonds and virtues.
 
 ### 18 October
-- <!-- id: october-18-cooking-recovery --> Cooking recovery, if needed: Buy missing bugs at Comfort Concoctions on Grand Trad's Sunshade Row, common ingredients at the town food shops, and monster ingredients from Krozelli Hunter in Virga Island's Dragon Statue Plaza. If missing fish or honey, use a sea journey from Virga Island toward Land of Ceremony for Tail Bait fishing; inspect the fishing point once underway and keep the departure save until the catch is confirmed. Use 19 October for this journey if today's Bardon event is needed. For pantry shrooms, keep checking each available day; saving before opening the pantry and reloading can reroll its random reward. Make pending recipes one per available kitchen period. Count only ingredients actually in your inventory.
+- <!-- id: october-18-cooking-recovery --> Cooking catch-up · only if the trophy is missing: Check the kitchen menu for recipes without a cooked checkmark. Buy or collect only what those recipes still need.
+  - Final dish: after the first 20 recipes, make Sublime Spoonful with 1 Lord of the Lake, 3 Queen's Honey Jars and 3 Gauntlet Shrooms.
+  - Missing bugs: buy Lumibees and Dreameater Moths at Comfort Concoctions on Grand Trad's Sunshade Row.
+  - Missing monster ingredients: buy Giant Worm Meat, Giant's Rib, Fiendflower Nectar or Geldust from Krozelli the Hunter in Virga Island's Dragon Statue Plaza. Check your unfinished recipes for the quantities.
+  - Missing shrooms: check the runner's pantry each day. You can save before opening it and reload to try for a shroom. Keep 3 for Sublime Spoonful, plus any needed by earlier dishes.
+  - Missing fish or honey: take a sea journey from Virga Island toward Land of Ceremony and use the deck's fishing point with Tail Bait. Save before departure and confirm the fishing point is available before spending the period.
+  - Fishing answers: queasy → “Think like a fish”; tired → “Give in to naptime”; nothing biting → “Thrash and splash”. Check for 1 Lord of the Lake and 2 Queen's Honey Jars.
+  - No Tail Bait: use a spare travelling period to clean the runner's storage room with the vacuum cleaner. Save first; you can reload if you receive spice instead of 2 Tail Bait. Cleaning and fishing use separate activity periods.
+  - If Bardon's town event below is needed today, use 19 October for the fishing journey. Do not try to fit the town event and departure into one afternoon.
+  - Cook one unfinished recipe before the main activity in each available kitchen period. Keep the planned bond or reading activity if a recipe is still missing ingredients.
 - <!-- id: october-18-step-01 --> Recovery day: If Bardon reached rank 7 on 16 October, take his daytime rank-8 event. Otherwise use the day for an unfinished town bond or a runner journey for travel-only bonds, cooking or books. A town event and a journey do not share one afternoon.
 
 ### 19 October

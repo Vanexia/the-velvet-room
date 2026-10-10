@@ -806,6 +806,22 @@ dialog {
   line-height: 1.8;
   overflow-wrap: anywhere;
 }
+.step-details {
+  margin: 12px 0 0;
+  padding-left: 1.25em;
+  font-size: 15px;
+  line-height: 1.8;
+  overflow-wrap: anywhere;
+}
+.step-details li + li {
+  margin-top: 8px;
+}
+.step-details li::marker {
+  color: var(--reader-label);
+}
+.daily-step.is-checked .step-details {
+  color: var(--reader-muted);
+}
 .kind-time .step-label {
   color: #dec08e;
   border-bottom: 1px solid #8c7653;
@@ -1491,6 +1507,9 @@ dialog p {
   .step-copy p {
     font-size: 14px;
     line-height: 1.8;
+  }
+  .step-details {
+    font-size: 14px;
   }
   .daily-step {
     gap: 10px;
