@@ -318,9 +318,9 @@
       ]
     },
     {
-      "from": "day-august-21",
-      "title": "Choose the fourth slot for the outing",
-      "summary": "Keep your existing core for easy encounters. Swap a damage dealer when a dungeon rewards a different element.",
+      "from": "day-august-15",
+      "title": "Your active four",
+      "summary": "Bring the protagonist, Strohl, Hulkenberg and Junah. Keep Heismay in reserve for stealing, useful Dark damage or a swap when someone is low on MP. Battle-day recommendations below can change this lineup.",
       "members": [
         {
           "name": "Protagonist",
@@ -350,17 +350,106 @@
           "train": "Ongoing goals: Cleric 3 for Medica if missing, then Magic Knight 20 toward her next upgrade. Use the listed healing fallback today if these ranks are unfinished."
         },
         {
+          "name": "Junah",
+          "archetype": "Masked Dancer · Seeker’s Mask",
+          "role": "Fire and Wind magic, plus Tarukaja to raise one ally’s Attack. Use the back row. Keep Hulkenberg responsible for party healing.",
+          "inherit": "None required. Infernal Vortex comes from Masked Dancer; Seeker’s Mask supplies Cyclo, Tarukaja and Tetrabreak.",
+          "requires": "Junah already has Masked Dancer. Equip her starting Seeker’s Mask in the accessory slot; this does not change her Archetype to Seeker. The mask makes her weak to Fire and resistant to Wind, so check enemy attacks.",
+          "fallback": "If Seeker’s Mask is not equipped, check your accessory inventory first. Without it, she still has her native Fire attack. If that coverage is unsuitable or her MP is low, use Heismay’s trained Assassin or Thief instead. Swapping does not refill MP.",
+          "train": "Ongoing goal: Masked Dancer 11 unlocks Masked Revelry, which restores Junah’s own MP in squad battles. Keep progressing naturally; it is not required today. No crafted healing mask or new Archetype mastery is needed for this setup."
+        }
+      ],
+      "notes": [
+        "Keep Hulkenberg’s party heal equipped. Junah’s Seeker’s Mask gives Wind and support skills, not healing.",
+        "Junah’s spells and Synthesis still spend MP. Use her normal attack, an item or Pass when an expensive spell would not help; recruiting her does not automatically refill the party’s MP.",
+        "You do not need to change the whole team to Masked Dancer. Each character must meet their own study requirements, and masks are accessories for the Dancer, not extra equipped Archetypes."
+      ],
+      "sources": [
+        {
+          "label": "Archetype requirements",
+          "url": "https://www.gamespot.com/articles/metaphor-refantazio-all-advanced-archetypes-and-how-to-unlock-them/1100-6526963/"
+        },
+        {
+          "label": "Mage skills and costs",
+          "url": "https://gamefaqs.gamespot.com/ps5/410470-metaphor-refantazio/faqs/81508/mage-lineage"
+        },
+        {
+          "label": "Masked Dancer skills",
+          "url": "https://gamefaqs.gamespot.com/ps5/410470-metaphor-refantazio/faqs/81508/masked-dancer-lineage"
+        },
+        {
+          "label": "Mask recipes and abilities",
+          "url": "https://www.gamerguides.com/metaphor-refantazio/guide/items/masks/"
+        },
+        {
+          "label": "Junah’s starting mask and skills",
+          "url": "https://game8.co/games/Metaphor-ReFantazio/archives/480752"
+        },
+        {
+          "label": "Seeker’s Mask skills and affinities",
+          "url": "https://game8.co/games/Metaphor-ReFantazio/archives/480555"
+        },
+        {
+          "label": "Masked Dancer skill ranks",
+          "url": "https://gamefaqs.gamespot.com/ps5/410470-metaphor-refantazio/faqs/81508/masked-dancer-lineage"
+        }
+      ],
+      "reserves": [
+        {
           "name": "Heismay",
           "archetype": "Assassin",
-          "role": "Fast support and Dark damage. Use items or pass when his attacks would be resisted.",
+          "role": "Reserve option for Dark damage, Steal and support skills he has learned. Swap him in when that role is useful or another member is low on MP; the swap itself restores no MP.",
           "inherit": "Marakukaja from Commander rank 1 is a useful single-slot Defence buff. For a boss that buffs itself, replace it with Dekaja from Faker rank 13 if learned.",
           "requires": "Heismay bond 3 and Thief rank 20. Each inherited skill must be learned by Heismay himself.",
           "fallback": "Thief. Keep the support skill; use Steal only when the party is safe.",
           "train": "Ongoing support goal: Faker 13 for Dekaja. The later Ninja upgrade needs Heismay bond 7, Assassin 20 and Sniper 10. These are targets to work toward, not ranks required by today’s date."
         }
+      ]
+    },
+    {
+      "from": "day-august-21",
+      "title": "Choose the fourth slot for the outing",
+      "summary": "Keep your existing core for easy encounters. Swap a damage dealer when a dungeon rewards a different element. Default active four: protagonist, Strohl, Hulkenberg and Junah; Heismay stays in reserve unless today’s outing recommends him.",
+      "members": [
+        {
+          "name": "Protagonist",
+          "archetype": "Wizard",
+          "role": "Magic damage from the back row. Use the element the enemy is weak to; a stronger spell is not always worth its extra MP.",
+          "inherit": "Use one slot for Cyc from Seeker 1 when you need Wind. For cheaper Fire, Ice or Electric instead, swap that slot to Bot, Blizz or Kande from your mastered Mage; each costs 4 MP.",
+          "requires": "Gallica bond 3 and Mage rank 20. Botra is immediate; Blizza needs Wizard 2, Kandera needs Wizard 6.",
+          "fallback": "Mage. It keeps your mastered elemental spells and their cheaper 4 MP costs.",
+          "train": "Ongoing goal: Wizard 11 for Shield Blessing, not a rank you must reach today. It recovers MP in battle while an Attack, Defence or Hit/Evasion buff is active; extra Magic or Endurance equipment alone does not activate it."
+        },
+        {
+          "name": "Strohl",
+          "archetype": "Samurai if ready; otherwise Swordmaster",
+          "role": "Physical damage. Keep him in front when attacking; move back or guard when defending.",
+          "inherit": "Slicer from Warrior rank 8 is a cheaper single-target option. One slot is enough.",
+          "requires": "Samurai needs Strohl bond 7, Swordmaster 20 and General 10. General itself needs Bardon bond 3 and Commander 20.",
+          "fallback": "Swordmaster with Slicer. A mastered Swordmaster remains useful while you spend earned A-EXP items on its next prerequisites.",
+          "train": "Ongoing upgrade goal: Commander 20, then General 10, if still missing for Samurai. Keep Swordmaster until the upgrade is ready. Work on these ranks over later battles or with earned A-EXP items; this date is not a training deadline."
+        },
+        {
+          "name": "Hulkenberg",
+          "archetype": "Magic Knight",
+          "role": "Healer and durable support. Healing is her first job; use her lance when the party is safe.",
+          "inherit": "Medica from Cleric rank 3. If you have two slots, add Dekunda from Healer rank 13 to remove party stat debuffs.",
+          "requires": "Hulkenberg bond 3, Knight 20 and Mage 10. Two inherited slots require Hulkenberg bond 4.",
+          "fallback": "Knight with Medica; if Medica is not learned yet, use Medi from Healer 3 and carry healing items.",
+          "train": "Ongoing goals: Cleric 3 for Medica if missing, then Magic Knight 20 toward her next upgrade. Use the listed healing fallback today if these ranks are unfinished."
+        },
+        {
+          "name": "Junah",
+          "archetype": "Masked Dancer · Seeker’s Mask",
+          "role": "Fire and Wind magic, plus Tarukaja to raise one ally’s Attack. Use the back row. Keep Hulkenberg responsible for party healing.",
+          "inherit": "None required. Infernal Vortex comes from Masked Dancer; Seeker’s Mask supplies Cyclo, Tarukaja and Tetrabreak.",
+          "requires": "Junah already has Masked Dancer. Equip her starting Seeker’s Mask in the accessory slot; this does not change her Archetype to Seeker. The mask makes her weak to Fire and resistant to Wind, so check enemy attacks.",
+          "fallback": "If Seeker’s Mask is not equipped, check your accessory inventory first. Without it, she still has her native Fire attack. If that coverage is unsuitable or her MP is low, use Heismay’s trained Assassin or Thief instead. Swapping does not refill MP.",
+          "train": "Ongoing goal: Masked Dancer 11 unlocks Masked Revelry, which restores Junah’s own MP in squad battles. Keep progressing naturally; it is not required today. No crafted healing mask or new Archetype mastery is needed for this setup."
+        }
       ],
       "notes": [
-        "Eupha’s Summoner is now an optional replacement for Heismay when Wind is useful. Her starting Summon Eagle Lion hits all enemies and lowers Attack; do not use it into a Wind repel or drain.",
+        "Eupha’s Summoner is now an optional replacement for Junah when Wind is useful. Her starting Summon Eagle Lion hits all enemies and lowers Attack; do not use it into a Wind repel or drain.",
         "Keep Hulkenberg’s Medica. Summon Noctiluca gives gradual healing and status recovery; it does not replace an immediate party-wide heal.",
         "Junah can still cover Fire or share healing with a suitable finished mask. Check the mask’s weaknesses before equipping it."
       ],
@@ -376,13 +465,36 @@
         {
           "label": "Mask recipes and abilities",
           "url": "https://www.gamerguides.com/metaphor-refantazio/guide/items/masks/"
+        },
+        {
+          "label": "Junah’s starting mask and skills",
+          "url": "https://game8.co/games/Metaphor-ReFantazio/archives/480752"
+        },
+        {
+          "label": "Seeker’s Mask skills and affinities",
+          "url": "https://game8.co/games/Metaphor-ReFantazio/archives/480555"
+        },
+        {
+          "label": "Masked Dancer skill ranks",
+          "url": "https://gamefaqs.gamespot.com/ps5/410470-metaphor-refantazio/faqs/81508/masked-dancer-lineage"
+        }
+      ],
+      "reserves": [
+        {
+          "name": "Heismay",
+          "archetype": "Assassin",
+          "role": "Reserve option for Dark damage, Steal and support skills he has learned. Swap him in when that role is useful or another member is low on MP; the swap itself restores no MP.",
+          "inherit": "Marakukaja from Commander rank 1 is a useful single-slot Defence buff. For a boss that buffs itself, replace it with Dekaja from Faker rank 13 if learned.",
+          "requires": "Heismay bond 3 and Thief rank 20. Each inherited skill must be learned by Heismay himself.",
+          "fallback": "Thief. Keep the support skill; use Steal only when the party is safe.",
+          "train": "Ongoing support goal: Faker 13 for Dekaja. The later Ninja upgrade needs Heismay bond 7, Assassin 20 and Sniper 10. These are targets to work toward, not ranks required by today’s date."
         }
       ]
     },
     {
       "from": "day-august-25",
       "title": "Upgrade when the requirements are ready",
-      "summary": "The familiar party remains a useful default. Paladin is available only if Hulkenberg’s bond and training have actually reached its requirements.",
+      "summary": "The familiar party remains a useful default. Paladin is available only if Hulkenberg’s bond and training have actually reached its requirements. Default active four: protagonist, Strohl, Hulkenberg and Junah; Heismay stays in reserve unless today’s outing recommends him.",
       "members": [
         {
           "name": "Protagonist",
@@ -412,19 +524,19 @@
           "train": "Paladin 20 eventually gives Revitalise 3 for MP recovery. It is a longer-term target, not a requirement for today."
         },
         {
-          "name": "Heismay",
-          "archetype": "Assassin",
-          "role": "Fast support and Dark damage. Use items or pass when his attacks would be resisted.",
-          "inherit": "Marakukaja from Commander rank 1 is a useful single-slot Defence buff. For a boss that buffs itself, replace it with Dekaja from Faker rank 13 if learned.",
-          "requires": "Heismay bond 3 and Thief rank 20. Each inherited skill must be learned by Heismay himself.",
-          "fallback": "Thief. Keep the support skill; use Steal only when the party is safe.",
-          "train": "Ongoing support goal: Faker 13 for Dekaja. The later Ninja upgrade needs Heismay bond 7, Assassin 20 and Sniper 10. These are targets to work toward, not ranks required by today’s date."
+          "name": "Junah",
+          "archetype": "Masked Dancer · Seeker’s Mask",
+          "role": "Fire and Wind magic, plus Tarukaja to raise one ally’s Attack. Use the back row. Keep Hulkenberg responsible for party healing.",
+          "inherit": "None required. Infernal Vortex comes from Masked Dancer; Seeker’s Mask supplies Cyclo, Tarukaja and Tetrabreak.",
+          "requires": "Junah already has Masked Dancer. Equip her starting Seeker’s Mask in the accessory slot; this does not change her Archetype to Seeker. The mask makes her weak to Fire and resistant to Wind, so check enemy attacks.",
+          "fallback": "If Seeker’s Mask is not equipped, check your accessory inventory first. Without it, she still has her native Fire attack. If that coverage is unsuitable or her MP is low, use Heismay’s trained Assassin or Thief instead. Swapping does not refill MP.",
+          "train": "Ongoing goal: Masked Dancer 11 unlocks Masked Revelry, which restores Junah’s own MP in squad battles. Keep progressing naturally; it is not required today. No crafted healing mask or new Archetype mastery is needed for this setup."
         }
       ],
       "notes": [
         "Keep Magic Knight if the 24 August rank-7 event was delayed. The calendar does not unlock Paladin for you.",
         "After Save the Mourning Snakes is completed, Junah’s bond unlocks Masked Dancer studies for other characters. That is an option, not a reason to spend everyone’s MAG.",
-        "Eupha or Junah can take Heismay’s slot when their magic suits the current enemy."
+        "Eupha can take Junah’s slot when her skills suit the enemy. Heismay remains an option for Dark damage, stealing or support; keep Hulkenberg’s healing covered."
       ],
       "sources": [
         {
@@ -438,13 +550,32 @@
         {
           "label": "Masked Dancer skills",
           "url": "https://gamefaqs.gamespot.com/ps5/410470-metaphor-refantazio/faqs/81508/masked-dancer-lineage"
+        },
+        {
+          "label": "Junah’s starting mask and skills",
+          "url": "https://game8.co/games/Metaphor-ReFantazio/archives/480752"
+        },
+        {
+          "label": "Seeker’s Mask skills and affinities",
+          "url": "https://game8.co/games/Metaphor-ReFantazio/archives/480555"
+        }
+      ],
+      "reserves": [
+        {
+          "name": "Heismay",
+          "archetype": "Assassin",
+          "role": "Reserve option for Dark damage, Steal and support skills he has learned. Swap him in when that role is useful or another member is low on MP; the swap itself restores no MP.",
+          "inherit": "Marakukaja from Commander rank 1 is a useful single-slot Defence buff. For a boss that buffs itself, replace it with Dekaja from Faker rank 13 if learned.",
+          "requires": "Heismay bond 3 and Thief rank 20. Each inherited skill must be learned by Heismay himself.",
+          "fallback": "Thief. Keep the support skill; use Steal only when the party is safe.",
+          "train": "Ongoing support goal: Faker 13 for Dekaja. The later Ninja upgrade needs Heismay bond 7, Assassin 20 and Sniper 10. These are targets to work toward, not ranks required by today’s date."
         }
       ]
     },
     {
       "from": "day-september-13",
       "title": "Keep a balanced four",
-      "summary": "Keep one reliable healer, physical damage and elemental coverage. The new damage option does not force a complete rebuild.",
+      "summary": "Keep one reliable healer, physical damage and elemental coverage. The new damage option does not force a complete rebuild. Default active four: protagonist, Strohl, Hulkenberg and Junah; Heismay stays in reserve unless today’s outing recommends him.",
       "members": [
         {
           "name": "Protagonist",
@@ -474,18 +605,18 @@
           "train": "Paladin 20 eventually gives Revitalise 3 for MP recovery. It is a longer-term target, not a requirement for today."
         },
         {
-          "name": "Heismay",
-          "archetype": "Assassin",
-          "role": "Fast support and Dark damage. Use items or pass when his attacks would be resisted.",
-          "inherit": "Marakukaja from Commander rank 1 is a useful single-slot Defence buff. For a boss that buffs itself, replace it with Dekaja from Faker rank 13 if learned.",
-          "requires": "Heismay bond 3 and Thief rank 20. Each inherited skill must be learned by Heismay himself.",
-          "fallback": "Thief. Keep the support skill; use Steal only when the party is safe.",
-          "train": "Ongoing support goal: Faker 13 for Dekaja. The later Ninja upgrade needs Heismay bond 7, Assassin 20 and Sniper 10. These are targets to work toward, not ranks required by today’s date."
+          "name": "Junah",
+          "archetype": "Masked Dancer · Seeker’s Mask",
+          "role": "Fire and Wind magic, plus Tarukaja to raise one ally’s Attack. Use the back row. Keep Hulkenberg responsible for party healing.",
+          "inherit": "None required. Infernal Vortex comes from Masked Dancer; Seeker’s Mask supplies Cyclo, Tarukaja and Tetrabreak.",
+          "requires": "Junah already has Masked Dancer. Equip her starting Seeker’s Mask in the accessory slot; this does not change her Archetype to Seeker. The mask makes her weak to Fire and resistant to Wind, so check enemy attacks.",
+          "fallback": "If Seeker’s Mask is not equipped, check your accessory inventory first. Without it, she still has her native Fire attack. If that coverage is unsuitable or her MP is low, use Heismay’s trained Assassin or Thief instead. Swapping does not refill MP.",
+          "train": "Ongoing goal: Masked Dancer 11 unlocks Masked Revelry, which restores Junah’s own MP in squad battles. Keep progressing naturally; it is not required today. No crafted healing mask or new Archetype mastery is needed for this setup."
         }
       ],
       "notes": [
         "Basilio’s Berserker is an optional replacement for Strohl when Strike damage is useful. His story awakening already granted it; keep the trained Swordmaster/Samurai if it fits the encounter better.",
-        "Junah and Eupha remain situational alternatives. Do not choose a new class purely because it has a higher tier: its skills, weapon and weaknesses matter.",
+        "Eupha can replace Junah when her skills fit the encounter better; Heismay remains a reserve option for Dark damage, stealing or support. Choose by useful skills, weapon and weaknesses rather than the Archetype’s tier.",
         "Keep Medica and a way to remove stat debuffs ready before travelling."
       ],
       "sources": [
@@ -496,6 +627,29 @@
         {
           "label": "Healing skills and ranks",
           "url": "https://gamefaqs.gamespot.com/ps5/410470-metaphor-refantazio/faqs/81508/healer-lineage"
+        },
+        {
+          "label": "Junah’s starting mask and skills",
+          "url": "https://game8.co/games/Metaphor-ReFantazio/archives/480752"
+        },
+        {
+          "label": "Seeker’s Mask skills and affinities",
+          "url": "https://game8.co/games/Metaphor-ReFantazio/archives/480555"
+        },
+        {
+          "label": "Masked Dancer skill ranks",
+          "url": "https://gamefaqs.gamespot.com/ps5/410470-metaphor-refantazio/faqs/81508/masked-dancer-lineage"
+        }
+      ],
+      "reserves": [
+        {
+          "name": "Heismay",
+          "archetype": "Assassin",
+          "role": "Reserve option for Dark damage, Steal and support skills he has learned. Swap him in when that role is useful or another member is low on MP; the swap itself restores no MP.",
+          "inherit": "Marakukaja from Commander rank 1 is a useful single-slot Defence buff. For a boss that buffs itself, replace it with Dekaja from Faker rank 13 if learned.",
+          "requires": "Heismay bond 3 and Thief rank 20. Each inherited skill must be learned by Heismay himself.",
+          "fallback": "Thief. Keep the support skill; use Steal only when the party is safe.",
+          "train": "Ongoing support goal: Faker 13 for Dekaja. The later Ninja upgrade needs Heismay bond 7, Assassin 20 and Sniper 10. These are targets to work toward, not ranks required by today’s date."
         }
       ]
     },
@@ -563,6 +717,29 @@
         {
           "label": "Damage mechanics research",
           "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3349878187"
+        },
+        {
+          "label": "Junah’s starting mask and skills",
+          "url": "https://game8.co/games/Metaphor-ReFantazio/archives/480752"
+        },
+        {
+          "label": "Seeker’s Mask skills and affinities",
+          "url": "https://game8.co/games/Metaphor-ReFantazio/archives/480555"
+        },
+        {
+          "label": "Masked Dancer skill ranks",
+          "url": "https://gamefaqs.gamespot.com/ps5/410470-metaphor-refantazio/faqs/81508/masked-dancer-lineage"
+        }
+      ],
+      "reserves": [
+        {
+          "name": "Heismay",
+          "archetype": "Assassin",
+          "role": "Reserve option for Dark damage, Steal and support skills he has learned. Swap him in when that role is useful or another member is low on MP; the swap itself restores no MP.",
+          "inherit": "Marakukaja from Commander rank 1 is a useful single-slot Defence buff. For a boss that buffs itself, replace it with Dekaja from Faker rank 13 if learned.",
+          "requires": "Heismay bond 3 and Thief rank 20. Each inherited skill must be learned by Heismay himself.",
+          "fallback": "Thief. Keep the support skill; use Steal only when the party is safe.",
+          "train": "Ongoing support goal: Faker 13 for Dekaja. The later Ninja upgrade needs Heismay bond 7, Assassin 20 and Sniper 10. These are targets to work toward, not ranks required by today’s date."
         }
       ]
     },
@@ -646,6 +823,29 @@
         {
           "label": "Championship weakness and time limit",
           "url": "https://www.neoseeker.com/metaphor-refantazio/guides/Become_Champion_of_the_Coliseum"
+        },
+        {
+          "label": "Junah’s starting mask and skills",
+          "url": "https://game8.co/games/Metaphor-ReFantazio/archives/480752"
+        },
+        {
+          "label": "Seeker’s Mask skills and affinities",
+          "url": "https://game8.co/games/Metaphor-ReFantazio/archives/480555"
+        },
+        {
+          "label": "Masked Dancer skill ranks",
+          "url": "https://gamefaqs.gamespot.com/ps5/410470-metaphor-refantazio/faqs/81508/masked-dancer-lineage"
+        }
+      ],
+      "reserves": [
+        {
+          "name": "Heismay",
+          "archetype": "Assassin",
+          "role": "Reserve option for Dark damage, Steal and support skills he has learned. Swap him in when that role is useful or another member is low on MP; the swap itself restores no MP.",
+          "inherit": "Marakukaja from Commander rank 1 is a useful single-slot Defence buff. For a boss that buffs itself, replace it with Dekaja from Faker rank 13 if learned.",
+          "requires": "Heismay bond 3 and Thief rank 20. Each inherited skill must be learned by Heismay himself.",
+          "fallback": "Thief. Keep the support skill; use Steal only when the party is safe.",
+          "train": "Ongoing support goal: Faker 13 for Dekaja. The later Ninja upgrade needs Heismay bond 7, Assassin 20 and Sniper 10. These are targets to work toward, not ranks required by today’s date."
         }
       ]
     }
@@ -1314,7 +1514,7 @@
     },
     "day-august-15": {
       "title": "Prepare before tonight’s combat",
-      "summary": "Electric damage and attacks that hit several targets are useful today. Keep a dedicated healer.",
+      "summary": "Electric damage and attacks that hit several targets are useful today. Keep a dedicated healer. Bring the protagonist, Strohl, Hulkenberg and Junah; keep Heismay in reserve.",
       "members": [
         {
           "name": "Protagonist",
@@ -1345,16 +1545,16 @@
         },
         {
           "name": "Junah",
-          "archetype": "Masked Dancer",
-          "role": "Fire damage and flexible support. Change her accessory mask before battle to change the extra skills she can use.",
-          "inherit": "No inherited skill is required for this setup.",
-          "requires": "Her story awakening grants her Masked Dancer. Its first skill, Infernal Vortex, is already available.",
-          "fallback": "Keep Heismay if you prefer the trained party. Junah can also study Mage for cheap Fire magic without levelling a second lineage to 20.",
-          "train": "Ongoing goal: Masked Dancer 11 for Masked Revelry and better MP support. No need to finish it today. For a mask recommended in today’s setup, buying its ingredients is only the first step: craft and equip the finished mask."
+          "archetype": "Masked Dancer · Seeker’s Mask",
+          "role": "Fire and Wind magic, plus Tarukaja to raise one ally’s Attack. Use the back row. Keep Hulkenberg responsible for party healing.",
+          "inherit": "None required. Infernal Vortex comes from Masked Dancer; Seeker’s Mask supplies Cyclo, Tarukaja and Tetrabreak.",
+          "requires": "Junah already has Masked Dancer. Equip her starting Seeker’s Mask in the accessory slot; this does not change her Archetype to Seeker. The mask makes her weak to Fire and resistant to Wind, so check enemy attacks.",
+          "fallback": "If Seeker’s Mask is not equipped, check your accessory inventory first. Without it, she still has her native Fire attack. If that coverage is unsuitable or her MP is low, use Heismay’s trained Assassin or Thief instead. Swapping does not refill MP.",
+          "train": "Ongoing goal: Masked Dancer 11 unlocks Masked Revelry, which restores Junah’s own MP in squad battles. Keep progressing naturally; it is not required today. No crafted healing mask or new Archetype mastery is needed for this setup."
         }
       ],
       "notes": [
-        "Junah enables the Wizard’s single-target Electric synthesis once the Wizard knows Kandera. Check its MP cost on both participants before selecting it.",
+        "Junah enables the Wizard’s single-target Electric Synthesis once the Wizard knows Kandera at rank 6. It spends MP on both participants: use ordinary Kande or Kandera when you need to conserve resources.",
         "The main target is Electric-weak; the smaller targets do not share that weakness. Clear the smaller targets to reduce the pressure, then concentrate damage.",
         "Bring a cure for Malady and use it promptly if healing is being blocked."
       ],
@@ -1371,11 +1571,22 @@
           "label": "Mage skills and costs",
           "url": "https://gamefaqs.gamespot.com/ps5/410470-metaphor-refantazio/faqs/81508/mage-lineage"
         }
+      ],
+      "reserves": [
+        {
+          "name": "Heismay",
+          "archetype": "Assassin",
+          "role": "Keep Heismay in reserve for this suggested setup. Use this trained alternative when its skills suit the encounter. Follow any party restrictions listed for today’s activity.",
+          "inherit": "Marakukaja from Commander rank 1 is a useful single-slot Defence buff. For a boss that buffs itself, replace it with Dekaja from Faker rank 13 if learned.",
+          "requires": "Heismay bond 3 and Thief rank 20. Each inherited skill must be learned by Heismay himself.",
+          "fallback": "Thief. Keep the support skill; use Steal only when the party is safe.",
+          "train": "Ongoing support goal: Faker 13 for Dekaja. The later Ninja upgrade needs Heismay bond 7, Assassin 20 and Sniper 10. These are targets to work toward, not ranks required by today’s date."
+        }
       ]
     },
     "day-august-18": {
       "title": "First temple visit",
-      "summary": "Keep the familiar setup and bring Electric damage. This is not the full clear.",
+      "summary": "Keep the familiar setup and bring Electric damage. This is not the full clear. Bring the protagonist, Strohl, Hulkenberg and Junah; keep Heismay in reserve.",
       "members": [
         {
           "name": "Protagonist",
@@ -1405,13 +1616,13 @@
           "train": "Ongoing goals: Cleric 3 for Medica if missing, then Magic Knight 20 toward her next upgrade. Use the listed healing fallback today if these ranks are unfinished."
         },
         {
-          "name": "Heismay",
-          "archetype": "Assassin",
-          "role": "Fast support and Dark damage. Use items or pass when his attacks would be resisted.",
-          "inherit": "Marakukaja from Commander rank 1 is a useful single-slot Defence buff. For a boss that buffs itself, replace it with Dekaja from Faker rank 13 if learned.",
-          "requires": "Heismay bond 3 and Thief rank 20. Each inherited skill must be learned by Heismay himself.",
-          "fallback": "Thief. Keep the support skill; use Steal only when the party is safe.",
-          "train": "Ongoing support goal: Faker 13 for Dekaja. The later Ninja upgrade needs Heismay bond 7, Assassin 20 and Sniper 10. These are targets to work toward, not ranks required by today’s date."
+          "name": "Junah",
+          "archetype": "Masked Dancer · Seeker’s Mask",
+          "role": "Fire and Wind magic, plus Tarukaja to raise one ally’s Attack. Use the back row. Keep Hulkenberg responsible for party healing.",
+          "inherit": "None required. Infernal Vortex comes from Masked Dancer; Seeker’s Mask supplies Cyclo, Tarukaja and Tetrabreak.",
+          "requires": "Junah already has Masked Dancer. Equip her starting Seeker’s Mask in the accessory slot; this does not change her Archetype to Seeker. The mask makes her weak to Fire and resistant to Wind, so check enemy attacks.",
+          "fallback": "If Seeker’s Mask is not equipped, check your accessory inventory first. Without it, she still has her native Fire attack. If that coverage is unsuitable or her MP is low, use Heismay’s trained Assassin or Thief instead. Swapping does not refill MP.",
+          "train": "Ongoing goal: Masked Dancer 11 unlocks Masked Revelry, which restores Junah’s own MP in squad battles. Keep progressing naturally; it is not required today. No crafted healing mask or new Archetype mastery is needed for this setup."
         }
       ],
       "notes": [
@@ -1426,6 +1637,17 @@
         {
           "label": "Mage skills and costs",
           "url": "https://gamefaqs.gamespot.com/ps5/410470-metaphor-refantazio/faqs/81508/mage-lineage"
+        }
+      ],
+      "reserves": [
+        {
+          "name": "Heismay",
+          "archetype": "Assassin",
+          "role": "Keep Heismay in reserve for this suggested setup. Use this trained alternative when its skills suit the encounter. Follow any party restrictions listed for today’s activity.",
+          "inherit": "Marakukaja from Commander rank 1 is a useful single-slot Defence buff. For a boss that buffs itself, replace it with Dekaja from Faker rank 13 if learned.",
+          "requires": "Heismay bond 3 and Thief rank 20. Each inherited skill must be learned by Heismay himself.",
+          "fallback": "Thief. Keep the support skill; use Steal only when the party is safe.",
+          "train": "Ongoing support goal: Faker 13 for Dekaja. The later Ninja upgrade needs Heismay bond 7, Assassin 20 and Sniper 10. These are targets to work toward, not ranks required by today’s date."
         }
       ]
     },
@@ -1497,11 +1719,22 @@
           "label": "Brawler unlocks and inheritance slots",
           "url": "https://www.gamerguides.com/metaphor-refantazio/guide/followers/characters/catherina-bond-unlock-guide-abilities-and-archetypes"
         }
+      ],
+      "reserves": [
+        {
+          "name": "Junah",
+          "archetype": "Masked Dancer · Seeker’s Mask",
+          "role": "Keep Junah in reserve for this suggested setup. Her Fire and Wind magic remains an alternative when the matchup allows it. Follow any party restrictions listed for today’s activity.",
+          "inherit": "None required. Infernal Vortex comes from Masked Dancer; Seeker’s Mask supplies Cyclo, Tarukaja and Tetrabreak.",
+          "requires": "Junah already has Masked Dancer. Equip her starting Seeker’s Mask in the accessory slot; this does not change her Archetype to Seeker. The mask makes her weak to Fire and resistant to Wind, so check enemy attacks.",
+          "fallback": "If Seeker’s Mask is not equipped, check your accessory inventory first. Without it, she still has her native Fire attack. If that coverage is unsuitable or her MP is low, use Heismay’s trained Assassin or Thief instead. Swapping does not refill MP.",
+          "train": "Ongoing goal: Masked Dancer 11 unlocks Masked Revelry, which restores Junah’s own MP in squad battles. Keep progressing naturally; it is not required today. No crafted healing mask or new Archetype mastery is needed for this setup."
+        }
       ]
     },
     "day-august-20": {
       "title": "Prepare for a long dungeon",
-      "summary": "Keep broad elemental coverage and enough MP for healing. Recheck the party at each safe point rather than treating one loadout as correct for the entire dungeon.",
+      "summary": "Keep broad elemental coverage and enough MP for healing. Recheck the party at each safe point rather than treating one loadout as correct for the entire dungeon. Bring the protagonist, Strohl, Hulkenberg and Junah; keep Heismay in reserve.",
       "members": [
         {
           "name": "Protagonist",
@@ -1531,20 +1764,20 @@
           "train": "Ongoing goals: Cleric 3 for Medica if missing, then Magic Knight 20 toward her next upgrade. Use the listed healing fallback today if these ranks are unfinished."
         },
         {
-          "name": "Heismay",
-          "archetype": "Assassin",
-          "role": "Fast support and Dark damage. Use items or pass when his attacks would be resisted.",
-          "inherit": "Marakukaja from Commander rank 1 is a useful single-slot Defence buff. For a boss that buffs itself, replace it with Dekaja from Faker rank 13 if learned.",
-          "requires": "Heismay bond 3 and Thief rank 20. Each inherited skill must be learned by Heismay himself.",
-          "fallback": "Thief. Keep the support skill; use Steal only when the party is safe.",
-          "train": "Ongoing support goal: Faker 13 for Dekaja. The later Ninja upgrade needs Heismay bond 7, Assassin 20 and Sniper 10. These are targets to work toward, not ranks required by today’s date."
+          "name": "Junah",
+          "archetype": "Masked Dancer · Seeker’s Mask",
+          "role": "Fire and Wind magic, plus Tarukaja to raise one ally’s Attack. Use the back row. Keep Hulkenberg responsible for party healing.",
+          "inherit": "None required. Infernal Vortex comes from Masked Dancer; Seeker’s Mask supplies Cyclo, Tarukaja and Tetrabreak.",
+          "requires": "Junah already has Masked Dancer. Equip her starting Seeker’s Mask in the accessory slot; this does not change her Archetype to Seeker. The mask makes her weak to Fire and resistant to Wind, so check enemy attacks.",
+          "fallback": "If Seeker’s Mask is not equipped, check your accessory inventory first. Without it, she still has her native Fire attack. If that coverage is unsuitable or her MP is low, use Heismay’s trained Assassin or Thief instead. Swapping does not refill MP.",
+          "train": "Ongoing goal: Masked Dancer 11 unlocks Masked Revelry, which restores Junah’s own MP in squad battles. Keep progressing naturally; it is not required today. No crafted healing mask or new Archetype mastery is needed for this setup."
         }
       ],
       "notes": [
         "Fire, Ice, Electric and Wind coverage are useful across this dungeon. The protagonist’s Cyc inheritance supplies Wind without another mastered class.",
         "Carry Hex and Poison cures, revives and MP-restoring food if available. Do not enter the final stretch already empty.",
-        "Hulkenberg should carry Medica and Dekunda. Heismay can use items when both healing and a stat reset are needed in one round.",
-        "If the game asks you to make room in the active party, replace Heismay and keep Hulkenberg as your healer. Check that her party heal is still equipped."
+        "Hulkenberg should carry Medica and Dekunda. Junah can use items when both healing and a stat reset are needed in one round.",
+        "If the game asks you to make room in the active party, replace Junah in the fourth slot and keep Hulkenberg as your healer. Check that her party heal is still equipped."
       ],
       "sources": [
         {
@@ -1558,6 +1791,17 @@
         {
           "label": "Healing skills and ranks",
           "url": "https://gamefaqs.gamespot.com/ps5/410470-metaphor-refantazio/faqs/81508/healer-lineage"
+        }
+      ],
+      "reserves": [
+        {
+          "name": "Heismay",
+          "archetype": "Assassin",
+          "role": "Keep Heismay in reserve for this suggested setup. Use this trained alternative when its skills suit the encounter. Follow any party restrictions listed for today’s activity.",
+          "inherit": "Marakukaja from Commander rank 1 is a useful single-slot Defence buff. For a boss that buffs itself, replace it with Dekaja from Faker rank 13 if learned.",
+          "requires": "Heismay bond 3 and Thief rank 20. Each inherited skill must be learned by Heismay himself.",
+          "fallback": "Thief. Keep the support skill; use Steal only when the party is safe.",
+          "train": "Ongoing support goal: Faker 13 for Dekaja. The later Ninja upgrade needs Heismay bond 7, Assassin 20 and Sniper 10. These are targets to work toward, not ranks required by today’s date."
         }
       ]
     },
@@ -1590,7 +1834,7 @@
           "inherit": "No inherited skill is required for this setup.",
           "requires": "Her story awakening grants her Masked Dancer. Its first skill, Infernal Vortex, is already available.",
           "fallback": "Keep Heismay if you prefer the trained party. Junah can also study Mage for cheap Fire magic without levelling a second lineage to 20.",
-          "train": "Ongoing goal: Masked Dancer 11 for Masked Revelry and better MP support. No need to finish it today. For a mask recommended in today’s setup, buying its ingredients is only the first step: craft and equip the finished mask."
+          "train": "Ongoing goal: Masked Dancer 11 for Masked Revelry, which restores her own MP in squad battles. No need to finish it today. For a mask recommended in today’s setup, buying its ingredients is only the first step: craft and equip the finished mask."
         },
         {
           "name": "Eupha",
@@ -1619,6 +1863,26 @@
         {
           "label": "Required party member check",
           "url": "https://gamefaqs.gamespot.com/ps4/410855-metaphor-refantazio/faqs/82036/land-of-ceremony-dungeon"
+        }
+      ],
+      "reserves": [
+        {
+          "name": "Strohl",
+          "archetype": "Samurai if ready; otherwise Swordmaster",
+          "role": "Keep Strohl in reserve for this suggested setup. Use this trained alternative when its skills suit the encounter. Follow any party restrictions listed for today’s activity.",
+          "inherit": "Slicer from Warrior rank 8 is a cheaper single-target option. One slot is enough.",
+          "requires": "Samurai needs Strohl bond 7, Swordmaster 20 and General 10. General itself needs Bardon bond 3 and Commander 20.",
+          "fallback": "Swordmaster with Slicer. A mastered Swordmaster remains useful while you spend earned A-EXP items on its next prerequisites.",
+          "train": "Ongoing upgrade goal: Commander 20, then General 10, if still missing for Samurai. Keep Swordmaster until the upgrade is ready. Work on these ranks over later battles or with earned A-EXP items; this date is not a training deadline."
+        },
+        {
+          "name": "Heismay",
+          "archetype": "Assassin",
+          "role": "Keep Heismay in reserve for this suggested setup. Use this trained alternative when its skills suit the encounter. Follow any party restrictions listed for today’s activity.",
+          "inherit": "Marakukaja from Commander rank 1 is a useful single-slot Defence buff. For a boss that buffs itself, replace it with Dekaja from Faker rank 13 if learned.",
+          "requires": "Heismay bond 3 and Thief rank 20. Each inherited skill must be learned by Heismay himself.",
+          "fallback": "Thief. Keep the support skill; use Steal only when the party is safe.",
+          "train": "Ongoing support goal: Faker 13 for Dekaja. The later Ninja upgrade needs Heismay bond 7, Assassin 20 and Sniper 10. These are targets to work toward, not ranks required by today’s date."
         }
       ]
     },
@@ -1651,7 +1915,7 @@
           "inherit": "No inherited skill is required for this setup.",
           "requires": "Her story awakening grants her Masked Dancer. Its first skill, Infernal Vortex, is already available.",
           "fallback": "Keep Junah on her native Masked Dancer with an ordinary accessory; no crafted mask is needed. Mage rank 1 is another option for its cheap Bot spell.",
-          "train": "Ongoing goal: Masked Dancer 11 for Masked Revelry and better MP support. No need to finish it today. For a mask recommended in today’s setup, buying its ingredients is only the first step: craft and equip the finished mask."
+          "train": "Ongoing goal: Masked Dancer 11 for Masked Revelry, which restores her own MP in squad battles. No need to finish it today. For a mask recommended in today’s setup, buying its ingredients is only the first step: craft and equip the finished mask."
         },
         {
           "name": "Heismay",
@@ -1681,6 +1945,17 @@
         {
           "label": "Defence-buff condition and affinities",
           "url": "https://megamitensei.fandom.com/wiki/Kokasadors"
+        }
+      ],
+      "reserves": [
+        {
+          "name": "Strohl",
+          "archetype": "Samurai if ready; otherwise Swordmaster",
+          "role": "Keep Strohl in reserve for this suggested setup. Use this trained alternative when its skills suit the encounter. Follow any party restrictions listed for today’s activity.",
+          "inherit": "Slicer from Warrior rank 8 is a cheaper single-target option. One slot is enough.",
+          "requires": "Samurai needs Strohl bond 7, Swordmaster 20 and General 10. General itself needs Bardon bond 3 and Commander 20.",
+          "fallback": "Swordmaster with Slicer. A mastered Swordmaster remains useful while you spend earned A-EXP items on its next prerequisites.",
+          "train": "Ongoing upgrade goal: Commander 20, then General 10, if still missing for Samurai. Keep Swordmaster until the upgrade is ready. Work on these ranks over later battles or with earned A-EXP items; this date is not a training deadline."
         }
       ]
     },
@@ -1722,7 +1997,7 @@
           "inherit": "No inherited skill is required for this setup.",
           "requires": "Her story awakening grants her Masked Dancer. Its first skill, Infernal Vortex, is already available.",
           "fallback": "Keep Heismay if you prefer the trained party. Junah can also study Mage for cheap Fire magic without levelling a second lineage to 20.",
-          "train": "Ongoing goal: Masked Dancer 11 for Masked Revelry and better MP support. No need to finish it today. For a mask recommended in today’s setup, buying its ingredients is only the first step: craft and equip the finished mask."
+          "train": "Ongoing goal: Masked Dancer 11 for Masked Revelry, which restores her own MP in squad battles. No need to finish it today. For a mask recommended in today’s setup, buying its ingredients is only the first step: craft and equip the finished mask."
         }
       ],
       "notes": [
@@ -1743,6 +2018,17 @@
         {
           "label": "Front-row penalty check",
           "url": "https://gamefaqs.gamespot.com/xbox-series-x/409958-metaphor-refantazio/faqs/81526/the-spire-of-blind-faith-and-the-festival"
+        }
+      ],
+      "reserves": [
+        {
+          "name": "Heismay",
+          "archetype": "Assassin",
+          "role": "Keep Heismay in reserve for this suggested setup. Use this trained alternative when its skills suit the encounter. Follow any party restrictions listed for today’s activity.",
+          "inherit": "Marakukaja from Commander rank 1 is a useful single-slot Defence buff. For a boss that buffs itself, replace it with Dekaja from Faker rank 13 if learned.",
+          "requires": "Heismay bond 3 and Thief rank 20. Each inherited skill must be learned by Heismay himself.",
+          "fallback": "Thief. Keep the support skill; use Steal only when the party is safe.",
+          "train": "Ongoing support goal: Faker 13 for Dekaja. The later Ninja upgrade needs Heismay bond 7, Assassin 20 and Sniper 10. These are targets to work toward, not ranks required by today’s date."
         }
       ]
     },
@@ -1800,6 +2086,17 @@
         {
           "label": "Independent weakness and underground phase check",
           "url": "https://nightlygamingbinge.com/the-right-to-rule-quest-guide-metaphor-refantazio/"
+        }
+      ],
+      "reserves": [
+        {
+          "name": "Junah",
+          "archetype": "Masked Dancer · Seeker’s Mask",
+          "role": "Keep Junah in reserve for this suggested setup. Her Fire and Wind magic remains an alternative when the matchup allows it. Follow any party restrictions listed for today’s activity.",
+          "inherit": "None required. Infernal Vortex comes from Masked Dancer; Seeker’s Mask supplies Cyclo, Tarukaja and Tetrabreak.",
+          "requires": "Junah already has Masked Dancer. Equip her starting Seeker’s Mask in the accessory slot; this does not change her Archetype to Seeker. The mask makes her weak to Fire and resistant to Wind, so check enemy attacks.",
+          "fallback": "If Seeker’s Mask is not equipped, check your accessory inventory first. Without it, she still has her native Fire attack. If that coverage is unsuitable or her MP is low, use Heismay’s trained Assassin or Thief instead. Swapping does not refill MP.",
+          "train": "Ongoing goal: Masked Dancer 11 unlocks Masked Revelry, which restores Junah’s own MP in squad battles. Keep progressing naturally; it is not required today. No crafted healing mask or new Archetype mastery is needed for this setup."
         }
       ]
     },
@@ -1871,6 +2168,17 @@
           "label": "Brawler unlocks and inheritance slots",
           "url": "https://www.gamerguides.com/metaphor-refantazio/guide/followers/characters/catherina-bond-unlock-guide-abilities-and-archetypes"
         }
+      ],
+      "reserves": [
+        {
+          "name": "Junah",
+          "archetype": "Masked Dancer · Seeker’s Mask",
+          "role": "Keep Junah in reserve for this suggested setup. Her Fire and Wind magic remains an alternative when the matchup allows it. Follow any party restrictions listed for today’s activity.",
+          "inherit": "None required. Infernal Vortex comes from Masked Dancer; Seeker’s Mask supplies Cyclo, Tarukaja and Tetrabreak.",
+          "requires": "Junah already has Masked Dancer. Equip her starting Seeker’s Mask in the accessory slot; this does not change her Archetype to Seeker. The mask makes her weak to Fire and resistant to Wind, so check enemy attacks.",
+          "fallback": "If Seeker’s Mask is not equipped, check your accessory inventory first. Without it, she still has her native Fire attack. If that coverage is unsuitable or her MP is low, use Heismay’s trained Assassin or Thief instead. Swapping does not refill MP.",
+          "train": "Ongoing goal: Masked Dancer 11 unlocks Masked Revelry, which restores Junah’s own MP in squad battles. Keep progressing naturally; it is not required today. No crafted healing mask or new Archetype mastery is needed for this setup."
+        }
       ]
     },
     "day-september-03": {
@@ -1923,7 +2231,8 @@
           "label": "Brawler unlocks and inheritance slots",
           "url": "https://www.gamerguides.com/metaphor-refantazio/guide/followers/characters/catherina-bond-unlock-guide-abilities-and-archetypes"
         }
-      ]
+      ],
+      "reserves": []
     },
     "day-september-04": {
       "title": "If you take the optional runner outing",
@@ -1979,6 +2288,17 @@
         {
           "label": "Healing skills and ranks",
           "url": "https://gamefaqs.gamespot.com/ps5/410470-metaphor-refantazio/faqs/81508/healer-lineage"
+        }
+      ],
+      "reserves": [
+        {
+          "name": "Junah",
+          "archetype": "Masked Dancer · Seeker’s Mask",
+          "role": "Keep Junah in reserve for this suggested setup. Her Fire and Wind magic remains an alternative when the matchup allows it. Follow any party restrictions listed for today’s activity.",
+          "inherit": "None required. Infernal Vortex comes from Masked Dancer; Seeker’s Mask supplies Cyclo, Tarukaja and Tetrabreak.",
+          "requires": "Junah already has Masked Dancer. Equip her starting Seeker’s Mask in the accessory slot; this does not change her Archetype to Seeker. The mask makes her weak to Fire and resistant to Wind, so check enemy attacks.",
+          "fallback": "If Seeker’s Mask is not equipped, check your accessory inventory first. Without it, she still has her native Fire attack. If that coverage is unsuitable or her MP is low, use Heismay’s trained Assassin or Thief instead. Swapping does not refill MP.",
+          "train": "Ongoing goal: Masked Dancer 11 unlocks Masked Revelry, which restores Junah’s own MP in squad battles. Keep progressing naturally; it is not required today. No crafted healing mask or new Archetype mastery is needed for this setup."
         }
       ]
     },
@@ -2041,6 +2361,17 @@
           "label": "Upcoming combat preparation checks",
           "url": "https://www.pcgamer.com/games/rpg/sogne-ice-dragon-boss-guide-metaphor-refantazio/"
         }
+      ],
+      "reserves": [
+        {
+          "name": "Junah",
+          "archetype": "Masked Dancer · Seeker’s Mask",
+          "role": "Keep Junah in reserve for this suggested setup. Her Fire and Wind magic remains an alternative when the matchup allows it. Follow any party restrictions listed for today’s activity.",
+          "inherit": "None required. Infernal Vortex comes from Masked Dancer; Seeker’s Mask supplies Cyclo, Tarukaja and Tetrabreak.",
+          "requires": "Junah already has Masked Dancer. Equip her starting Seeker’s Mask in the accessory slot; this does not change her Archetype to Seeker. The mask makes her weak to Fire and resistant to Wind, so check enemy attacks.",
+          "fallback": "If Seeker’s Mask is not equipped, check your accessory inventory first. Without it, she still has her native Fire attack. If that coverage is unsuitable or her MP is low, use Heismay’s trained Assassin or Thief instead. Swapping does not refill MP.",
+          "train": "Ongoing goal: Masked Dancer 11 unlocks Masked Revelry, which restores Junah’s own MP in squad battles. Keep progressing naturally; it is not required today. No crafted healing mask or new Archetype mastery is needed for this setup."
+        }
       ]
     },
     "day-september-10": {
@@ -2100,6 +2431,17 @@
         {
           "label": "Story combat route",
           "url": "https://gamefaqs.gamespot.com/ps4/410855-metaphor-refantazio/faqs/82036/from-9-10-idlesday-to-9-12-watersday-step-by-step"
+        }
+      ],
+      "reserves": [
+        {
+          "name": "Junah",
+          "archetype": "Masked Dancer · Seeker’s Mask",
+          "role": "Keep Junah in reserve for this suggested setup. Her Fire and Wind magic remains an alternative when the matchup allows it. Follow any party restrictions listed for today’s activity.",
+          "inherit": "None required. Infernal Vortex comes from Masked Dancer; Seeker’s Mask supplies Cyclo, Tarukaja and Tetrabreak.",
+          "requires": "Junah already has Masked Dancer. Equip her starting Seeker’s Mask in the accessory slot; this does not change her Archetype to Seeker. The mask makes her weak to Fire and resistant to Wind, so check enemy attacks.",
+          "fallback": "If Seeker’s Mask is not equipped, check your accessory inventory first. Without it, she still has her native Fire attack. If that coverage is unsuitable or her MP is low, use Heismay’s trained Assassin or Thief instead. Swapping does not refill MP.",
+          "train": "Ongoing goal: Masked Dancer 11 unlocks Masked Revelry, which restores Junah’s own MP in squad battles. Keep progressing naturally; it is not required today. No crafted healing mask or new Archetype mastery is needed for this setup."
         }
       ]
     },
@@ -2171,6 +2513,17 @@
           "label": "Thief skills and ranks",
           "url": "https://gamefaqs.gamespot.com/ps5/410470-metaphor-refantazio/faqs/81508/thief-lineage"
         }
+      ],
+      "reserves": [
+        {
+          "name": "Junah",
+          "archetype": "Masked Dancer · Seeker’s Mask",
+          "role": "Keep Junah in reserve for this suggested setup. Her Fire and Wind magic remains an alternative when the matchup allows it. Follow any party restrictions listed for today’s activity.",
+          "inherit": "None required. Infernal Vortex comes from Masked Dancer; Seeker’s Mask supplies Cyclo, Tarukaja and Tetrabreak.",
+          "requires": "Junah already has Masked Dancer. Equip her starting Seeker’s Mask in the accessory slot; this does not change her Archetype to Seeker. The mask makes her weak to Fire and resistant to Wind, so check enemy attacks.",
+          "fallback": "If Seeker’s Mask is not equipped, check your accessory inventory first. Without it, she still has her native Fire attack. If that coverage is unsuitable or her MP is low, use Heismay’s trained Assassin or Thief instead. Swapping does not refill MP.",
+          "train": "Ongoing goal: Masked Dancer 11 unlocks Masked Revelry, which restores Junah’s own MP in squad battles. Keep progressing naturally; it is not required today. No crafted healing mask or new Archetype mastery is needed for this setup."
+        }
       ]
     },
     "day-september-13": {
@@ -2226,6 +2579,17 @@
         {
           "label": "Independent weakness check",
           "url": "https://game8.co/games/Metaphor-ReFantazio/archives/478578"
+        }
+      ],
+      "reserves": [
+        {
+          "name": "Junah",
+          "archetype": "Masked Dancer · Seeker’s Mask",
+          "role": "Keep Junah in reserve for this suggested setup. Her Fire and Wind magic remains an alternative when the matchup allows it. Follow any party restrictions listed for today’s activity.",
+          "inherit": "None required. Infernal Vortex comes from Masked Dancer; Seeker’s Mask supplies Cyclo, Tarukaja and Tetrabreak.",
+          "requires": "Junah already has Masked Dancer. Equip her starting Seeker’s Mask in the accessory slot; this does not change her Archetype to Seeker. The mask makes her weak to Fire and resistant to Wind, so check enemy attacks.",
+          "fallback": "If Seeker’s Mask is not equipped, check your accessory inventory first. Without it, she still has her native Fire attack. If that coverage is unsuitable or her MP is low, use Heismay’s trained Assassin or Thief instead. Swapping does not refill MP.",
+          "train": "Ongoing goal: Masked Dancer 11 unlocks Masked Revelry, which restores Junah’s own MP in squad battles. Keep progressing naturally; it is not required today. No crafted healing mask or new Archetype mastery is needed for this setup."
         }
       ]
     },
@@ -2283,6 +2647,17 @@
         {
           "label": "Independent encounter check",
           "url": "https://gamefaqs.gamespot.com/ps5/410470-metaphor-refantazio/faqs/81508/prepare-for-the-final-battle-guide"
+        }
+      ],
+      "reserves": [
+        {
+          "name": "Junah",
+          "archetype": "Masked Dancer · Seeker’s Mask",
+          "role": "Keep Junah in reserve for this suggested setup. Her Fire and Wind magic remains an alternative when the matchup allows it. Follow any party restrictions listed for today’s activity.",
+          "inherit": "None required. Infernal Vortex comes from Masked Dancer; Seeker’s Mask supplies Cyclo, Tarukaja and Tetrabreak.",
+          "requires": "Junah already has Masked Dancer. Equip her starting Seeker’s Mask in the accessory slot; this does not change her Archetype to Seeker. The mask makes her weak to Fire and resistant to Wind, so check enemy attacks.",
+          "fallback": "If Seeker’s Mask is not equipped, check your accessory inventory first. Without it, she still has her native Fire attack. If that coverage is unsuitable or her MP is low, use Heismay’s trained Assassin or Thief instead. Swapping does not refill MP.",
+          "train": "Ongoing goal: Masked Dancer 11 unlocks Masked Revelry, which restores Junah’s own MP in squad battles. Keep progressing naturally; it is not required today. No crafted healing mask or new Archetype mastery is needed for this setup."
         }
       ]
     },
@@ -2370,6 +2745,26 @@
           "label": "Brawler unlocks and inheritance slots",
           "url": "https://www.gamerguides.com/metaphor-refantazio/guide/followers/characters/catherina-bond-unlock-guide-abilities-and-archetypes"
         }
+      ],
+      "reserves": [
+        {
+          "name": "Strohl",
+          "archetype": "Samurai if ready; otherwise Swordmaster",
+          "role": "Keep Strohl in reserve for this suggested setup. Use this trained alternative when its skills suit the encounter. Follow any party restrictions listed for today’s activity.",
+          "inherit": "Slicer from Warrior rank 8 is a cheaper single-target option. One slot is enough.",
+          "requires": "Samurai needs Strohl bond 7, Swordmaster 20 and General 10. General itself needs Bardon bond 3 and Commander 20.",
+          "fallback": "Swordmaster with Slicer. A mastered Swordmaster remains useful while you spend earned A-EXP items on its next prerequisites.",
+          "train": "Ongoing upgrade goal: Commander 20, then General 10, if still missing for Samurai. Keep Swordmaster until the upgrade is ready. Work on these ranks over later battles or with earned A-EXP items; this date is not a training deadline."
+        },
+        {
+          "name": "Heismay",
+          "archetype": "Assassin",
+          "role": "Keep Heismay in reserve for this suggested setup. Use this trained alternative when its skills suit the encounter. Follow any party restrictions listed for today’s activity.",
+          "inherit": "Marakukaja from Commander rank 1 is a useful single-slot Defence buff. For a boss that buffs itself, replace it with Dekaja from Faker rank 13 if learned.",
+          "requires": "Heismay bond 3 and Thief rank 20. Each inherited skill must be learned by Heismay himself.",
+          "fallback": "Thief. Keep the support skill; use Steal only when the party is safe.",
+          "train": "Ongoing support goal: Faker 13 for Dekaja. The later Ninja upgrade needs Heismay bond 7, Assassin 20 and Sniper 10. These are targets to work toward, not ranks required by today’s date."
+        }
       ]
     },
     "day-september-18": {
@@ -2410,7 +2805,7 @@
           "inherit": "No inherited skill is required for this setup.",
           "requires": "Her story awakening grants her Masked Dancer. Its first skill, Infernal Vortex, is already available.",
           "fallback": "Keep Heismay if you prefer the trained party. Junah can also study Mage for cheap Fire magic without levelling a second lineage to 20.",
-          "train": "Ongoing goal: Masked Dancer 11 for Masked Revelry and better MP support. No need to finish it today. For a mask recommended in today’s setup, buying its ingredients is only the first step: craft and equip the finished mask."
+          "train": "Ongoing goal: Masked Dancer 11 for Masked Revelry, which restores her own MP in squad battles. No need to finish it today. For a mask recommended in today’s setup, buying its ingredients is only the first step: craft and equip the finished mask."
         }
       ],
       "notes": [
@@ -2427,6 +2822,26 @@
         {
           "label": "Independent enemy and barrier check",
           "url": "https://nightlygamingbinge.com/fiend-in-the-frozen-forest-guide-metaphor-refantazio/"
+        }
+      ],
+      "reserves": [
+        {
+          "name": "Strohl",
+          "archetype": "Samurai if ready; otherwise Swordmaster",
+          "role": "Keep Strohl in reserve for this suggested setup. Use this trained alternative when its skills suit the encounter. Follow any party restrictions listed for today’s activity.",
+          "inherit": "Slicer from Warrior rank 8 is a cheaper single-target option. One slot is enough.",
+          "requires": "Samurai needs Strohl bond 7, Swordmaster 20 and General 10. General itself needs Bardon bond 3 and Commander 20.",
+          "fallback": "Swordmaster with Slicer. A mastered Swordmaster remains useful while you spend earned A-EXP items on its next prerequisites.",
+          "train": "Ongoing upgrade goal: Commander 20, then General 10, if still missing for Samurai. Keep Swordmaster until the upgrade is ready. Work on these ranks over later battles or with earned A-EXP items; this date is not a training deadline."
+        },
+        {
+          "name": "Heismay",
+          "archetype": "Assassin",
+          "role": "Keep Heismay in reserve for this suggested setup. Use this trained alternative when its skills suit the encounter. Follow any party restrictions listed for today’s activity.",
+          "inherit": "Marakukaja from Commander rank 1 is a useful single-slot Defence buff. For a boss that buffs itself, replace it with Dekaja from Faker rank 13 if learned.",
+          "requires": "Heismay bond 3 and Thief rank 20. Each inherited skill must be learned by Heismay himself.",
+          "fallback": "Thief. Keep the support skill; use Steal only when the party is safe.",
+          "train": "Ongoing support goal: Faker 13 for Dekaja. The later Ninja upgrade needs Heismay bond 7, Assassin 20 and Sniper 10. These are targets to work toward, not ranks required by today’s date."
         }
       ]
     },
@@ -2488,6 +2903,17 @@
         {
           "label": "Caster-lineage warning",
           "url": "https://www.pushsquare.com/guides/metaphor-refantazio-all-bounties-and-how-to-complete-them"
+        }
+      ],
+      "reserves": [
+        {
+          "name": "Junah",
+          "archetype": "Masked Dancer · Seeker’s Mask",
+          "role": "Keep Junah in reserve for this suggested setup. Her Fire and Wind magic remains an alternative when the matchup allows it. Follow any party restrictions listed for today’s activity.",
+          "inherit": "None required. Infernal Vortex comes from Masked Dancer; Seeker’s Mask supplies Cyclo, Tarukaja and Tetrabreak.",
+          "requires": "Junah already has Masked Dancer. Equip her starting Seeker’s Mask in the accessory slot; this does not change her Archetype to Seeker. The mask makes her weak to Fire and resistant to Wind, so check enemy attacks.",
+          "fallback": "If Seeker’s Mask is not equipped, check your accessory inventory first. Without it, she still has her native Fire attack. If that coverage is unsuitable or her MP is low, use Heismay’s trained Assassin or Thief instead. Swapping does not refill MP.",
+          "train": "Ongoing goal: Masked Dancer 11 unlocks Masked Revelry, which restores Junah’s own MP in squad battles. Keep progressing naturally; it is not required today. No crafted healing mask or new Archetype mastery is needed for this setup."
         }
       ]
     },
@@ -2567,6 +2993,17 @@
           "label": "Brawler unlocks and inheritance slots",
           "url": "https://www.gamerguides.com/metaphor-refantazio/guide/followers/characters/catherina-bond-unlock-guide-abilities-and-archetypes"
         }
+      ],
+      "reserves": [
+        {
+          "name": "Junah",
+          "archetype": "Masked Dancer · Seeker’s Mask",
+          "role": "Keep Junah in reserve for this suggested setup. Her Fire and Wind magic remains an alternative when the matchup allows it. Follow any party restrictions listed for today’s activity.",
+          "inherit": "None required. Infernal Vortex comes from Masked Dancer; Seeker’s Mask supplies Cyclo, Tarukaja and Tetrabreak.",
+          "requires": "Junah already has Masked Dancer. Equip her starting Seeker’s Mask in the accessory slot; this does not change her Archetype to Seeker. The mask makes her weak to Fire and resistant to Wind, so check enemy attacks.",
+          "fallback": "If Seeker’s Mask is not equipped, check your accessory inventory first. Without it, she still has her native Fire attack. If that coverage is unsuitable or her MP is low, use Heismay’s trained Assassin or Thief instead. Swapping does not refill MP.",
+          "train": "Ongoing goal: Masked Dancer 11 unlocks Masked Revelry, which restores Junah’s own MP in squad battles. Keep progressing naturally; it is not required today. No crafted healing mask or new Archetype mastery is needed for this setup."
+        }
       ]
     },
     "day-september-27": {
@@ -2629,6 +3066,26 @@
           "label": "Mask skills and ingredients",
           "url": "https://www.gamerguides.com/metaphor-refantazio/guide/items/masks/all-masks-and-ingredients-in-metaphor-refantazio"
         }
+      ],
+      "reserves": [
+        {
+          "name": "Strohl",
+          "archetype": "Samurai if ready; otherwise Swordmaster",
+          "role": "Keep Strohl in reserve for this suggested setup. Use this trained alternative when its skills suit the encounter. Follow any party restrictions listed for today’s activity.",
+          "inherit": "Slash Boost (Warrior 20) and Marakukaja (Commander 1): two slots. Marakukaja raises the whole party’s Defence.",
+          "requires": "Strohl bond 7, Swordmaster 20 and General 10 on Strohl. General itself needs Bardon 3 and Commander 20.",
+          "fallback": "Keep Swordmaster if Samurai is locked. Prioritise the defence buff over a damage passive if you have only one free slot.",
+          "train": "Optional Royal Warrior: Strohl bond 8, Samurai 20 and Warlord 20. Warlord needs Bardon 8 and General 20. Do not delay the route to force this upgrade."
+        },
+        {
+          "name": "Heismay",
+          "archetype": "Assassin",
+          "role": "Keep Heismay in reserve for this suggested setup. Use this trained alternative when its skills suit the encounter. Follow any party restrictions listed for today’s activity.",
+          "inherit": "Marakukaja from Commander rank 1 is a useful single-slot Defence buff. For a boss that buffs itself, replace it with Dekaja from Faker rank 13 if learned.",
+          "requires": "Heismay bond 3 and Thief rank 20. Each inherited skill must be learned by Heismay himself.",
+          "fallback": "Thief. Keep the support skill; use Steal only when the party is safe.",
+          "train": "Ongoing support goal: Faker 13 for Dekaja. The later Ninja upgrade needs Heismay bond 7, Assassin 20 and Sniper 10. These are targets to work toward, not ranks required by today’s date."
+        }
       ]
     },
     "day-september-30": {
@@ -2685,6 +3142,17 @@
         {
           "label": "Encounter mechanics cross-check",
           "url": "https://earth.gamerguides.com/metaphor-refantazio/guide/side-quests/follower-quests/petty-thief"
+        }
+      ],
+      "reserves": [
+        {
+          "name": "Heismay",
+          "archetype": "Assassin",
+          "role": "Keep Heismay in reserve for this suggested setup. Use this trained alternative when its skills suit the encounter. Follow any party restrictions listed for today’s activity.",
+          "inherit": "Marakukaja from Commander rank 1 is a useful single-slot Defence buff. For a boss that buffs itself, replace it with Dekaja from Faker rank 13 if learned.",
+          "requires": "Heismay bond 3 and Thief rank 20. Each inherited skill must be learned by Heismay himself.",
+          "fallback": "Thief. Keep the support skill; use Steal only when the party is safe.",
+          "train": "Ongoing support goal: Faker 13 for Dekaja. The later Ninja upgrade needs Heismay bond 7, Assassin 20 and Sniper 10. These are targets to work toward, not ranks required by today’s date."
         }
       ]
     },
@@ -2744,6 +3212,26 @@
           "label": "Skill tables",
           "url": "https://gamefaqs.gamespot.com/xbox-series-x/409958-metaphor-refantazio/faqs/81526/archetypes"
         }
+      ],
+      "reserves": [
+        {
+          "name": "Strohl",
+          "archetype": "Samurai if ready; otherwise Swordmaster",
+          "role": "Keep Strohl in reserve for this suggested setup. Use this trained alternative when its skills suit the encounter. Follow any party restrictions listed for today’s activity.",
+          "inherit": "Slash Boost (Warrior 20) and Marakukaja (Commander 1): two slots. Marakukaja raises the whole party’s Defence.",
+          "requires": "Strohl bond 7, Swordmaster 20 and General 10 on Strohl. General itself needs Bardon 3 and Commander 20.",
+          "fallback": "Keep Swordmaster if Samurai is locked. Prioritise the defence buff over a damage passive if you have only one free slot.",
+          "train": "Optional Royal Warrior: Strohl bond 8, Samurai 20 and Warlord 20. Warlord needs Bardon 8 and General 20. Do not delay the route to force this upgrade."
+        },
+        {
+          "name": "Heismay",
+          "archetype": "Assassin",
+          "role": "Keep Heismay in reserve for this suggested setup. Use this trained alternative when its skills suit the encounter. Follow any party restrictions listed for today’s activity.",
+          "inherit": "Marakukaja from Commander rank 1 is a useful single-slot Defence buff. For a boss that buffs itself, replace it with Dekaja from Faker rank 13 if learned.",
+          "requires": "Heismay bond 3 and Thief rank 20. Each inherited skill must be learned by Heismay himself.",
+          "fallback": "Thief. Keep the support skill; use Steal only when the party is safe.",
+          "train": "Ongoing support goal: Faker 13 for Dekaja. The later Ninja upgrade needs Heismay bond 7, Assassin 20 and Sniper 10. These are targets to work toward, not ranks required by today’s date."
+        }
       ]
     },
     "day-october-02": {
@@ -2801,6 +3289,26 @@
         {
           "label": "Bond battle cross-check",
           "url": "https://game8.co/games/Metaphor-ReFantazio/archives/482818"
+        }
+      ],
+      "reserves": [
+        {
+          "name": "Strohl",
+          "archetype": "Samurai if ready; otherwise Swordmaster",
+          "role": "Keep Strohl in reserve for this suggested setup. Use this trained alternative when its skills suit the encounter. Follow any party restrictions listed for today’s activity.",
+          "inherit": "Slash Boost (Warrior 20) and Marakukaja (Commander 1): two slots. Marakukaja raises the whole party’s Defence.",
+          "requires": "Strohl bond 7, Swordmaster 20 and General 10 on Strohl. General itself needs Bardon 3 and Commander 20.",
+          "fallback": "Keep Swordmaster if Samurai is locked. Prioritise the defence buff over a damage passive if you have only one free slot.",
+          "train": "Optional Royal Warrior: Strohl bond 8, Samurai 20 and Warlord 20. Warlord needs Bardon 8 and General 20. Do not delay the route to force this upgrade."
+        },
+        {
+          "name": "Heismay",
+          "archetype": "Assassin",
+          "role": "Keep Heismay in reserve for this suggested setup. Use this trained alternative when its skills suit the encounter. Follow any party restrictions listed for today’s activity.",
+          "inherit": "Marakukaja from Commander rank 1 is a useful single-slot Defence buff. For a boss that buffs itself, replace it with Dekaja from Faker rank 13 if learned.",
+          "requires": "Heismay bond 3 and Thief rank 20. Each inherited skill must be learned by Heismay himself.",
+          "fallback": "Thief. Keep the support skill; use Steal only when the party is safe.",
+          "train": "Ongoing support goal: Faker 13 for Dekaja. The later Ninja upgrade needs Heismay bond 7, Assassin 20 and Sniper 10. These are targets to work toward, not ranks required by today’s date."
         }
       ]
     },
@@ -2895,6 +3403,17 @@
           "label": "Championship weakness and time limit",
           "url": "https://www.neoseeker.com/metaphor-refantazio/guides/Become_Champion_of_the_Coliseum"
         }
+      ],
+      "reserves": [
+        {
+          "name": "Heismay",
+          "archetype": "Assassin",
+          "role": "Keep Heismay in reserve for this suggested setup. Use this trained alternative when its skills suit the encounter. Follow any party restrictions listed for today’s activity.",
+          "inherit": "Marakukaja from Commander rank 1 is a useful single-slot Defence buff. For a boss that buffs itself, replace it with Dekaja from Faker rank 13 if learned.",
+          "requires": "Heismay bond 3 and Thief rank 20. Each inherited skill must be learned by Heismay himself.",
+          "fallback": "Thief. Keep the support skill; use Steal only when the party is safe.",
+          "train": "Ongoing support goal: Faker 13 for Dekaja. The later Ninja upgrade needs Heismay bond 7, Assassin 20 and Sniper 10. These are targets to work toward, not ranks required by today’s date."
+        }
       ]
     },
     "day-october-04": {
@@ -2958,6 +3477,17 @@
           "label": "Current Archetype skills",
           "url": "https://game8.co/games/Metaphor-ReFantazio/archives/480289"
         }
+      ],
+      "reserves": [
+        {
+          "name": "Heismay",
+          "archetype": "Assassin",
+          "role": "Keep Heismay in reserve for this suggested setup. Use this trained alternative when its skills suit the encounter. Follow any party restrictions listed for today’s activity.",
+          "inherit": "Marakukaja from Commander rank 1 is a useful single-slot Defence buff. For a boss that buffs itself, replace it with Dekaja from Faker rank 13 if learned.",
+          "requires": "Heismay bond 3 and Thief rank 20. Each inherited skill must be learned by Heismay himself.",
+          "fallback": "Thief. Keep the support skill; use Steal only when the party is safe.",
+          "train": "Ongoing support goal: Faker 13 for Dekaja. The later Ninja upgrade needs Heismay bond 7, Assassin 20 and Sniper 10. These are targets to work toward, not ranks required by today’s date."
+        }
       ]
     },
     "day-october-07": {
@@ -3020,6 +3550,26 @@
           "label": "Dark skill rank",
           "url": "https://game8.co/games/Metaphor-ReFantazio/archives/478710"
         }
+      ],
+      "reserves": [
+        {
+          "name": "Strohl",
+          "archetype": "Samurai if ready; otherwise Swordmaster",
+          "role": "Keep Strohl in reserve for this suggested setup. Use this trained alternative when its skills suit the encounter. Follow any party restrictions listed for today’s activity.",
+          "inherit": "Slash Boost (Warrior 20) and Marakukaja (Commander 1): two slots. Marakukaja raises the whole party’s Defence.",
+          "requires": "Strohl bond 7, Swordmaster 20 and General 10 on Strohl. General itself needs Bardon 3 and Commander 20.",
+          "fallback": "Keep Swordmaster if Samurai is locked. Prioritise the defence buff over a damage passive if you have only one free slot.",
+          "train": "Optional Royal Warrior: Strohl bond 8, Samurai 20 and Warlord 20. Warlord needs Bardon 8 and General 20. Do not delay the route to force this upgrade."
+        },
+        {
+          "name": "Heismay",
+          "archetype": "Assassin",
+          "role": "Keep Heismay in reserve for this suggested setup. Use this trained alternative when its skills suit the encounter. Follow any party restrictions listed for today’s activity.",
+          "inherit": "Marakukaja from Commander rank 1 is a useful single-slot Defence buff. For a boss that buffs itself, replace it with Dekaja from Faker rank 13 if learned.",
+          "requires": "Heismay bond 3 and Thief rank 20. Each inherited skill must be learned by Heismay himself.",
+          "fallback": "Thief. Keep the support skill; use Steal only when the party is safe.",
+          "train": "Ongoing support goal: Faker 13 for Dekaja. The later Ninja upgrade needs Heismay bond 7, Assassin 20 and Sniper 10. These are targets to work toward, not ranks required by today’s date."
+        }
       ]
     },
     "day-october-08": {
@@ -3079,6 +3629,17 @@
           "label": "Dungeon resistance cross-check",
           "url": "https://game8.co/games/Metaphor-ReFantazio/archives/481952"
         }
+      ],
+      "reserves": [
+        {
+          "name": "Heismay",
+          "archetype": "Assassin",
+          "role": "Keep Heismay in reserve for this suggested setup. Use this trained alternative when its skills suit the encounter. Follow any party restrictions listed for today’s activity.",
+          "inherit": "Marakukaja from Commander rank 1 is a useful single-slot Defence buff. For a boss that buffs itself, replace it with Dekaja from Faker rank 13 if learned.",
+          "requires": "Heismay bond 3 and Thief rank 20. Each inherited skill must be learned by Heismay himself.",
+          "fallback": "Thief. Keep the support skill; use Steal only when the party is safe.",
+          "train": "Ongoing support goal: Faker 13 for Dekaja. The later Ninja upgrade needs Heismay bond 7, Assassin 20 and Sniper 10. These are targets to work toward, not ranks required by today’s date."
+        }
       ]
     },
     "day-october-09": {
@@ -3137,6 +3698,17 @@
           "label": "Bounty cross-check",
           "url": "https://www.neoseeker.com/metaphor-refantazio/guides/Kokamordos_Terror_of_the_Skies"
         }
+      ],
+      "reserves": [
+        {
+          "name": "Heismay",
+          "archetype": "Assassin",
+          "role": "Keep Heismay in reserve for this suggested setup. Use this trained alternative when its skills suit the encounter. Follow any party restrictions listed for today’s activity.",
+          "inherit": "Marakukaja from Commander rank 1 is a useful single-slot Defence buff. For a boss that buffs itself, replace it with Dekaja from Faker rank 13 if learned.",
+          "requires": "Heismay bond 3 and Thief rank 20. Each inherited skill must be learned by Heismay himself.",
+          "fallback": "Thief. Keep the support skill; use Steal only when the party is safe.",
+          "train": "Ongoing support goal: Faker 13 for Dekaja. The later Ninja upgrade needs Heismay bond 7, Assassin 20 and Sniper 10. These are targets to work toward, not ranks required by today’s date."
+        }
       ]
     },
     "day-october-10": {
@@ -3194,6 +3766,17 @@
         {
           "label": "Trial tactics cross-check",
           "url": "https://game8.co/games/Metaphor-ReFantazio/archives/482377"
+        }
+      ],
+      "reserves": [
+        {
+          "name": "Heismay",
+          "archetype": "Assassin",
+          "role": "Keep Heismay in reserve for this suggested setup. Use this trained alternative when its skills suit the encounter. Follow any party restrictions listed for today’s activity.",
+          "inherit": "Marakukaja from Commander rank 1 is a useful single-slot Defence buff. For a boss that buffs itself, replace it with Dekaja from Faker rank 13 if learned.",
+          "requires": "Heismay bond 3 and Thief rank 20. Each inherited skill must be learned by Heismay himself.",
+          "fallback": "Thief. Keep the support skill; use Steal only when the party is safe.",
+          "train": "Ongoing support goal: Faker 13 for Dekaja. The later Ninja upgrade needs Heismay bond 7, Assassin 20 and Sniper 10. These are targets to work toward, not ranks required by today’s date."
         }
       ]
     },
@@ -3258,6 +3841,17 @@
           "label": "Fire protection and Charm equipment",
           "url": "https://gamefaqs.gamespot.com/xbox-series-x/409958-metaphor-refantazio/faqs/81526/weapons-armour-and-gear"
         }
+      ],
+      "reserves": [
+        {
+          "name": "Heismay",
+          "archetype": "Assassin",
+          "role": "Keep Heismay in reserve for this suggested setup. Use this trained alternative when its skills suit the encounter. Follow any party restrictions listed for today’s activity.",
+          "inherit": "Marakukaja from Commander rank 1 is a useful single-slot Defence buff. For a boss that buffs itself, replace it with Dekaja from Faker rank 13 if learned.",
+          "requires": "Heismay bond 3 and Thief rank 20. Each inherited skill must be learned by Heismay himself.",
+          "fallback": "Thief. Keep the support skill; use Steal only when the party is safe.",
+          "train": "Ongoing support goal: Faker 13 for Dekaja. The later Ninja upgrade needs Heismay bond 7, Assassin 20 and Sniper 10. These are targets to work toward, not ranks required by today’s date."
+        }
       ]
     },
     "day-october-12": {
@@ -3316,6 +3910,17 @@
         {
           "label": "Final trial cross-check",
           "url": "https://www.neoseeker.com/metaphor-refantazio/guides/Elegy_of_the_Soul"
+        }
+      ],
+      "reserves": [
+        {
+          "name": "Heismay",
+          "archetype": "Assassin",
+          "role": "Keep Heismay in reserve for this suggested setup. Use this trained alternative when its skills suit the encounter. Follow any party restrictions listed for today’s activity.",
+          "inherit": "Marakukaja from Commander rank 1 is a useful single-slot Defence buff. For a boss that buffs itself, replace it with Dekaja from Faker rank 13 if learned.",
+          "requires": "Heismay bond 3 and Thief rank 20. Each inherited skill must be learned by Heismay himself.",
+          "fallback": "Thief. Keep the support skill; use Steal only when the party is safe.",
+          "train": "Ongoing support goal: Faker 13 for Dekaja. The later Ninja upgrade needs Heismay bond 7, Assassin 20 and Sniper 10. These are targets to work toward, not ranks required by today’s date."
         }
       ]
     },
@@ -3400,6 +4005,17 @@
           "label": "Championship weakness and time limit",
           "url": "https://www.neoseeker.com/metaphor-refantazio/guides/Become_Champion_of_the_Coliseum"
         }
+      ],
+      "reserves": [
+        {
+          "name": "Heismay",
+          "archetype": "Assassin",
+          "role": "Keep Heismay in reserve for this suggested setup. Use this trained alternative when its skills suit the encounter. Follow any party restrictions listed for today’s activity.",
+          "inherit": "Marakukaja from Commander rank 1 is a useful single-slot Defence buff. For a boss that buffs itself, replace it with Dekaja from Faker rank 13 if learned.",
+          "requires": "Heismay bond 3 and Thief rank 20. Each inherited skill must be learned by Heismay himself.",
+          "fallback": "Thief. Keep the support skill; use Steal only when the party is safe.",
+          "train": "Ongoing support goal: Faker 13 for Dekaja. The later Ninja upgrade needs Heismay bond 7, Assassin 20 and Sniper 10. These are targets to work toward, not ranks required by today’s date."
+        }
       ]
     },
     "day-october-14": {
@@ -3457,6 +4073,26 @@
         {
           "label": "Bond battle cross-check",
           "url": "https://game8.co/games/Metaphor-ReFantazio/archives/482818"
+        }
+      ],
+      "reserves": [
+        {
+          "name": "Strohl",
+          "archetype": "Samurai if ready; otherwise Swordmaster",
+          "role": "Keep Strohl in reserve for this suggested setup. Use this trained alternative when its skills suit the encounter. Follow any party restrictions listed for today’s activity.",
+          "inherit": "Slash Boost (Warrior 20) and Marakukaja (Commander 1): two slots. Marakukaja raises the whole party’s Defence.",
+          "requires": "Strohl bond 7, Swordmaster 20 and General 10 on Strohl. General itself needs Bardon 3 and Commander 20.",
+          "fallback": "Keep Swordmaster if Samurai is locked. Prioritise the defence buff over a damage passive if you have only one free slot.",
+          "train": "Optional Royal Warrior: Strohl bond 8, Samurai 20 and Warlord 20. Warlord needs Bardon 8 and General 20. Do not delay the route to force this upgrade."
+        },
+        {
+          "name": "Heismay",
+          "archetype": "Assassin",
+          "role": "Keep Heismay in reserve for this suggested setup. Use this trained alternative when its skills suit the encounter. Follow any party restrictions listed for today’s activity.",
+          "inherit": "Marakukaja from Commander rank 1 is a useful single-slot Defence buff. For a boss that buffs itself, replace it with Dekaja from Faker rank 13 if learned.",
+          "requires": "Heismay bond 3 and Thief rank 20. Each inherited skill must be learned by Heismay himself.",
+          "fallback": "Thief. Keep the support skill; use Steal only when the party is safe.",
+          "train": "Ongoing support goal: Faker 13 for Dekaja. The later Ninja upgrade needs Heismay bond 7, Assassin 20 and Sniper 10. These are targets to work toward, not ranks required by today’s date."
         }
       ]
     },
@@ -3539,6 +4175,17 @@
         {
           "label": "Championship weakness and time limit",
           "url": "https://www.neoseeker.com/metaphor-refantazio/guides/Become_Champion_of_the_Coliseum"
+        }
+      ],
+      "reserves": [
+        {
+          "name": "Heismay",
+          "archetype": "Assassin",
+          "role": "Keep Heismay in reserve for this suggested setup. Use this trained alternative when its skills suit the encounter. Follow any party restrictions listed for today’s activity.",
+          "inherit": "Marakukaja from Commander rank 1 is a useful single-slot Defence buff. For a boss that buffs itself, replace it with Dekaja from Faker rank 13 if learned.",
+          "requires": "Heismay bond 3 and Thief rank 20. Each inherited skill must be learned by Heismay himself.",
+          "fallback": "Thief. Keep the support skill; use Steal only when the party is safe.",
+          "train": "Ongoing support goal: Faker 13 for Dekaja. The later Ninja upgrade needs Heismay bond 7, Assassin 20 and Sniper 10. These are targets to work toward, not ranks required by today’s date."
         }
       ]
     },
@@ -3634,6 +4281,17 @@
           "label": "Championship weakness and time limit",
           "url": "https://www.neoseeker.com/metaphor-refantazio/guides/Become_Champion_of_the_Coliseum"
         }
+      ],
+      "reserves": [
+        {
+          "name": "Heismay",
+          "archetype": "Assassin",
+          "role": "Keep Heismay in reserve for this suggested setup. Use this trained alternative when its skills suit the encounter. Follow any party restrictions listed for today’s activity.",
+          "inherit": "Marakukaja from Commander rank 1 is a useful single-slot Defence buff. For a boss that buffs itself, replace it with Dekaja from Faker rank 13 if learned.",
+          "requires": "Heismay bond 3 and Thief rank 20. Each inherited skill must be learned by Heismay himself.",
+          "fallback": "Thief. Keep the support skill; use Steal only when the party is safe.",
+          "train": "Ongoing support goal: Faker 13 for Dekaja. The later Ninja upgrade needs Heismay bond 7, Assassin 20 and Sniper 10. These are targets to work toward, not ranks required by today’s date."
+        }
       ]
     },
     "day-october-26": {
@@ -3696,6 +4354,17 @@
         {
           "label": "Damage mechanics research",
           "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3349878187"
+        }
+      ],
+      "reserves": [
+        {
+          "name": "Heismay",
+          "archetype": "Assassin",
+          "role": "Keep Heismay in reserve for this suggested setup. Use this trained alternative when its skills suit the encounter. Follow any party restrictions listed for today’s activity.",
+          "inherit": "Marakukaja from Commander rank 1 is a useful single-slot Defence buff. For a boss that buffs itself, replace it with Dekaja from Faker rank 13 if learned.",
+          "requires": "Heismay bond 3 and Thief rank 20. Each inherited skill must be learned by Heismay himself.",
+          "fallback": "Thief. Keep the support skill; use Steal only when the party is safe.",
+          "train": "Ongoing support goal: Faker 13 for Dekaja. The later Ninja upgrade needs Heismay bond 7, Assassin 20 and Sniper 10. These are targets to work toward, not ranks required by today’s date."
         }
       ]
     }

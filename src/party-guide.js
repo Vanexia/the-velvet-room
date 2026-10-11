@@ -11,12 +11,16 @@ export function selectPartyGuide(game, dayId) {
   if (!phase) return null;
   const outing = game.partyGuide.outings?.[dayId];
   const sources = [...(phase.sources ?? []), ...(outing?.sources ?? [])];
-  return {
+  const guide = {
     ...phase,
     ...outing,
     sources: sources.filter((source, i) => sources.findIndex((s) => s.url === source.url) === i),
     verifiedOn: game.partyGuide.verifiedOn,
   };
+  if (guide.reserves) {
+    guide.reserves = guide.reserves.filter((reserve) => !guide.members.some((member) => member.name === reserve.name));
+  }
+  return guide;
 }
 
 function memberRow(member) {
@@ -36,5 +40,11 @@ export function renderPartyGuide(guide, day) {
     ? `<div class="party-preparation"><h3>Keep in mind</h3><ul>${guide.notes.map((note) => `<li>${e(note)}</li>`).join("")}</ul></div>`
     : "";
   const sources = sourceLinks(guide.sources);
-  return `<aside class="party-panel" aria-labelledby="party-heading"><header class="party-header"><p class="eyebrow">Party · ${e(day.label)}</p><h2 id="party-heading">${e(guide.title)}</h2><p>${e(guide.summary)}</p></header><p class="party-assumptions">For Normal difficulty and a Magic-focused protagonist. Check the requirements if an upgrade is unavailable.</p><div class="party-roster">${guide.members.map(memberRow).join("")}</div>${notes}${sources ? `<details class="party-sources"><summary>Research & sources</summary><p>Mechanics checked ${e(guide.verifiedOn)}. These are suggested tactics, with alternatives for missing training. Source pages may contain later-game spoilers.</p><ul>${sources}</ul></details>` : ""}</aside>`;
+  const activeHeading = guide.reserves?.length
+    ? `<h3 class="eyebrow">Active party · ${guide.members.length} ${guide.members.length === 1 ? "member" : "members"}</h3>`
+    : "";
+  const reserves = guide.reserves?.length
+    ? `<section class="party-reserves party-preparation"><h3>Reserve options</h3><div class="party-roster">${guide.reserves.map(memberRow).join("")}</div></section>`
+    : "";
+  return `<aside class="party-panel" aria-labelledby="party-heading"><header class="party-header"><p class="eyebrow">Party · ${e(day.label)}</p><h2 id="party-heading">${e(guide.title)}</h2><p>${e(guide.summary)}</p></header><p class="party-assumptions">For Normal difficulty and a Magic-focused protagonist. Check the requirements if an upgrade is unavailable.</p>${activeHeading}<div class="party-roster">${guide.members.map(memberRow).join("")}</div>${reserves}${notes}${sources ? `<details class="party-sources"><summary>Research & sources</summary><p>Mechanics checked ${e(guide.verifiedOn)}. These are suggested tactics, with alternatives for missing training. Source pages may contain later-game spoilers.</p><ul>${sources}</ul></details>` : ""}</aside>`;
 }

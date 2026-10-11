@@ -57,6 +57,18 @@ This review reuses the earlier sourced encounter preparations. It checks route c
 
 ## Interface review
 
+### Junah and reserve options, 11 October 2026
+
+The player confirmed Junah has joined and the current date is 15 August. Added a regular phase from that date with protagonist/Wizard, Strohl/Swordmaster or qualified Samurai, Hulkenberg/Magic Knight and Junah/Masked Dancer, plus Heismay/Assassin as a reserve option. August 15 keeps Swordmaster for its group attack. August 18 and the exploration setup on August 20 use Junah as fourth member; the August 20 party-change instruction now refers to that actual fourth slot. The specialised arena roster remains unchanged. Later regular phases retain this default until their existing story-class recommendations take over; encounter-specific rosters still override it.
+
+The panel separates the suggested active members from reserve options. The reserve list provides alternatives among the five characters known to the player at this update; it does not claim to list every later recruit. Earlier selected dates render exactly as before. No calendar activity, checklist ID, stored progress or combat requirement changes.
+
+Two researchers independently checked Junah's starting kit and the near-term matchups. Her native Masked Dancer plus supplied Seeker's Mask requires no extra mastery or crafted healing mask. The mask occupies the accessory slot, grants Cyclo/Tarukaja/Tetrabreak and changes affinities to Fire weakness/Wind resistance. Infernal Vortex is native Fire damage. Hulkenberg remains the healer. Masked Revelry at rank 11 restores Junah's own MP; it is an ongoing goal, not a date requirement or party-wide refill. No unverified pre-bond inheritance or full reserve-experience claim is required by this setup.
+
+Verification for this update: 46 tests and the production build passed. The real-content DOM check covered all 72 remaining dates, checked the August 15 active four/reserve split and spoiler boundary, opened Junah's skills disclosure, and navigated the calendar without losing scroll or saved checks. All 73 earlier dates retain their selected party data and rendered content. All 433 daily check IDs, the complete route, storage module and stylesheet remain unchanged. Chrome was absent from the connected browser inventory, so no fresh pixel-level browser check is claimed; no foreground window or in-app browser was opened.
+
+Checks: [starting equipment and Cyclo](https://game8.co/games/Metaphor-ReFantazio/archives/480752), [Seeker's Mask skills and affinities](https://game8.co/games/Metaphor-ReFantazio/archives/480555), [firsthand mask equipment explanation](https://thegameslayer.com/guides/all-masks-and-how-to-craft-in-metaphor-refantazio/), [Masked Dancer skills](https://gamefaqs.gamespot.com/ps5/410470-metaphor-refantazio/faqs/81508/masked-dancer-lineage) and [Masked Revelry's caster-only effect](https://www.gamerguides.com/metaphor-refantazio/database/skills/skills/masked-revelry). Some firsthand guide tables were available as search-indexed extracts when direct reading was blocked. This is a practical, source-supported recommendation, not a measured universal best team.
+
 The existing navy reader, serif titles and muted gold accents are retained. Wide screens place party preparation to the right; narrower screens put it above the itinerary. Skills and alternatives use native keyboard-accessible disclosures.
 
 | Before | After | Why |
