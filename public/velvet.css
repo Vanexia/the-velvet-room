@@ -517,6 +517,151 @@ input[type="file"] {
   gap: 38px;
   align-items: start;
 }
+.daily-layout--party > .calendar-rail {
+  grid-column: 1;
+  grid-row: 1 / span 2;
+}
+.daily-layout--party > .day-sheet {
+  grid-column: 2;
+  grid-row: 2;
+}
+.party-panel {
+  grid-column: 2;
+  grid-row: 1;
+  min-width: 0;
+  padding: 24px;
+  border: 1px solid var(--line);
+  border-top: 2px solid var(--accent);
+  background: #111e35;
+  color: var(--silver);
+  font-size: 13px;
+  line-height: 1.7;
+  overflow-wrap: anywhere;
+}
+.party-header .eyebrow {
+  font-size: 10px;
+  color: var(--accent);
+}
+.party-header h2 {
+  font-size: 27px;
+  margin: 12px 0;
+  color: var(--text);
+}
+.party-assumptions {
+  color: var(--muted);
+  font-size: 12px;
+  margin-top: 14px;
+}
+.party-roster {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  column-gap: 26px;
+  margin-top: 22px;
+}
+.party-member {
+  min-width: 0;
+  padding: 18px 0;
+  border-top: 1px solid var(--line);
+}
+.party-member h3 {
+  font-family: var(--body);
+  font-size: 13px;
+  color: var(--muted);
+}
+.party-archetype {
+  font-family: var(--display);
+  font-size: 22px;
+  color: var(--text);
+  line-height: 1.25;
+  margin: 4px 0 10px;
+}
+.party-options {
+  margin-top: 12px;
+}
+.party-options summary,
+.party-sources summary {
+  width: fit-content;
+  padding: 7px 0;
+  color: var(--silver);
+  font-size: 12px;
+  text-underline-offset: 4px;
+}
+.party-options summary:hover,
+.party-sources summary:hover {
+  color: var(--text);
+  text-decoration: underline;
+}
+.party-options summary:active,
+.party-sources summary:active {
+  color: var(--accent);
+}
+.party-options dl {
+  margin: 10px 0 0;
+  padding-left: 13px;
+  border-left: 1px solid var(--line);
+}
+.party-options dt {
+  color: var(--accent);
+  margin: 12px 0 4px;
+  font-size: 11px;
+  font-weight: 600;
+}
+.party-options dd {
+  margin: 0;
+}
+.party-preparation {
+  border-top: 1px solid var(--line);
+  padding-top: 18px;
+}
+.party-preparation h3 {
+  color: var(--text);
+  font-size: 13px;
+}
+.party-preparation ul,
+.party-sources ul {
+  margin: 12px 0 0;
+  padding-left: 18px;
+}
+.party-preparation li + li,
+.party-sources li + li {
+  margin-top: 10px;
+}
+.party-sources {
+  border-top: 1px solid var(--line);
+  margin-top: 22px;
+  padding-top: 12px;
+  font-size: 12px;
+  color: var(--muted);
+}
+.party-sources a {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+@media (min-width: 1550px) {
+  #app:has(.daily-layout--party) {
+    max-width: 1512px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+  .daily-layout--party {
+    grid-template-columns: 208px minmax(0, 1fr) 300px;
+    gap: 30px;
+  }
+  .daily-layout--party > .calendar-rail,
+  .daily-layout--party > .day-sheet,
+  .party-panel {
+    grid-row: 1;
+  }
+  .party-panel {
+    grid-column: 3;
+    padding: 22px;
+  }
+  .party-roster {
+    grid-template-columns: 1fr;
+  }
+}
 .guide-primer {
   margin: -12px 0 26px;
   font-size: 12px;
@@ -551,6 +696,10 @@ dialog {
   overscroll-behavior: contain;
 }
 @media (pointer: coarse) {
+  .party-options summary,
+  .party-sources summary {
+    padding: 12px 0;
+  }
   .step-side input {
     width: 24px;
     height: 24px;
@@ -1314,6 +1463,9 @@ dialog p {
   }
 }
 @media (max-width: 900px) {
+  .party-roster {
+    grid-template-columns: 1fr;
+  }
   .daily-layout,
   .companion-layout {
     grid-template-columns: 175px minmax(0, 1fr);
@@ -1364,6 +1516,13 @@ dialog p {
   }
 }
 @media (max-width: 640px) {
+  .party-panel {
+    padding: 20px;
+    margin-bottom: 24px;
+  }
+  .party-roster {
+    grid-template-columns: 1fr;
+  }
   body::before {
     inset: 7px;
   }
@@ -1614,6 +1773,7 @@ dialog p {
   .guide-about,
   .day-pagination,
   .toast,
+  .party-panel,
   .back-link {
     display: none;
   }

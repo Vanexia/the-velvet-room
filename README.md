@@ -4,7 +4,7 @@ A compact game collection with daily guides and platinum reminders. Choose a gam
 
 [Open The Velvet Room](https://vanexia.github.io/the-velvet-room/)
 
-The first guide is **Metaphor: ReFantazio**: 145 dates and 422 ordered instructions adapted from the audited personal schedule. The existing chronological platinum reminders remain under **Reference & notes**. Preparation and separate boss help are available for the early dungeon scheduled on 13 June.
+The first guide is **Metaphor: ReFantazio**: 145 dates and 433 ordered instructions adapted from the audited personal schedule. The existing chronological platinum reminders remain under **Reference & notes**. Preparation and separate boss help are available for the early dungeon scheduled on 13 June.
 
 ## Following the daily guide
 
@@ -14,6 +14,7 @@ The first guide is **Metaphor: ReFantazio**: 145 dates and 422 ordered instructi
 - **Next day** shows the next date's instructions without marking anything complete. Other dates' instructions are absent from the page.
 - **Hide extra details** closes encounter help and reference reveals while preserving the visible day, checklists, notes and reading place.
 - The calendar follows the game's 30-day months. Checkpoints are checks on your actual save, not guarantees that the schedule has raised a rank.
+- From **16 July**, the party panel suggests Archetypes for a Magic-focused protagonist on Normal. Open **Skills & alternatives** for inherited skills, individual requirements, fallbacks and training goals. Battle days have specific preparations; town days keep a stable setup. Arena advice follows the receptionist's displayed rank if earlier matches were delayed.
 
 The website is now the maintained reading edition. The earlier personal Google Doc remains a backup; it does not automatically synchronise with website changes. Downloading the full Markdown route exposes all dates and future details.
 
@@ -34,6 +35,8 @@ Only the selected day's instructions appear in the daily reader, including its a
 
 Full-source links warn that PSNProfiles contains unhidden spoilers. Repository content and compiled scripts include the complete companion; inspecting them can expose spoilers. The site's disclosure controls protect ordinary reading, not deliberate source inspection.
 
+Party recommendations follow the same selected-date boundary. Future party identities and story-unlocked classes stay out of the reader until their safe date. External research links are under **Research & sources**, with a spoiler warning.
+
 ## Maintaining the route
 
 `content/metaphor-schedule.md` is the source for the daily route. `npm test` and `npm run build` compile it to `src/data/metaphor-days.json`; edit the Markdown rather than that generated file. The build also provides a downloadable Markdown edition. `src/data/day-help.js` contains separately gated explanations and combat help.
@@ -41,6 +44,8 @@ Full-source links warn that PSNProfiles contains unhidden spoilers. Repository c
 Keep each instruction's `<!-- id: ... -->` marker when editing or moving it. New instructions need new IDs; never reuse one for an unrelated task. The compiler rejects duplicate dates or IDs, and requires all 145 dates. Tests check full instruction preservation, order, old backup migration and spoiler isolation. Mark materially more revealing new help with a new ID so it starts hidden.
 
 For shopping lists, recipe ingredients or ordered directions inside one instruction, add detail bullets indented by two spaces (`  - Detail`). They render as a list beneath that instruction and share its existing checkbox. Details are plain text, escaped for display, and only appear when their date is selected.
+
+`src/data/party-guide.json` contains chronological party defaults and dated battle overrides. An override replaces the default roster and notes for that day; write it so it makes sense on its own. Check per-character skill ranks, inheritance slots, required participants, equipment restrictions and fallback compatibility. Do not infer study ranks from a date. Keep phases ordered, use neutral headings and update the introduction-boundary tests when adding names. See [party recommendation checks](docs/party-recommendations.md) for evidence and limits; that maintenance record contains spoilers.
 
 Verify added NPC names, locations, quest triggers and time costs against sources, and record the evidence against the affected step IDs in [route direction checks](docs/route-direction-checks.md). Distinguish the original requester, the hand-in recipient and any separate bond event. A date used by another walkthrough is not by itself proof of an unlock date. Record conflicting evidence or missing information instead of filling gaps from memory. The automated checks verify the website and content conversion; they do not establish that the gameplay directions are correct.
 
