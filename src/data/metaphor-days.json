@@ -1929,14 +1929,14 @@
       },
       {
         "id": "august-05-step-05",
-        "label": "Night · choose ONE activity",
-        "text": "Save before starting. Check Courage and the rope currently offered before paying, then follow the matching option below.",
+        "label": "Night · cliff jumping",
+        "text": "With Courage 3 or higher and At Your Own Risk still locked, do ONE cliff jump tonight. Save first, then go to Martira → Thoroughfare Square. Speak to the Spirited Youth at the wooden ledge on the northwestern side and check his price.",
         "kind": "night",
         "items": [
-          "Courage 3 or higher: Go to Martira → Thoroughfare Square and speak to the Spirited Youth at the wooden ledge on the northwestern side. After two successful jumps, he offers the super-fine rope for 500 reeve. Pay, complete the jump, then check that At Your Own Risk unlocks. If the jump fails, reload before retrying.",
-          "If he offers a 250- or 375-reeve rope, you still have an earlier jump to complete. Take that offered challenge if its Courage requirement allows it. This uses tonight; you cannot also do the 500-reeve challenge tonight.",
-          "Courage below 3: Keep the final jump pending. Go to Brilehaven → Arenafront Wharf → Varmareno Coliseum and win the next available ranked match for Courage. Record the ranked win and check the resulting Courage rank. If the arena is closed, keep your start-of-evening save and get the route adjusted before advancing. An earlier rope challenge is another Courage option if it is offered and you meet its requirement, but it does not count as the final jump.",
-          "Reminder for later: If you did not earn the jump trophy tonight, reserve an October recovery evening for the next rope challenge. The route provides 24 October unless another recovery activity needs that evening. Each jump attempt uses a separate evening."
+          "He asks for 500 reeve: Pay for the super-fine rope and complete the final jump. Check that At Your Own Risk unlocks. Reload your save if you fail, then retry.",
+          "He asks for 250 or 375 reeve: An earlier jump is still unfinished. Courage 3 is sufficient to attempt either one. Pay the offered price and look for a Foreign Coin reward to confirm success; reload if you fail. That is your activity for tonight. Leave the next jump for a later free evening.",
+          "Use the arena INSTEAD only if Courage is below 3 OR you already have At Your Own Risk: Go to Brilehaven → Arenafront Wharf → Varmareno Coliseum. Win the next available ranked match offered by the Spirited Receptionist, then record the win and check your Courage. If the arena is closed, keep your start-of-evening save and get the route adjusted before advancing.",
+          "Reminder for later: If the jump trophy remains locked, record how many jumps are still unfinished. Each needs its own free period. Later recovery evenings may also be needed for arena or bond catch-up; one spare evening cannot cover two missing jumps."
         ]
       }
     ]
@@ -4392,7 +4392,7 @@
         "items": [
           "Night · choose one main activity: first finish any free Daturam follow-up available from an Alonzo rank-8 event completed on an earlier night. Then take the next arena event described below. If the arena is closed, leave that event unfinished and use a later free arena period. If all arena events are complete, use tonight for another available unfinished event.",
           "Arena option · choose one event at Brilehaven → Arenafront Wharf → Varmareno Coliseum. First, win the next ranked match offered by the Spirited Receptionist. Once Gold I is won, accept Become Champion of the Coliseum and take her Champion Battle. After those are finished, ask the Taciturn Receptionist for Gauntlet Challenge → Gold: The Furthest Reaches and win its 30 consecutive fights. Do only the first unfinished event available tonight; each uses a separate period.",
-          "Alternative night activity, only if the arena work is already complete: if the final cliff jump is unfinished, visit the Spirited Youth at the northwestern ledge in Martira’s Thoroughfare Square. With Courage 3 and two earlier successful jumps, save, pay 500 reeve for the super-fine rope and complete the jump. Check At Your Own Risk; reload on failure. If tonight is needed for the arena, keep the jump for 24 October night.",
+          "Alternative night activity, only if the arena work is already complete: if At Your Own Risk is still locked, save and visit the Spirited Youth at the northwestern ledge in Martira’s Thoroughfare Square. With Courage 3 or higher, take the jump he offers: 250 or 375 reeve means an earlier jump, while 500 reeve means the final super-fine rope. Check for a Foreign Coin after an earlier jump or the trophy after the final jump; reload on failure. Do only one jump tonight. Keep any remaining jump for 24 October night if that period is free; each unfinished jump needs a separate period.",
           "Ongoing combat checklist: 50 different Synthesis skills used; 100 squad ambushes after a field stun; 50 unscathed battle wins; 10 Elementas defeated; 100,000 reeve spent through skills; one successful steal; Gallica conversations; and sword-riding distance. Review what is missing and work on it during suitable battles or free exploration. This list is not an instruction to finish every counter today. Instant field kills do not count as squad ambushes."
         ]
       }
@@ -4430,7 +4430,7 @@
         "items": [
           "Night · choose one main activity: first finish any free Daturam follow-up available from an Alonzo rank-8 event completed on an earlier night. Then take the next arena event described below. If the arena is closed, keep your save and check whether tomorrow afternoon can accommodate it; do not assume another normal evening remains. If all arena events are complete, use tonight for another available unfinished event.",
           "Arena option · choose one event at Brilehaven → Arenafront Wharf → Varmareno Coliseum. First, win the next ranked match offered by the Spirited Receptionist. Once Gold I is won, accept Become Champion of the Coliseum and take her Champion Battle. After those are finished, ask the Taciturn Receptionist for Gauntlet Challenge → Gold: The Furthest Reaches and win its 30 consecutive fights. Do only the first unfinished event available tonight; each uses a separate period.",
-          "Alternative night activity, only after arena work is complete: if the final cliff jump is unfinished, visit the Spirited Youth in Martira’s Thoroughfare Square. With Courage 3 and the two earlier jumps complete, save and pay 500 reeve for the super-fine rope. Complete the jump and check its trophy; reload if it fails. The jump uses tonight’s activity and cannot share it with an arena event."
+          "Alternative night activity, only after arena work is complete: if At Your Own Risk is still locked, save and visit the Spirited Youth at the northwestern ledge in Martira’s Thoroughfare Square. With Courage 3 or higher, take the offered jump: 250 or 375 reeve means an earlier jump, while 500 reeve means the final super-fine rope. Check for a Foreign Coin after an earlier jump or the trophy after the final jump; reload on failure. This uses tonight’s activity. If another jump remains, keep your save and get the route adjusted; do not count one evening as completing multiple jumps."
         ]
       }
     ]
