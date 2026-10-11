@@ -37,4 +37,10 @@ When expanding an instruction, source the added NPC, district, building, interac
 
 ## Website verification
 
+### 11 October: July 23 flower request prerequisite
+
+The reader reported no Rainbow Flower or Key Items category at the Sanctor, then confirmed that **Efflorescent Youth was not in their quest log**. The church, NPC, price and July 23 availability agree across [NightlyGamingBinge](https://nightlygamingbinge.com/efflorescent-youth-metaphor-refantazio-guide/), [Gamer Guides](https://www.gamerguides.com/metaphor-refantazio/guide/side-quests/port-brilehaven/efflorescent-youth) and [Neoseeker](https://www.neoseeker.com/metaphor-refantazio/guides/Efflorescent_Youth). NGB and Gamer Guides also describe the flower conversation with the Sanctor before purchase.
+
+Clarified `july-23-step-07` as two separate request pickups, with the Kindly Boy's landmark and a quest-log check. Clarified `july-23-step-09` to require the active flower request before travelling, then explain the conversation, Buy menu, Key Items tab and named hand-in. Preserved both IDs and the day's order. The earlier text bundled both requests in one sentence and did not repeat the prerequisite at the purchase step. No evidence establishes a separate Listen-menu requirement or a game bug; neither is claimed. The user's eventual purchase remains unconfirmed.
+
 Local verification on 7 October 2026: 30 tests passed, production build completed, and `git diff --check` passed. A comparison against the previous published data confirmed the same 145 dates and 422 instruction IDs in the same order; 15 instructions changed. A rendered June 29 check confirmed the Fabienne/Sunshade Row directions, the separate bond step, retention of an existing hand-in checkbox, and absence of later dates' instructions. These checks validate delivery and saved-progress compatibility, not the game facts themselves.

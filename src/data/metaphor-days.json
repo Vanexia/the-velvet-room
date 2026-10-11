@@ -1484,8 +1484,12 @@
       {
         "id": "july-23-step-07",
         "label": "Free requests · Seabreeze Street",
-        "text": "Accept Efflorescent Youth from the Kindly Boy in the southern area and Dental Distress from the Sullen Man in the western area. The latter needs a village purchase during the next trip.",
-        "kind": "free"
+        "text": "Accept these two separate requests before leaving Brilehaven. Check that both names appear in your quest log.",
+        "kind": "free",
+        "items": [
+          "Efflorescent Youth: speak to the Kindly Boy under a lamp post near the southern entrance to Seabreeze Street. Finish the conversation and accept his request for a flower for his friend's birthday. This is the quest needed for the church purchase in step 9.",
+          "Dental Distress: speak to the Sullen Man in the western area. This is a different request and needs a village purchase during the next trip."
+        ]
       },
       {
         "id": "july-23-step-08",
@@ -1495,9 +1499,14 @@
       },
       {
         "id": "july-23-step-09",
-        "label": "Free hand-in · Grand Trad and Brilehaven",
-        "text": "Teleport to Grand Trad and enter St. Fermis Church on Sunlumeo Street. Speak to the Sanctor behind the altar and open the shop's Key Items category. Buy Rainbow Flower for 500 reeve, then return to Seabreeze Street in Brilehaven and give it to the Kindly Boy for Efflorescent Youth. Its deadline is 10 August.",
-        "kind": "free"
+        "label": "Free purchase and hand-in · Efflorescent Youth",
+        "text": "First check that Efflorescent Youth is active in your quest log. If it is missing, return to the Kindly Boy in step 7 and accept his request before visiting the church.",
+        "kind": "free",
+        "items": [
+          "Teleport to Grand Trad → Sunlumeo Street → St. Fermis Church. Speak to the Sanctor behind the altar. With the flower request accepted, the conversation includes Gallica asking about flowers and the Sanctor describing a Rainbow Flower replica.",
+          "Open Buy, then switch to the Key Items tab and purchase Rainbow Flower for 500 reeve. This is a shop purchase, not equipment purification. If the flower is missing, check the quest log and the flower conversation before spending time looking elsewhere.",
+          "Return to Brilehaven → Seabreeze Street and give the flower to the Kindly Boy. Check that Efflorescent Youth is marked complete. Its deadline is 10 August."
+        ]
       },
       {
         "id": "july-23-step-10",
