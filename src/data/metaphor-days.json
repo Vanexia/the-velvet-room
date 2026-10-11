@@ -1727,32 +1727,40 @@
       },
       {
         "id": "july-30-step-02",
-        "label": "After the dungeon",
-        "text": "When choosing what to do next, camp here and select onward travel for tomorrow. Do not select the return-to-town route; the next several dates assume you remain on this trip.",
+        "label": "Leave the dungeon and camp",
+        "text": "Return to the dungeon entrance. When leaving, choose “to set up camp”, then “I want to go somewhere else”. This keeps the runner here for the night so you can continue the trip tomorrow. Do not choose to return to town.",
         "kind": "task"
       },
       {
         "id": "july-30-step-03",
         "label": "Night · uses time",
-        "text": "After choosing to camp, go to the runner's Engine Room and give Neuras the Gypsum Cube. This completes Relic Search: Dregs of Destiny and his rank-3 event. Accept the next relic request. Leave the bounty and chalice reports for your return to Brilehaven.",
-        "kind": "time"
+        "text": "In the runner's Engine Room, give Neuras the Gypsum Cube. This completes Relic Search: Dregs of Destiny and his rank-3 event. Accept the next relic request. Leave the bounty and chalice reports for your return to Brilehaven.",
+        "kind": "time",
+        "items": [
+          "That completes today's scheduled activities. Once the game shows 1 August, open the 1 August guide entry and choose the next destination on the runner's Strategy Room map. You do not need to enter this dungeon again.",
+          "The two reminders below explain ongoing training. They do not add another activity to this day or require more battles before departure."
+        ]
       },
       {
         "id": "july-30-step-04",
-        "label": "More's next task · training during dungeon visits",
-        "text": "After reporting the 15-different-Archetypes task, accept Chapter Four: Turmoil. It needs General at rank 15 on any party member.",
+        "label": "Reference · More's ongoing training task, not due today",
+        "text": "Chapter Four: Turmoil asks for General rank 15 on any one party member. You can leave this task unfinished and continue your journey.",
         "kind": "task",
         "items": [
-          "On that same character, raise Commander to rank 20, then study General once Bardon's bond is at least rank 3. Use A-EXP items you own if helpful. Keep a suitable battle setup while training.",
-          "Report to More after General reaches 15 to collect the Imagination reward. The later virtue checks must use your actual rank; an unfinished training task has given no reward yet.",
-          "Samurai is optional here and has separate requirements. If Strohl's bond was delayed on July 23, keep Swordmaster until the rank-7 event is complete; you can still train General for More."
+          "Choose one character for the task. On that character, raise Commander to 20, study General, then raise General to 15. Studying General also requires Bardon's follower bond at rank 3.",
+          "Work toward this during later dungeon visits. You do not need to finish it in Tomb of Lament or spend your remaining training items tonight. Report to More when General reaches 15; only then count its Imagination reward."
         ]
       },
       {
         "id": "july-30-step-05",
-        "label": "Training tip",
-        "text": "A mastered Archetype still earns useful A-EXP. Each further 1,000 A-EXP produces an item worth 1,000 A-EXP that you can apply to another studied Archetype. Keep a strong combat setup when it helps rather than equipping an unsuitable class just to avoid wasting experience.",
-        "kind": "task"
+        "label": "Reference · Samurai and training items",
+        "text": "Samurai is an optional upgrade for Strohl. He needs Swordmaster 20 and General 10 on his own Archetype Tree, plus his follower bond at rank 7. General 10 is the Samurai prerequisite; General 15 is More's separate task. Keep Swordmaster while you work toward the upgrade.",
+        "kind": "task",
+        "items": [
+          "Training General on Strohl can contribute to both goals. Another character can complete More's task, but their ranks do not unlock Samurai for Strohl.",
+          "You can keep a strong, mastered Archetype equipped. Each further 1,000 A-EXP produces a Hero's Leaf of Light worth 1,000 A-EXP for another studied Archetype. This lets you train other classes with earned items instead of equipping a weak class for a difficult fight.",
+          "These are longer-term goals. If you have already camped and completed Neuras's event, continue with 1 August; there is no extra July 30 grind to complete."
+        ]
       }
     ]
   },

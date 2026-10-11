@@ -85,7 +85,7 @@
           "inherit": "Carry a useful Warrior skill such as Diagonal Slash (5 MP) for cheaper fights. Keep any other inherited skills you already use within the available slots.",
           "requires": "Samurai needs Strohl bond 7, his Swordmaster 20 and his General 10. General first needs his Commander 20 and Bardon bond 3.",
           "fallback": "Stay Swordmaster or mastered Warrior while building the prerequisites. The bond unlock alone is not a reason to change.",
-          "train": "Commander 20, then General 10, toward Samurai. If Strohl is also handling More’s task, keep training General to 15 before moving on."
+          "train": "Longer-term goal: his Commander 20, then General 10, toward Samurai. If Strohl is handling More’s task, work toward General 15 over later battles. You can leave a dungeon with this unfinished; keep Swordmaster for fights while building these ranks with earned A-EXP items."
         },
         {
           "name": "Hulkenberg",

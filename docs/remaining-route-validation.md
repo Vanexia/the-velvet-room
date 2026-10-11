@@ -40,3 +40,11 @@ The final comparison accounts for all 269 instructions in scope; 120 changed. Al
 All 40 automated tests and the production build passed. A separate DOM check verified selected-day isolation, calendar selection without a scroll jump, and saved-progress export/import. Six reservation scenarios passed checks for duplicate activity periods, follower-rank order and required intervening days. These models check schedule capacity; they do not prove virtue-point totals, arena weather or combat success.
 
 Release verification uses the GitHub Pages workflow followed by an HTTP readback that compares the deployed script, stylesheet and downloadable schedule with the tested local build. Its result is recorded privately after deployment.
+
+## July 30 sequence clarification
+
+The player subsequently reported that the training notes after Neuras's evening event sounded like an instruction to return to the dungeon and reach General 15 before leaving. The regular-party advice also said “before moving on”. The factual prerequisite checks in the review had not caught this misleading sequence.
+
+July 30 now gives the exact camp choices, marks Neuras's event as the end of the day's activities, and directs the reader to August 1 when the date advances. The two remaining entries are explicitly reference notes. They distinguish More's General-15 objective from Strohl's personal Swordmaster-20/General-10 and bond-7 requirements for Samurai. Neither is a July 30 departure condition. The shared party advice no longer implies one.
+
+[More's task record](https://game8.co/games/Metaphor-ReFantazio/archives/478549) lists no quest deadline. [The same dungeon's travel sequence](https://gamefaqs.gamespot.com/xbox-series-x/409958-metaphor-refantazio/faqs/81526/journey-to-port-brilehaven-and-the-tomb-of-lament) supplies the camp choices and next-day departure. An independent reviewer checked the revised copy. All 40 tests and the build passed; a rendered-content check confirmed the end-of-day wording and preserved checked state. All 433 step IDs and the other 144 dates' instructions remain unchanged.
