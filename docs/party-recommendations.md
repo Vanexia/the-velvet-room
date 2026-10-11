@@ -43,6 +43,18 @@ Each dated recommendation includes its own relevant encounter sources. Source pa
 
 September 4 intentionally keeps general preparation because a detailed script for that earlier runner encounter was not independently established. It does not import an endgame enemy strategy merely because a name matches. Conflicting tomb resistance classifications and exact final-trial turn counts are omitted; the advice uses verified useful damage types and a qualitative deadline.
 
+## Route recovery review, 11 October 2026
+
+The rebuilt route can replace several arena periods with follower recovery, and an extra Courage match can advance the ladder. The party panel therefore uses the receptionist's actual rank. August and September arena entries include the lower Bronze and Silver setups that the recovery branches can reach. October's arena entries and shared recovery phase include the ranked ladder, Championship and Gold Gauntlet, with separate instructions for solo, field and two-person Brawler matches. The four-character cards explicitly apply only to the named group events.
+
+The early Courage branches on August 5 and 7 also have conditional Bronze preparation. Their ranked wins can advance August 11/12 into Silver and August 19 into Silver I, so those panels include the matching setups. If early wins reach a difficult Gold match in September, the panel keeps later story classes hidden and follows the route's easier-endurance alternative, with no ranked credit.
+
+September 4 distinguishes the optional runner outing from Alonzo's recovery. September 30 and October 3 carry the Jin outing on the date it is taken, and October 16 preserves Bardon's fight preparation alongside a conditional arena slot. Town bonds and virtue activities need no combat swap. The itinerary decides which activity consumes each period; the party panel does not add another activity.
+
+Samurai, Paladin and Persona Master labels remain conditional on actual follower and study requirements. The healer alternatives include Medi when Medica has not been learned, and the October 7 Saviour alternative no longer assumes that Paladin has unlocked. Delayed Bardon and Heismay bonds do not prevent the existing Commander/General and Assassin setups; Warlord, Royal and Ninja training remains optional and gated.
+
+This review reuses the earlier sourced encounter preparations. It checks route consistency, usable alternatives and selected-date rendering; it does not claim to have replayed the route or tested damage on the user's save. Advice selected before 23 July remains unchanged. The interface and spoiler disclosures remain unchanged.
+
 ## Interface review
 
 The existing navy reader, serif titles and muted gold accents are retained. Wide screens place party preparation to the right; narrower screens put it above the itinerary. Skills and alternatives use native keyboard-accessible disclosures.

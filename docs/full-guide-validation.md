@@ -1,5 +1,7 @@
 # Complete guide source validation
 
+Latest follow-up: [23 July onward, reviewed 11 October](remaining-route-validation.md). The record below describes the earlier review, not the current revision.
+
 Reviewed 7 October 2026. **Maintenance record: later-game names and mechanics appear in linked evidence.** Read the website one date at a time during a first playthrough.
 
 The review covered all 145 dates and 422 original instructions. The revision has 433 instructions: 134 original instructions changed and 11 distinct errands/checks were added. All original identifiers remain on their original dates, preserving saved progress. Three preparation instructions moved earlier within their existing day.

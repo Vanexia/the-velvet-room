@@ -1510,9 +1510,15 @@
       },
       {
         "id": "july-23-step-10",
-        "label": "Free request steps · Grand Trad",
-        "text": "With Imagination 3, speak to the Fishmonger on the west side of the Regalith Grand Cathedral market for A Noble's Legacy. Then speak to the Capital Merchant to the northwest, near the water, and choose “Did his fish stink?” These are daytime conversations. Complete them before reporting back to Strohl for his bond event.",
-        "kind": "free"
+        "label": "Free preparation · check Imagination before Strohl's request",
+        "text": "The Capital Merchant needs Imagination rank 3. Check your actual rank before going to him; this date alone does not mean you have reached it.",
+        "kind": "check",
+        "items": [
+          "If you are still rank 2, visit More in Akademeia first. The original route counts on completing More's Task Chapter Three: Drifting, which asks for 15 different Archetypes studied across the party. Report it now if ready.",
+          "If the task is unfinished, open the Archetype Tree and study available types that nobody in the party has studied yet. Each different type counts once, whichever character learns it. Studying the same type on several characters adds no extra types; you do not need to master all 15. Check each new type's MAG and rank requirements before buying it. Studying and reporting More's task do not spend this afternoon.",
+          "Check Imagination again after claiming the reward. If it is still below 3, leave A Noble's Legacy pending and use the alternative in step 12. You do not need to reload an earlier date.",
+          "With Imagination 3, go to Grand Trad → Regalith Grand Cathedral market. Speak to the Fishmonger on the west side, then the Capital Merchant to the northwest near the Water Merchant. Choose “Did his fish stink?” The merchant conversations are free; reporting to Strohl is the afternoon activity."
+        ]
       },
       {
         "id": "july-23-step-11",
@@ -1522,9 +1528,13 @@
       },
       {
         "id": "july-23-step-12",
-        "label": "Afternoon · uses time",
-        "text": "Find Strohl on Grand Trad's Sunlumeo Street outside Nau Filono Tavern, or use Followers to reach him. Report A Noble's Legacy after the merchant steps above and complete his rank 6 event.",
-        "kind": "time"
+        "label": "Afternoon · choose one activity",
+        "text": "If you completed the merchant conversations, find Strohl on Grand Trad's Sunlumeo Street outside Nau Filono Tavern, or reach him through Followers. Report A Noble's Legacy and finish his rank-6 event.",
+        "kind": "time",
+        "items": [
+          "If Imagination is still below 3, teleport to Brilehaven → Angler's Inn Square instead. Speak to the Sanctor beside the fountain and listen to a folktale for Imagination. This is the outdoor storyteller in Brilehaven, a different Sanctor from the church shopkeeper. Listening uses the afternoon.",
+          "Recheck your virtue rank afterwards. Keep tonight's debate. If you used this alternative, July 27 will finish Strohl rank 6, August 9 will finish rank 7, and August 12 afternoon will finish rank 8 in place of one arena match. Follow those dates' alternatives; do not tick a bond complete before you have done it."
+        ]
       },
       {
         "id": "july-23-step-13",
@@ -1602,15 +1612,20 @@
     "steps": [
       {
         "id": "july-27-step-01",
-        "label": "Afternoon · uses time",
-        "text": "Find Strohl through Followers and take the bond event, finishing at rank 7.",
-        "kind": "time"
+        "label": "Afternoon · Strohl",
+        "text": "Check his current bond rank before choosing the event.",
+        "kind": "time",
+        "items": [
+          "If he reached rank 6 on July 23, find him through Followers and take rank 7 today.",
+          "If you spent July 23 raising Imagination, first check Imagination 3. Finish A Noble's Legacy's free merchant conversations in Grand Trad's Regalith Grand Cathedral market, including “Did his fish stink?” with the Capital Merchant. Then report to Strohl for rank 6. His rank 7 moves to August 9 and rank 8 to August 12 afternoon.",
+          "If Imagination is still below 3, report More's completed 15-Archetype task before spending time. If you cannot complete it, use the Brilehaven fountain Sanctor's Imagination activity and keep Strohl pending. The rank-6 event cannot be skipped; use the later bond slots for his next eligible rank, in order."
+        ]
       },
       {
         "id": "july-27-step-02",
-        "label": "Night",
-        "text": "At the Merchants' Bazaar podium in Brilehaven, debate Milo. Choose “Beauty is deeper than our skin!” Record the win. The source targets Eloquence 4 here.",
-        "kind": "night"
+        "label": "Night · uses time",
+        "text": "At the Merchants' Bazaar podium in Brilehaven, debate Milo. Choose “Beauty is deeper than our skin!” Record the win. Check your actual Eloquence afterwards; rank 4 is not required for this debate. The next scheduled Bardon requirement is rank 3, which you reported having on July 23.",
+        "kind": "time"
       }
     ]
   },
@@ -1623,7 +1638,7 @@
       {
         "id": "july-28-step-01",
         "label": "Afternoon · uses time",
-        "text": "Find Maria through Followers and take the bond event, finishing at rank 6.",
+        "text": "Go to Grand Trad → Sunshade Row → Hushed Honeybee Inn, or find Maria through Followers. Take her rank-6 event. Her later rank 7 needs Tolerance 4; today's event does not. The coming trip reserves readings for that requirement.",
         "kind": "time"
       },
       {
@@ -1660,9 +1675,9 @@
       },
       {
         "id": "july-29-step-02",
-        "label": "Route",
-        "text": "Inundo, Tomb of Lament, Forsaken Tower, Gracia Forest. Ensure the chosen tower route intersects Catherina's pink runner; you need the next encounter before leaving this region.",
-        "kind": "task"
+        "label": "Departure · uses time",
+        "text": "In the runner’s Strategy Room, use the map to select Tomb of Lament. Choose the route through Inundo, where you will stop to shop today. Follow the later dated entries for Forsaken Tower and Gracia Forest; when setting the tower route, check that it crosses Catherina’s pink runner.",
+        "kind": "time"
       },
       {
         "id": "july-29-step-03",
@@ -1701,9 +1716,14 @@
     "steps": [
       {
         "id": "july-30-step-01",
-        "label": "Afternoon",
-        "text": "Read The Magical Future, first session; choose ‘It won't work for everyone’. Receive the route drawing. Clear Tomb of Lament for Fatolich and the relic, and find both Gold Beetles. Check for two Giant's Ribs from the giant enemies for two separate recipes; if you leave with fewer, record which dishes must wait for later supplies.",
-        "kind": "time"
+        "label": "Afternoon · read, then explore Tomb of Lament",
+        "text": "During the journey, start The Magical Future and choose “It won't work for everyone.” This raises Wisdom. You also receive the Peregrine Falls drawing on this route.",
+        "kind": "time",
+        "items": [
+          "In the dungeon, defeat Fatolich for the bounty and collect the Gypsum Cube relic from the chest in a western B1F cell, reached through the nearby crawl passages. Finding the boss does not collect the relic for you.",
+          "Collect the two Gold Beetles, one on each floor. Check the dungeon map for unexplored passages before leaving.",
+          "Keep two Giant's Ribs from the giant enemies if they drop. Tomorrow's two recipes use one each. If you get fewer, skip the affected dish when prompted; later shops offer replacements. The reading and relic are today's priorities."
+        ]
       },
       {
         "id": "july-30-step-02",
@@ -1713,15 +1733,20 @@
       },
       {
         "id": "july-30-step-03",
-        "label": "Night",
-        "text": "Report the relic to Neuras, target rank 3.",
-        "kind": "night"
+        "label": "Night · uses time",
+        "text": "After choosing to camp, go to the runner's Engine Room and give Neuras the Gypsum Cube. This completes Relic Search: Dregs of Destiny and his rank-3 event. Accept the next relic request. Leave the bounty and chalice reports for your return to Brilehaven.",
+        "kind": "time"
       },
       {
         "id": "july-30-step-04",
-        "label": "Training checkpoint",
-        "text": "Commander rank 20 opens General with Bardon rank 3; More then needs General rank 15. Samurai has its own study prerequisites. A bond unlock does not automatically grant or level an Archetype.",
-        "kind": "check"
+        "label": "More's next task · training during dungeon visits",
+        "text": "After reporting the 15-different-Archetypes task, accept Chapter Four: Turmoil. It needs General at rank 15 on any party member.",
+        "kind": "task",
+        "items": [
+          "On that same character, raise Commander to rank 20, then study General once Bardon's bond is at least rank 3. Use A-EXP items you own if helpful. Keep a suitable battle setup while training.",
+          "Report to More after General reaches 15 to collect the Imagination reward. The later virtue checks must use your actual rank; an unfinished training task has given no reward yet.",
+          "Samurai is optional here and has separate requirements. If Strohl's bond was delayed on July 23, keep Swordmaster until the rank-7 event is complete; you can still train General for More."
+        ]
       },
       {
         "id": "july-30-step-05",
@@ -1776,7 +1801,7 @@
       {
         "id": "august-01-step-05",
         "label": "Night · main activity",
-        "text": "Finish The Magical Future; choose “We have to live and fight on.” Check Wisdom 3.",
+        "text": "Finish The Magical Future; choose “We have to live and fight on.” Check Wisdom in Royal Virtues. Rank 3 is needed for Alonzo on 8 August. If you are still rank 2, keep the extra Wisdom reading on 4 August unless Tolerance is also short; the 8 August entry gives the recovery order.",
         "kind": "night"
       }
     ]
@@ -1790,7 +1815,7 @@
       {
         "id": "august-02-step-01",
         "label": "Afternoon",
-        "text": "Reread Bygone Days. Complete the Catherina runner encounter en route if it has not happened yet; confirm rank 4. Clear Forsaken Tower for Orgas and collect its Gold Beetle.",
+        "text": "Reread Bygone Days while travelling. Complete the Catherina runner encounter if it has not happened yet and check that her bond reaches rank 4. In Forsaken Tower, collect the Gold Beetle on the fifth floor beside the central railing near the stairs, then defeat Orgas at the top.",
         "kind": "time"
       },
       {
@@ -1822,7 +1847,7 @@
       {
         "id": "august-03-step-02",
         "label": "Night",
-        "text": "Reread Bygone Days again. Check Tolerance 4 before Maria's next rank. If short, use the 04 August travel reading for Bygone Days as well; record one deferred Wisdom reading for a later travel slot.",
+        "text": "Reread Bygone Days. Check Tolerance: Maria’s rank-7 event needs rank 4. If you remain rank 3, reread Bygone Days again tomorrow instead of The Magical Future.",
         "kind": "night"
       }
     ]
@@ -1856,32 +1881,36 @@
       {
         "id": "august-05-step-01",
         "label": "Free hand-ins · Brilehaven",
-        "text": "Give the Dragonthistle Berries to the Soldier's Solace requester in Angler's Inn Square. Claim the Fatolich bounty at the Recruitment Centre, then give the chalice to the Brewer at Arenafront Wharf for The Chalice vs. The Brew.",
+        "text": "In Brilehaven → Angler’s Inn Square, give the seven Dragonthistle Berries to the Exhausted Woman near the Spider’s Den Inn for Soldier’s Solace. Claim the Fatolich bounty at the Recruitment Centre. Then visit the Brewer at Arenafront Wharf and give him the chalice for The Chalice vs. The Brew.",
         "kind": "free"
       },
       {
         "id": "august-05-step-02",
         "label": "Free hand-ins · Brilehaven",
-        "text": "Give the tower reward to the Superior Scrimshaw Craftsman in Merchants' Bazaar. Give the Toothbrush of Hygienia to the Dental Distress requester on Seabreeze Street and collect the Gold Beetle reward.",
+        "text": "Give Orgas’s Ebony Horn to the Craftsman in Merchants’ Bazaar for Superior Scrimshaw. Then visit the Sullen Man on Seabreeze Street and give him the Toothbrush of Hygienia for Dental Distress. Collect the Gold Beetle reward; this request expires on 9 August.",
         "kind": "free"
       },
       {
         "id": "august-05-step-03",
         "label": "Free request completion · arena",
-        "text": "After clearing Forsaken Tower, return to the Pompous Noble at the arena. Discuss real fights and the Forsaken Tower, then ask for the deed. Return the deed to the Overfamiliar Man at Nightprowler for Deeds and Diversions.",
+        "text": "Enter the Varmareno Coliseum at Arenafront Wharf and speak to the Pompous Noble in the lobby. Discuss real fights, mention Forsaken Tower, then ask for the deed. Take it to the Overfamiliar Man outside Nightprowler in Angler’s Inn Square to finish Deeds and Diversions.",
         "kind": "free"
       },
       {
         "id": "august-05-step-04",
         "label": "Afternoon · uses time",
-        "text": "Meet Maria at the Hushed Honeybee Inn in Grand Trad. Show your drawings when prompted and take her rank 7 bond event. Check Tolerance 4 before starting; if short, record this event as delayed and raise Tolerance.",
+        "text": "Meet Maria outside the Hushed Honeybee Inn in Grand Trad → Sunshade Row. If Tolerance is rank 4, take her rank-7 bond event. If it is still rank 3, go to Brilehaven → Angler’s Inn Square and give the Earnest Youth on the small bridge 250 reeve to hear him out. Use 7 August for Maria rank 7 and 11 August afternoon for rank 8 once the gate is met.",
         "kind": "time"
       },
       {
         "id": "august-05-step-05",
         "label": "Night · uses time",
-        "text": "In Martira → Thoroughfare Square, return to the Spirited Youth at the wooden ledge on the northwestern side. After two successful jumps, he offers the super-fine rope for 500 reeve. This third challenge needs Courage rank 3. Save before paying, complete it, and check that At Your Own Risk unlocks. If it fails, reload before retrying. A 250- or 375-reeve offer means you still have an earlier challenge to clear; complete the offered challenge and use a later free evening for the next one. Each visit uses an evening.",
-        "kind": "time"
+        "text": "Check Courage and the rope the Spirited Youth offers before choosing tonight’s activity.",
+        "kind": "time",
+        "items": [
+          "Check Courage before paying for the 500-reeve rope. If Courage is below 3, keep that challenge pending and go to the Coliseum in Brilehaven → Arenafront Wharf tonight for the next available ranked match. This raises Courage and counts toward the ranked ladder; record the win and check the new virtue rank. If the arena is closed, keep the start-of-evening save and replan this gate before advancing. Reserve one October recovery night for the pending rope challenge; 24 October is available in the bounded route unless another recovery already owns it. If an earlier rope is still offered and permitted, its successful jump is another Courage activity, but do not count it as the final challenge.",
+          "Only if taking the jump: In Martira → Thoroughfare Square, return to the Spirited Youth at the wooden ledge on the northwestern side. After two successful jumps, he offers the super-fine rope for 500 reeve. This third challenge needs Courage rank 3. Save before paying, complete it, and check that At Your Own Risk unlocks. If it fails, reload before retrying. A 250- or 375-reeve offer means you still have an earlier challenge to clear; complete the offered challenge and reserve an October recovery evening for the next offered rope. Each visit uses an evening."
+        ]
       }
     ]
   },
@@ -1920,7 +1949,7 @@
       {
         "id": "august-07-step-02",
         "label": "Night · uses time",
-        "text": "Find Brigitta through Followers and take the bond event, finishing at rank 5; check Courage 3.",
+        "text": "If Courage is at least 3, take Brigitta’s nighttime rank-5 event. If it is still below 3, use the next available ranked Coliseum match tonight and check the resulting rank; record the extra ranked win. Only if Courage has reached 3 can the delayed sequence proceed: Brigitta rank 5 on 9 August, rank 6 on 19 August, then rank 7 on 2 October if that night is free, otherwise 14 October; rank 8 follows after a full intervening day, on 16 October when needed. If Courage is still below 3 or the arena is closed, retain the save and replan from the actual gate before advancing.",
         "kind": "time"
       }
     ]
@@ -1940,7 +1969,7 @@
       {
         "id": "august-08-step-02",
         "label": "Night · uses time",
-        "text": "Check Wisdom 3, then find Alonzo through Followers and take his rank 2 event in Brilehaven's Angler's Inn Square. If Wisdom is short, improve it first and record this bond as delayed; rank 3 needs this event completed.",
+        "text": "At night, meet Alonzo in Brilehaven → Angler’s Inn Square for rank 2 if Wisdom is 3. If short, use the nearby Watchtower for Wisdom; if weather closes it, use Martira’s Thoroughfare Square bench west of the fountain instead. Check the resulting rank. Only if Wisdom reaches 3 can the one-session recovery continue: Alonzo 2 on 10 August, 3 on 12 August, 4 on 29 August, 5 on 1 September night, and 6 on 4 September afternoon. If still short, retain the save and record the remaining gate before spending the next reserved bond period.",
         "kind": "time"
       }
     ]
@@ -1954,13 +1983,13 @@
       {
         "id": "august-09-step-01",
         "label": "Afternoon · uses time",
-        "text": "Find Strohl through Followers and take the bond event, finishing at rank 8.",
+        "text": "Find Strohl through Followers and take his next bond event. Normally this finishes rank 8. If you used 23 July’s extra Imagination activity and completed rank 6 on 27 July, do rank 7 today and finish rank 8 on 12 August afternoon instead of the arena match.",
         "kind": "time"
       },
       {
         "id": "august-09-step-02",
         "label": "Night · uses time",
-        "text": "Go to Grand Trad → Sunlumeo Street → outside Lycaon Magic Association. Speak to the Watchman at Brigitta's usual spot and answer “I am” to begin her rank 6 event.",
+        "text": "If Brigitta rank 5 was delayed on 7 August and Courage is now 3, take rank 5 tonight and reserve rank 6 for 19 August. Otherwise, if she is already rank 5, speak to the Watchman outside Lycaon Magic Association on Grand Trad’s Sunlumeo Street and answer “I am” for rank 6.",
         "kind": "time"
       }
     ]
@@ -1974,13 +2003,13 @@
       {
         "id": "august-10-step-01",
         "label": "Afternoon · uses time",
-        "text": "Find Bardon through Followers and take the bond event, finishing at rank 6; keep the resulting request in your log.",
+        "text": "Find Bardon through Followers and take his rank-6 event. This adds The Right to Rule to your quest log. Keep it for the planned 30 August attempt.",
         "kind": "time"
       },
       {
         "id": "august-10-step-02",
         "label": "Night · uses time",
-        "text": "Find Alonzo through Followers and take his rank 3 event. This assumes rank 2 was completed on 08 August; if that event was delayed, leave the usual intervening day before attempting the next rank.",
+        "text": "Meet Alonzo in Brilehaven → Angler’s Inn Square. Take rank 3 if you completed rank 2 on 8 August. If 8 August was your extra Wisdom activity, complete rank 2 tonight; continue with rank 3 on 12 August.",
         "kind": "time"
       }
     ]
@@ -2006,7 +2035,7 @@
       {
         "id": "august-11-step-03",
         "label": "Buffer",
-        "text": "If an earlier bond or virtue check is still behind, you can defer one of these matches to October. Record the missing match; its Courage gain may also be delayed, so check the upcoming Courage gates rather than assuming they are met.",
+        "text": "Record any ranked match replaced by Maria’s recovery today or Strohl’s recovery tomorrow. The October catch-up evenings take the next match in your current ladder, so the guide does not assume a rank you have not earned. Keep tonight’s match unless a named recovery step replaces it.",
         "kind": "task"
       }
     ]
@@ -2020,19 +2049,19 @@
       {
         "id": "august-12-step-01",
         "label": "Afternoon · uses time",
-        "text": "Return to the Coliseum at Brilehaven's Arenafront Wharf and complete the next ranked match. Continue your current rank ladder; do not choose an endurance Gauntlet.",
+        "text": "If Strohl reached rank 7 on 9 August, meet him now to finish rank 8 and record one ranked arena match for October catch-up. Otherwise go to Brilehaven → Arenafront Wharf → Varmareno Coliseum and complete the next ranked match with the Spirited Receptionist.",
         "kind": "time"
       },
       {
         "id": "august-12-step-02",
         "label": "Night · uses time",
-        "text": "Find Alonzo through Followers and take the bond event, finishing at rank 4; check Tolerance 3.",
+        "text": "Meet Alonzo in Brilehaven → Angler’s Inn Square. Normally take rank 4, which needs Tolerance 3. If you did rank 2 on 10 August, take rank 3 tonight instead; rank 4 moves to 29 August.",
         "kind": "time"
       },
       {
         "id": "august-12-step-03",
         "label": "Before departure",
-        "text": "Confirm Catherina rank 4, all four Brilehaven debate wins and the book from Julian. Check the regional requests are complete. Dental Distress expired on 09 August and Efflorescent Youth on 10 August; today's check cannot recover an expired request.",
+        "text": "Confirm Catherina rank 4, all four Brilehaven debate wins and the book from Julian. Check the regional requests are complete. Dental Distress expired on 09 August and Efflorescent Youth on 10 August; today's check cannot recover an expired request. Also check that you have Tail Bait for the 14 August fishing activity; use the 23 July bait errand if you have not collected it.",
         "kind": "task"
       }
     ]
@@ -2084,14 +2113,14 @@
       {
         "id": "august-14-step-03",
         "label": "Night · cook, then conversation",
-        "text": "Make Secretest of Secrets in the runner kitchen before taking Junah's Imagination conversation.",
+        "text": "Make Secretest of Secrets in the runner kitchen, then speak to Junah and choose to reminisce during tonight’s story journey.",
         "kind": "night",
         "items": [
           "Lord of the Lake ×1, from this afternoon's fishing.",
           "Mellow Milk ×2.",
           "Marbled Bluefin Tuna ×2.",
           "Keep both Queen's Honey Jars for later. This dish uses the fish, not the honey.",
-          "If an ingredient is missing, write down Secretest of Secrets and the missing ingredient to cook on a later journey. Take Junah's Imagination conversation either way; that is tonight's main activity."
+          "If an ingredient is missing, write down Secretest of Secrets and the missing ingredient to cook on a later journey. Reminisce with Junah either way; that is tonight’s main activity."
         ]
       }
     ]
@@ -2131,7 +2160,7 @@
       {
         "id": "august-16-step-02",
         "label": "Night",
-        "text": "Take Junah's Imagination conversation.",
+        "text": "Speak to Junah and choose to reminisce during tonight’s story journey. This conversation raises Imagination.",
         "kind": "night"
       }
     ]
@@ -2159,13 +2188,13 @@
       {
         "id": "august-18-step-01",
         "label": "Free errands · Virga Island",
-        "text": "Collect the four beetles and buy the missing ingredients for Finisher Noodles before departing.",
+        "text": "Collect the five village Gold Beetles and buy the missing ingredients for Finisher Noodles before departing.",
         "kind": "free",
         "items": [
-          "Find the beetles by the tavern walkway, western raised area, dragon statue and boxes near the runner.",
+          "Collect the five village Gold Beetles: northeast of Rooster Inn; behind Golden Deer Hearth tavern; by the Chief's House after climbing the western ladder; on the raised walkway behind the dragon statue; and on Sandy Coast, behind the crates just west of the gauntlet runner beside the drying-fish rack.",
           "On Sandy Coast, visit Graco Meat Market, the Village Butcher, for Monster Bone ×1.",
-          "At Amblyrhy's Water Jug, buy enough Pristine Clearwater to hold 3. Earlier recipes used their own water.",
-          "Check that you still have Brocaded Koi ×1 from The Queen of Cuisine: Heart. If you used it, leave the dish for a later journey; you cannot substitute another fish."
+          "At Amblyrhy’s Water Jug, buy enough Pristine Clearwater to hold 3.",
+          "Keep Brocaded Koi ×1 from The Queen of Cuisine: Heart for Finisher Noodles. If you used it, record the dish for a later fishing-and-cooking journey."
         ]
       },
       {
@@ -2191,13 +2220,13 @@
       {
         "id": "august-19-step-01",
         "label": "Free requests · island village",
-        "text": "Outside the inn, accept Peak Curiosity. Follow the path to the Enthusiastic Woman near the central rock and accept The Price of Hope.",
+        "text": "In Virga Island → Inn Well, speak to the Dejected Man outside Rooster Inn to accept Peak Curiosity. Then speak to the Enthusiastic Woman by the King’s Rock to accept The Price of Hope.",
         "kind": "free"
       },
       {
         "id": "august-19-step-02",
         "label": "Free preparation",
-        "text": "Buy the island informant's destination reports inside Rooster Inn. Teleport to Grand Trad and accept The Greater One-Eyed Scoundrel, the Psyocropos bounty, from the Recruiter Dispatcher inside the Recruitment Centre in the Regalith Grand Cathedral district. Buy Monster of Scoundrel's Hold from Ardea at the Hushed Honeybee Inn on Sunshade Row. There is no bounty dispatcher on the island. Check both this destination and the one for Peak Curiosity are on your map.",
+        "text": "Enter Golden Deer Hearth, the island tavern, and speak to the Talkative Mustari informant. Buy the destination reports for Spire of Blind Faith and Orbwise Path, plus Secret of the Eugief’s Stall for the optional shop visit below. For Ancestral Solution, speak to Batlin on the walkway outside the tavern about the medicine. Teleport to Grand Trad → Regalith Grand Cathedral district → Recruitment Centre, and accept The Greater One-Eyed Scoundrel from the Recruiter Dispatcher. At the Hushed Honeybee Inn on Sunshade Row, buy Ardea’s Scoundrel’s Hold report. Check that the new dungeon destinations appear on your map.",
         "kind": "check"
       },
       {
@@ -2215,7 +2244,7 @@
       {
         "id": "august-19-step-05",
         "label": "Free requests · island village",
-        "text": "Speak to Junah nearby after the Parchwater hand-in and accept Save the Mourning Snakes. Find the Hoarse Fisher-Crone near Rooster Inn and accept A Guiding Gift, due by 30 August. Continue past its requester toward the eastern edge of the area for a Gold Beetle.",
+        "text": "Speak to Junah in Dragon Statue Plaza and accept Save the Mourning Snakes. Near Rooster Inn, speak to the Hoarse Fisher-Crone and accept A Guiding Gift, due by 30 August. If you missed the beetle northeast of the inn yesterday, collect it now; this is the same pickup, not an additional beetle.",
         "kind": "free"
       },
       {
@@ -2233,7 +2262,7 @@
       {
         "id": "august-19-step-08",
         "label": "Night · uses time",
-        "text": "Meet Brigitta for her rank 7 bond event. Courage 4 is required. If blocked, improve Courage and record this event as delayed rather than spending the period on an unrelated chat.",
+        "text": "If Brigitta is rank 5 after the early Courage recovery, take her rank-6 Watchman event outside Lycaon Magic Association tonight; rank 7 then moves to the October reservations. Otherwise, if she is rank 6 and Courage is 4, take rank 7. If the rank-7 Courage gate is still locked, use a Coliseum challenge for Courage. Prefer the next ranked fight if your team can handle it; record the win as a credit against later catch-up matches. An easier endurance challenge gives no ranked credit. Keep unfinished Brigitta events for the actual-rank checks on 2, 14 and 16 October.",
         "kind": "time"
       }
     ]
@@ -2265,13 +2294,13 @@
           "Cook Sweeter than Poison... using White Peach Turnip ×1, Gauntlet Shrooms ×1 and Lumibee ×1.",
           "The shroom comes from the pantry; the bug comes from campfire pickups. If either is missing, write down the uncooked dish and what you lack, then continue with today's plan.",
           "Main activity while travelling: finish the poetry book.",
-          "On arrival: clear Dragon Temple and collect all three Polar Stones for A Guiding Gift before leaving."
+          "On arrival, clear Dragon Temple. Pick up all three Polar Stones for A Guiding Gift: check that the quest shows 3/3 before leaving. One is in the early corridor among pots; the others are in the labyrinth section."
         ]
       },
       {
         "id": "august-20-step-03",
         "label": "Training",
-        "text": "Report More's General-rank-15 task as soon as you meet it. Then work toward 25 different studied Archetypes and one mastered Elite Archetype. These quest rewards help the coming Imagination check.",
+        "text": "Progress More’s active task in order. After reporting the 15-distinct-Archetype task, train one character’s Commander to rank 20, study General once Bardon is rank 3, and raise that General to rank 15. Report it to More to claim the reward and unlock the 25-distinct-Archetype task. Count types studied at least once across the party, not duplicate studies of the same type. Do not spend tonight’s calendar period on this or assume the 25-type reward is already available.",
         "kind": "task"
       },
       {
@@ -2297,7 +2326,7 @@
       {
         "id": "august-21-step-02",
         "label": "Free request · Eupha",
-        "text": "Accept The Trial of Malnova, then speak to the nearby Clumsy Boy for a Gold Beetle.",
+        "text": "Use Followers to find Eupha in the island village and accept The Trial of Malnova. Then visit the Clumsy Boy near the well outside Rooster Inn for a Gold Beetle.",
         "kind": "free"
       },
       {
@@ -2333,14 +2362,14 @@
       },
       {
         "id": "august-21-step-04",
-        "label": "Night · cook, then conversation",
-        "text": "Make Stale Blackbread in the runner kitchen before taking Junah's Imagination conversation.",
+        "label": "Night · cook, then read",
+        "text": "Make Stale Blackbread in the runner kitchen, then reread New World Travel Diary for Imagination.",
         "kind": "night",
         "items": [
           "Geldust ×1.",
           "Fiendflower Nectar ×1.",
           "Fragrant Spice ×3.",
-          "If an ingredient is missing, note Stale Blackbread and what you lack for a later journey. Take Junah's Imagination conversation either way; that is tonight's main activity."
+          "If an ingredient is missing, record the dish for a later journey and continue to the reading."
         ]
       }
     ]
@@ -2367,7 +2396,7 @@
       {
         "id": "august-22-step-02",
         "label": "On arrival · dungeon",
-        "text": "Clear Land of Ceremony, collect its relic and Gold Beetle, and finish The Trial of Malnova to unlock Eupha's bond.",
+        "text": "Clear Land of Ceremony to complete The Trial of Malnova and unlock Eupha’s bond. Before leaving, collect the Mossy Pillar relic from the chest in the western part of the lower floor and the Gold Beetle on the upper floor. Keep the relic for Neuras on 25 August.",
         "kind": "task"
       },
       {
@@ -2393,7 +2422,7 @@
       {
         "id": "august-23-step-02",
         "label": "Afternoon · uses time",
-        "text": "Go to Virga Island's Sandy Coast and use the beach-view Wisdom activity. If Wisdom is already 4 and Imagination is short, use an available Imagination activity instead.",
+        "text": "If Wisdom is below 4, go to Virga Island → Sandy Coast, near the runner, and choose the View of the Beach activity. If Wisdom is already 4 but Imagination is below 4, teleport to Brilehaven → Angler’s Inn Square and listen to the Sanctor’s story instead. Each choice uses the afternoon.",
         "kind": "time"
       },
       {
@@ -2419,19 +2448,19 @@
       {
         "id": "august-24-step-03",
         "label": "Before either activity",
-        "text": "Report any completed More task, but check its actual requirements. General rank 15, 25 different studied Archetypes and one Elite Archetype at rank 20 are separate turn-ins. Later studies can require follower unlocks you do not yet have. If a virtue remains short, take the stated virtue activity and record the town bond for the 02 October recovery branch.",
+        "text": "Before spending time, report any completed More task in Akademeia. General rank 15, 25 different Archetypes studied, and one Elite Archetype at rank 20 are separate tasks that you must report in order. Complete today’s follower events when their virtues allow, then recheck the study list: Hulkenberg’s rank 7 opens further options. Do not count the 25-type or Elite reward before you have earned and reported it.",
         "kind": "task"
       },
       {
         "id": "august-24-step-01",
         "label": "Afternoon · uses time",
-        "text": "Find Hulkenberg through Followers and take the bond event, finishing at rank 7, only with Wisdom 4. If blocked, use another Wisdom activity instead and record Hulkenberg rank 7 as delayed.",
+        "text": "If Wisdom is rank 4, use Followers to meet Hulkenberg in town and complete rank 7. If it is below 4, use View of the Beach near the runner on Virga Island’s Sandy Coast. Record Hulkenberg rank 7 for 2 October afternoon and rank 8 for 6 October’s journey; the 27 August runner event cannot replace the town event.",
         "kind": "time"
       },
       {
         "id": "august-24-step-02",
         "label": "Night · uses time",
-        "text": "Find Heismay through Followers and take the bond event, finishing at rank 7, only with Imagination 4. If blocked, use an available Imagination activity instead and record the delay.",
+        "text": "If Imagination is rank 4, use Followers to meet Heismay in town and complete rank 7. If it is below 4, teleport to Brilehaven → Angler’s Inn Square and listen to the Sanctor’s story. Record Heismay rank 7 for 2 October night and rank 8 for 6 October’s journey.",
         "kind": "time"
       }
     ]
@@ -2456,7 +2485,7 @@
       {
         "id": "august-25-step-01",
         "label": "Afternoon · main activity",
-        "text": "On the journey to Orbwise Path, meditate with Eupha and choose the deep-breathing response. On arrival, clear Save the Mourning Snakes and find both Gold Beetles. This unlocks Junah's bond.",
+        "text": "On the journey to Orbwise Path, meditate with Eupha and choose “Breathe deeply.” In the dungeon, collect both Gold Beetles: one on the ground floor in the large room with two chests, and one on the upper floor reached by the stairs. Defeat the quest target to finish Save the Mourning Snakes and unlock Junah’s bond.",
         "kind": "time"
       },
       {
@@ -2485,11 +2514,12 @@
         "text": "Use the kitchen to make dishes you had to skip. With Speed Cooking, you can cook once before the daytime activity and once before the night activity.",
         "kind": "task",
         "items": [
+          "If The Queen of Cuisine: Heart is still unfinished, prioritise Benevolent Bread before optional recipe catch-up: 1 Fragrant Spice, 1 Mellow Milk and 1 Orgo Sugar. Keep one serving for the Classy Woman.",
           "Open the kitchen recipe list and choose an uncooked dish for which you have all ingredients. Start with Magical Bread or Invincible Noodles if either is still unfinished.",
           "Magical Bread needs Mora Coney Meat ×2, Rockbeans ×2 and Dreameater Moth ×1.",
           "Invincible Noodles needs Fragrant Spice ×1, Bidou Meat ×2 and Lumibee ×1.",
-          "At night, inspect the glowing campfire pickup before cooking. The bug is random; if you get neither bug you need, keep the scheduled conversation below.",
-          "More dishes still uncooked? Keep their names and missing ingredients on your notes list for the next journey. Do not replace today's meditation or conversation with extra cooking."
+          "At night, inspect the glowing campfire pickup before cooking. The bug is random; if you get neither bug you need, continue with the scheduled main activity below.",
+          "More dishes still uncooked? Keep their names and missing ingredients on your notes list for the next journey. Do not replace today's main activities with extra cooking."
         ]
       },
       {
@@ -2501,7 +2531,7 @@
       {
         "id": "august-26-step-02",
         "label": "Night",
-        "text": "Take Junah's Imagination conversation. If you deferred a Wisdom reading and Imagination is already sufficient, this is a possible catch-up slot; check that tomorrow's rank events are eligible before swapping.",
+        "text": "Check your virtues, then take one activity: if Imagination is below 4, reread New World Travel Diary; otherwise, if Wisdom is below 4, reread The Magical Future. If both are at least 4, listen to Junah sing on the runner for Eloquence. These activities do not complete an unfinished town bond; keep the 2 October recovery booking if you missed Hulkenberg or Heismay rank 7.",
         "kind": "night"
       }
     ]
@@ -2515,13 +2545,13 @@
       {
         "id": "august-27-step-01",
         "label": "Afternoon · travel",
-        "text": "If Hulkenberg's town rank 7 is complete, take her travelling rank-8 event. If rank 7 was delayed, it cannot be done on the runner: use a Wisdom reading or another eligible activity instead, and keep the town event pending for 02 October. Receive the Sporico Cave route drawing.",
+        "text": "If Hulkenberg's town rank 7 is complete, take her travelling rank-8 event. If rank 7 was delayed, it cannot be done on the runner: reread The Magical Future for Wisdom, and keep the town event pending for 02 October. Receive the Sporico Cave route drawing.",
         "kind": "time"
       },
       {
         "id": "august-27-step-02",
         "label": "Night · travel",
-        "text": "If Heismay's town rank 7 is complete, take his travelling rank-8 event. If rank 7 was delayed, use an Imagination activity or unfinished book; keep the town event pending for 02 October.",
+        "text": "If Heismay's town rank 7 is complete, take his travelling rank-8 event. If rank 7 was delayed, reread New World Travel Diary for Imagination; keep the town event pending for 02 October.",
         "kind": "night"
       },
       {
@@ -2541,13 +2571,13 @@
       {
         "id": "august-28-step-01",
         "label": "Afternoon",
-        "text": "Reread The Magical Future, then enter Spire of Blind Faith. Speak to the Confident Woman at the entrance for Peak Curiosity. Clear the tower and collect its Gold Beetle. After defeating Leogron, take the Monster Notebook back to the Confident Woman at the entrance before leaving for town. Tomorrow's village hand-in depends on this conversation.",
+        "text": "Reread The Magical Future, then enter Spire of Blind Faith. Speak to the Confident Woman at the entrance for Peak Curiosity. Clear the tower and collect its Gold Beetle on the sixth floor. After defeating Leogron, take the Monster Notebook back to the Confident Woman at the entrance before leaving for town. Tomorrow's village hand-in depends on this conversation.",
         "kind": "time"
       },
       {
         "id": "august-28-step-02",
         "label": "Preparation",
-        "text": "The source suggests grinding to level 57 for a coming optional bond battle. That number is not an entry requirement. Improve your build, healing and defences as needed; you can postpone the difficult bond fight instead.",
+        "text": "Bardon’s planned 30 August event includes a level-60 boss. Save before attempting it. You can postpone the battle to 16 October and finish his final bond on 18 October if your current team struggles; you do not need to grind to a specific level today.",
         "kind": "check"
       },
       {
@@ -2568,7 +2598,10 @@
         "id": "august-29-step-01",
         "label": "Free hand-in · Virga Island",
         "text": "Speak to the Dejected Man outside Rooster Inn to complete Peak Curiosity. Yesterday's Monster Notebook must already have been given to the Confident Woman at the spire entrance. Optional discounted shopping and MAG exchange can follow; keep a reserve for Archetype studies.",
-        "kind": "free"
+        "kind": "free",
+        "items": [
+          "If The Queen of Cuisine: Heart is still active and you have Benevolent Bread, teleport to Martira → Thoroughfare Square → Visca Alba Tavern. Give the bread to the Classy Woman inside near the guest-room door, then continue today's events."
+        ]
       },
       {
         "id": "august-29-step-02",
@@ -2579,7 +2612,7 @@
       {
         "id": "august-29-step-03",
         "label": "Night · uses time",
-        "text": "Find Alonzo through Followers and take the bond event, finishing at rank 5.",
+        "text": "Meet Alonzo in Brilehaven → Angler’s Inn Square at night. Normally take rank 5. If his rank 2 moved to 10 August, take rank 4 tonight with Tolerance 3; take rank 5 on 1 September night and rank 6 on 4 September afternoon.",
         "kind": "time"
       }
     ]
@@ -2593,7 +2626,7 @@
       {
         "id": "august-30-step-01",
         "label": "Afternoon",
-        "text": "Save before Bardon's rank 7 event, which includes a strong boss. Complete The Right to Rule if your team can handle it. Otherwise postpone this event to the free October days; do not force a large grind merely to match this date.",
+        "text": "Save before speaking to Bardon for The Right to Rule. This rank-7 event includes a level-60 boss. If your team struggles, reload the save, keep the request active, and use today for the View of the Beach on Virga Island if Wisdom is below 4. Otherwise listen to the Sanctor in Brilehaven → Angler’s Inn Square for Imagination. The recovery route schedules Bardon rank 7 on 16 October and rank 8 on 18 October.",
         "kind": "time"
       },
       {
@@ -2619,7 +2652,7 @@
       {
         "id": "september-01-step-02",
         "label": "Night · uses time",
-        "text": "Return to the Coliseum at Brilehaven's Arenafront Wharf and complete the next ranked match. Continue your current rank ladder; do not choose an endurance Gauntlet.",
+        "text": "If Alonzo is rank 4 after the August recovery route, use Followers tonight for Alonzo rank 5 in Brilehaven. Otherwise complete your next ranked Coliseum match at Arenafront Wharf. Record the rank actually won; later matches follow your ladder.",
         "kind": "time"
       }
     ]
@@ -2633,7 +2666,7 @@
       {
         "id": "september-02-step-01",
         "label": "Afternoon · uses time",
-        "text": "Find Alonzo through Followers and take the bond event, finishing at rank 6.",
+        "text": "If Alonzo rank 5 was completed on 29 August, take his daytime rank-6 event now. If rank 5 was completed last night, leave this day between his events: listen to the Sanctor in Brilehaven → Angler’s Inn Square for Imagination and reserve Alonzo rank 6 for 4 September afternoon.",
         "kind": "time"
       },
       {
@@ -2653,14 +2686,17 @@
       {
         "id": "september-03-step-01",
         "label": "Afternoon · uses time",
-        "text": "Find Eupha through Followers and take the bond event, finishing at rank 4.",
+        "text": "Meet Eupha in town for rank 4, following rank 3 on 1 September. Keep this date even in Alonzo’s Wisdom-recovery branch.",
         "kind": "time"
       },
       {
         "id": "september-03-step-02",
         "label": "Night · uses time",
         "text": "Return to the Coliseum at Brilehaven's Arenafront Wharf and complete the next ranked match. Continue your current rank ladder; do not choose an endurance Gauntlet. Check Courage 5 before the later Alonzo gate. If you moved arena sessions, their Courage rewards must still be earned.",
-        "kind": "time"
+        "kind": "time",
+        "items": [
+          "If the next ranked fight is beyond your current party, leave that rank pending for October and take an easier endurance challenge for Courage instead. An endurance run does not complete a ranked match; record no ranked win for it."
+        ]
       }
     ]
   },
@@ -2679,8 +2715,11 @@
       {
         "id": "september-04-step-02",
         "label": "Afternoon",
-        "text": "Set a route toward Inundo that intercepts Jin's runner; check its marker and your active party before leaving. Meditate with Eupha. If this is your fourth meditation, after 21, 25 and 26 August, choose ‘A burning fire.’ Complete the runner encounter and return to town for tonight's bond.",
-        "kind": "time"
+        "text": "If Alonzo rank 5 moved to 1 September, meet him in Brilehaven → Angler’s Inn Square this afternoon for rank 6. Otherwise keep the optional early runner outing and Eupha meditation described here. Skipping this early outing does not complete or cancel the later Petty Thief request; its separate Jin trip remains scheduled after Neuras rank 7.",
+        "kind": "time",
+        "items": [
+          "Only if taking the outing: Set a route toward Inundo that intercepts Jin's runner; check its marker and your active party before leaving. Meditate with Eupha. If this is your fourth meditation, after 21, 25 and 26 August, choose ‘A burning fire.’ Complete the runner encounter and return to town for tonight's bond."
+        ]
       },
       {
         "id": "september-04-step-03",
@@ -2804,7 +2843,7 @@
       {
         "id": "september-10-step-01",
         "label": "Before the required destination",
-        "text": "Collect the Gold Beetle behind barrels in Skyward Tavern and do any available shopping.",
+        "text": "Do any shopping the story allows before going to the Opera House. The Skyward Tavern Gold Beetle is scheduled during the free errands on 13 September.",
         "kind": "task"
       },
       {
@@ -2852,7 +2891,7 @@
       {
         "id": "september-13-step-01",
         "label": "Keep a start-of-day save",
-        "text": "Today's debate and short trip share a tight schedule. Read this day's instructions before committing to travel.",
+        "text": "Today's debate and short trip share a tight schedule. Read this day's instructions before committing to travel. Before leaving Skyward Tavern, collect the Gold Beetle behind the barrels in the corner of the main room if you have not already picked it up.",
         "kind": "task"
       },
       {
@@ -2864,13 +2903,13 @@
       {
         "id": "september-13-step-03",
         "label": "Free requests · Altabury",
-        "text": "Accept Warmth in Winter from the man outside the inn. Accept Proof of Power from the soldier near the arrival point in Opera House Square.",
+        "text": "On Dia Franco Street, speak to the Portly Man beside Loveless outside Skyward Tavern and accept Warmth in Winter. In Opera House Square, speak to the Obsessive Soldier beside the foot of the stairs near the entrance and accept Proof of Power.",
         "kind": "free"
       },
       {
         "id": "september-13-step-04",
         "label": "Free preparation",
-        "text": "Accept the Icebeast Chimenzahn bounty at the Recruitment Centre. Buy the Tower of Insolence report from the informant to reveal that destination. On Lower Blue Sky Bridge, give a Medicinal Herb to the Man in Pain and keep the Tail Bait.",
+        "text": "In Altabury, use the Mountain Recruitment Centre on Lunlumo Approach to accept The Fiend in the Frozen Forest, the Icebeast Chimenzahn bounty. Buy the Tower of Insolence location report from the informant in Skyward Tavern on Dia Franco Street. On Lower Blue Sky Bridge, give a Medicinal Herb to the Man in Pain outside Whitepeaks Magic Shop; keep the Tail Bait.",
         "kind": "check"
       },
       {
@@ -2919,7 +2958,7 @@
       {
         "id": "september-13-step-08",
         "label": "Night · free hand-in",
-        "text": "Give the Durable Spider Silk to the Warmth in Winter requester outside the inn. Speak to Loveless there to accept Defeat Milo, then find Milo near the Recruitment Centre to put his runner on the map.",
+        "text": "Return the Durable Spider Silk to the Portly Man outside Skyward Tavern on Dia Franco Street. Speak to Loveless there to accept Defeat Milo. Then speak to Milo by the Mountain Recruitment Centre on Lunlumo Approach to reveal his runner.",
         "kind": "free"
       },
       {
@@ -2937,7 +2976,7 @@
       {
         "id": "september-13-step-11",
         "label": "Check before moving on",
-        "text": "Verify your actual Eloquence and Imagination ranks; the source expects both at 5 but the date does not guarantee them. Imagination 5 is needed for Basilio's later rank 6 event.",
+        "text": "Check Imagination 4 for Junah on 15 September, Eloquence 4 for Eupha on 16 September, Tolerance 5 for Catherina on 16 September, and Courage 5 for Alonzo on 17 September. Imagination 5 is needed on 26 September; finishing Literacy Workbook on 21 September adds its completion reward before then. These are requirements, not guaranteed ranks. If a listed gate is still locked, keep your save and use the dated recovery branch; do not mark the bond complete.",
         "kind": "check"
       }
     ]
@@ -2962,7 +3001,7 @@
       {
         "id": "september-14-step-02",
         "label": "Night · free hand-in first",
-        "text": "Report Defeat Milo to Loveless outside the Altabury inn.",
+        "text": "Return to Loveless outside Skyward Tavern on Dia Franco Street, Altabury, and report Defeat Milo before taking tonight's bond.",
         "kind": "free"
       },
       {
@@ -2988,7 +3027,7 @@
       {
         "id": "september-15-step-02",
         "label": "Night · uses time",
-        "text": "Check Imagination 4, then find Junah through Followers and take her bond event to rank 5. If short, raise Imagination in this slot and record the delayed bond. Her travelling rank 6 requires rank 5 first; do not tick it complete just because the date arrives.",
+        "text": "Check Imagination 4, then take Junah’s nighttime rank-5 event. If short, listen to the Chipper Old Woman outside Skyward Tavern on Altabury’s Lower Dia Franco Street tonight. Check the resulting rank. If it reaches 4, take Junah rank 5 tomorrow night and preserve her travelling rank 6 on 18 September. If it remains below 4, keep the save; this one-activity repair does not cover the remaining delay.",
         "kind": "time"
       }
     ]
@@ -3002,13 +3041,13 @@
       {
         "id": "september-16-step-01",
         "label": "Afternoon · uses time",
-        "text": "Find Eupha through Followers and take the bond event, finishing at rank 6; check Eloquence 4 and accept Wayward Shepherd.",
+        "text": "If Eloquence is at least 4, meet Eupha for rank 6 and accept The Wayward Shepherd. If short, give a speech at Altabury’s Upper Blue Sky Bridge podium this afternoon and check the resulting rank. Only if it reaches 4 can the following repair proceed: Eupha rank 6 on 19 September; Basilio rank 4 on 22 September, rank 5 on 26 September, rank 6 on 28 September, rank 7 on 30 September, then check rank 8 on 2 October with 14 October reserved if needed. Petty Thief moves to 3 October. This branch needs Imagination 5 by 28 September and Eloquence 5 by 14 October; it does not leave 26 September free for the snowcat recovery. If Eloquence remains below 4, retain the save and plan the additional activity before advancing.",
         "kind": "time"
       },
       {
         "id": "september-16-step-02",
         "label": "Night · uses time",
-        "text": "Find Catherina through Followers and take the bond event, finishing at rank 6; requires Tolerance 5.",
+        "text": "If Junah rank 5 was delayed yesterday and Imagination is now 4, take that event tonight; Catherina moves to the next entries. Otherwise, take Catherina rank 6 with Tolerance 5. If Catherina is blocked by Tolerance, spend tonight with the Maskless Mustari on Altabury’s Lower Blue Sky Bridge and check whether Tolerance reaches 5.",
         "kind": "time"
       }
     ]
@@ -3033,9 +3072,14 @@
       },
       {
         "id": "september-17-step-02",
-        "label": "Night · uses time",
-        "text": "Find Alonzo through Followers and take the bond event, finishing at rank 7; check Courage 5.",
-        "kind": "time"
+        "label": "Night · choose one activity",
+        "text": "Choose the first applicable option below. Each option uses tonight.",
+        "kind": "night",
+        "items": [
+          "If Catherina rank 6 is still pending, take that event with Tolerance 5. If her Tolerance requirement is still locked, spend tonight with the Maskless Mustari on Altabury’s Lower Blue Sky Bridge instead. Check the resulting rank; the 19 September repair requires Tolerance 5.",
+          "If Catherina rank 6 is complete, take Alonzo rank 7 with Courage 5. If Courage still blocks him, use an available Coliseum challenge for Courage. Prefer the next ranked fight if your team can handle it; otherwise choose an easier endurance challenge. Only a ranked victory counts toward the ranked ladder.",
+          "Keep any unfinished Alonzo event for 22 September and the October night reservations. Do not attempt a second activity tonight."
+        ]
       }
     ]
   },
@@ -3054,7 +3098,7 @@
           "Cook Adamantine Honey Cake with 1 Altabury Wheat Flour, 1 Queen's Honey Jar and 2 Orgo Sugar. Keep 3 honey for Sublime Spoonful.",
           "If ingredients are missing, skip the cake for now and continue today's bond and dungeon.",
           "Take Junah's travelling bond event to rank 6, provided her rank 5 is complete.",
-          "Receive the route drawing. At Everfrost Forest, defeat Icebeast Chimenzahn, collect the relic and Gold Beetle, then return."
+          "Receive the route drawing. At Everfrost Forest, defeat Icebeast Chimenzahn. Collect the Panhandled Ore relic from the chest on the east side of the map and the Gold Beetle in the southwest corner before returning."
         ]
       },
       {
@@ -3065,7 +3109,8 @@
         "items": [
           "If it is missing, check which recipes lack a cooked checkmark. Note their missing ingredients.",
           "Finish those dishes on later journeys, using Speed Cooking before the scheduled bond or book.",
-          "You can cook one recipe in each available daytime or night period. Finish the other 20 before attempting Sublime Spoonful."
+          "You can cook one recipe in each available daytime or night period. Finish the other 20 before attempting Sublime Spoonful.",
+          "If you have supplies for an unfinished dish, use Speed Cooking on 20 September or 21 September before the scheduled reading. These are travel periods already in this route. Cook only once in each period."
         ]
       },
       {
@@ -3085,19 +3130,19 @@
       {
         "id": "september-19-step-01",
         "label": "Free hand-in · Recruitment Centre",
-        "text": "Claim the reward for the Icebeast Chimenzahn bounty.",
+        "text": "At Grand Trad's Regalith Grand Cathedral market, enter the Recruitment Centre and claim The Fiend in the Frozen Forest reward for defeating Icebeast Chimenzahn.",
         "kind": "free"
       },
       {
         "id": "september-19-step-02",
         "label": "Afternoon · uses time",
-        "text": "Find Basilio through Followers and take the bond event, finishing at rank 4.",
+        "text": "If Eupha rank 6 was postponed on 16 September and Eloquence is now 4, take that event today and accept The Wayward Shepherd; Basilio rank 4 moves to 22 September. Otherwise take Basilio rank 4 as scheduled.",
         "kind": "time"
       },
       {
         "id": "september-19-step-03",
         "label": "Night · uses time",
-        "text": "Find Catherina through Followers and take the bond event, finishing at rank 7.",
+        "text": "Take Catherina’s next eligible nighttime event. If rank 6 was completed on 16 or 17 September, take rank 7 now. If 17 September was the Tolerance activity and Tolerance is now 5, take rank 6 now and reserve rank 7 for 22 September. Her rank 8 remains on 3 October when rank 7 is complete.",
         "kind": "time"
       }
     ]
@@ -3111,7 +3156,7 @@
       {
         "id": "september-20-step-01",
         "label": "Afternoon",
-        "text": "Travel toward Scoundrel's Hold via Ligno. Visit the village shop so it counts toward the village collection. Read Literacy Workbook, second session.",
+        "text": "Use town travel to return to Grand Trad, then set the runner route toward Scoundrel's Hold via Ligno. Read Literacy Workbook for its second session while travelling. At the Ligno stop, open the village shop before continuing; tonight remains available on the runner.",
         "kind": "time"
       },
       {
@@ -3131,8 +3176,12 @@
       {
         "id": "september-21-step-01",
         "label": "Afternoon",
-        "text": "Play Hexachess with Hulkenberg for Wisdom, or use a needed reading catch-up if a checkpoint remains short. Clear Scoundrel's Hold for Psyocropos; collect the relic and Gold Beetle before returning.",
-        "kind": "time"
+        "text": "Before arriving at Scoundrel's Hold, finish Literacy Workbook with its third reading. This gives the completion Imagination reward before Basilio's 26 September gate. If this finishes all seven books, check the book trophy. Then clear Scoundrel's Hold for Psyocropos and collect the Parquet Chest relic and Gold Beetle before returning.",
+        "kind": "time",
+        "items": [
+          "Parquet Chest: northwest part of the first floor, reached through a crawlspace.",
+          "This replaces today's optional Hexachess. Read The Magical Future for Wisdom on 27 September instead."
+        ]
       },
       {
         "id": "september-21-step-02",
@@ -3151,19 +3200,19 @@
       {
         "id": "september-22-step-01",
         "label": "Free hand-in · Recruitment Centre",
-        "text": "Claim the Psyocropos bounty reward.",
+        "text": "Return to the Recruitment Centre in Grand Trad's Regalith Grand Cathedral market and claim The Greater One-Eyed Scoundrel reward for defeating Psyocropos.",
         "kind": "free"
       },
       {
         "id": "september-22-step-02",
         "label": "Afternoon · uses time",
-        "text": "Find Basilio through Followers and take the bond event, finishing at rank 5.",
+        "text": "Take Basilio’s next daytime bond event. Normally this is rank 5. If Eupha used his 19 September period, take Basilio rank 4 today, then rank 5 on 26 September; do not skip a rank.",
         "kind": "time"
       },
       {
         "id": "september-22-step-03",
         "label": "Night",
-        "text": "Complete the next Alonzo bond event, target rank 8. Follow the resulting request and dialogue prompts; there is a separate free follow-up scheduled on 26 September.",
+        "text": "If Catherina reached rank 6 on 19 September, use tonight for her rank 7 and keep rank 8 for 3 October. Otherwise use tonight for Alonzo’s next eligible event: rank 7 requires Courage 5; rank 8 is the event with Daturam at Alonzo’s usual spot in Brilehaven’s Angler’s Inn Square. Allow a full intervening day after his previous event. If Courage still blocks rank 7, use an available arena challenge for Courage and record a ranked credit only if it was a ranked win. Any remaining Alonzo events use the reserved October nights.",
         "kind": "night"
       }
     ]
@@ -3231,7 +3280,8 @@
           "Sunshade Row: speak to the Ornamented Man outside Spado Smithy and accept The Edge of Glory.",
           "Sunlumeo Street: speak to the Classy Woman outside Nau Filono Tavern and accept The Queen of Cuisine: Soul. Her earlier Heart request must be complete.",
           "If you have an Indestructible Honey Cake, speak to her again to hand it over. Keep the Lord of the Lake reward for Sublime Spoonful.",
-          "If the cake is missing, accept the request today. Make the cake on tomorrow's journey, hand it in during your free errands on 28 September, then use a later journey for Sublime Spoonful."
+          "If the cake is missing, accept the request today. Make the cake on tomorrow's journey, hand it in during your free errands on 28 September, then use a later journey for Sublime Spoonful.",
+          "If the Soul request is unavailable, check whether Heart is marked complete. If Heart is still active and you have Benevolent Bread, give it to the Classy Woman in Martira's Visca Alba Tavern first. If you need to cook it, prioritise it on the next journey and complete that hand-in before relying on Soul or its reward fish."
         ]
       },
       {
@@ -3255,7 +3305,7 @@
       {
         "id": "september-26-step-05",
         "label": "Free bounty preparation · Recruitment Centre",
-        "text": "Accept The Incarnate in the Woods (Ordemos, Abandoned Path), The Apostles of the Apocalypse (Cistus, Disgraced Ruins), and The Cockatrice in the Clouds (Kokamordos, Manor of the Ascendant). Buy any missing destination reports from the town informants and confirm the destinations are marked before travelling.",
+        "text": "At the Recruitment Centre in Grand Trad's Regalith Grand Cathedral market, accept The Incarnate in the Woods (Ordemos, Abandoned Path), The Apostles of the Apocalypse (Cistus, Disgraced Ruins), and The Cockatrice in the Clouds (Kokamordos, Manor of the Ascendant). Check that all three destinations are on the runner map before their scheduled journeys; buy a missing location report from the corresponding town's informant.",
         "kind": "check"
       },
       {
@@ -3273,19 +3323,24 @@
           "Buy missing Lumibees or Dreameater Moths at Comfort Concoctions on Grand Trad's Sunshade Row.",
           "If Indestructible Honey Cake is unfinished, have 2 White Peach Turnips, 2 Altabury Wheat Flour and 2 Lumibees ready for tomorrow.",
           "Set aside 1 Lord of the Lake, 3 Queen's Honey Jars and 3 Gauntlet Shrooms for Sublime Spoonful. Keep extra ingredients for any earlier dishes still unfinished.",
-          "If you still owe the Classy Woman a cake, cook it and complete her hand-in before counting the reward fish."
+          "If you still owe the Classy Woman a cake, cook it and complete her hand-in before counting the reward fish.",
+          "Grand Trad → Regalith Grand Cathedral market: the Burly Butcher now sells White Peach Turnips; the Water Merchant now sells Altabury Wheat Flour. Buy enough to reach the cake targets above, including anything still needed for other unfinished dishes."
         ]
       },
       {
         "id": "september-26-step-07",
         "label": "Afternoon · uses time",
-        "text": "Meet Basilio for rank 6, which needs Imagination 5. If short, report any completed More tasks first; if still blocked, use this slot for Imagination and record the delayed bond.",
-        "kind": "time"
+        "text": "Choose the branch that matches Basilio’s current follower rank.",
+        "kind": "time",
+        "items": [
+          "If the Eloquence recovery left Basilio at rank 4 after 22 September, take rank 5 today. This period is then unavailable for the snowcat activity. Check Imagination before his next reservation: rank 6 on 28 September requires Imagination 5. If still short then, preserve the save and replan from that actual shortfall; do not claim the one-session Imagination branch below also fits. Otherwise, if Basilio is already rank 5, use the normal rank-6 / snowcat branch below.",
+          "If he is already rank 5: Check Imagination 5 before spending time. If ready, use Followers to take Basilio rank 6. If still below 5, go to Altabury's Opera House Square and make a snowcat with the Clumsy Man this afternoon: choose “Small and slender”, “Triangular ears”, then “We need hyper-realism”. Check the resulting rank. If it is now 5, use the recovery schedule: Basilio 6 on 28 September, Basilio 7 on 30 September, and Neuras' Jin trip on 3 October. Check Basilio’s rank-8 event on 2 October; 14 October is the reserved fallback. If it is still below 5, keep your save and pause at this checkpoint; another activity and its downstream changes must be planned from your actual rank progress."
+        ]
       },
       {
         "id": "september-26-step-08",
         "label": "Night · free follow-up",
-        "text": "Speak to Daturam in Brilehaven's Angler's Inn Square to finish the separate Alonzo follow-up. This conversation does not consume the main night activity.",
+        "text": "If Alonzo is already rank 8, speak to Daturam in Brilehaven’s Angler’s Inn Square tonight for the separate free request follow-up. Do this before the hot-spring activity. If rank 8 is delayed, leave the follow-up pending until a later town night after rank 8; do not mark the request complete now.",
         "kind": "free"
       },
       {
@@ -3317,7 +3372,7 @@
           "If Sublime Spoonful is available, cook it with 1 Lord of the Lake, 3 Queen's Honey Jars and 3 Gauntlet Shrooms. Check that the cooking trophy unlocks.",
           "If it is locked or ingredients are missing, cook one unfinished dish for which you have supplies instead. Prioritise Indestructible Honey Cake if you still owe it to the Classy Woman. Keep the cake for tomorrow's hand-in.",
           "If no unfinished recipe has all its ingredients ready, skip cooking today and note what you still need. Continue with the reading below.",
-          "Finish Literacy Workbook and check the book trophy.",
+          "Reread The Magical Future for Wisdom. Literacy Workbook was finished on 21 September; this keeps today's reading slot useful for the later Wisdom gate.",
           "At Mt. Vulkano, clear Wayward Shepherd and collect the relic, Gold Beetle and Rusty Greatsword before returning."
         ]
       },
@@ -3328,7 +3383,7 @@
         "kind": "check",
         "items": [
           "If you made the Classy Woman's cake today, keep it. Tomorrow's free errands include the hand-in and its Lord of the Lake reward.",
-          "The next cooking catch-up is on the 30 September journey, before the scheduled reading. Keep today's remaining activities."
+          "The next cooking catch-up is before reading on the 30 September Jin journey. If you are using the Basilio recovery schedule, that journey and its cooking move to 3 October instead."
         ]
       },
       {
@@ -3364,7 +3419,7 @@
       {
         "id": "september-28-step-03",
         "label": "Afternoon · uses time",
-        "text": "Find Basilio through Followers and take the bond event, finishing at rank 7. Follow his request; the later completion requires Eloquence 5.",
+        "text": "Take Basilio’s next eligible daytime event. If he is rank 6, take rank 7 and accept its request. If he is rank 5 after the Imagination or Eloquence recovery, take rank 6 only with Imagination 5; rank 7 then moves to 30 September. If Imagination is still short, preserve the save and revise this branch before spending the period. Rank 8 needs Eloquence 5: check the 2 October entry, with 14 October reserved if that period is unavailable.",
         "kind": "time"
       },
       {
@@ -3384,7 +3439,7 @@
       {
         "id": "september-29-step-01",
         "label": "Afternoon · uses time",
-        "text": "Find Bardon through Followers and take the bond event, finishing at rank 8, provided his rank 7 boss was completed earlier. Otherwise this remains a recovery item for October.",
+        "text": "If Bardon is rank 7 after completing his quest, take his rank 8 event today in Martira. If his rank 7 battle is still unfinished, keep today as a recovery slot and use the October plan: Bardon 7 on 16 October, then Bardon 8 on 18 October.",
         "kind": "time"
       },
       {
@@ -3416,7 +3471,7 @@
       {
         "id": "september-30-step-02",
         "label": "Afternoon · travel and encounter",
-        "text": "Select Jin's runner on the map.",
+        "text": "Basilio recovery branch only: if he is rank 6 after 28 September, take Basilio rank 7 in town today. Move the Jin journey below, including its optional cooking and Wisdom reading, to 3 October. Otherwise follow the journey today. Select Jin's runner on the map.",
         "kind": "time",
         "items": [
           "Cooking catch-up, only if needed: before reading, use Speed Cooking for one unfinished dish. If the other 20 are complete, make Sublime Spoonful with 1 Lord of the Lake, 3 Queen's Honey Jars and 3 Gauntlet Shrooms.",
@@ -3441,9 +3496,14 @@
     "steps": [
       {
         "id": "october-01-step-01",
-        "label": "Afternoon",
-        "text": "Depart from Grand Trad toward Disgraced Ruins, reread The Magical Future and collect the Malibelo Stope drawing on the route. Clear the Cistus bounty and collect the Gold Beetle.",
-        "kind": "time"
+        "label": "Afternoon · travel and dungeon",
+        "text": "Before leaving Grand Trad, check that The Apostles of the Apocalypse is active. Set the runner route to Disgraced Ruins.",
+        "kind": "time",
+        "items": [
+          "During travel, reread The Magical Future for Wisdom. Collect the Malibelo Stope drawing when the route event appears.",
+          "Inside Disgraced Ruins, take the left branch from the entrance to its dead end for the Gold Beetle. Clear the bounty target before returning.",
+          "Check your Wisdom rank after the reading and route event. Eupha’s town event on 5 October requires rank 5; this date does not guarantee it."
+        ]
       },
       {
         "id": "october-01-step-02",
@@ -3467,20 +3527,20 @@
     "steps": [
       {
         "id": "october-02-step-01",
-        "label": "Free hand-in · Recruitment Centre",
-        "text": "Claim the Cistus bounty reward. Basilio's quest battle belongs to his time-consuming rank-8 event below; it is not an extra free errand.",
+        "label": "Free hand-in · Grand Trad",
+        "text": "Go to Regalith Grand Cathedral → Recruitment Centre. Speak to the Recruiter Dispatcher behind the counter and claim The Apostles of the Apocalypse reward for Cistus. Complete this before the afternoon activity.",
         "kind": "free"
       },
       {
         "id": "october-02-step-02",
         "label": "Afternoon · uses time",
-        "text": "With Basilio rank 7 complete and Eloquence 5, select his quest-marked town event. Keep him in the active battle party for the Vinca fight. This event completes A Brother's Mercy and his rank 8 together. Recovery alternative: if Hulkenberg's town rank 7 was delayed, do that today with Wisdom 4 and move Basilio's event to 14 October afternoon. Apply this swap only if Hulkenberg still needs rank 7.",
+        "text": "If Hulkenberg’s town rank 7 was delayed, take it today with Wisdom 4 and keep her travelling rank 8 for 6 October. Otherwise, if Basilio is rank 7 and Eloquence is 5, take his quest-marked town event. Keep him in the active party for the Vinca fight; this completes A Brother’s Mercy and rank 8 together. If that event is still unavailable, preserve its 14 October reservation and raise the missing virtue today: for Wisdom, use the bench on Grand Trad’s Sunlumeo Street; for Eloquence, give a speech at Altabury’s Upper Blue Sky Bridge podium. Choose one activity, then recheck the rank. The final bond is complete only when Followers shows rank 8.",
         "kind": "time"
       },
       {
         "id": "october-02-step-03",
         "label": "Night · uses time",
-        "text": "Take Brigitta's rank-8 event if her earlier ranks are complete. Recovery alternative: if Heismay's town rank 7 was delayed, do that tonight with Imagination 4 and move Brigitta's event to 14 October night. Apply this swap only if Heismay still needs rank 7.",
+        "text": "If Heismay’s town rank 7 is delayed, take it tonight with Imagination 4, then use his travelling rank 8 on 6 October. Otherwise take Brigitta’s next eligible nighttime event. If she is rank 6, rank 7 needs Courage 4; if she is rank 7, take rank 8. Keep unfinished Brigitta events for 14 and 16 October, with a full day between ranks.",
         "kind": "time"
       }
     ]
@@ -3494,13 +3554,18 @@
       {
         "id": "october-03-step-01",
         "label": "Afternoon · uses time",
-        "text": "Return to the Coliseum at Brilehaven's Arenafront Wharf and complete the next ranked match. Continue your current rank ladder; do not choose an endurance Gauntlet.",
-        "kind": "time"
+        "text": "If Petty Thief was postponed from 30 September, complete that outing today. Otherwise, enter the Coliseum at Brilehaven’s Arenafront Wharf and win your next ranked match.",
+        "kind": "time",
+        "items": [
+          "For the postponed outing, speak to the guard outside Grand Trad’s Recruitment Centre in Regalith Grand Cathedral to mark Jin’s runner, then select it on the runner map.",
+          "While travelling, use Speed Cooking for one unfinished dish if you have its ingredients. Then reread The Magical Future for Wisdom. Defeat Jin to finish Petty Thief and Neuras’s final bond, and return to town for tonight’s activity.",
+          "If you used today for Jin, the skipped ranked match remains pending. Follow the October night queue and the rank shown by the receptionist. Certification and endurance Gauntlets do not count as ranked wins."
+        ]
       },
       {
         "id": "october-03-step-02",
         "label": "Night · uses time",
-        "text": "Find Catherina through Followers and take the bond event, finishing at rank 8.",
+        "text": "Open Followers and select Catherina’s available bond event. If she is rank 7, this finishes rank 8. If an earlier event is still pending, complete that event instead and record the rank you reach; do not mark rank 8 until the menu shows it.",
         "kind": "time"
       },
       {
@@ -3519,15 +3584,24 @@
     "steps": [
       {
         "id": "october-04-step-01",
-        "label": "Afternoon",
-        "text": "Depart from Altabury toward Tower of Insolence. Reread The Magical Future and check for the Decaying Estate drawing on this first journey. Collect the Gold Beetle in the tower and complete Proof of Power's ordinary boss and Bramblethorn Baton objective before attempting the separate dragon trial higher up. Keep the pre-trip save until you have checked the drawing and quest item.",
-        "kind": "time"
+        "label": "Afternoon · travel and dungeon",
+        "text": "Check Proof of Power and Trial of the Dragon: Bygone Legacy are active, then depart from Altabury for Tower of Insolence. Save in a separate slot before leaving.",
+        "kind": "time",
+        "items": [
+          "Reread The Magical Future during travel. Watch for the Decaying Estate drawing and check your Key Items after the route event. The original schedule obtains it on this journey, but its first October appearance has not been independently confirmed.",
+          "In the tower, climb the first set of stairs and check the second floor beside the central railing for the Gold Beetle.",
+          "Defeat Ziocropos and collect the Bramblethorn Baton for Proof of Power. The dragon trial is a separate encounter above this ordinary boss."
+        ]
       },
       {
         "id": "october-04-step-02",
-        "label": "Checkpoint",
-        "text": "Check Wisdom 5 before tomorrow's Eupha event, and check whether Vista Viewer has unlocked. This route's first Estate visit is based on published route information, not a tested October save; the general warning about changing travel routes does not establish a September cutoff for this drawing. If the drawing does not trigger, keep the pre-trip save and identify the missing route before spending more days. Showing drawings to Maria gives rewards but is not the drawing trophy's completion condition.",
-        "kind": "check"
+        "label": "Checkpoint before continuing",
+        "text": "Check Wisdom 5 for Eupha’s next event. If you remain at rank 4, keep her event pending and follow tomorrow’s Wisdom branch.",
+        "kind": "check",
+        "items": [
+          "If Decaying Estate did not appear, check whether you already handed that drawing to Maria, and whether Vista Viewer is already unlocked. Handing drawings to Maria gives rewards but is not required for the trophy.",
+          "If the drawing and trophy are both missing, preserve the pre-trip save. Reserve 23 October for a drawing recovery journey and identify the missing route before using that slot. Do not spend repeated days on the same route without checking; the October-first trigger remains unverified."
+        ]
       },
       {
         "id": "october-04-step-03",
@@ -3558,8 +3632,12 @@
       {
         "id": "october-05-step-02",
         "label": "Afternoon · uses time",
-        "text": "Check Wisdom 5 and completion of The Wayward Shepherd, then take Eupha's town bond event to rank 7. If Wisdom is short, raise it first and record this event as delayed. Her travelling rank 8 on 07 October depends on completing this town event and its intervening gap.",
-        "kind": "time"
+        "text": "If Wisdom is rank 5 and The Wayward Shepherd is complete, select Eupha through Followers and take her rank-7 town event.",
+        "kind": "time",
+        "items": [
+          "If Wisdom is short, keep Eupha’s event pending. Travel from Virga Island to Silento and read The Magical Future for Wisdom; return to town after the village stop.",
+          "Keep raising Wisdom in unused travel periods. Reserve 17 October afternoon for Eupha’s town rank 7 and 19 October afternoon for her travelling rank 8. These are two separate events with a full day between them."
+        ]
       },
       {
         "id": "october-05-step-03",
@@ -3578,8 +3656,12 @@
       {
         "id": "october-06-step-01",
         "label": "Afternoon · travel",
-        "text": "Begin the two-day journey to Abandoned Path. If Hulkenberg is rank 7, take her travelling rank-8 event now. The recovery branch uses her town rank 7 from 02 October; rank 7 itself cannot be completed on the runner. If already rank 8, use the slot for an unfinished book or needed virtue.",
-        "kind": "time"
+        "text": "From Altabury, chart the two-day route to Abandoned Path. Check The Incarnate in the Woods is active before leaving.",
+        "kind": "time",
+        "items": [
+          "If Hulkenberg is rank 7, take her travelling rank-8 event. If her town rank 7 is still missing, you cannot complete it here.",
+          "If her bond is complete or unavailable, use The Magical Future or a Wisdom activity while Wisdom remains below 5; otherwise finish an unread book."
+        ]
       },
       {
         "id": "october-06-step-02",
@@ -3594,9 +3676,13 @@
       },
       {
         "id": "october-06-step-03",
-        "label": "If either town rank 7 is still missing, record both remaining events separately",
-        "text": "first the town event with its virtue requirement, then a later travelling rank 8 after the required gap. Keep a start-of-day save and use the remaining recovery days to arrange that sequence. Two main activities do not fit in one period.",
-        "kind": "task"
+        "label": "Recovery check",
+        "text": "If Hulkenberg or Heismay still needs town rank 7, write down that event separately from travelling rank 8. Do not tick a travelling event when the town prerequisite is missing.",
+        "kind": "check",
+        "items": [
+          "The normal repair is town rank 7 on 2 October, then travelling rank 8 during this journey. If you missed that repair too, use a free town period on 14 or 16 October for the missing town event, then a later village journey after a full intervening day.",
+          "A period already used for Basilio, Brigitta or Bardon cannot also repair another bond. Keep the other event in the queue for 21–24 October; do not assume all recoveries fit on the same day."
+        ]
       }
     ]
   },
@@ -3608,14 +3694,13 @@
     "steps": [
       {
         "id": "october-07-step-01",
-        "label": "Afternoon · travel, cooking and bond",
-        "text": "During the journey to Abandoned Path, visit the kitchen before choosing today's main activity.",
+        "label": "Afternoon · travel, then dungeon",
+        "text": "Cook one unfinished dish before the main activity if Speed Cooking is unlocked and you have the ingredients.",
         "kind": "time",
         "items": [
-          "Cooking catch-up, only if needed: use Speed Cooking for one unfinished dish. If the other 20 recipes are complete, make Sublime Spoonful with 1 Lord of the Lake, 3 Queen's Honey Jars and 3 Gauntlet Shrooms. Skip cooking if ingredients are missing or the trophy is complete.",
-          "If Eupha reached rank 7 on 5 October, take her travelling rank-8 event. Wisdom 5 was required for that earlier town event.",
-          "If her town event was delayed, use a book or virtue activity instead. You will need to complete her town event before a later travelling rank 8.",
-          "On arrival, clear Abandoned Path for Ordemos and collect its Gold Beetle."
+          "If the other 20 recipes are complete, Sublime Spoonful needs 1 Lord of the Lake, 3 Queen’s Honey Jars and 3 Gauntlet Shrooms.",
+          "If Eupha reached rank 7 on 5 October, take her travelling rank-8 event. Otherwise, use this period for Wisdom or an unfinished book; her delayed events are reserved for 17 and 19 October.",
+          "At Abandoned Path, defeat the four marked Rigopetias to bring out Ordemos, then clear the bounty. Collect the Gold Beetle at the far north of the map before returning."
         ]
       },
       {
@@ -3640,8 +3725,8 @@
     "steps": [
       {
         "id": "october-08-step-01",
-        "label": "Free hand-in · Recruitment Centre",
-        "text": "Give the Recruiter Dispatcher Ordemos's Bloodstained Talon and claim The Incarnate in the Woods reward.",
+        "label": "Free hand-in · Grand Trad",
+        "text": "Visit Regalith Grand Cathedral → Recruitment Centre. Give Ordemos’s Bloodstained Talon to the Recruiter Dispatcher and claim The Incarnate in the Woods reward.",
         "kind": "free"
       },
       {
@@ -3666,9 +3751,13 @@
     "steps": [
       {
         "id": "october-09-step-01",
-        "label": "Afternoon",
-        "text": "Visit Manor of the Ascendant, use the travelling slot for a missing bond/virtue/book activity, defeat Kokamordos and collect the Gold Beetle.",
-        "kind": "time"
+        "label": "Afternoon · travel and dungeon",
+        "text": "Check The Cockatrice in the Clouds is active. Depart from Brilehaven for Manor of the Ascendant. Use the travelling period for a missing travel bond, Wisdom or an unfinished book.",
+        "kind": "time",
+        "items": [
+          "After climbing to the second floor, follow the left-hand route to the crawlspace leading into the side room near the ladder. Collect its Gold Beetle.",
+          "Clear the dungeon and defeat Kokamordos. Return to town; the outing uses the night."
+        ]
       },
       {
         "id": "october-09-step-02",
@@ -3686,8 +3775,8 @@
     "steps": [
       {
         "id": "october-10-step-01",
-        "label": "Free hand-in · Recruitment Centre",
-        "text": "Claim the Kokamordos bounty reward.",
+        "label": "Free hand-in · Grand Trad",
+        "text": "Visit Regalith Grand Cathedral → Recruitment Centre. Speak to the Recruiter Dispatcher and claim The Cockatrice in the Clouds reward for Kokamordos.",
         "kind": "free"
       },
       {
@@ -3696,8 +3785,8 @@
         "text": "Revisit Forsaken Tower for Trial of the Dragon: Mad Mischief.",
         "kind": "time",
         "items": [
-          "Before departing, check your loadout. This trial punishes nullifying or repelling defences, so check equipment left over from the fire trial.",
-          "During the journey, you may use Speed Cooking for one unfinished dish before choosing a travelling bond, book or virtue activity. Skip cooking if the trophy is complete or you lack ingredients."
+          "Check every active member’s equipment before leaving. This dragon can gain extra turns when your party blocks or repels its attacks. Remove unsuitable null/repel gear, including protection earned in the first tower trial.",
+          "During travel, cook one unfinished dish with Speed Cooking if supplies allow. Then take one travelling bond, Wisdom activity or unread book."
         ]
       },
       {
@@ -3768,14 +3857,17 @@
       {
         "id": "october-13-step-01",
         "label": "Afternoon · uses time",
-        "text": "Return to the Coliseum at Brilehaven's Arenafront Wharf and complete the next ranked match. Continue your current rank ladder; do not choose an endurance Gauntlet.",
+        "text": "Go to Brilehaven → Arenafront Wharf → Varmareno Coliseum. With the Spirited Receptionist, complete the next ranked match shown on your menu. If all nine ranked wins are already complete, take the Champion Battle if its quest is unfinished; otherwise use this afternoon for another pending town event. Do not repeat a completed match just to match a projected rank.",
         "kind": "time"
       },
       {
         "id": "october-13-step-02",
-        "label": "Night",
-        "text": "Once your arena rank unlocks it, complete the Gold Gauntlet's 30 consecutive battles for Coliseum Champion. Bronze and Silver endurance runs are not needed to unlock Gold; progression comes from ranked matches.",
-        "kind": "night"
+        "label": "Night · uses time",
+        "text": "If Eupha is delayed and Wisdom is still below 5, use tonight for The Princess Predicament at Altabury’s Opera House and check the resulting rank. Otherwise prioritise Alonzo’s next eligible rank-7 or rank-8 event if it remains unfinished; rank 7 requires Courage 5 and rank 8 is with Daturam. If neither recovery needs this night, take the next arena event you still need. Count actual ranked wins; championship and Gold endurance are separate events. Later nights retain the unfinished events.",
+        "kind": "time",
+        "items": [
+          "Arena order at Brilehaven → Arenafront Wharf → Varmareno Coliseum: ask the Spirited Receptionist for your next ranked match. After winning Gold I, accept Become Champion of the Coliseum and choose the Champion Battle with her. For the separate endurance trophy, ask the Taciturn Receptionist for Gauntlet Challenge → Gold: The Furthest Reaches and win all 30 consecutive fights. Each event uses its own period; do only the first unfinished event that is available tonight."
+        ]
       }
     ]
   },
@@ -3787,8 +3879,8 @@
     "steps": [
       {
         "id": "october-14-step-01",
-        "label": "Recovery slots",
-        "text": "If the 02 October recovery swaps were needed, finish Basilio's quest/rank-8 event this afternoon with Eloquence 5, and Brigitta's rank 8 tonight. Otherwise use each free period for an unfinished bond, virtue or ranked arena match. Check prerequisites and any required gap before choosing the next event. Do material shopping before a time-consuming activity.",
+        "label": "Reserved recovery periods",
+        "text": "Afternoon: complete Basilio’s displaced rank-8 quest event if rank 7 and Eloquence 5 are ready. Night: take Brigitta’s next eligible event. If rank 7 was delayed, check Courage 4 and complete it tonight; reserve rank 8 for 16 October night. If rank 7 is already complete, finish rank 8 tonight. Only use a reserved period for another task when its named recovery is finished.",
         "kind": "task"
       }
     ]
@@ -3802,14 +3894,20 @@
       {
         "id": "october-15-step-01",
         "label": "Afternoon · uses time · Varmareno Coliseum, Arenafront Wharf",
-        "text": "Speak to the Spirited Receptionist and win the next ranked match. If all nine ranked slots in this route were used, this is Gold I. Certification was separate from those nine wins. Then accept/check Become Champion of the Coliseum with the Spirited Receptionist.",
+        "text": "Check your actual ranked ladder with the Spirited Receptionist. Win the next unfinished ranked match. Once Gold I is defeated, accept Become Champion of the Coliseum. If Gold I is already complete, take its Champion Battle this afternoon if needed; otherwise use the afternoon for a pending town event. Certification and endurance Gauntlets are separate from the nine ranked wins.",
         "kind": "time"
       },
       {
         "id": "october-15-step-02",
-        "label": "Night · uses time",
-        "text": "Complete the Champion Battle for Become Champion of the Coliseum. If earlier ranked matches were delayed, finish the remaining ladder first and move the championship to a recovery slot. This is separate from the Gold Gauntlet endurance challenge.",
-        "kind": "time"
+        "label": "Night · choose one activity",
+        "text": "Use the first applicable option below. Keep the other events for the remaining October nights.",
+        "kind": "night",
+        "items": [
+          "If Alonzo has an eligible unfinished rank-7 or rank-8 event, take that event tonight. Rank 7 needs Courage 5; rank 8 is with Daturam after a full intervening day.",
+          "If Alonzo still needs rank 7 but Courage is below 5, watch The King and The Knight’s of the Dinner Table at Altabury’s Opera House instead. Check the resulting rank. If it reaches 5, reserve Alonzo rank 7 for 17 October and rank 8 for 19 October. A further shortfall needs another activity and revised reservations.",
+          "If neither Alonzo option applies, take the next arena event you still need. Count ranked wins actually completed, including replacement matches.",
+          "Arena order at Brilehaven → Arenafront Wharf → Varmareno Coliseum: ask the Spirited Receptionist for your next ranked match. After winning Gold I, accept Become Champion of the Coliseum and choose the Champion Battle with her. For the separate endurance trophy, ask the Taciturn Receptionist for Gauntlet Challenge → Gold: The Furthest Reaches and win all 30 consecutive fights. Each event uses its own period; do only the first unfinished event that is available tonight."
+        ]
       },
       {
         "id": "october-15-step-03",
@@ -3828,8 +3926,12 @@
       {
         "id": "october-16-step-01",
         "label": "Recovery day",
-        "text": "If Bardon's rank-7 battle was postponed, prepare and complete The Right to Rule through his daytime bond event today; reserve 18 October afternoon for rank 8. Otherwise prioritise another unfinished request or bond. Keep the start-of-day save until you know what remains.",
-        "kind": "task"
+        "text": "Afternoon: if Bardon’s rank-7 battle was postponed, complete The Right to Rule through his bond event. Keep 18 October afternoon for rank 8. If that chain is already complete, use the afternoon for another unfinished town bond.",
+        "kind": "task",
+        "items": [
+          "At night, finish Brigitta rank 8 if rank 7 was completed on 14 October. Otherwise take the next arena event you still need. Check that the arena is open; a weather closure leaves the event pending rather than completed.",
+          "Arena order at Brilehaven → Arenafront Wharf → Varmareno Coliseum: ask the Spirited Receptionist for your next ranked match. After winning Gold I, accept Become Champion of the Coliseum and choose the Champion Battle with her. For the separate endurance trophy, ask the Taciturn Receptionist for Gauntlet Challenge → Gold: The Furthest Reaches and win all 30 consecutive fights. Each event uses its own period; do only the first unfinished event that is available tonight."
+        ]
       }
     ]
   },
@@ -3841,9 +3943,14 @@
     "steps": [
       {
         "id": "october-17-step-01",
-        "label": "To do",
-        "text": "Recovery day. Complete a delayed boss or dungeon, or use the town slots for bonds and virtues.",
-        "kind": "task"
+        "label": "Recovery day",
+        "text": "Afternoon: if Eupha’s rank 7 was delayed on 5 October, complete it now with Wisdom 5 and The Wayward Shepherd finished. Reserve the 19 October journey for her rank 8.",
+        "kind": "task",
+        "items": [
+          "If her bond is already finished, use the afternoon for another unfinished town bond. A delayed dungeon also uses tonight; take one today only if no reserved nighttime event remains.",
+          "Only if you stayed in town, at night, prioritise Alonzo’s next eligible event if it is unfinished and the required gap has passed; otherwise take the next needed arena event. If the named virtue requirement is still unmet, retain the save and record the additional recovery needed.",
+          "Arena order at Brilehaven → Arenafront Wharf → Varmareno Coliseum: ask the Spirited Receptionist for your next ranked match. After winning Gold I, accept Become Champion of the Coliseum and choose the Champion Battle with her. For the separate endurance trophy, ask the Taciturn Receptionist for Gauntlet Challenge → Gold: The Furthest Reaches and win all 30 consecutive fights. Each event uses its own period; do only the first unfinished event that is available tonight."
+        ]
       }
     ]
   },
@@ -3855,26 +3962,27 @@
     "steps": [
       {
         "id": "october-18-cooking-recovery",
-        "label": "Cooking catch-up · only if the trophy is missing",
-        "text": "Check the kitchen menu for recipes without a cooked checkmark. Buy or collect only what those recipes still need.",
-        "kind": "task",
+        "label": "Cooking catch-up · free preparation first",
+        "text": "Open the kitchen recipe list and note each dish you have not cooked. Buy its missing ingredients before today’s bond event. Use the plan below only for unfinished cooking.",
+        "kind": "check",
         "items": [
-          "Final dish: after the first 20 recipes, make Sublime Spoonful with 1 Lord of the Lake, 3 Queen's Honey Jars and 3 Gauntlet Shrooms.",
-          "Missing bugs: buy Lumibees and Dreameater Moths at Comfort Concoctions on Grand Trad's Sunshade Row.",
-          "Missing monster ingredients: buy Giant Worm Meat, Giant's Rib, Fiendflower Nectar or Geldust from Krozelli the Hunter in Virga Island's Dragon Statue Plaza. Check your unfinished recipes for the quantities.",
-          "Missing shrooms: check the runner's pantry each day. You can save before opening it and reload to try for a shroom. Keep 3 for Sublime Spoonful, plus any needed by earlier dishes.",
-          "Missing fish or honey: take a sea journey from Virga Island toward Land of Ceremony and use the deck's fishing point with Tail Bait. Save before departure and confirm the fishing point is available before spending the period.",
-          "Fishing answers: queasy → “Think like a fish”; tired → “Give in to naptime”; nothing biting → “Thrash and splash”. Check for 1 Lord of the Lake and 2 Queen's Honey Jars.",
-          "No Tail Bait: use a spare travelling period to clean the runner's storage room with the vacuum cleaner. Save first; you can reload if you receive spice instead of 2 Tail Bait. Cleaning and fishing use separate activity periods.",
-          "If Bardon's town event below is needed today, use 19 October for the fishing journey. Do not try to fit the town event and departure into one afternoon.",
-          "Cook one unfinished recipe before the main activity in each available kitchen period. Keep the planned bond or reading activity if a recipe is still missing ingredients."
+          "Final dish: Sublime Spoonful unlocks after the other 20 dishes. It needs 1 Lord of the Lake, 3 Queen’s Honey Jars and 3 Gauntlet Shrooms. Add another honey jar for each unfinished Amber Stew or Adamantine Honey Cake. Count the fish needed for any unfinished Secretest of Secrets or Enchanted Pottage too.",
+          "Shops: Comfort Concoctions on Grand Trad’s Sunshade Row sells Lumibees and Dreameater Moths. Krozelli the Hunter at Virga Island’s Dragon Statue Plaza sells monster ingredients. Amblyrhy’s Water Jug on Sandy Coast has 2 honey jars in total; buy any remaining stock you need. Check the runner pantry for random shrooms and keep 3 for Sublime Spoonful.",
+          "With Tail Bait: travel from Virga Island to Silento on 20 October and fish. Cook with that catch on the next journey. Without Tail Bait: clean the storage room during the 20 October trip, fish on 21 October, and cook on 22 October. Keep today’s Bardon event and the 19 October Eupha journey first.",
+          "Cleaning gives a random reward. Save beforehand. If you receive something other than 2 Tail Bait, reload and retry, or record that you still lack bait. Do not advance assuming you received it.",
+          "Fishing: check that the deck’s fishing point is available before committing the day; bad sea weather can close it. Keep the pre-departure save if it is unavailable and check Edeni’s weather options. With Tail Bait, answer queasy → “Think like a fish”; tired → “Give in to naptime”; nothing biting → “Thrash and splash”. A successful catch gives 1 Lord of the Lake and 2 honey jars.",
+          "If one catch is insufficient, use another available sea journey before the final cooking day. For example, fish again on 22 October and cook before the main activity on 23 October’s journey. Confirm the ingredients after each catch. Speed Cooking allows one dish before the main activity in each travel period; fishing and cleaning each use that main activity."
         ]
       },
       {
         "id": "october-18-step-01",
         "label": "Recovery day",
-        "text": "If Bardon reached rank 7 on 16 October, take his daytime rank-8 event. Otherwise use the day for an unfinished town bond or a runner journey for travel-only bonds, cooking or books. A town event and a journey do not share one afternoon.",
-        "kind": "task"
+        "text": "Afternoon: if Bardon reached rank 7 on 16 October, take his town rank-8 event. If finished, use this slot for another unfinished town bond.",
+        "kind": "task",
+        "items": [
+          "At night, use the next needed arena event unless an earlier reserved Brigitta event still needs this period. Finish any free Daturam follow-up first if Alonzo rank 8 was completed on an earlier night.",
+          "Arena order at Brilehaven → Arenafront Wharf → Varmareno Coliseum: ask the Spirited Receptionist for your next ranked match. After winning Gold I, accept Become Champion of the Coliseum and choose the Champion Battle with her. For the separate endurance trophy, ask the Taciturn Receptionist for Gauntlet Challenge → Gold: The Furthest Reaches and win all 30 consecutive fights. Each event uses its own period; do only the first unfinished event that is available tonight."
+        ]
       }
     ]
   },
@@ -3886,9 +3994,14 @@
     "steps": [
       {
         "id": "october-19-step-01",
-        "label": "To do",
-        "text": "Recovery day. Check all request entries and reports, including the arena and follower chains. Report completed bounties rather than leaving them pending.",
-        "kind": "task"
+        "label": "Recovery day",
+        "text": "Before spending time, report completed requests and bounties. If Eupha reached rank 7 on 17 October, travel from Virga Island to Silento and use the afternoon for her travelling rank 8. Return to town after the village stop.",
+        "kind": "task",
+        "items": [
+          "If Eupha is already finished, use that travel period for another eligible travelling bond, an unfinished book, or the cooking-recovery sequence.",
+          "At night, complete Alonzo rank 8 if rank 7 was completed on 17 October; otherwise take the next needed arena event. An arena event is one period, separate from the daytime journey.",
+          "Arena order at Brilehaven → Arenafront Wharf → Varmareno Coliseum: ask the Spirited Receptionist for your next ranked match. After winning Gold I, accept Become Champion of the Coliseum and choose the Champion Battle with her. For the separate endurance trophy, ask the Taciturn Receptionist for Gauntlet Challenge → Gold: The Furthest Reaches and win all 30 consecutive fights. Each event uses its own period; do only the first unfinished event that is available tonight."
+        ]
       }
     ]
   },
@@ -3906,9 +4019,14 @@
       },
       {
         "id": "october-20-step-01",
-        "label": "To do",
-        "text": "Recovery day. Verify seven books fully read, 21 different runner dishes cooked, all followers at rank 8, five shop villages visited and the complete vista collection. The relevant trophies/menu records are better evidence than ticking a date off this document.",
-        "kind": "task"
+        "label": "Recovery day",
+        "text": "Check the book shelf, kitchen records, Followers menu and trophy list against the remaining collection goals. Do the free checks and beetle exchange before travelling.",
+        "kind": "task",
+        "items": [
+          "Afternoon, only if cooking ingredients are missing: follow the 18 October recovery sequence. Travel from Virga Island to Silento, then either clean for Tail Bait or fish with bait you already have. Return to town after the village stop.",
+          "At night, finish any free Daturam follow-up unlocked by an earlier Alonzo rank-8 event, then take the next arena event still needed: remaining ranked wins first, the Champion Battle after Gold I, and the Gold endurance Gauntlet once offered. If the arena is closed, keep the event pending and use the next free arena period. If all are complete, this night is free for other unfinished eligible events.",
+          "Arena order at Brilehaven → Arenafront Wharf → Varmareno Coliseum: ask the Spirited Receptionist for your next ranked match. After winning Gold I, accept Become Champion of the Coliseum and choose the Champion Battle with her. For the separate endurance trophy, ask the Taciturn Receptionist for Gauntlet Challenge → Gold: The Furthest Reaches and win all 30 consecutive fights. Each event uses its own period; do only the first unfinished event that is available tonight."
+        ]
       },
       {
         "id": "october-20-step-02",
@@ -3932,9 +4050,15 @@
     "steps": [
       {
         "id": "october-21-step-01",
-        "label": "To do",
-        "text": "Recovery day. Complete missing experiments and train the protagonist's remaining Archetypes. Study prerequisites and mastery are separate: each required Archetype must reach rank 20 for mastery.",
-        "kind": "task"
+        "label": "Recovery day",
+        "text": "If using the cooking recovery sequence, take today’s village journey first: fish if you cleaned yesterday, or cook the remaining dish if you already caught its ingredients. Use only one main travel activity.",
+        "kind": "task",
+        "items": [
+          "Before leaving, finish any affordable experiments in Akademeia. Keep More’s remaining tasks and the protagonist’s missing rank-20 masteries on the checklist.",
+          "If no journey is needed, use the afternoon for a pending bond or request.",
+          "At night, finish any free Daturam follow-up unlocked by an earlier Alonzo rank-8 event, then take the next arena event still needed: remaining ranked wins first, the Champion Battle after Gold I, and the Gold endurance Gauntlet once offered. If the arena is closed, keep the event pending and use the next free arena period. If all are complete, this night is free for other unfinished eligible events.",
+          "Arena order at Brilehaven → Arenafront Wharf → Varmareno Coliseum: ask the Spirited Receptionist for your next ranked match. After winning Gold I, accept Become Champion of the Coliseum and choose the Champion Battle with her. For the separate endurance trophy, ask the Taciturn Receptionist for Gauntlet Challenge → Gold: The Furthest Reaches and win all 30 consecutive fights. Each event uses its own period; do only the first unfinished event that is available tonight."
+        ]
       }
     ]
   },
@@ -3946,9 +4070,15 @@
     "steps": [
       {
         "id": "october-22-step-01",
-        "label": "To do",
-        "text": "Recovery day. Finish any outstanding 50-different-Synthesis, 100 squad-ambush, 50 unscathed-win, 10 Elementa, money-skill, stealing, Gallica-chat and sword-surfing requirements. Field instant kills do not replace squad ambushes.",
-        "kind": "task"
+        "label": "Recovery day",
+        "text": "Finish the delayed cooking sequence on a village journey if needed. Otherwise prioritise unfinished follower events and requests before combat counters.",
+        "kind": "task",
+        "items": [
+          "Combat cleanup: 50 different Synthesis skills; 100 squad ambushes after field stun; 50 unscathed battle wins; 10 Elementas; 100,000 reeve spent through skills; one successful steal; Gallica conversations and sword-riding distance. Instant field kills do not count as squad ambushes.",
+          "At night, finish any free Daturam follow-up unlocked by an earlier Alonzo rank-8 event, then take the next arena event still needed: remaining ranked wins first, the Champion Battle after Gold I, and the Gold endurance Gauntlet once offered. If the arena is closed, keep the event pending and use the next free arena period. If all are complete, this night is free for other unfinished eligible events.",
+          "Arena order at Brilehaven → Arenafront Wharf → Varmareno Coliseum: ask the Spirited Receptionist for your next ranked match. After winning Gold I, accept Become Champion of the Coliseum and choose the Champion Battle with her. For the separate endurance trophy, ask the Taciturn Receptionist for Gauntlet Challenge → Gold: The Furthest Reaches and win all 30 consecutive fights. Each event uses its own period; do only the first unfinished event that is available tonight.",
+          "If the highest cliff jump is still pending and tonight’s arena requirements are already finished, return to the Spirited Youth at the northwestern ledge in Martira’s Thoroughfare Square. With Courage 3 and two earlier successful jumps, save, pay 500 reeve for the super-fine rope and complete the jump. Check At Your Own Risk; reload on failure. Use 24 October night instead if tonight is needed for the arena."
+        ]
       }
     ]
   },
@@ -3960,9 +4090,12 @@
     "steps": [
       {
         "id": "october-23-step-01",
-        "label": "To do",
-        "text": "Recovery day. Check every outstanding request, relic report, optional trial and arena chain. Keep a separate save before entering any long dungeon.",
-        "kind": "task"
+        "label": "Recovery day",
+        "text": "Use this day for a still-missing request, drawing route, trial or follower event. If the Decaying Estate check failed on 4 October, this is the reserved drawing-recovery slot; check the specific missing route before departing.",
+        "kind": "task",
+        "items": [
+          "A dungeon consumes both periods. If several trials remain, list each as a separate outing and preserve a final day for their follow-up. Do not spend this day grinding while a calendar-dependent requirement remains."
+        ]
       }
     ]
   },
@@ -3976,7 +4109,12 @@
         "id": "october-24-step-01",
         "label": "Recovery day",
         "text": "Finish remaining activities that need free time. Tomorrow afternoon is also available for eligible final preparations; keep tomorrow night for farewell visits. Retain an older save if a completion requirement remains uncertain.",
-        "kind": "task"
+        "kind": "task",
+        "items": [
+          "At night, finish any free Daturam follow-up unlocked by an earlier Alonzo rank-8 event, then take the next arena event still needed: remaining ranked wins first, the Champion Battle after Gold I, and the Gold endurance Gauntlet once offered. If the arena is closed, keep the event pending and use the next free arena period. If all are complete, this night is free for other unfinished eligible events.",
+          "Arena order at Brilehaven → Arenafront Wharf → Varmareno Coliseum: ask the Spirited Receptionist for your next ranked match. After winning Gold I, accept Become Champion of the Coliseum and choose the Champion Battle with her. For the separate endurance trophy, ask the Taciturn Receptionist for Gauntlet Challenge → Gold: The Furthest Reaches and win all 30 consecutive fights. Each event uses its own period; do only the first unfinished event that is available tonight.",
+          "If the final cliff jump remains pending after the arena is complete, use tonight for the Spirited Youth in Martira’s Thoroughfare Square: Courage 3, super-fine rope, 500 reeve. Save before jumping and check the trophy. This is a separate nighttime activity; it cannot share a period with an arena event."
+        ]
       }
     ]
   },

@@ -345,7 +345,7 @@
           "role": "Healer and durable support. Healing is her first job; use her lance when the party is safe.",
           "inherit": "Medica from Cleric rank 3. If you have two slots, add Dekunda from Healer rank 13 to remove party stat debuffs.",
           "requires": "Paladin needs Hulkenberg bond 7 and Magic Knight 20. If the 24 August bond was delayed, stay on Magic Knight.",
-          "fallback": "Magic Knight or Knight with inherited Medica. Do not replace your healer with an unprepared training class.",
+          "fallback": "Magic Knight or Knight with Medica if she learned Cleric 3; otherwise inherit Medi from Healer 3 and carry healing items. Keep her in a trained battle class.",
           "train": "Paladin 20 eventually gives Revitalise 3 for MP recovery. It is a longer-term target, not a requirement for today."
         },
         {
@@ -407,7 +407,7 @@
           "role": "Healer and durable support. Healing is her first job; use her lance when the party is safe.",
           "inherit": "Medica from Cleric rank 3. If you have two slots, add Dekunda from Healer rank 13 to remove party stat debuffs.",
           "requires": "Paladin needs Hulkenberg bond 7 and Magic Knight 20. If the 24 August bond was delayed, stay on Magic Knight.",
-          "fallback": "Magic Knight or Knight with inherited Medica. Do not replace your healer with an unprepared training class.",
+          "fallback": "Magic Knight or Knight with Medica if she learned Cleric 3; otherwise inherit Medi from Healer 3 and carry healing items. Keep her in a trained battle class.",
           "train": "Paladin 20 eventually gives Revitalise 3 for MP recovery. It is a longer-term target, not a requirement for today."
         },
         {
@@ -452,7 +452,7 @@
         },
         {
           "name": "Strohl",
-          "archetype": "Samurai",
+          "archetype": "Samurai if ready; otherwise Swordmaster",
           "role": "Physical attacker and backup party buffer. Use the cheapest attack that finishes an enemy; large attacks are for durable targets.",
           "inherit": "Slash Boost (Warrior 20) and Marakukaja (Commander 1): two slots. Marakukaja raises the whole party’s Defence.",
           "requires": "Strohl bond 7, Swordmaster 20 and General 10 on Strohl. General itself needs Bardon 3 and Commander 20.",
@@ -461,7 +461,7 @@
         },
         {
           "name": "Hulkenberg",
-          "archetype": "Paladin",
+          "archetype": "Paladin if ready; otherwise Magic Knight",
           "role": "Durable healer and defender. Heal first when the party is hurt; drawing attacks is a separate action and cannot also heal the party.",
           "inherit": "Medica (Cleric 3) and Dekunda (Healer 13): two slots. Medica heals everyone; Dekunda clears the party’s stat reductions.",
           "requires": "Hulkenberg bond 7 and Magic Knight 20. Medica must be learned on Hulkenberg herself. Cleric needs Maria 3 and Healer 20.",
@@ -470,7 +470,7 @@
         },
         {
           "name": "Junah",
-          "archetype": "Persona Master · Wizard’s Mask",
+          "archetype": "Persona Master if ready; otherwise Masked Dancer · Wizard’s Mask",
           "role": "Debuffs and economical elemental coverage. The mask provides Blizza, Kandera and Shield Blessing; it occupies her accessory slot.",
           "inherit": "Tarunda (Faker 3) and Dekaja (Faker 13): two slots. Lower a dangerous enemy’s Attack; remove its buffs when they appear.",
           "requires": "Junah bond 6, Masked Dancer 20 and Faker 10. Make Wizard’s Mask in Akademeia with a Magician White Mask and Priestess White Mask after Wizard is unlocked.",
@@ -500,6 +500,89 @@
         {
           "label": "Damage mechanics research",
           "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3349878187"
+        }
+      ]
+    },
+    {
+      "from": "day-october-17",
+      "title": "Party preparation for recovery days",
+      "summary": "Keep your familiar party for town events and short journeys. If today’s itinerary assigns an arena event, check its actual rank and follow the matching instructions below. These four-person cards suit Gold I, the Championship and the Gold Gauntlet.",
+      "members": [
+        {
+          "name": "Protagonist",
+          "archetype": "Prince",
+          "role": "Main damage and flexible Synthesis support. Keep your Magic build: Royal Sword uses the higher of Strength or Magic.",
+          "inherit": "Blizza (Wizard 2) and Shield Blessing (Wizard 11): two slots. Blizza is for the championship’s Ice weakness; use Almighty for Gold I.",
+          "requires": "Automatically obtained during the completed September story. Each inherited skill must first be learned by the protagonist and purchased in Skill Inheritance.",
+          "fallback": "Wizard remains a good exploration choice. Elemental Master is available with Gallica 8 and Wizard 20; keep the cheaper inherited spells for small enemies.",
+          "train": "Prince 9 gives field HP/MP recovery through allies’ support attacks; rank 13 gives Hero’s Cry and rank 20 Royal Slash. These are training goals, not assumed starting skills."
+        },
+        {
+          "name": "Strohl",
+          "archetype": "Samurai if ready; otherwise Swordmaster",
+          "role": "Physical attacker and backup party buffer. Use the cheapest attack that finishes an enemy; large attacks are for durable targets.",
+          "inherit": "Icy Strike (General 2) and Marakukaja (Commander 1): two slots. During the timed championship, prioritise Ice damage over unnecessary defence stacking.",
+          "requires": "Strohl bond 7, Swordmaster 20 and General 10 on Strohl. General itself needs Bardon 3 and Commander 20.",
+          "fallback": "Keep Swordmaster if Samurai is locked. For the timed championship, prioritise inherited Icy Strike if space is tight. For Gold I, keep the defence buff while the protagonist handles Almighty damage.",
+          "train": "Optional Royal Warrior: Strohl bond 8, Samurai 20 and Warlord 20. Warlord needs Bardon 8 and General 20. Do not delay the route to force this upgrade."
+        },
+        {
+          "name": "Hulkenberg",
+          "archetype": "Paladin if ready; otherwise Magic Knight",
+          "role": "Party healer in Gold I. In the timed championship, attack with a checked Pierce skill when healing is unnecessary.",
+          "inherit": "Gold I: Medica (Cleric 3) and Dekunda (Healer 13). For the championship, replace Dekunda with Heavy Rush (Magic Knight 9, 12 MP) for Pierce damage. Two slots; use Medi (Healer 3) if Medica is not learned.",
+          "requires": "Hulkenberg bond 7 and Magic Knight 20. Medica must be learned on Hulkenberg herself. Cleric needs Maria 3 and Healer 20.",
+          "fallback": "Magic Knight with inherited Medica and Dekunda. If Medica is unlearned, Mediline (Magic Knight 5, 10 MP) heals allies in her row; move anyone needing it into that row before she casts.",
+          "train": "Paladin 20 learns Revitalise 3 for MP recovery. Royal Knight is optional: bond 8, Paladin 20, Dark Knight 15 and Elemental Master 15."
+        },
+        {
+          "name": "Junah",
+          "archetype": "Persona Master if ready; otherwise Masked Dancer · Wizard’s Mask",
+          "role": "Remove buffs and support damage in Gold I. In the championship, her Wizard’s Mask supplies Blizza to hit Ice weakness.",
+          "inherit": "Tarunda (Faker 3) and Dekaja (Faker 13): two slots. Lower a dangerous enemy’s Attack; remove its buffs when they appear.",
+          "requires": "Junah bond 6, Masked Dancer 20 and Faker 10. Make Wizard’s Mask in Akademeia with a Magician White Mask and Priestess White Mask after Wizard is unlocked.",
+          "fallback": "Masked Dancer with the same mask and inherited skills. Without that mask, use an available elemental mask and let the protagonist handle Ice. If Dekaja is unlearned, bring an item that removes enemy buffs.",
+          "train": "Faker 13 is a useful short goal for Dekaja. Royal Masked Dancer is optional after Junah 8, Persona Master 20 and Trickster 20."
+        }
+      ],
+      "notes": [
+        "Take only the arena activity assigned by today’s itinerary. Extra wins and postponed matches change the next rank; this date does not guarantee a particular opponent.",
+        "Bronze III: use the protagonist as Seeker, Strohl as Swordmaster, Hulkenberg as Magic Knight or Knight with inherited Medi/Medica, and Heismay as Faker. Keep Mage and Healer forms out of the active party. Use group physical damage, then remove the remaining enemy’s evasion buff with Dekaja (Faker 13); Sukunda (Faker 5) is a fallback if learned.",
+        "Bronze II is field combat: put the protagonist on Mage/Wizard or Seeker. The squad-battle setup is not the focus of this match.",
+        "Bronze I is solo: use Magic Seeker if the protagonist has Seeker 20 and More bond 3, otherwise Seeker. Defeat the Wind-weak target first. Bring his own healing and Forget/Hex/Poison cures. An inherited Poison Shot (Gunner 3) supplies Pierce from the back row for the other target. Allies and Synthesis cannot help.",
+        "Silver III: restore all four party members and bring single-target Fire, Ice, physical damage and a party heal. Hit Azure with Fire, Ochre with Ice and Platinum with physical attacks. Avoid all-target elemental spells while Platinum remains. Gold Attack (Merchant 1, 500 reeve) supplies Almighty for Golden; without it, finish the others first and use physical damage while keeping the party healed.",
+        "Silver II: this is field combat with a 90-second limit. Put the protagonist on Seeker for its support-attack passive, equip a current sword and dodge the large enemies before attacking again. Your squad spells are not the main tool in this match.",
+        "Silver I: take only the protagonist and Hulkenberg, both on Brawler or a trained Pugilist. Inherit Hamaon (Cleric 1), or Hama (Healer 1), on the protagonist. Give Hulkenberg Medica (Cleric 3), or Medi (Healer 3). Use Light on the Fighter first, then Strike on the Mage. Protect Ice weaknesses if you have suitable equipment; carry Daze cures and keep HP high because Brawler attacks spend HP. Brawler needs Catherina 1 and each character’s own study; Pugilist is optional. Prioritise the protagonist’s Light spell and Hulkenberg’s heal if each has only one inheritance slot.",
+        "Gold III: only the protagonist fights. Equip Prince and inherit Blizza (Wizard 2). Use Ice while the target has no magic-reflect barrier. After Mage Mirror appears, stop casting elemental spells: move to the front row and use Heroic Slash or, at Prince 20, Royal Slash. Royal Sword is a Synthesis skill and cannot be used alone. Carry healing and a buff-removing item if available; your allies cannot act.",
+        "Gold II: the protagonist fights in the field and must avoid every hit. Use Prince, or Gunner with a current crossbow for ranged attacks. Dodge first, then take a short attack opening. Party healing cannot rescue a failed no-hit attempt.",
+        "Gold I: the opponent resists ordinary damage types. Use Prince’s Royal Sword Synthesis with an ally, or Royal Slash once Prince reaches 20. Keep healing and revival ready; repeated ordinary elemental spells are inefficient.",
+        "Championship: use the four-person cards with Ice/Pierce coverage and win within two rounds. The protagonist and Junah can use Blizza; Strohl can inherit Icy Strike (General 2), and Hulkenberg can replace Dekunda with Heavy Rush (Magic Knight 9). Keep useful attacks ahead of unnecessary buffing. Hero’s Cry needs Prince 13 and 99 MP. Check Synthesis and accessory costs before entering; use the pre-entry save if your damage is insufficient.",
+        "Gold Gauntlet: enter only when the receptionist offers Gold: The Furthest Reaches. Restore all four equipped party members and start with healing, revival and enough resources for 30 consecutive fights. Check affinities and use cheap effective attacks. This endurance event is separate from the ranked ladder and Champion Battle."
+      ],
+      "sources": [
+        {
+          "label": "Arena strategies and barriers",
+          "url": "https://www.pcgamer.com/games/rpg/metaphor-refantazio-varmareno-coliseum-ranked-battles/"
+        },
+        {
+          "label": "Ranked arena rules",
+          "url": "https://gamefaqs.gamespot.com/ps5/410470-metaphor-refantazio/faqs/81508/colliseum"
+        },
+        {
+          "label": "Archetype skill tables",
+          "url": "https://gamefaqs.gamespot.com/xbox-series-x/409958-metaphor-refantazio/faqs/81526/archetypes"
+        },
+        {
+          "label": "Brawler unlocks and inheritance slots",
+          "url": "https://www.gamerguides.com/metaphor-refantazio/guide/followers/characters/catherina-bond-unlock-guide-abilities-and-archetypes"
+        },
+        {
+          "label": "Independent arena encounter check",
+          "url": "https://www.neoseeker.com/metaphor-refantazio/walkthrough/Skybound_Avatar_Conquest"
+        },
+        {
+          "label": "Championship weakness and time limit",
+          "url": "https://www.neoseeker.com/metaphor-refantazio/guides/Become_Champion_of_the_Coliseum"
         }
       ]
     }
@@ -868,9 +951,9 @@
         }
       ]
     },
-    "day-august-11": {
-      "title": "For today’s ranked arena matches",
-      "summary": "Use the rank on the receptionist’s menu. A delayed earlier match changes which opponent you face; the date alone cannot identify it.",
+    "day-august-05": {
+      "title": "If you use the arena for Courage",
+      "summary": "Read the receptionist’s actual rank before entering. These four cards apply only to Bronze III; Bronze II and Bronze I use the matching instructions below. Keep your familiar setup if today’s activity is a town event.",
       "members": [
         {
           "name": "Protagonist",
@@ -910,31 +993,167 @@
         }
       ],
       "notes": [
-        "Bronze III: use Swordmaster’s group attacks, Hulkenberg’s inherited heal and Heismay as Faker. If Faker is rank 13, use Dekaja when the remaining enemy raises its evasion. Keep Mage and Healer forms out of this Goborn fight.",
-        "For that Bronze III fight, the protagonist can use Seeker with an inherited cheap elemental spell. Heismay only needs Alonzo bond 1 to study Faker; if Dekaja is unavailable, use Sukunda (Faker 5) to reduce evasion and avoid low-accuracy attacks.",
+        "Use this preparation only if today’s Courage recovery sends you to the arena. Record the rank actually won; a follower conversation or other Courage activity does not advance the ladder.",
+        "Bronze III: use the protagonist as Seeker, Strohl as Swordmaster, Hulkenberg as Magic Knight or Knight with inherited Medi/Medica, and Heismay as Faker. Keep Mage and Healer forms out of the active party. Use group physical damage, then remove the remaining enemy’s evasion buff with Dekaja (Faker 13); Sukunda (Faker 5) is a fallback if learned.",
         "Bronze II is field combat: put the protagonist on Mage/Wizard or Seeker. The squad-battle setup is not the focus of this match.",
-        "Bronze I is solo. Put the protagonist on Magic Seeker if he has Seeker 20 and More bond 3, otherwise Seeker. Use Wind against the Wind-weak target first; bring healing and status cures. A learned Gunner attack can provide Pierce for the other target, but is optional.",
-        "For the solo match, do not rely on Hulkenberg to heal or on Synthesis skills: the protagonist fights alone. Check his own equipment and item supply.",
-        "Arena resources recover between matches. You can spend MP on a useful strong attack without saving it for the evening match."
+        "Bronze I is solo: use Magic Seeker if the protagonist has Seeker 20 and More bond 3, otherwise Seeker. Defeat the Wind-weak target first. Bring his own healing and Forget/Hex/Poison cures. An inherited Poison Shot (Gunner 3) supplies Pierce from the back row for the other target. Allies and Synthesis cannot help."
       ],
       "sources": [
         {
-          "label": "Ranked match rules",
+          "label": "Arena strategies and barriers",
           "url": "https://www.pcgamer.com/games/rpg/metaphor-refantazio-varmareno-coliseum-ranked-battles/"
         },
         {
-          "label": "Independent ranked match check",
+          "label": "Ranked arena rules",
           "url": "https://gamefaqs.gamespot.com/ps5/410470-metaphor-refantazio/faqs/81508/colliseum"
         },
         {
-          "label": "Archetype requirements and skills",
+          "label": "Archetype skill tables",
           "url": "https://gamefaqs.gamespot.com/xbox-series-x/409958-metaphor-refantazio/faqs/81526/archetypes"
+        },
+        {
+          "label": "Brawler unlocks and inheritance slots",
+          "url": "https://www.gamerguides.com/metaphor-refantazio/guide/followers/characters/catherina-bond-unlock-guide-abilities-and-archetypes"
+        }
+      ]
+    },
+    "day-august-07": {
+      "title": "If you use the arena for Courage",
+      "summary": "Read the receptionist’s actual rank before entering. These four cards apply only to Bronze III; Bronze II and Bronze I use the matching instructions below. Keep your familiar setup if today’s activity is a town event.",
+      "members": [
+        {
+          "name": "Protagonist",
+          "archetype": "Seeker for Bronze III; see the other ranks below",
+          "role": "Bronze III: back-row casting without a Mage or Healer form. Bronze II: use Mage/Wizard for field combat. Bronze I: fight solo as Magic Seeker or Seeker.",
+          "inherit": "Bronze III: one useful cheap Mage spell. Bronze I: Poison Shot (Gunner 3), if personally learned, supplies Pierce and requires the back row. Use healing items if you have no healing skill equipped.",
+          "requires": "Seeker is already available. Magic Seeker needs his Seeker 20 and More bond 3.",
+          "fallback": "Use Seeker when Magic Seeker is unstudied. Do not select Wizard for Bronze III.",
+          "train": "Only pursue a new rank if the skill is useful for your current match; no arena training grind is mandatory."
+        },
+        {
+          "name": "Strohl",
+          "archetype": "Swordmaster for Bronze III",
+          "role": "Group Slash attacks in Bronze III. The other listed matches focus on the protagonist.",
+          "inherit": "Diagonal Slash (Warrior 1, 5 MP) for a cheap single-target skill. Use Slicer (Warrior 8, 12 MP) instead when more damage is worth the cost.",
+          "requires": "Warrior rank 20 on Strohl and Strohl bond 3.",
+          "fallback": "Mastered Warrior is still a good single-target option and keeps its own damage passives.",
+          "train": "Keep his trained class; prepare the protagonist separately for Bronze I."
+        },
+        {
+          "name": "Hulkenberg",
+          "archetype": "Magic Knight or Knight for Bronze III",
+          "role": "Keep the party healed in Bronze III. She cannot heal the protagonist in Bronze I’s solo fight.",
+          "inherit": "Medi (her Healer 3, 10 MP). If her Cleric is rank 3, Medica is the stronger 20-MP alternative. Equip one reliable party heal first.",
+          "requires": "Knight 20 and Mage 10 on Hulkenberg, plus Hulkenberg bond 3. Mastering Knight alone is not enough.",
+          "fallback": "Knight with the same inherited heal. Do not switch to an untrained Mage for a hard fight just to meet the upgrade requirement.",
+          "train": "Keep her party heal equipped for the group match."
+        },
+        {
+          "name": "Heismay",
+          "archetype": "Faker for Bronze III",
+          "role": "Debuff the remaining enemy after the smaller enemies are defeated. The other listed matches focus on the protagonist.",
+          "inherit": "No required inherited skill.",
+          "requires": "Alonzo bond 1 to study Faker. Sukunda comes at Faker 5; Dekaja at Faker 13.",
+          "fallback": "Keep Assassin if Faker is untrained, using Lurking Nightblade to lower Hit/Evasion. Bring an enemy-buff-removing item if you have one.",
+          "train": "Faker 13 is a useful goal if convenient, not a mandatory grind before entering."
+        }
+      ],
+      "notes": [
+        "Use this preparation only if today’s Courage recovery sends you to the arena. Record the rank actually won; a follower conversation or other Courage activity does not advance the ladder.",
+        "Bronze III: use the protagonist as Seeker, Strohl as Swordmaster, Hulkenberg as Magic Knight or Knight with inherited Medi/Medica, and Heismay as Faker. Keep Mage and Healer forms out of the active party. Use group physical damage, then remove the remaining enemy’s evasion buff with Dekaja (Faker 13); Sukunda (Faker 5) is a fallback if learned.",
+        "Bronze II is field combat: put the protagonist on Mage/Wizard or Seeker. The squad-battle setup is not the focus of this match.",
+        "Bronze I is solo: use Magic Seeker if the protagonist has Seeker 20 and More bond 3, otherwise Seeker. Defeat the Wind-weak target first. Bring his own healing and Forget/Hex/Poison cures. An inherited Poison Shot (Gunner 3) supplies Pierce from the back row for the other target. Allies and Synthesis cannot help."
+      ],
+      "sources": [
+        {
+          "label": "Arena strategies and barriers",
+          "url": "https://www.pcgamer.com/games/rpg/metaphor-refantazio-varmareno-coliseum-ranked-battles/"
+        },
+        {
+          "label": "Ranked arena rules",
+          "url": "https://gamefaqs.gamespot.com/ps5/410470-metaphor-refantazio/faqs/81508/colliseum"
+        },
+        {
+          "label": "Archetype skill tables",
+          "url": "https://gamefaqs.gamespot.com/xbox-series-x/409958-metaphor-refantazio/faqs/81526/archetypes"
+        },
+        {
+          "label": "Brawler unlocks and inheritance slots",
+          "url": "https://www.gamerguides.com/metaphor-refantazio/guide/followers/characters/catherina-bond-unlock-guide-abilities-and-archetypes"
+        }
+      ]
+    },
+    "day-august-11": {
+      "title": "For your next ranked arena match",
+      "summary": "Use the receptionist’s actual rank. These four cards apply only to Bronze III; use the named instructions below if earlier recovery wins have advanced the ladder. A follower recovery may replace today’s match.",
+      "members": [
+        {
+          "name": "Protagonist",
+          "archetype": "Seeker for Bronze III; see the other ranks below",
+          "role": "Bronze III: back-row casting without a Mage or Healer form. Bronze II: use Mage/Wizard for field combat. Bronze I: fight solo as Magic Seeker or Seeker.",
+          "inherit": "Bronze III: one useful cheap Mage spell. Bronze I: Poison Shot (Gunner 3), if personally learned, supplies Pierce and requires the back row. Use healing items if you have no healing skill equipped.",
+          "requires": "Seeker is already available. Magic Seeker needs his Seeker 20 and More bond 3.",
+          "fallback": "Use Seeker when Magic Seeker is unstudied. Do not select Wizard for Bronze III.",
+          "train": "Only pursue a new rank if the skill is useful for your current match; no arena training grind is mandatory."
+        },
+        {
+          "name": "Strohl",
+          "archetype": "Swordmaster for Bronze III",
+          "role": "Group Slash attacks in Bronze III. The other listed matches focus on the protagonist.",
+          "inherit": "Diagonal Slash (Warrior 1, 5 MP) for a cheap single-target skill. Use Slicer (Warrior 8, 12 MP) instead when more damage is worth the cost.",
+          "requires": "Warrior rank 20 on Strohl and Strohl bond 3.",
+          "fallback": "Mastered Warrior is still a good single-target option and keeps its own damage passives.",
+          "train": "Keep his trained class; prepare the protagonist separately for Bronze I."
+        },
+        {
+          "name": "Hulkenberg",
+          "archetype": "Magic Knight or Knight for Bronze III",
+          "role": "Keep the party healed in Bronze III. She cannot heal the protagonist in Bronze I’s solo fight.",
+          "inherit": "Medi (her Healer 3, 10 MP). If her Cleric is rank 3, Medica is the stronger 20-MP alternative. Equip one reliable party heal first.",
+          "requires": "Knight 20 and Mage 10 on Hulkenberg, plus Hulkenberg bond 3. Mastering Knight alone is not enough.",
+          "fallback": "Knight with the same inherited heal. Do not switch to an untrained Mage for a hard fight just to meet the upgrade requirement.",
+          "train": "Keep her party heal equipped for the group match."
+        },
+        {
+          "name": "Heismay",
+          "archetype": "Faker for Bronze III",
+          "role": "Debuff the remaining enemy after the smaller enemies are defeated. The other listed matches focus on the protagonist.",
+          "inherit": "No required inherited skill.",
+          "requires": "Alonzo bond 1 to study Faker. Sukunda comes at Faker 5; Dekaja at Faker 13.",
+          "fallback": "Keep Assassin if Faker is untrained, using Lurking Nightblade to lower Hit/Evasion. Bring an enemy-buff-removing item if you have one.",
+          "train": "Faker 13 is a useful goal if convenient, not a mandatory grind before entering."
+        }
+      ],
+      "notes": [
+        "Bronze III: use the protagonist as Seeker, Strohl as Swordmaster, Hulkenberg as Magic Knight or Knight with inherited Medi/Medica, and Heismay as Faker. Keep Mage and Healer forms out of the active party. Use group physical damage, then remove the remaining enemy’s evasion buff with Dekaja (Faker 13); Sukunda (Faker 5) is a fallback if learned.",
+        "Bronze II is field combat: put the protagonist on Mage/Wizard or Seeker. The squad-battle setup is not the focus of this match.",
+        "Bronze I is solo: use Magic Seeker if the protagonist has Seeker 20 and More bond 3, otherwise Seeker. Defeat the Wind-weak target first. Bring his own healing and Forget/Hex/Poison cures. An inherited Poison Shot (Gunner 3) supplies Pierce from the back row for the other target. Allies and Synthesis cannot help.",
+        "Silver III: restore all four party members and bring single-target Fire, Ice, physical damage and a party heal. Hit Azure with Fire, Ochre with Ice and Platinum with physical attacks. Avoid all-target elemental spells while Platinum remains. Gold Attack (Merchant 1, 500 reeve) supplies Almighty for Golden; without it, finish the others first and use physical damage while keeping the party healed.",
+        "Silver II: this is field combat with a 90-second limit. Put the protagonist on Seeker for its support-attack passive, equip a current sword and dodge the large enemies before attacking again. Your squad spells are not the main tool in this match.",
+        "After a solo match, restore the full party before a group fight. Arena resources recover between matches; check the next rank before re-entering."
+      ],
+      "sources": [
+        {
+          "label": "Arena strategies and barriers",
+          "url": "https://www.pcgamer.com/games/rpg/metaphor-refantazio-varmareno-coliseum-ranked-battles/"
+        },
+        {
+          "label": "Ranked arena rules",
+          "url": "https://gamefaqs.gamespot.com/ps5/410470-metaphor-refantazio/faqs/81508/colliseum"
+        },
+        {
+          "label": "Archetype skill tables",
+          "url": "https://gamefaqs.gamespot.com/xbox-series-x/409958-metaphor-refantazio/faqs/81526/archetypes"
+        },
+        {
+          "label": "Brawler unlocks and inheritance slots",
+          "url": "https://www.gamerguides.com/metaphor-refantazio/guide/followers/characters/catherina-bond-unlock-guide-abilities-and-archetypes"
         }
       ]
     },
     "day-august-12": {
-      "title": "For today’s ranked arena matches",
-      "summary": "Use the rank on the receptionist’s menu. A delayed earlier match changes which opponent you face; the date alone cannot identify it.",
+      "title": "For your next ranked arena match",
+      "summary": "Use the receptionist’s actual rank. These four cards apply only to Bronze III; use the named instructions below if earlier recovery wins have advanced the ladder. A follower recovery may replace today’s match.",
       "members": [
         {
           "name": "Protagonist",
@@ -974,25 +1193,29 @@
         }
       ],
       "notes": [
-        "Bronze III: use Swordmaster’s group attacks, Hulkenberg’s inherited heal and Heismay as Faker. If Faker is rank 13, use Dekaja when the remaining enemy raises its evasion. Keep Mage and Healer forms out of this Goborn fight.",
-        "For that Bronze III fight, the protagonist can use Seeker with an inherited cheap elemental spell. Heismay only needs Alonzo bond 1 to study Faker; if Dekaja is unavailable, use Sukunda (Faker 5) to reduce evasion and avoid low-accuracy attacks.",
+        "Bronze III: use the protagonist as Seeker, Strohl as Swordmaster, Hulkenberg as Magic Knight or Knight with inherited Medi/Medica, and Heismay as Faker. Keep Mage and Healer forms out of the active party. Use group physical damage, then remove the remaining enemy’s evasion buff with Dekaja (Faker 13); Sukunda (Faker 5) is a fallback if learned.",
         "Bronze II is field combat: put the protagonist on Mage/Wizard or Seeker. The squad-battle setup is not the focus of this match.",
-        "Bronze I is solo. Put the protagonist on Magic Seeker if he has Seeker 20 and More bond 3, otherwise Seeker. Use Wind against the Wind-weak target first; bring healing and status cures. A learned Gunner attack can provide Pierce for the other target, but is optional.",
-        "For the solo match, do not rely on Hulkenberg to heal or on Synthesis skills: the protagonist fights alone. Check his own equipment and item supply.",
-        "Arena resources recover between matches. You can spend MP on a useful strong attack without saving it for the evening match."
+        "Bronze I is solo: use Magic Seeker if the protagonist has Seeker 20 and More bond 3, otherwise Seeker. Defeat the Wind-weak target first. Bring his own healing and Forget/Hex/Poison cures. An inherited Poison Shot (Gunner 3) supplies Pierce from the back row for the other target. Allies and Synthesis cannot help.",
+        "Silver III: restore all four party members and bring single-target Fire, Ice, physical damage and a party heal. Hit Azure with Fire, Ochre with Ice and Platinum with physical attacks. Avoid all-target elemental spells while Platinum remains. Gold Attack (Merchant 1, 500 reeve) supplies Almighty for Golden; without it, finish the others first and use physical damage while keeping the party healed.",
+        "Silver II: this is field combat with a 90-second limit. Put the protagonist on Seeker for its support-attack passive, equip a current sword and dodge the large enemies before attacking again. Your squad spells are not the main tool in this match.",
+        "After a solo match, restore the full party before a group fight. Arena resources recover between matches; check the next rank before re-entering."
       ],
       "sources": [
         {
-          "label": "Ranked match rules",
+          "label": "Arena strategies and barriers",
           "url": "https://www.pcgamer.com/games/rpg/metaphor-refantazio-varmareno-coliseum-ranked-battles/"
         },
         {
-          "label": "Independent ranked match check",
+          "label": "Ranked arena rules",
           "url": "https://gamefaqs.gamespot.com/ps5/410470-metaphor-refantazio/faqs/81508/colliseum"
         },
         {
-          "label": "Archetype requirements and skills",
+          "label": "Archetype skill tables",
           "url": "https://gamefaqs.gamespot.com/xbox-series-x/409958-metaphor-refantazio/faqs/81526/archetypes"
+        },
+        {
+          "label": "Brawler unlocks and inheritance slots",
+          "url": "https://www.gamerguides.com/metaphor-refantazio/guide/followers/characters/catherina-bond-unlock-guide-abilities-and-archetypes"
         }
       ]
     },
@@ -1145,7 +1368,7 @@
     },
     "day-august-19": {
       "title": "For today’s ranked arena match",
-      "summary": "Read the rank on the receptionist’s menu first. Use the four-person cards for Silver III. If a prior match was delayed, Bronze I is a solo fight instead.",
+      "summary": "Use the receptionist’s actual rank, including any extra Courage match tonight. These four cards apply only to Silver III; use the named instructions below for a different rank.",
       "members": [
         {
           "name": "Protagonist",
@@ -1185,24 +1408,31 @@
         }
       ],
       "notes": [
-        "Bronze I: the protagonist fights alone. Use Magic Seeker with Wind, or Seeker if the upgrade is unavailable. Defeat the Wind-weak target first. Bring healing and Forget/Hex/Poison cures. A learned Poison Shot (Gunner 3) supplies Pierce for the other target and requires the back row. Allies and Synthesis cannot help in this solo fight.",
-        "Silver III: select targets separately. Azure is weak to Fire; Ochre to Ice. Hit Platinum with Slash, Pierce or Strike. Use Almighty against Golden; Merchant’s Gold Attack is an early option. Avoid blanket elemental spells while Platinum is alive.",
-        "Restore your full party after a solo match. Check that all four are active before starting Silver III.",
-        "The cards above apply to Silver III. If the receptionist lists another rank, follow that rank’s note instead.",
-        "For Golden, prepare Gold Attack (Merchant 1) on at least one attacker if practical; it costs 500 reeve each use. Without Almighty, ordinary physical damage is a slower fallback after the other targets are defeated."
+        "Bronze III: use the protagonist as Seeker, Strohl as Swordmaster, Hulkenberg as Magic Knight or Knight with inherited Medi/Medica, and Heismay as Faker. Keep Mage and Healer forms out of the active party. Use group physical damage, then remove the remaining enemy’s evasion buff with Dekaja (Faker 13); Sukunda (Faker 5) is a fallback if learned.",
+        "Bronze II is field combat: put the protagonist on Mage/Wizard or Seeker. The squad-battle setup is not the focus of this match.",
+        "Bronze I is solo: use Magic Seeker if the protagonist has Seeker 20 and More bond 3, otherwise Seeker. Defeat the Wind-weak target first. Bring his own healing and Forget/Hex/Poison cures. An inherited Poison Shot (Gunner 3) supplies Pierce from the back row for the other target. Allies and Synthesis cannot help.",
+        "Silver III: restore all four party members and bring single-target Fire, Ice, physical damage and a party heal. Hit Azure with Fire, Ochre with Ice and Platinum with physical attacks. Avoid all-target elemental spells while Platinum remains. Gold Attack (Merchant 1, 500 reeve) supplies Almighty for Golden; without it, finish the others first and use physical damage while keeping the party healed.",
+        "Silver II: this is field combat with a 90-second limit. Put the protagonist on Seeker for its support-attack passive, equip a current sword and dodge the large enemies before attacking again. Your squad spells are not the main tool in this match.",
+        "Silver I: take only the protagonist and Hulkenberg, both on Brawler or a trained Pugilist. Inherit Hamaon (Cleric 1), or Hama (Healer 1), on the protagonist. Give Hulkenberg Medica (Cleric 3), or Medi (Healer 3). Use Light on the Fighter first, then Strike on the Mage. Protect Ice weaknesses if you have suitable equipment; carry Daze cures and keep HP high because Brawler attacks spend HP. Brawler needs Catherina 1 and each character’s own study; Pugilist is optional. Prioritise the protagonist’s Light spell and Hulkenberg’s heal if each has only one inheritance slot.",
+        "Restore the full party after a solo fight. Arena resources recover between matches; check the next rank before re-entering.",
+        "If the next ranked fight is beyond your party and the itinerary uses this period for Courage, choose an easier available endurance challenge. Restore all four members and bring healing and revival items. Record no ranked win for an endurance run; keep the unfinished ranked match in the later queue."
       ],
       "sources": [
-        {
-          "label": "Ranked arena rules",
-          "url": "https://gamefaqs.gamespot.com/ps5/410470-metaphor-refantazio/faqs/81508/colliseum"
-        },
         {
           "label": "Arena strategies and barriers",
           "url": "https://www.pcgamer.com/games/rpg/metaphor-refantazio-varmareno-coliseum-ranked-battles/"
         },
         {
+          "label": "Ranked arena rules",
+          "url": "https://gamefaqs.gamespot.com/ps5/410470-metaphor-refantazio/faqs/81508/colliseum"
+        },
+        {
           "label": "Archetype skill tables",
           "url": "https://gamefaqs.gamespot.com/xbox-series-x/409958-metaphor-refantazio/faqs/81526/archetypes"
+        },
+        {
+          "label": "Brawler unlocks and inheritance slots",
+          "url": "https://www.gamerguides.com/metaphor-refantazio/guide/followers/characters/catherina-bond-unlock-guide-abilities-and-archetypes"
         }
       ]
     },
@@ -1348,7 +1578,7 @@
           "role": "Healer and durable support. Healing is her first job; use her lance when the party is safe.",
           "inherit": "Medica from Cleric rank 3. If you have two slots, add Dekunda from Healer rank 13 to remove party stat debuffs.",
           "requires": "Paladin needs Hulkenberg bond 7 and Magic Knight 20. If the 24 August bond was delayed, stay on Magic Knight.",
-          "fallback": "Magic Knight or Knight with inherited Medica. Do not replace your healer with an unprepared training class.",
+          "fallback": "Magic Knight or Knight with Medica if she learned Cleric 3; otherwise inherit Medi from Healer 3 and carry healing items. Keep her in a trained battle class.",
           "train": "Paladin 20 eventually gives Revitalise 3 for MP recovery. It is a longer-term target, not a requirement for today."
         },
         {
@@ -1419,7 +1649,7 @@
           "role": "Healer and durable support. Healing is her first job; use her lance when the party is safe.",
           "inherit": "Medica from Cleric rank 3. If you have two slots, add Dekunda from Healer rank 13 to remove party stat debuffs.",
           "requires": "Paladin needs Hulkenberg bond 7 and Magic Knight 20. If the 24 August bond was delayed, stay on Magic Knight.",
-          "fallback": "Magic Knight or Knight with inherited Medica. Do not replace your healer with an unprepared training class.",
+          "fallback": "Magic Knight or Knight with Medica if she learned Cleric 3; otherwise inherit Medi from Healer 3 and carry healing items. Keep her in a trained battle class.",
           "train": "Paladin 20 eventually gives Revitalise 3 for MP recovery. It is a longer-term target, not a requirement for today."
         },
         {
@@ -1481,7 +1711,7 @@
           "role": "Healer and durable support. Healing is her first job; use her lance when the party is safe.",
           "inherit": "Medica from Cleric rank 3. If you have two slots, add Dekunda from Healer rank 13 to remove party stat debuffs.",
           "requires": "Paladin needs Hulkenberg bond 7 and Magic Knight 20. If the 24 August bond was delayed, stay on Magic Knight.",
-          "fallback": "Magic Knight or Knight with inherited Medica. Do not replace your healer with an unprepared training class.",
+          "fallback": "Magic Knight or Knight with Medica if she learned Cleric 3; otherwise inherit Medi from Healer 3 and carry healing items. Keep her in a trained battle class.",
           "train": "Paladin 20 eventually gives Revitalise 3 for MP recovery. It is a longer-term target, not a requirement for today."
         },
         {
@@ -1512,7 +1742,7 @@
     },
     "day-september-01": {
       "title": "For tonight’s ranked arena match",
-      "summary": "Use the receptionist’s rank. Silver II is a field fight; delayed Silver III uses the four-person cards below. Today’s daytime bond event needs no class changes.",
+      "summary": "If tonight is Alonzo’s recovery event, keep your familiar setup. For the arena, read the actual rank: these four cards apply only to Silver III; other ranks use the notes below.",
       "members": [
         {
           "name": "Protagonist",
@@ -1552,31 +1782,38 @@
         }
       ],
       "notes": [
+        "Bronze III: use the protagonist as Seeker, Strohl as Swordmaster, Hulkenberg as Magic Knight or Knight with inherited Medi/Medica, and Heismay as Faker. Keep Mage and Healer forms out of the active party. Use group physical damage, then remove the remaining enemy’s evasion buff with Dekaja (Faker 13); Sukunda (Faker 5) is a fallback if learned.",
+        "Bronze II is field combat: put the protagonist on Mage/Wizard or Seeker. The squad-battle setup is not the focus of this match.",
+        "Bronze I is solo: use Magic Seeker if the protagonist has Seeker 20 and More bond 3, otherwise Seeker. Defeat the Wind-weak target first. Bring his own healing and Forget/Hex/Poison cures. An inherited Poison Shot (Gunner 3) supplies Pierce from the back row for the other target. Allies and Synthesis cannot help.",
+        "Silver III: restore all four party members and bring single-target Fire, Ice, physical damage and a party heal. Hit Azure with Fire, Ochre with Ice and Platinum with physical attacks. Avoid all-target elemental spells while Platinum remains. Gold Attack (Merchant 1, 500 reeve) supplies Almighty for Golden; without it, finish the others first and use physical damage while keeping the party healed.",
         "Silver II: this is field combat with a 90-second limit. Put the protagonist on Seeker for its support-attack passive, equip a current sword and dodge the large enemies before attacking again. Your squad spells are not the main tool in this match.",
-        "Silver III: select targets separately. Azure is weak to Fire; Ochre to Ice. Hit Platinum with Slash, Pierce or Strike. Use Almighty against Golden; Merchant’s Gold Attack is an early option. Avoid blanket elemental spells while Platinum is alive.",
-        "Restore your full party after a solo match. Check that all four are active before starting Silver III.",
-        "The cards above apply to Silver III. If the receptionist lists another rank, follow that rank’s note instead.",
-        "For Golden, prepare Gold Attack (Merchant 1) on at least one attacker if practical; it costs 500 reeve each use. Without Almighty, ordinary physical damage is a slower fallback after the other targets are defeated."
+        "Silver I: take only the protagonist and Hulkenberg, both on Brawler or a trained Pugilist. Inherit Hamaon (Cleric 1), or Hama (Healer 1), on the protagonist. Give Hulkenberg Medica (Cleric 3), or Medi (Healer 3). Use Light on the Fighter first, then Strike on the Mage. Protect Ice weaknesses if you have suitable equipment; carry Daze cures and keep HP high because Brawler attacks spend HP. Brawler needs Catherina 1 and each character’s own study; Pugilist is optional. Prioritise the protagonist’s Light spell and Hulkenberg’s heal if each has only one inheritance slot.",
+        "A solo or two-person match changes the active party. Restore the full group before the next group fight.",
+        "Gold III or a later rank: early recovery wins can bring a harder match forward. Keep a separate save. If the next fight is beyond the protagonist or party, use the itinerary’s easier endurance option for Courage and record no ranked credit; keep the actual next rank pending for the later arena queue. Use the two-person Brawler setup only for Silver I."
       ],
       "sources": [
-        {
-          "label": "Ranked arena rules",
-          "url": "https://gamefaqs.gamespot.com/ps5/410470-metaphor-refantazio/faqs/81508/colliseum"
-        },
         {
           "label": "Arena strategies and barriers",
           "url": "https://www.pcgamer.com/games/rpg/metaphor-refantazio-varmareno-coliseum-ranked-battles/"
         },
         {
+          "label": "Ranked arena rules",
+          "url": "https://gamefaqs.gamespot.com/ps5/410470-metaphor-refantazio/faqs/81508/colliseum"
+        },
+        {
           "label": "Archetype skill tables",
           "url": "https://gamefaqs.gamespot.com/xbox-series-x/409958-metaphor-refantazio/faqs/81526/archetypes"
+        },
+        {
+          "label": "Brawler unlocks and inheritance slots",
+          "url": "https://www.gamerguides.com/metaphor-refantazio/guide/followers/characters/catherina-bond-unlock-guide-abilities-and-archetypes"
         }
       ]
     },
     "day-september-03": {
       "title": "For tonight’s ranked arena match",
       "limitedParty": true,
-      "summary": "Silver I allows only the protagonist and one ally, both from the Brawler lineage. These two cards apply to that match. If your menu still says Silver II, use its field-combat note instead.",
+      "summary": "Use the receptionist’s actual rank. These two cards apply only to Silver I; lower ranks need the preparations below. Replaced and extra matches can change which fight you face.",
       "members": [
         {
           "name": "Protagonist",
@@ -1598,18 +1835,22 @@
         }
       ],
       "notes": [
-        "Silver I: take only the protagonist and Hulkenberg, both on Brawler or a trained Pugilist. Inherit Hamaon (Cleric 1), or Hama (Healer 1), on the protagonist. Give Hulkenberg Medica (Cleric 3), or Medi (Healer 3). Use Light on the Fighter first, then Strike on the Mage. Protect Ice weaknesses if you have suitable equipment; carry Daze cures and keep HP high because Brawler attacks spend HP.",
+        "Bronze III: use the protagonist as Seeker, Strohl as Swordmaster, Hulkenberg as Magic Knight or Knight with inherited Medi/Medica, and Heismay as Faker. Keep Mage and Healer forms out of the active party. Use group physical damage, then remove the remaining enemy’s evasion buff with Dekaja (Faker 13); Sukunda (Faker 5) is a fallback if learned.",
+        "Bronze II is field combat: put the protagonist on Mage/Wizard or Seeker. The squad-battle setup is not the focus of this match.",
+        "Bronze I is solo: use Magic Seeker if the protagonist has Seeker 20 and More bond 3, otherwise Seeker. Defeat the Wind-weak target first. Bring his own healing and Forget/Hex/Poison cures. An inherited Poison Shot (Gunner 3) supplies Pierce from the back row for the other target. Allies and Synthesis cannot help.",
+        "Silver III: restore all four party members and bring single-target Fire, Ice, physical damage and a party heal. Hit Azure with Fire, Ochre with Ice and Platinum with physical attacks. Avoid all-target elemental spells while Platinum remains. Gold Attack (Merchant 1, 500 reeve) supplies Almighty for Golden; without it, finish the others first and use physical damage while keeping the party healed.",
         "Silver II: this is field combat with a 90-second limit. Put the protagonist on Seeker for its support-attack passive, equip a current sword and dodge the large enemies before attacking again. Your squad spells are not the main tool in this match.",
-        "After Silver I, add your other two party members back before the next group fight. The earlier town activities today need no class changes."
+        "Silver I: take only the protagonist and Hulkenberg, both on Brawler or a trained Pugilist. Inherit Hamaon (Cleric 1), or Hama (Healer 1), on the protagonist. Give Hulkenberg Medica (Cleric 3), or Medi (Healer 3). Use Light on the Fighter first, then Strike on the Mage. Protect Ice weaknesses if you have suitable equipment; carry Daze cures and keep HP high because Brawler attacks spend HP. Brawler needs Catherina 1 and each character’s own study; Pugilist is optional. Prioritise the protagonist’s Light spell and Hulkenberg’s heal if each has only one inheritance slot.",
+        "Gold III or a later rank: early recovery wins can bring a harder match forward. Keep a separate save. If the next fight is beyond the protagonist or party, use the itinerary’s easier endurance option for Courage and record no ranked credit; keep the actual next rank pending for the later arena queue. Use the two-person Brawler setup only for Silver I."
       ],
       "sources": [
         {
-          "label": "Ranked arena rules",
-          "url": "https://gamefaqs.gamespot.com/ps5/410470-metaphor-refantazio/faqs/81508/colliseum"
-        },
-        {
           "label": "Arena strategies and barriers",
           "url": "https://www.pcgamer.com/games/rpg/metaphor-refantazio-varmareno-coliseum-ranked-battles/"
+        },
+        {
+          "label": "Ranked arena rules",
+          "url": "https://gamefaqs.gamespot.com/ps5/410470-metaphor-refantazio/faqs/81508/colliseum"
         },
         {
           "label": "Archetype skill tables",
@@ -1622,8 +1863,8 @@
       ]
     },
     "day-september-04": {
-      "title": "Runner encounter preparation",
-      "summary": "Keep the balanced party. Restore HP/MP and check equipment before confirming the journey.",
+      "title": "If you take the optional runner outing",
+      "summary": "Use this balanced party only if today’s itinerary sends you on the optional runner outing. If Alonzo’s rank 6 recovery takes the afternoon, keep your normal setup for town.",
       "members": [
         {
           "name": "Protagonist",
@@ -1649,7 +1890,7 @@
           "role": "Healer and durable support. Healing is her first job; use her lance when the party is safe.",
           "inherit": "Medica from Cleric rank 3. If you have two slots, add Dekunda from Healer rank 13 to remove party stat debuffs.",
           "requires": "Paladin needs Hulkenberg bond 7 and Magic Knight 20. If the 24 August bond was delayed, stay on Magic Knight.",
-          "fallback": "Magic Knight or Knight with inherited Medica. Do not replace your healer with an unprepared training class.",
+          "fallback": "Magic Knight or Knight with Medica if she learned Cleric 3; otherwise inherit Medi from Healer 3 and carry healing items. Keep her in a trained battle class.",
           "train": "Paladin 20 eventually gives Revitalise 3 for MP recovery. It is a longer-term target, not a requirement for today."
         },
         {
@@ -1663,6 +1904,7 @@
         }
       ],
       "notes": [
+        "The optional outing is omitted when Alonzo’s recovery uses this period. Do not take both activities or mark the encounter complete from the calendar alone.",
         "Keep your party-wide heal, elemental spells and status-curing items available.",
         "Use your trained classes for this trip; no new class mastery is required before departing."
       ],
@@ -1705,7 +1947,7 @@
           "role": "Healer and durable support. Healing is her first job; use her lance when the party is safe.",
           "inherit": "Medica from Cleric rank 3. If you have two slots, add Dekunda from Healer rank 13 to remove party stat debuffs.",
           "requires": "Paladin needs Hulkenberg bond 7 and Magic Knight 20. If the 24 August bond was delayed, stay on Magic Knight.",
-          "fallback": "Magic Knight or Knight with inherited Medica. Do not replace your healer with an unprepared training class.",
+          "fallback": "Magic Knight or Knight with Medica if she learned Cleric 3; otherwise inherit Medi from Healer 3 and carry healing items. Keep her in a trained battle class.",
           "train": "Paladin 20 eventually gives Revitalise 3 for MP recovery. It is a longer-term target, not a requirement for today."
         },
         {
@@ -1766,7 +2008,7 @@
           "role": "Healer and durable support. Healing is her first job; use her lance when the party is safe.",
           "inherit": "Medica from Cleric rank 3. If you have two slots, add Dekunda from Healer rank 13 to remove party stat debuffs.",
           "requires": "Paladin needs Hulkenberg bond 7 and Magic Knight 20. If the 24 August bond was delayed, stay on Magic Knight.",
-          "fallback": "Magic Knight or Knight with inherited Medica. Do not replace your healer with an unprepared training class.",
+          "fallback": "Magic Knight or Knight with Medica if she learned Cleric 3; otherwise inherit Medi from Healer 3 and carry healing items. Keep her in a trained battle class.",
           "train": "Paladin 20 eventually gives Revitalise 3 for MP recovery. It is a longer-term target, not a requirement for today."
         },
         {
@@ -1826,7 +2068,7 @@
           "role": "Healer and durable support. Healing is her first job; use her lance when the party is safe.",
           "inherit": "Medica from Cleric rank 3. If you have two slots, add Dekunda from Healer rank 13 to remove party stat debuffs.",
           "requires": "Paladin needs Hulkenberg bond 7 and Magic Knight 20. If the 24 August bond was delayed, stay on Magic Knight.",
-          "fallback": "Magic Knight or Knight with inherited Medica. Do not replace your healer with an unprepared training class.",
+          "fallback": "Magic Knight or Knight with Medica if she learned Cleric 3; otherwise inherit Medi from Healer 3 and carry healing items. Keep her in a trained battle class.",
           "train": "Paladin 20 eventually gives Revitalise 3 for MP recovery. It is a longer-term target, not a requirement for today."
         },
         {
@@ -1896,7 +2138,7 @@
           "role": "Healer and durable support. Healing is her first job; use her lance when the party is safe.",
           "inherit": "Medica from Cleric rank 3. If you have two slots, add Dekunda from Healer rank 13 to remove party stat debuffs.",
           "requires": "Paladin needs Hulkenberg bond 7 and Magic Knight 20. If the 24 August bond was delayed, stay on Magic Knight.",
-          "fallback": "Magic Knight or Knight with inherited Medica. Do not replace your healer with an unprepared training class.",
+          "fallback": "Magic Knight or Knight with Medica if she learned Cleric 3; otherwise inherit Medi from Healer 3 and carry healing items. Keep her in a trained battle class.",
           "train": "Paladin 20 eventually gives Revitalise 3 for MP recovery. It is a longer-term target, not a requirement for today."
         },
         {
@@ -1952,7 +2194,7 @@
           "role": "Healer and durable support. Healing is her first job; use her lance when the party is safe.",
           "inherit": "Medica from Cleric rank 3. If you have two slots, add Dekunda from Healer rank 13 to remove party stat debuffs.",
           "requires": "Paladin needs Hulkenberg bond 7 and Magic Knight 20. If the 24 August bond was delayed, stay on Magic Knight.",
-          "fallback": "Magic Knight or Knight with inherited Medica. Do not replace your healer with an unprepared training class.",
+          "fallback": "Magic Knight or Knight with Medica if she learned Cleric 3; otherwise inherit Medi from Healer 3 and carry healing items. Keep her in a trained battle class.",
           "train": "Paladin 20 eventually gives Revitalise 3 for MP recovery. It is a longer-term target, not a requirement for today."
         },
         {
@@ -1982,8 +2224,8 @@
       ]
     },
     "day-september-17": {
-      "title": "Today’s runner battle",
-      "summary": "Electric is the priority. Bring Ice and Wind as backup coverage, and avoid spending turns on resisted ordinary physical attacks.",
+      "title": "Runner battle and optional arena preparation",
+      "summary": "For the afternoon runner battle, use these four cards with Electric, Ice and Wind coverage. If tonight’s recovery instruction sends you to the arena, use its actual rank and the separate arena notes below.",
       "members": [
         {
           "name": "Protagonist",
@@ -2000,7 +2242,7 @@
           "role": "Healer and durable support. Healing is her first job; use her lance when the party is safe.",
           "inherit": "Medica from Cleric rank 3. If you have two slots, add Dekunda from Healer rank 13 to remove party stat debuffs.",
           "requires": "Paladin needs Hulkenberg bond 7 and Magic Knight 20. If the 24 August bond was delayed, stay on Magic Knight.",
-          "fallback": "Magic Knight or Knight with inherited Medica. Do not replace your healer with an unprepared training class.",
+          "fallback": "Magic Knight or Knight with Medica if she learned Cleric 3; otherwise inherit Medi from Healer 3 and carry healing items. Keep her in a trained battle class.",
           "train": "Paladin 20 eventually gives Revitalise 3 for MP recovery. It is a longer-term target, not a requirement for today."
         },
         {
@@ -2025,7 +2267,16 @@
       "notes": [
         "The main opponent is Electric-weak; the accompanying enemies are weak to Ice and Wind. Check the target before using a spell.",
         "Physical resistance does not mean you need four new Wizards. One prepared caster plus healing and support can exploit the main weakness.",
-        "Keep defence/support active and remove enemy buffs if possible."
+        "Keep defence/support active and remove enemy buffs if possible.",
+        "For an arena recovery tonight, replace the runner setup with the named rank’s preparation. Use the easier endurance alternative below if the next match is beyond your current party.",
+        "Bronze III: use the protagonist as Seeker, Strohl as Swordmaster, Hulkenberg as Magic Knight or Knight with inherited Medi/Medica, and Heismay as Faker. Keep Mage and Healer forms out of the active party. Use group physical damage, then remove the remaining enemy’s evasion buff with Dekaja (Faker 13); Sukunda (Faker 5) is a fallback if learned.",
+        "Bronze II is field combat: put the protagonist on Mage/Wizard or Seeker. The squad-battle setup is not the focus of this match.",
+        "Bronze I is solo: use Magic Seeker if the protagonist has Seeker 20 and More bond 3, otherwise Seeker. Defeat the Wind-weak target first. Bring his own healing and Forget/Hex/Poison cures. An inherited Poison Shot (Gunner 3) supplies Pierce from the back row for the other target. Allies and Synthesis cannot help.",
+        "Silver III: restore all four party members and bring single-target Fire, Ice, physical damage and a party heal. Hit Azure with Fire, Ochre with Ice and Platinum with physical attacks. Avoid all-target elemental spells while Platinum remains. Gold Attack (Merchant 1, 500 reeve) supplies Almighty for Golden; without it, finish the others first and use physical damage while keeping the party healed.",
+        "Silver II: this is field combat with a 90-second limit. Put the protagonist on Seeker for its support-attack passive, equip a current sword and dodge the large enemies before attacking again. Your squad spells are not the main tool in this match.",
+        "Silver I: take only the protagonist and Hulkenberg, both on Brawler or a trained Pugilist. Inherit Hamaon (Cleric 1), or Hama (Healer 1), on the protagonist. Give Hulkenberg Medica (Cleric 3), or Medi (Healer 3). Use Light on the Fighter first, then Strike on the Mage. Protect Ice weaknesses if you have suitable equipment; carry Daze cures and keep HP high because Brawler attacks spend HP. Brawler needs Catherina 1 and each character’s own study; Pugilist is optional. Prioritise the protagonist’s Light spell and Hulkenberg’s heal if each has only one inheritance slot.",
+        "Gold III or a later rank: early recovery wins can bring a harder match forward. Keep a separate save. If the next fight is beyond the protagonist or party, use the itinerary’s easier endurance option for Courage and record no ranked credit; keep the actual next rank pending for the later arena queue. Use the two-person Brawler setup only for Silver I.",
+        "If the next ranked fight is beyond your party and the itinerary uses this period for Courage, choose an easier available endurance challenge. Restore all four members and bring healing and revival items. Record no ranked win for an endurance run; keep the unfinished ranked match in the later queue."
       ],
       "sources": [
         {
@@ -2039,6 +2290,22 @@
         {
           "label": "Mask recipes and abilities",
           "url": "https://www.gamerguides.com/metaphor-refantazio/guide/items/masks/"
+        },
+        {
+          "label": "Arena strategies and barriers",
+          "url": "https://www.pcgamer.com/games/rpg/metaphor-refantazio-varmareno-coliseum-ranked-battles/"
+        },
+        {
+          "label": "Ranked arena rules",
+          "url": "https://gamefaqs.gamespot.com/ps5/410470-metaphor-refantazio/faqs/81508/colliseum"
+        },
+        {
+          "label": "Archetype skill tables",
+          "url": "https://gamefaqs.gamespot.com/xbox-series-x/409958-metaphor-refantazio/faqs/81526/archetypes"
+        },
+        {
+          "label": "Brawler unlocks and inheritance slots",
+          "url": "https://www.gamerguides.com/metaphor-refantazio/guide/followers/characters/catherina-bond-unlock-guide-abilities-and-archetypes"
         }
       ]
     },
@@ -2070,7 +2337,7 @@
           "role": "Healer and durable support. Healing is her first job; use her lance when the party is safe.",
           "inherit": "Medica from Cleric rank 3. If you have two slots, add Dekunda from Healer rank 13 to remove party stat debuffs.",
           "requires": "Paladin needs Hulkenberg bond 7 and Magic Knight 20. If the 24 August bond was delayed, stay on Magic Knight.",
-          "fallback": "Magic Knight or Knight with inherited Medica. Do not replace your healer with an unprepared training class.",
+          "fallback": "Magic Knight or Knight with Medica if she learned Cleric 3; otherwise inherit Medi from Healer 3 and carry healing items. Keep her in a trained battle class.",
           "train": "Paladin 20 eventually gives Revitalise 3 for MP recovery. It is a longer-term target, not a requirement for today."
         },
         {
@@ -2128,7 +2395,7 @@
           "role": "Healer and durable support. Healing is her first job; use her lance when the party is safe.",
           "inherit": "Medica from Cleric rank 3. If you have two slots, add Dekunda from Healer rank 13 to remove party stat debuffs.",
           "requires": "Paladin needs Hulkenberg bond 7 and Magic Knight 20. If the 24 August bond was delayed, stay on Magic Knight.",
-          "fallback": "Magic Knight or Knight with inherited Medica. Do not replace your healer with an unprepared training class.",
+          "fallback": "Magic Knight or Knight with Medica if she learned Cleric 3; otherwise inherit Medi from Healer 3 and carry healing items. Keep her in a trained battle class.",
           "train": "Paladin 20 eventually gives Revitalise 3 for MP recovery. It is a longer-term target, not a requirement for today."
         },
         {
@@ -2161,6 +2428,84 @@
         }
       ]
     },
+    "day-september-22": {
+      "title": "If tonight uses an arena recovery",
+      "summary": "Keep your familiar party for Catherina’s or Alonzo’s bond event. If Courage recovery sends you to the Coliseum, check the actual rank and replace the ordinary setup with its instructions below.",
+      "members": [
+        {
+          "name": "Protagonist",
+          "archetype": "Wizard",
+          "role": "Magic damage from the back row. Use the element the enemy is weak to; a stronger spell is not always worth its extra MP.",
+          "inherit": "Use one slot for Cyc from Seeker 1 when you need Wind. For cheaper Fire, Ice or Electric instead, swap that slot to Bot, Blizz or Kande from your mastered Mage; each costs 4 MP.",
+          "requires": "Gallica bond 3 and Mage rank 20. Botra is immediate; Blizza needs Wizard 2, Kandera needs Wizard 6.",
+          "fallback": "Mage. It keeps your mastered elemental spells and their cheaper 4 MP costs.",
+          "train": "Wizard 11 for Shield Blessing. It recovers MP in battle while an Attack, Defence or Hit/Evasion buff is active; extra Magic or Endurance equipment alone does not activate it."
+        },
+        {
+          "name": "Strohl",
+          "archetype": "Samurai if ready; otherwise Swordmaster",
+          "role": "Physical damage. Keep him in front when attacking; move back or guard when defending.",
+          "inherit": "Slicer from Warrior rank 8 is a cheaper single-target option. One slot is enough.",
+          "requires": "Samurai needs Strohl bond 7, Swordmaster 20 and General 10. General itself needs Bardon bond 3 and Commander 20.",
+          "fallback": "Swordmaster with Slicer. A mastered Swordmaster remains useful while you spend earned A-EXP items on its next prerequisites.",
+          "train": "Commander 20, then General 10, only if those Samurai requirements are still missing. Do this with saved A-EXP items or easy fights, not during a difficult boss."
+        },
+        {
+          "name": "Hulkenberg",
+          "archetype": "Paladin if ready; otherwise Magic Knight",
+          "role": "Healer and durable support. Healing is her first job; use her lance when the party is safe.",
+          "inherit": "Medica from Cleric rank 3. If you have two slots, add Dekunda from Healer rank 13 to remove party stat debuffs.",
+          "requires": "Paladin needs Hulkenberg bond 7 and Magic Knight 20. If the 24 August bond was delayed, stay on Magic Knight.",
+          "fallback": "Magic Knight or Knight with Medica if she learned Cleric 3; otherwise inherit Medi from Healer 3 and carry healing items. Keep her in a trained battle class.",
+          "train": "Paladin 20 eventually gives Revitalise 3 for MP recovery. It is a longer-term target, not a requirement for today."
+        },
+        {
+          "name": "Heismay",
+          "archetype": "Assassin",
+          "role": "Fast support and Dark damage. Use items or pass when his attacks would be resisted.",
+          "inherit": "Marakukaja from Commander rank 1 is a useful single-slot Defence buff. For a boss that buffs itself, replace it with Dekaja from Faker rank 13 if learned.",
+          "requires": "Heismay bond 3 and Thief rank 20. Each inherited skill must be learned by Heismay himself.",
+          "fallback": "Thief. Keep the support skill; use Steal only when the party is safe.",
+          "train": "Faker 13 for Dekaja is useful support training. Ninja can wait: it needs Heismay bond 7, Assassin 20 and Sniper 10."
+        }
+      ],
+      "notes": [
+        "Bronze III: use the protagonist as Seeker, Strohl as Swordmaster, Hulkenberg as Magic Knight or Knight with inherited Medi/Medica, and Heismay as Faker. Keep Mage and Healer forms out of the active party. Use group physical damage, then remove the remaining enemy’s evasion buff with Dekaja (Faker 13); Sukunda (Faker 5) is a fallback if learned.",
+        "Bronze II is field combat: put the protagonist on Mage/Wizard or Seeker. The squad-battle setup is not the focus of this match.",
+        "Bronze I is solo: use Magic Seeker if the protagonist has Seeker 20 and More bond 3, otherwise Seeker. Defeat the Wind-weak target first. Bring his own healing and Forget/Hex/Poison cures. An inherited Poison Shot (Gunner 3) supplies Pierce from the back row for the other target. Allies and Synthesis cannot help.",
+        "Silver III: restore all four party members and bring single-target Fire, Ice, physical damage and a party heal. Hit Azure with Fire, Ochre with Ice and Platinum with physical attacks. Avoid all-target elemental spells while Platinum remains. Gold Attack (Merchant 1, 500 reeve) supplies Almighty for Golden; without it, finish the others first and use physical damage while keeping the party healed.",
+        "Silver II: this is field combat with a 90-second limit. Put the protagonist on Seeker for its support-attack passive, equip a current sword and dodge the large enemies before attacking again. Your squad spells are not the main tool in this match.",
+        "Silver I: take only the protagonist and Hulkenberg, both on Brawler or a trained Pugilist. Inherit Hamaon (Cleric 1), or Hama (Healer 1), on the protagonist. Give Hulkenberg Medica (Cleric 3), or Medi (Healer 3). Use Light on the Fighter first, then Strike on the Mage. Protect Ice weaknesses if you have suitable equipment; carry Daze cures and keep HP high because Brawler attacks spend HP. Brawler needs Catherina 1 and each character’s own study; Pugilist is optional. Prioritise the protagonist’s Light spell and Hulkenberg’s heal if each has only one inheritance slot.",
+        "Gold III or a later rank: early recovery wins can bring a harder match forward. Keep a separate save. If the next fight is beyond the protagonist or party, use the itinerary’s easier endurance option for Courage and record no ranked credit; keep the actual next rank pending for the later arena queue. Use the two-person Brawler setup only for Silver I.",
+        "If the next ranked fight is beyond your party and the itinerary uses this period for Courage, choose an easier available endurance challenge. Restore all four members and bring healing and revival items. Record no ranked win for an endurance run; keep the unfinished ranked match in the later queue."
+      ],
+      "sources": [
+        {
+          "label": "Archetype requirements",
+          "url": "https://www.gamespot.com/articles/metaphor-refantazio-all-advanced-archetypes-and-how-to-unlock-them/1100-6526963/"
+        },
+        {
+          "label": "Healing skills and ranks",
+          "url": "https://gamefaqs.gamespot.com/ps5/410470-metaphor-refantazio/faqs/81508/healer-lineage"
+        },
+        {
+          "label": "Arena strategies and barriers",
+          "url": "https://www.pcgamer.com/games/rpg/metaphor-refantazio-varmareno-coliseum-ranked-battles/"
+        },
+        {
+          "label": "Ranked arena rules",
+          "url": "https://gamefaqs.gamespot.com/ps5/410470-metaphor-refantazio/faqs/81508/colliseum"
+        },
+        {
+          "label": "Archetype skill tables",
+          "url": "https://gamefaqs.gamespot.com/xbox-series-x/409958-metaphor-refantazio/faqs/81526/archetypes"
+        },
+        {
+          "label": "Brawler unlocks and inheritance slots",
+          "url": "https://www.gamerguides.com/metaphor-refantazio/guide/followers/characters/catherina-bond-unlock-guide-abilities-and-archetypes"
+        }
+      ]
+    },
     "day-september-27": {
       "title": "Today’s dungeon party",
       "summary": "Eupha must join the quest battle. Bring Ice for the dungeon and a way to remove Hex.",
@@ -2185,7 +2530,7 @@
         },
         {
           "name": "Hulkenberg",
-          "archetype": "Paladin",
+          "archetype": "Paladin if ready; otherwise Magic Knight",
           "role": "Durable healer and defender. Heal first when the party is hurt; drawing attacks is a separate action and cannot also heal the party.",
           "inherit": "Medica (Cleric 3) and Dekunda (Healer 13): two slots. Medica heals everyone; Dekunda clears the party’s stat reductions.",
           "requires": "Hulkenberg bond 7 and Magic Knight 20. Medica must be learned on Hulkenberg herself. Cleric needs Maria 3 and Healer 20.",
@@ -2194,7 +2539,7 @@
         },
         {
           "name": "Junah",
-          "archetype": "Persona Master · Wizard’s Mask",
+          "archetype": "Persona Master if ready; otherwise Masked Dancer · Wizard’s Mask",
           "role": "Debuffs and economical elemental coverage. The mask provides Blizza, Kandera and Shield Blessing; it occupies her accessory slot.",
           "inherit": "Tarunda (Faker 3) and Dekaja (Faker 13): two slots. Lower a dangerous enemy’s Attack; remove its buffs when they appear.",
           "requires": "Junah bond 6, Masked Dancer 20 and Faker 10. Make Wizard’s Mask in Akademeia with a Magician White Mask and Priestess White Mask after Wizard is unlocked.",
@@ -2224,8 +2569,8 @@
       ]
     },
     "day-september-30": {
-      "title": "Today’s runner battle",
-      "summary": "Keep the regular party. Carry party debuff removal and Charm cures.",
+      "title": "If you take today’s runner battle",
+      "summary": "For the Jin outing, keep these four roles and carry debuff removal and Charm cures. If Basilio’s recovery uses the afternoon, this outing moves to 3 October; his town event needs no combat swap.",
       "members": [
         {
           "name": "Protagonist",
@@ -2238,7 +2583,7 @@
         },
         {
           "name": "Strohl",
-          "archetype": "Samurai",
+          "archetype": "Samurai if ready; otherwise Swordmaster",
           "role": "Physical attacker and backup party buffer. Use the cheapest attack that finishes an enemy; large attacks are for durable targets.",
           "inherit": "Slash Boost (Warrior 20) and Marakukaja (Commander 1): two slots. Marakukaja raises the whole party’s Defence.",
           "requires": "Strohl bond 7, Swordmaster 20 and General 10 on Strohl. General itself needs Bardon 3 and Commander 20.",
@@ -2247,7 +2592,7 @@
         },
         {
           "name": "Hulkenberg",
-          "archetype": "Paladin",
+          "archetype": "Paladin if ready; otherwise Magic Knight",
           "role": "Durable healer and defender. Heal first when the party is hurt; drawing attacks is a separate action and cannot also heal the party.",
           "inherit": "Medica (Cleric 3) and Dekunda (Healer 13): two slots. Medica heals everyone; Dekunda clears the party’s stat reductions.",
           "requires": "Hulkenberg bond 7 and Magic Knight 20. Medica must be learned on Hulkenberg herself. Cleric needs Maria 3 and Healer 20.",
@@ -2256,7 +2601,7 @@
         },
         {
           "name": "Junah",
-          "archetype": "Persona Master · Wizard’s Mask",
+          "archetype": "Persona Master if ready; otherwise Masked Dancer · Wizard’s Mask",
           "role": "Debuffs and economical elemental coverage. The mask provides Blizza, Kandera and Shield Blessing; it occupies her accessory slot.",
           "inherit": "Tarunda (Faker 3) and Dekaja (Faker 13): two slots. Lower a dangerous enemy’s Attack; remove its buffs when they appear.",
           "requires": "Junah bond 6, Masked Dancer 20 and Faker 10. Make Wizard’s Mask in Akademeia with a Magician White Mask and Priestess White Mask after Wizard is unlocked.",
@@ -2304,7 +2649,7 @@
         },
         {
           "name": "Hulkenberg",
-          "archetype": "Paladin",
+          "archetype": "Paladin if ready; otherwise Magic Knight",
           "role": "Durable healer and defender. Heal first when the party is hurt; drawing attacks is a separate action and cannot also heal the party.",
           "inherit": "Medica (Cleric 3) and Dekunda (Healer 13): two slots. Medica heals everyone; Dekunda clears the party’s stat reductions.",
           "requires": "Hulkenberg bond 7 and Magic Knight 20. Medica must be learned on Hulkenberg herself. Cleric needs Maria 3 and Healer 20.",
@@ -2313,7 +2658,7 @@
         },
         {
           "name": "Junah",
-          "archetype": "Persona Master · Wizard’s Mask",
+          "archetype": "Persona Master if ready; otherwise Masked Dancer · Wizard’s Mask",
           "role": "Debuffs and economical elemental coverage. The mask provides Blizza, Kandera and Shield Blessing; it occupies her accessory slot.",
           "inherit": "Tarunda (Faker 3) and Dekaja (Faker 13): two slots. Lower a dangerous enemy’s Attack; remove its buffs when they appear.",
           "requires": "Junah bond 6, Masked Dancer 20 and Faker 10. Make Wizard’s Mask in Akademeia with a Magician White Mask and Priestess White Mask after Wizard is unlocked.",
@@ -2362,7 +2707,7 @@
         },
         {
           "name": "Hulkenberg",
-          "archetype": "Paladin",
+          "archetype": "Paladin if ready; otherwise Magic Knight",
           "role": "Durable healer and defender. Heal first when the party is hurt; drawing attacks is a separate action and cannot also heal the party.",
           "inherit": "Medica (Cleric 3) and Dekunda (Healer 13): two slots. Medica heals everyone; Dekunda clears the party’s stat reductions.",
           "requires": "Hulkenberg bond 7 and Magic Knight 20. Medica must be learned on Hulkenberg herself. Cleric needs Maria 3 and Healer 20.",
@@ -2371,7 +2716,7 @@
         },
         {
           "name": "Junah",
-          "archetype": "Persona Master · Wizard’s Mask",
+          "archetype": "Persona Master if ready; otherwise Masked Dancer · Wizard’s Mask",
           "role": "Debuffs and economical elemental coverage. The mask provides Blizza, Kandera and Shield Blessing; it occupies her accessory slot.",
           "inherit": "Tarunda (Faker 3) and Dekaja (Faker 13): two slots. Lower a dangerous enemy’s Attack; remove its buffs when they appear.",
           "requires": "Junah bond 6, Masked Dancer 20 and Faker 10. Make Wizard’s Mask in Akademeia with a Magician White Mask and Priestess White Mask after Wizard is unlocked.",
@@ -2397,43 +2742,95 @@
       ]
     },
     "day-october-03": {
-      "title": "For today’s ranked arena match",
-      "limitedParty": true,
-      "summary": "The receptionist’s menu decides the setup. Gold III is solo and uses the card below. If your earlier matches are delayed and the menu says Silver I, use its two-person setup instead.",
+      "title": "Runner outing or arena preparation",
+      "summary": "If the Jin outing moved from 30 September, use these four-person cards and the runner notes first. Otherwise take your next arena match and use its named setup below; Gold III is solo and Silver I uses two Brawler-lineage characters.",
       "members": [
         {
           "name": "Protagonist",
-          "archetype": "Prince · Gold III solo only",
-          "role": "Fight alone with Ice, then physical damage if the opponent casts Mage Mirror. Bring your own healing; no ally can act.",
-          "inherit": "Blizza (Wizard 2), then a learned healing skill if you have one. Use healing items if you have no suitable heal. Do not equip Shield Blessing in place of essential coverage for this match.",
-          "requires": "Prince is available after the completed September story. Blizza must be learned by the protagonist. Hero’s Cry needs Prince 13; Royal Slash needs Prince 20.",
-          "fallback": "Before Prince 20, its native Heroic Slash supplies damage that is not an elemental spell. Equip a current sword. Prince itself requires no cross-class mastery.",
-          "train": "Prince 13 adds Hero’s Cry: 99 MP for four extra Turn Icons, once per fight. It is useful if you have enough MP left to attack afterwards."
+          "archetype": "Prince",
+          "role": "Main damage and flexible Synthesis support. Keep your Magic build: Royal Sword uses the higher of Strength or Magic.",
+          "inherit": "Shield Blessing (Wizard 11), then Blizza (Wizard 2): two slots. Shield Blessing needs an active Attack, Defence or Hit/Evasion buff. Use Blizza for an Ice weakness instead of spending on a large Synthesis attack.",
+          "requires": "Automatically obtained during the completed September story. Each inherited skill must first be learned by the protagonist and purchased in Skill Inheritance.",
+          "fallback": "Wizard remains a good exploration choice. Elemental Master is available with Gallica 8 and Wizard 20; keep the cheaper inherited spells for small enemies.",
+          "train": "Prince 9 gives field HP/MP recovery through allies’ support attacks; rank 13 gives Hero’s Cry and rank 20 Royal Slash. These are training goals, not assumed starting skills."
+        },
+        {
+          "name": "Strohl",
+          "archetype": "Samurai if ready; otherwise Swordmaster",
+          "role": "Physical attacker and backup party buffer. Use the cheapest attack that finishes an enemy; large attacks are for durable targets.",
+          "inherit": "Slash Boost (Warrior 20) and Marakukaja (Commander 1): two slots. Marakukaja raises the whole party’s Defence.",
+          "requires": "Strohl bond 7, Swordmaster 20 and General 10 on Strohl. General itself needs Bardon 3 and Commander 20.",
+          "fallback": "Keep Swordmaster if Samurai is locked. Prioritise the defence buff over a damage passive if you have only one free slot.",
+          "train": "Optional Royal Warrior: Strohl bond 8, Samurai 20 and Warlord 20. Warlord needs Bardon 8 and General 20. Do not delay the route to force this upgrade."
+        },
+        {
+          "name": "Hulkenberg",
+          "archetype": "Paladin if ready; otherwise Magic Knight",
+          "role": "Durable healer and defender. Heal first when the party is hurt; drawing attacks is a separate action and cannot also heal the party.",
+          "inherit": "Medica (Cleric 3) and Dekunda (Healer 13): two slots. Medica heals everyone; Dekunda clears the party’s stat reductions.",
+          "requires": "Hulkenberg bond 7 and Magic Knight 20. Medica must be learned on Hulkenberg herself. Cleric needs Maria 3 and Healer 20.",
+          "fallback": "Magic Knight with inherited Medica and Dekunda. If Medica is unlearned, Mediline (Magic Knight 5, 10 MP) heals allies in her row; move anyone needing it into that row before she casts.",
+          "train": "Paladin 20 learns Revitalise 3 for MP recovery. Royal Knight is optional: bond 8, Paladin 20, Dark Knight 15 and Elemental Master 15."
+        },
+        {
+          "name": "Junah",
+          "archetype": "Persona Master if ready; otherwise Masked Dancer · Wizard’s Mask",
+          "role": "Debuffs and economical elemental coverage. The mask provides Blizza, Kandera and Shield Blessing; it occupies her accessory slot.",
+          "inherit": "Tarunda (Faker 3) and Dekaja (Faker 13): two slots. Lower a dangerous enemy’s Attack; remove its buffs when they appear.",
+          "requires": "Junah bond 6, Masked Dancer 20 and Faker 10. Make Wizard’s Mask in Akademeia with a Magician White Mask and Priestess White Mask after Wizard is unlocked.",
+          "fallback": "Masked Dancer with the same mask and inherited skills. Without that mask, use an available elemental mask and let the protagonist handle Ice. If Dekaja is unlearned, bring an item that removes enemy buffs.",
+          "train": "Faker 13 is a useful short goal for Dekaja. Royal Masked Dancer is optional after Junah 8, Persona Master 20 and Trickster 20."
         }
       ],
       "notes": [
-        "Gold III: only the protagonist fights. Equip Prince and inherit Blizza (Wizard 2). Use Ice while the target has no magic-reflect barrier. After Mage Mirror appears, stop casting elemental spells: move to the front row and use Heroic Slash or, at Prince 20, Royal Slash. Royal Sword is a Synthesis skill and cannot be used alone.",
-        "For Gold III, carry healing and an item that removes enemy buffs if available. Avoid repeatedly spending MP on your own buffs when the opponent keeps clearing them.",
-        "Silver I: take only the protagonist and Hulkenberg, both on Brawler or a trained Pugilist. Inherit Hamaon (Cleric 1), or Hama (Healer 1), on the protagonist. Give Hulkenberg Medica (Cleric 3), or Medi (Healer 3). Use Light on the Fighter first, then Strike on the Mage. Protect Ice weaknesses if you have suitable equipment; carry Daze cures and keep HP high because Brawler attacks spend HP.",
-        "Silver I needs two Brawler-lineage characters, not the Prince card above. Hulkenberg’s second inherited Light spell is optional and needs Catherina 4; prioritise her party heal.",
-        "A solo fight removes allies from the active party. Add them back afterwards before the next group battle."
+        "Delayed Jin outing: restore all four active party members before departure and carry Charm cures.",
+        "Use Hulkenberg’s inherited Dekunda (Healer 13) when accuracy or defence has been lowered.",
+        "The mage helper is weak to Electric; the pikeman is weak to Fire. Junah’s Wizard’s Mask supplies Electric, while her Dancer lineage supplies Fire.",
+        "The main target has no natural weakness. Defeating that target ends the fight, so avoid spending MP trying to clear every helper first unless they are causing trouble.",
+        "Bronze III: use the protagonist as Seeker, Strohl as Swordmaster, Hulkenberg as Magic Knight or Knight with inherited Medi/Medica, and Heismay as Faker. Keep Mage and Healer forms out of the active party. Use group physical damage, then remove the remaining enemy’s evasion buff with Dekaja (Faker 13); Sukunda (Faker 5) is a fallback if learned.",
+        "Bronze II is field combat: put the protagonist on Mage/Wizard or Seeker. The squad-battle setup is not the focus of this match.",
+        "Bronze I is solo: use Magic Seeker if the protagonist has Seeker 20 and More bond 3, otherwise Seeker. Defeat the Wind-weak target first. Bring his own healing and Forget/Hex/Poison cures. An inherited Poison Shot (Gunner 3) supplies Pierce from the back row for the other target. Allies and Synthesis cannot help.",
+        "Silver III: restore all four party members and bring single-target Fire, Ice, physical damage and a party heal. Hit Azure with Fire, Ochre with Ice and Platinum with physical attacks. Avoid all-target elemental spells while Platinum remains. Gold Attack (Merchant 1, 500 reeve) supplies Almighty for Golden; without it, finish the others first and use physical damage while keeping the party healed.",
+        "Silver II: this is field combat with a 90-second limit. Put the protagonist on Seeker for its support-attack passive, equip a current sword and dodge the large enemies before attacking again. Your squad spells are not the main tool in this match.",
+        "Silver I: take only the protagonist and Hulkenberg, both on Brawler or a trained Pugilist. Inherit Hamaon (Cleric 1), or Hama (Healer 1), on the protagonist. Give Hulkenberg Medica (Cleric 3), or Medi (Healer 3). Use Light on the Fighter first, then Strike on the Mage. Protect Ice weaknesses if you have suitable equipment; carry Daze cures and keep HP high because Brawler attacks spend HP. Brawler needs Catherina 1 and each character’s own study; Pugilist is optional. Prioritise the protagonist’s Light spell and Hulkenberg’s heal if each has only one inheritance slot.",
+        "Gold III: only the protagonist fights. Equip Prince and inherit Blizza (Wizard 2). Use Ice while the target has no magic-reflect barrier. After Mage Mirror appears, stop casting elemental spells: move to the front row and use Heroic Slash or, at Prince 20, Royal Slash. Royal Sword is a Synthesis skill and cannot be used alone. Carry healing and a buff-removing item if available; your allies cannot act.",
+        "Gold II: the protagonist fights in the field and must avoid every hit. Use Prince, or Gunner with a current crossbow for ranged attacks. Dodge first, then take a short attack opening. Party healing cannot rescue a failed no-hit attempt.",
+        "Gold I: the opponent resists ordinary damage types. Use Prince’s Royal Sword Synthesis with an ally, or Royal Slash once Prince reaches 20. Keep healing and revival ready; repeated ordinary elemental spells are inefficient.",
+        "Championship: use the four-person cards with Ice/Pierce coverage and win within two rounds. The protagonist and Junah can use Blizza; Strohl can inherit Icy Strike (General 2), and Hulkenberg can replace Dekunda with Heavy Rush (Magic Knight 9). Keep useful attacks ahead of unnecessary buffing. Hero’s Cry needs Prince 13 and 99 MP. Check Synthesis and accessory costs before entering; use the pre-entry save if your damage is insufficient.",
+        "Gold Gauntlet: enter only when the receptionist offers Gold: The Furthest Reaches. Restore all four equipped party members and start with healing, revival and enough resources for 30 consecutive fights. Check affinities and use cheap effective attacks. This endurance event is separate from the ranked ladder and Champion Battle."
       ],
       "sources": [
         {
-          "label": "Ranked arena rules",
-          "url": "https://gamefaqs.gamespot.com/ps5/410470-metaphor-refantazio/faqs/81508/colliseum"
+          "label": "Today’s encounter preparation",
+          "url": "https://nightlygamingbinge.com/petty-thief-metaphor-refantazio/"
         },
         {
-          "label": "Independent arena encounter check",
-          "url": "https://www.neoseeker.com/metaphor-refantazio/walkthrough/Skybound_Avatar_Conquest"
+          "label": "Encounter mechanics cross-check",
+          "url": "https://earth.gamerguides.com/metaphor-refantazio/guide/side-quests/follower-quests/petty-thief"
         },
         {
           "label": "Arena strategies and barriers",
           "url": "https://www.pcgamer.com/games/rpg/metaphor-refantazio-varmareno-coliseum-ranked-battles/"
         },
         {
+          "label": "Ranked arena rules",
+          "url": "https://gamefaqs.gamespot.com/ps5/410470-metaphor-refantazio/faqs/81508/colliseum"
+        },
+        {
           "label": "Archetype skill tables",
           "url": "https://gamefaqs.gamespot.com/xbox-series-x/409958-metaphor-refantazio/faqs/81526/archetypes"
+        },
+        {
+          "label": "Brawler unlocks and inheritance slots",
+          "url": "https://www.gamerguides.com/metaphor-refantazio/guide/followers/characters/catherina-bond-unlock-guide-abilities-and-archetypes"
+        },
+        {
+          "label": "Independent arena encounter check",
+          "url": "https://www.neoseeker.com/metaphor-refantazio/walkthrough/Skybound_Avatar_Conquest"
+        },
+        {
+          "label": "Championship weakness and time limit",
+          "url": "https://www.neoseeker.com/metaphor-refantazio/guides/Become_Champion_of_the_Coliseum"
         }
       ]
     },
@@ -2461,7 +2858,7 @@
         },
         {
           "name": "Hulkenberg",
-          "archetype": "Paladin",
+          "archetype": "Paladin if ready; otherwise Magic Knight",
           "role": "Durable healer and defender. Heal first when the party is hurt; drawing attacks is a separate action and cannot also heal the party.",
           "inherit": "Medica (Cleric 3) and Dekunda (Healer 13): two slots. Medica heals everyone; Dekunda clears the party’s stat reductions.",
           "requires": "Hulkenberg bond 7 and Magic Knight 20. Medica must be learned on Hulkenberg herself. Cleric needs Maria 3 and Healer 20.",
@@ -2470,7 +2867,7 @@
         },
         {
           "name": "Junah",
-          "archetype": "Persona Master · Wizard’s Mask",
+          "archetype": "Persona Master if ready; otherwise Masked Dancer · Wizard’s Mask",
           "role": "Debuffs and economical elemental coverage. The mask provides Blizza, Kandera and Shield Blessing; it occupies her accessory slot.",
           "inherit": "Tarunda (Faker 3) and Dekaja (Faker 13): two slots. Lower a dangerous enemy’s Attack; remove its buffs when they appear.",
           "requires": "Junah bond 6, Masked Dancer 20 and Faker 10. Make Wizard’s Mask in Akademeia with a Magician White Mask and Priestess White Mask after Wizard is unlocked.",
@@ -2524,16 +2921,16 @@
         },
         {
           "name": "Hulkenberg",
-          "archetype": "Saviour",
+          "archetype": "Saviour if ready; otherwise a trained healer",
           "role": "Party healing and ailment recovery. This avoids the Knight lineage’s Electric weakness for this encounter.",
           "inherit": "Medica (Cleric 3) and Dekunda (Healer 13): two slots. Medica is cheaper than Medicall when it provides enough healing.",
           "requires": "Maria bond 8 and Cleric 20 on Hulkenberg. Saviour 3 learns Medicall; rank 5 learns Pen Patra.",
-          "fallback": "If Saviour is locked, keep Paladin with Medica and protect its Electric weakness using suitable equipment or a checked barrier. Do not spend the outing training an unready healer.",
+          "fallback": "Keep trained Cleric with Medica, or Paladin/Magic Knight with an inherited party heal. Cover any Electric weakness with suitable equipment or a checked barrier. If Medica is unlearned, use Medi (Healer 3) and recovery items.",
           "train": "Saviour 5 for Pen Patra is enough for the immediate utility; mastery is optional."
         },
         {
           "name": "Junah",
-          "archetype": "Persona Master · Wizard’s Mask",
+          "archetype": "Persona Master if ready; otherwise Masked Dancer · Wizard’s Mask",
           "role": "Debuffs and economical elemental coverage. The mask provides Blizza, Kandera and Shield Blessing; it occupies her accessory slot.",
           "inherit": "Tarunda (Faker 3) and Dekaja (Faker 13): two slots. Lower a dangerous enemy’s Attack; remove its buffs when they appear.",
           "requires": "Junah bond 6, Masked Dancer 20 and Faker 10. Make Wizard’s Mask in Akademeia with a Magician White Mask and Priestess White Mask after Wizard is unlocked.",
@@ -2577,7 +2974,7 @@
         },
         {
           "name": "Strohl",
-          "archetype": "Samurai",
+          "archetype": "Samurai if ready; otherwise Swordmaster",
           "role": "Physical attacker and backup party buffer. Use the cheapest attack that finishes an enemy; large attacks are for durable targets.",
           "inherit": "Slash Boost (Warrior 20) and Marakukaja (Commander 1): two slots. Marakukaja raises the whole party’s Defence.",
           "requires": "Strohl bond 7, Swordmaster 20 and General 10 on Strohl. General itself needs Bardon 3 and Commander 20.",
@@ -2586,7 +2983,7 @@
         },
         {
           "name": "Hulkenberg",
-          "archetype": "Paladin",
+          "archetype": "Paladin if ready; otherwise Magic Knight",
           "role": "Durable healer and defender. Heal first when the party is hurt; drawing attacks is a separate action and cannot also heal the party.",
           "inherit": "Medica (Cleric 3) and Dekunda (Healer 13): two slots. Medica heals everyone; Dekunda clears the party’s stat reductions.",
           "requires": "Hulkenberg bond 7 and Magic Knight 20. Medica must be learned on Hulkenberg herself. Cleric needs Maria 3 and Healer 20.",
@@ -2595,7 +2992,7 @@
         },
         {
           "name": "Junah",
-          "archetype": "Persona Master · Wizard’s Mask",
+          "archetype": "Persona Master if ready; otherwise Masked Dancer · Wizard’s Mask",
           "role": "Debuffs and economical elemental coverage. The mask provides Blizza, Kandera and Shield Blessing; it occupies her accessory slot.",
           "inherit": "Tarunda (Faker 3) and Dekaja (Faker 13): two slots. Lower a dangerous enemy’s Attack; remove its buffs when they appear.",
           "requires": "Junah bond 6, Masked Dancer 20 and Faker 10. Make Wizard’s Mask in Akademeia with a Magician White Mask and Priestess White Mask after Wizard is unlocked.",
@@ -2636,7 +3033,7 @@
         },
         {
           "name": "Strohl",
-          "archetype": "Samurai",
+          "archetype": "Samurai if ready; otherwise Swordmaster",
           "role": "Keep party Defence raised and use Ice when it is safe to attack.",
           "inherit": "Marakukaja (Commander 1) and Icy Strike (General 2): two slots. Defence is the priority; Icy Strike supplies a cheap Ice attack.",
           "requires": "Strohl bond 7, Swordmaster 20 and General 10 on Strohl. General itself needs Bardon 3 and Commander 20.",
@@ -2645,7 +3042,7 @@
         },
         {
           "name": "Hulkenberg",
-          "archetype": "Paladin",
+          "archetype": "Paladin if ready; otherwise Magic Knight",
           "role": "Durable healer and defender. Heal first when the party is hurt; drawing attacks is a separate action and cannot also heal the party.",
           "inherit": "Medica (Cleric 3) and Dekunda (Healer 13): two slots. Medica heals everyone; Dekunda clears the party’s stat reductions.",
           "requires": "Hulkenberg bond 7 and Magic Knight 20. Medica must be learned on Hulkenberg herself. Cleric needs Maria 3 and Healer 20.",
@@ -2654,7 +3051,7 @@
         },
         {
           "name": "Junah",
-          "archetype": "Persona Master · Wizard’s Mask",
+          "archetype": "Persona Master if ready; otherwise Masked Dancer · Wizard’s Mask",
           "role": "Debuffs and economical elemental coverage. The mask provides Blizza, Kandera and Shield Blessing; it occupies her accessory slot.",
           "inherit": "Tarunda (Faker 3) and Dekaja (Faker 13): two slots. Lower a dangerous enemy’s Attack; remove its buffs when they appear.",
           "requires": "Junah bond 6, Masked Dancer 20 and Faker 10. Make Wizard’s Mask in Akademeia with a Magician White Mask and Priestess White Mask after Wizard is unlocked.",
@@ -2694,7 +3091,7 @@
         },
         {
           "name": "Strohl",
-          "archetype": "Samurai",
+          "archetype": "Samurai if ready; otherwise Swordmaster",
           "role": "Physical attacker and backup party buffer. Use the cheapest attack that finishes an enemy; large attacks are for durable targets.",
           "inherit": "Slash Boost (Warrior 20) and Marakukaja (Commander 1): two slots. Marakukaja raises the whole party’s Defence.",
           "requires": "Strohl bond 7, Swordmaster 20 and General 10 on Strohl. General itself needs Bardon 3 and Commander 20.",
@@ -2703,7 +3100,7 @@
         },
         {
           "name": "Hulkenberg",
-          "archetype": "Paladin",
+          "archetype": "Paladin if ready; otherwise Magic Knight",
           "role": "Durable healer and defender. Heal first when the party is hurt; drawing attacks is a separate action and cannot also heal the party.",
           "inherit": "Medica (Cleric 3) and Dekunda (Healer 13): two slots. Medica heals everyone; Dekunda clears the party’s stat reductions.",
           "requires": "Hulkenberg bond 7 and Magic Knight 20. Medica must be learned on Hulkenberg herself. Cleric needs Maria 3 and Healer 20.",
@@ -2712,7 +3109,7 @@
         },
         {
           "name": "Junah",
-          "archetype": "Persona Master · Wizard’s Mask",
+          "archetype": "Persona Master if ready; otherwise Masked Dancer · Wizard’s Mask",
           "role": "Debuffs and economical elemental coverage. The mask provides Blizza, Kandera and Shield Blessing; it occupies her accessory slot.",
           "inherit": "Tarunda (Faker 3) and Dekaja (Faker 13): two slots. Lower a dangerous enemy’s Attack; remove its buffs when they appear.",
           "requires": "Junah bond 6, Masked Dancer 20 and Faker 10. Make Wizard’s Mask in Akademeia with a Magician White Mask and Priestess White Mask after Wizard is unlocked.",
@@ -2721,7 +3118,7 @@
         }
       ],
       "notes": [
-        "Remove equipment that nullifies or repels damage for this trial; do not carry yesterday’s special protection over without checking it.",
+        "Remove equipment that nullifies or repels damage for this trial; check any protection earned from an earlier trial before equipping it here.",
         "The enemy reflects Fire. Use Almighty, Slash or another checked damage type instead; do not use Junah’s Fire attack by habit.",
         "Hulkenberg can use Holy Knight’s Proclamation to guard and draw eligible attacks. Counter passives are distinct from always-on repel equipment and are not the same trigger.",
         "Keep the healer free to heal. This enemy gets many attacks, so a taunt is support rather than permission to leave the party injured."
@@ -2752,7 +3149,7 @@
         },
         {
           "name": "Strohl",
-          "archetype": "Samurai",
+          "archetype": "Samurai if ready; otherwise Swordmaster",
           "role": "Physical attacker and backup party buffer. Use the cheapest attack that finishes an enemy; large attacks are for durable targets.",
           "inherit": "Slash Boost (Warrior 20) and Marakukaja (Commander 1): two slots. Marakukaja raises the whole party’s Defence.",
           "requires": "Strohl bond 7, Swordmaster 20 and General 10 on Strohl. General itself needs Bardon 3 and Commander 20.",
@@ -2761,7 +3158,7 @@
         },
         {
           "name": "Hulkenberg",
-          "archetype": "Paladin",
+          "archetype": "Paladin if ready; otherwise Magic Knight",
           "role": "Durable healer and defender. Heal first when the party is hurt; drawing attacks is a separate action and cannot also heal the party.",
           "inherit": "Medica (Cleric 3) and Dekunda (Healer 13): two slots. Medica heals everyone; Dekunda clears the party’s stat reductions.",
           "requires": "Hulkenberg bond 7 and Magic Knight 20. Medica must be learned on Hulkenberg herself. Cleric needs Maria 3 and Healer 20.",
@@ -2770,7 +3167,7 @@
         },
         {
           "name": "Junah",
-          "archetype": "Persona Master · Wizard’s Mask",
+          "archetype": "Persona Master if ready; otherwise Masked Dancer · Wizard’s Mask",
           "role": "Debuffs and economical elemental coverage. The mask provides Blizza, Kandera and Shield Blessing; it occupies her accessory slot.",
           "inherit": "Tarunda (Faker 3) and Dekaja (Faker 13): two slots. Lower a dangerous enemy’s Attack; remove its buffs when they appear.",
           "requires": "Junah bond 6, Masked Dancer 20 and Faker 10. Make Wizard’s Mask in Akademeia with a Magician White Mask and Priestess White Mask after Wizard is unlocked.",
@@ -2815,7 +3212,7 @@
         },
         {
           "name": "Strohl",
-          "archetype": "Samurai",
+          "archetype": "Samurai if ready; otherwise Swordmaster",
           "role": "Physical attacker and backup party buffer. Use the cheapest attack that finishes an enemy; large attacks are for durable targets.",
           "inherit": "Slash Boost (Warrior 20) and Marakukaja (Commander 1): two slots. Marakukaja raises the whole party’s Defence.",
           "requires": "Strohl bond 7, Swordmaster 20 and General 10 on Strohl. General itself needs Bardon 3 and Commander 20.",
@@ -2824,7 +3221,7 @@
         },
         {
           "name": "Hulkenberg",
-          "archetype": "Paladin",
+          "archetype": "Paladin if ready; otherwise Magic Knight",
           "role": "Durable healer and defender. Heal first when the party is hurt; drawing attacks is a separate action and cannot also heal the party.",
           "inherit": "Medica (Cleric 3) and Dekunda (Healer 13): two slots. Medica heals everyone; Dekunda clears the party’s stat reductions.",
           "requires": "Hulkenberg bond 7 and Magic Knight 20. Medica must be learned on Hulkenberg herself. Cleric needs Maria 3 and Healer 20.",
@@ -2833,7 +3230,7 @@
         },
         {
           "name": "Junah",
-          "archetype": "Persona Master · Wizard’s Mask",
+          "archetype": "Persona Master if ready; otherwise Masked Dancer · Wizard’s Mask",
           "role": "Debuffs and economical elemental coverage. The mask provides Blizza, Kandera and Shield Blessing; it occupies her accessory slot.",
           "inherit": "Tarunda (Faker 3) and Dekaja (Faker 13): two slots. Lower a dangerous enemy’s Attack; remove its buffs when they appear.",
           "requires": "Junah bond 6, Masked Dancer 20 and Faker 10. Make Wizard’s Mask in Akademeia with a Magician White Mask and Priestess White Mask after Wizard is unlocked.",
@@ -2860,40 +3257,40 @@
       ]
     },
     "day-october-13": {
-      "title": "Ranked match, then endurance party",
-      "summary": "Use the rank shown for the afternoon match. The four-person cards below are for tonight’s Gold Gauntlet once it is available; restore the full party before entering it.",
+      "title": "Preparation for your next arena event",
+      "summary": "Read the receptionist’s actual rank before changing classes. The four-person cards suit Gold I, the Championship and the Gold Gauntlet. For Bronze, Silver, solo and field matches, use the matching instructions below instead. Follower conversations and virtue activities need no class change.",
       "members": [
         {
           "name": "Protagonist",
           "archetype": "Prince",
           "role": "Main damage and flexible Synthesis support. Keep your Magic build: Royal Sword uses the higher of Strength or Magic.",
-          "inherit": "Shield Blessing (Wizard 11), then Blizza (Wizard 2): two slots. Shield Blessing needs an active Attack, Defence or Hit/Evasion buff. Use Blizza for an Ice weakness instead of spending on a large Synthesis attack.",
+          "inherit": "Blizza (Wizard 2) and Shield Blessing (Wizard 11): two slots. Blizza is for the championship’s Ice weakness; use Almighty for Gold I.",
           "requires": "Automatically obtained during the completed September story. Each inherited skill must first be learned by the protagonist and purchased in Skill Inheritance.",
           "fallback": "Wizard remains a good exploration choice. Elemental Master is available with Gallica 8 and Wizard 20; keep the cheaper inherited spells for small enemies.",
           "train": "Prince 9 gives field HP/MP recovery through allies’ support attacks; rank 13 gives Hero’s Cry and rank 20 Royal Slash. These are training goals, not assumed starting skills."
         },
         {
           "name": "Strohl",
-          "archetype": "Samurai",
+          "archetype": "Samurai if ready; otherwise Swordmaster",
           "role": "Physical attacker and backup party buffer. Use the cheapest attack that finishes an enemy; large attacks are for durable targets.",
-          "inherit": "Slash Boost (Warrior 20) and Marakukaja (Commander 1): two slots. Marakukaja raises the whole party’s Defence.",
+          "inherit": "Icy Strike (General 2) and Marakukaja (Commander 1): two slots. During the timed championship, prioritise Ice damage over unnecessary defence stacking.",
           "requires": "Strohl bond 7, Swordmaster 20 and General 10 on Strohl. General itself needs Bardon 3 and Commander 20.",
-          "fallback": "Keep Swordmaster if Samurai is locked. Prioritise the defence buff over a damage passive if you have only one free slot.",
+          "fallback": "Keep Swordmaster if Samurai is locked. For the timed championship, prioritise inherited Icy Strike if space is tight. For Gold I, keep the defence buff while the protagonist handles Almighty damage.",
           "train": "Optional Royal Warrior: Strohl bond 8, Samurai 20 and Warlord 20. Warlord needs Bardon 8 and General 20. Do not delay the route to force this upgrade."
         },
         {
           "name": "Hulkenberg",
-          "archetype": "Paladin",
-          "role": "Durable healer and defender. Heal first when the party is hurt; drawing attacks is a separate action and cannot also heal the party.",
-          "inherit": "Medica (Cleric 3) and Dekunda (Healer 13): two slots. Medica heals everyone; Dekunda clears the party’s stat reductions.",
+          "archetype": "Paladin if ready; otherwise Magic Knight",
+          "role": "Party healer in Gold I. In the timed championship, attack with a checked Pierce skill when healing is unnecessary.",
+          "inherit": "Gold I: Medica (Cleric 3) and Dekunda (Healer 13). For the championship, replace Dekunda with Heavy Rush (Magic Knight 9, 12 MP) for Pierce damage. Two slots; use Medi (Healer 3) if Medica is not learned.",
           "requires": "Hulkenberg bond 7 and Magic Knight 20. Medica must be learned on Hulkenberg herself. Cleric needs Maria 3 and Healer 20.",
           "fallback": "Magic Knight with inherited Medica and Dekunda. If Medica is unlearned, Mediline (Magic Knight 5, 10 MP) heals allies in her row; move anyone needing it into that row before she casts.",
           "train": "Paladin 20 learns Revitalise 3 for MP recovery. Royal Knight is optional: bond 8, Paladin 20, Dark Knight 15 and Elemental Master 15."
         },
         {
           "name": "Junah",
-          "archetype": "Persona Master · Wizard’s Mask",
-          "role": "Debuffs and economical elemental coverage. The mask provides Blizza, Kandera and Shield Blessing; it occupies her accessory slot.",
+          "archetype": "Persona Master if ready; otherwise Masked Dancer · Wizard’s Mask",
+          "role": "Remove buffs and support damage in Gold I. In the championship, her Wizard’s Mask supplies Blizza to hit Ice weakness.",
           "inherit": "Tarunda (Faker 3) and Dekaja (Faker 13): two slots. Lower a dangerous enemy’s Attack; remove its buffs when they appear.",
           "requires": "Junah bond 6, Masked Dancer 20 and Faker 10. Make Wizard’s Mask in Akademeia with a Magician White Mask and Priestess White Mask after Wizard is unlocked.",
           "fallback": "Masked Dancer with the same mask and inherited skills. Without that mask, use an available elemental mask and let the protagonist handle Ice. If Dekaja is unlearned, bring an item that removes enemy buffs.",
@@ -2901,28 +3298,44 @@
         }
       ],
       "notes": [
+        "If today’s night is reserved for Wisdom at the opera, keep that activity. Use these arena preparations only in the period the itinerary assigns to the Coliseum.",
+        "Take only the arena activity assigned by today’s itinerary. Extra wins and postponed matches change the next rank; this date does not guarantee a particular opponent.",
+        "Bronze III: use the protagonist as Seeker, Strohl as Swordmaster, Hulkenberg as Magic Knight or Knight with inherited Medi/Medica, and Heismay as Faker. Keep Mage and Healer forms out of the active party. Use group physical damage, then remove the remaining enemy’s evasion buff with Dekaja (Faker 13); Sukunda (Faker 5) is a fallback if learned.",
+        "Bronze II is field combat: put the protagonist on Mage/Wizard or Seeker. The squad-battle setup is not the focus of this match.",
+        "Bronze I is solo: use Magic Seeker if the protagonist has Seeker 20 and More bond 3, otherwise Seeker. Defeat the Wind-weak target first. Bring his own healing and Forget/Hex/Poison cures. An inherited Poison Shot (Gunner 3) supplies Pierce from the back row for the other target. Allies and Synthesis cannot help.",
+        "Silver III: restore all four party members and bring single-target Fire, Ice, physical damage and a party heal. Hit Azure with Fire, Ochre with Ice and Platinum with physical attacks. Avoid all-target elemental spells while Platinum remains. Gold Attack (Merchant 1, 500 reeve) supplies Almighty for Golden; without it, finish the others first and use physical damage while keeping the party healed.",
+        "Silver II: this is field combat with a 90-second limit. Put the protagonist on Seeker for its support-attack passive, equip a current sword and dodge the large enemies before attacking again. Your squad spells are not the main tool in this match.",
+        "Silver I: take only the protagonist and Hulkenberg, both on Brawler or a trained Pugilist. Inherit Hamaon (Cleric 1), or Hama (Healer 1), on the protagonist. Give Hulkenberg Medica (Cleric 3), or Medi (Healer 3). Use Light on the Fighter first, then Strike on the Mage. Protect Ice weaknesses if you have suitable equipment; carry Daze cures and keep HP high because Brawler attacks spend HP. Brawler needs Catherina 1 and each character’s own study; Pugilist is optional. Prioritise the protagonist’s Light spell and Hulkenberg’s heal if each has only one inheritance slot.",
+        "Gold III: only the protagonist fights. Equip Prince and inherit Blizza (Wizard 2). Use Ice while the target has no magic-reflect barrier. After Mage Mirror appears, stop casting elemental spells: move to the front row and use Heroic Slash or, at Prince 20, Royal Slash. Royal Sword is a Synthesis skill and cannot be used alone. Carry healing and a buff-removing item if available; your allies cannot act.",
         "Gold II: the protagonist fights in the field and must avoid every hit. Use Prince, or Gunner with a current crossbow for ranged attacks. Dodge first, then take a short attack opening. Party healing cannot rescue a failed no-hit attempt.",
-        "Gold III: only the protagonist fights. Equip Prince and inherit Blizza (Wizard 2). Use Ice while the target has no magic-reflect barrier. After Mage Mirror appears, stop casting elemental spells: move to the front row and use Heroic Slash or, at Prince 20, Royal Slash. Royal Sword is a Synthesis skill and cannot be used alone.",
-        "If the ranked ladder is further behind, follow the named match’s earlier preparation. Do not apply a four-person formation to a solo or Brawler-only match.",
-        "For the Gold Gauntlet, start with four equipped characters, full resources, healing and revival items. There are 30 consecutive fights. Inspect each enemy’s affinities and use cheap effective attacks; save expensive Synthesis for enemies that need it.",
-        "The Gold Gauntlet is separate from the ranked ladder. If the receptionist has not unlocked it yet, finish the required ranked matches and use a recovery slot for the endurance run."
+        "Gold I: the opponent resists ordinary damage types. Use Prince’s Royal Sword Synthesis with an ally, or Royal Slash once Prince reaches 20. Keep healing and revival ready; repeated ordinary elemental spells are inefficient.",
+        "Championship: use the four-person cards with Ice/Pierce coverage and win within two rounds. The protagonist and Junah can use Blizza; Strohl can inherit Icy Strike (General 2), and Hulkenberg can replace Dekunda with Heavy Rush (Magic Knight 9). Keep useful attacks ahead of unnecessary buffing. Hero’s Cry needs Prince 13 and 99 MP. Check Synthesis and accessory costs before entering; use the pre-entry save if your damage is insufficient.",
+        "Gold Gauntlet: enter only when the receptionist offers Gold: The Furthest Reaches. Restore all four equipped party members and start with healing, revival and enough resources for 30 consecutive fights. Check affinities and use cheap effective attacks. This endurance event is separate from the ranked ladder and Champion Battle."
       ],
       "sources": [
         {
+          "label": "Arena strategies and barriers",
+          "url": "https://www.pcgamer.com/games/rpg/metaphor-refantazio-varmareno-coliseum-ranked-battles/"
+        },
+        {
           "label": "Ranked arena rules",
           "url": "https://gamefaqs.gamespot.com/ps5/410470-metaphor-refantazio/faqs/81508/colliseum"
+        },
+        {
+          "label": "Archetype skill tables",
+          "url": "https://gamefaqs.gamespot.com/xbox-series-x/409958-metaphor-refantazio/faqs/81526/archetypes"
+        },
+        {
+          "label": "Brawler unlocks and inheritance slots",
+          "url": "https://www.gamerguides.com/metaphor-refantazio/guide/followers/characters/catherina-bond-unlock-guide-abilities-and-archetypes"
         },
         {
           "label": "Independent arena encounter check",
           "url": "https://www.neoseeker.com/metaphor-refantazio/walkthrough/Skybound_Avatar_Conquest"
         },
         {
-          "label": "Arena strategies and barriers",
-          "url": "https://www.pcgamer.com/games/rpg/metaphor-refantazio-varmareno-coliseum-ranked-battles/"
-        },
-        {
-          "label": "Archetype skill tables",
-          "url": "https://gamefaqs.gamespot.com/xbox-series-x/409958-metaphor-refantazio/faqs/81526/archetypes"
+          "label": "Championship weakness and time limit",
+          "url": "https://www.neoseeker.com/metaphor-refantazio/guides/Become_Champion_of_the_Coliseum"
         }
       ]
     },
@@ -2950,7 +3363,7 @@
         },
         {
           "name": "Hulkenberg",
-          "archetype": "Paladin",
+          "archetype": "Paladin if ready; otherwise Magic Knight",
           "role": "Durable healer and defender. Heal first when the party is hurt; drawing attacks is a separate action and cannot also heal the party.",
           "inherit": "Medica (Cleric 3) and Dekunda (Healer 13): two slots. Medica heals everyone; Dekunda clears the party’s stat reductions.",
           "requires": "Hulkenberg bond 7 and Magic Knight 20. Medica must be learned on Hulkenberg herself. Cleric needs Maria 3 and Healer 20.",
@@ -2959,7 +3372,7 @@
         },
         {
           "name": "Junah",
-          "archetype": "Persona Master · Wizard’s Mask",
+          "archetype": "Persona Master if ready; otherwise Masked Dancer · Wizard’s Mask",
           "role": "Debuffs and economical elemental coverage. The mask provides Blizza, Kandera and Shield Blessing; it occupies her accessory slot.",
           "inherit": "Tarunda (Faker 3) and Dekaja (Faker 13): two slots. Lower a dangerous enemy’s Attack; remove its buffs when they appear.",
           "requires": "Junah bond 6, Masked Dancer 20 and Faker 10. Make Wizard’s Mask in Akademeia with a Magician White Mask and Priestess White Mask after Wizard is unlocked.",
@@ -2985,8 +3398,8 @@
       ]
     },
     "day-october-15": {
-      "title": "For today’s arena finish",
-      "summary": "Use these four roles for Gold I and the later championship. If your menu is still on Gold II or Gold III, use the matching restricted-fight note first and move the championship to a recovery slot.",
+      "title": "Preparation for your next arena event",
+      "summary": "Read the receptionist’s actual rank before changing classes. The four-person cards suit Gold I, the Championship and the Gold Gauntlet. For Bronze, Silver, solo and field matches, use the matching instructions below instead. Follower conversations and virtue activities need no class change.",
       "members": [
         {
           "name": "Protagonist",
@@ -2999,7 +3412,7 @@
         },
         {
           "name": "Strohl",
-          "archetype": "Samurai",
+          "archetype": "Samurai if ready; otherwise Swordmaster",
           "role": "Physical attacker and backup party buffer. Use the cheapest attack that finishes an enemy; large attacks are for durable targets.",
           "inherit": "Icy Strike (General 2) and Marakukaja (Commander 1): two slots. During the timed championship, prioritise Ice damage over unnecessary defence stacking.",
           "requires": "Strohl bond 7, Swordmaster 20 and General 10 on Strohl. General itself needs Bardon 3 and Commander 20.",
@@ -3008,7 +3421,7 @@
         },
         {
           "name": "Hulkenberg",
-          "archetype": "Paladin",
+          "archetype": "Paladin if ready; otherwise Magic Knight",
           "role": "Party healer in Gold I. In the timed championship, attack with a checked Pierce skill when healing is unnecessary.",
           "inherit": "Gold I: Medica (Cleric 3) and Dekunda (Healer 13). For the championship, replace Dekunda with Heavy Rush (Magic Knight 9, 12 MP) for Pierce damage. Two slots; use Medi (Healer 3) if Medica is not learned.",
           "requires": "Hulkenberg bond 7 and Magic Knight 20. Medica must be learned on Hulkenberg herself. Cleric needs Maria 3 and Healer 20.",
@@ -3017,7 +3430,7 @@
         },
         {
           "name": "Junah",
-          "archetype": "Persona Master · Wizard’s Mask",
+          "archetype": "Persona Master if ready; otherwise Masked Dancer · Wizard’s Mask",
           "role": "Remove buffs and support damage in Gold I. In the championship, her Wizard’s Mask supplies Blizza to hit Ice weakness.",
           "inherit": "Tarunda (Faker 3) and Dekaja (Faker 13): two slots. Lower a dangerous enemy’s Attack; remove its buffs when they appear.",
           "requires": "Junah bond 6, Masked Dancer 20 and Faker 10. Make Wizard’s Mask in Akademeia with a Magician White Mask and Priestess White Mask after Wizard is unlocked.",
@@ -3026,30 +3439,39 @@
         }
       ],
       "notes": [
-        "Gold I: the opponent resists ordinary damage types. Use Prince’s Royal Sword Synthesis with an ally, or Royal Slash once Prince reaches 20. Keep healing and revival ready; repeated ordinary elemental spells are inefficient.",
-        "Championship: win within two rounds. Prepare before entering: the target is weak to Ice and Pierce. Prioritise damage and useful weakness hits over a long buff-and-heal setup.",
-        "For the championship, Hero’s Cry at Prince 13 adds four Turn Icons for 99 MP. Use it only with enough MP left for your attacks. A trained character can wear the Overlord’s Sash earned from Gold I to strengthen Synthesis, but check its increased MP cost first.",
-        "Use Strohl’s inherited Icy Strike, Junah’s Blizza, and an available strong Pierce or Ice skill. Check the Synthesis menu for a supported attack before starting; a new Archetype name alone does not guarantee the needed skill.",
-        "If you cannot finish the championship inside its limit, keep the pre-entry save, improve the existing party’s weapons or damage skills, and retry. Simply surviving longer does not pass this match.",
+        "Take only the arena activity assigned by today’s itinerary. Extra wins and postponed matches change the next rank; this date does not guarantee a particular opponent.",
+        "Bronze III: use the protagonist as Seeker, Strohl as Swordmaster, Hulkenberg as Magic Knight or Knight with inherited Medi/Medica, and Heismay as Faker. Keep Mage and Healer forms out of the active party. Use group physical damage, then remove the remaining enemy’s evasion buff with Dekaja (Faker 13); Sukunda (Faker 5) is a fallback if learned.",
+        "Bronze II is field combat: put the protagonist on Mage/Wizard or Seeker. The squad-battle setup is not the focus of this match.",
+        "Bronze I is solo: use Magic Seeker if the protagonist has Seeker 20 and More bond 3, otherwise Seeker. Defeat the Wind-weak target first. Bring his own healing and Forget/Hex/Poison cures. An inherited Poison Shot (Gunner 3) supplies Pierce from the back row for the other target. Allies and Synthesis cannot help.",
+        "Silver III: restore all four party members and bring single-target Fire, Ice, physical damage and a party heal. Hit Azure with Fire, Ochre with Ice and Platinum with physical attacks. Avoid all-target elemental spells while Platinum remains. Gold Attack (Merchant 1, 500 reeve) supplies Almighty for Golden; without it, finish the others first and use physical damage while keeping the party healed.",
+        "Silver II: this is field combat with a 90-second limit. Put the protagonist on Seeker for its support-attack passive, equip a current sword and dodge the large enemies before attacking again. Your squad spells are not the main tool in this match.",
+        "Silver I: take only the protagonist and Hulkenberg, both on Brawler or a trained Pugilist. Inherit Hamaon (Cleric 1), or Hama (Healer 1), on the protagonist. Give Hulkenberg Medica (Cleric 3), or Medi (Healer 3). Use Light on the Fighter first, then Strike on the Mage. Protect Ice weaknesses if you have suitable equipment; carry Daze cures and keep HP high because Brawler attacks spend HP. Brawler needs Catherina 1 and each character’s own study; Pugilist is optional. Prioritise the protagonist’s Light spell and Hulkenberg’s heal if each has only one inheritance slot.",
+        "Gold III: only the protagonist fights. Equip Prince and inherit Blizza (Wizard 2). Use Ice while the target has no magic-reflect barrier. After Mage Mirror appears, stop casting elemental spells: move to the front row and use Heroic Slash or, at Prince 20, Royal Slash. Royal Sword is a Synthesis skill and cannot be used alone. Carry healing and a buff-removing item if available; your allies cannot act.",
         "Gold II: the protagonist fights in the field and must avoid every hit. Use Prince, or Gunner with a current crossbow for ranged attacks. Dodge first, then take a short attack opening. Party healing cannot rescue a failed no-hit attempt.",
-        "Gold III: only the protagonist fights. Equip Prince and inherit Blizza (Wizard 2). Use Ice while the target has no magic-reflect barrier. After Mage Mirror appears, stop casting elemental spells: move to the front row and use Heroic Slash or, at Prince 20, Royal Slash. Royal Sword is a Synthesis skill and cannot be used alone."
+        "Gold I: the opponent resists ordinary damage types. Use Prince’s Royal Sword Synthesis with an ally, or Royal Slash once Prince reaches 20. Keep healing and revival ready; repeated ordinary elemental spells are inefficient.",
+        "Championship: use the four-person cards with Ice/Pierce coverage and win within two rounds. The protagonist and Junah can use Blizza; Strohl can inherit Icy Strike (General 2), and Hulkenberg can replace Dekunda with Heavy Rush (Magic Knight 9). Keep useful attacks ahead of unnecessary buffing. Hero’s Cry needs Prince 13 and 99 MP. Check Synthesis and accessory costs before entering; use the pre-entry save if your damage is insufficient.",
+        "Gold Gauntlet: enter only when the receptionist offers Gold: The Furthest Reaches. Restore all four equipped party members and start with healing, revival and enough resources for 30 consecutive fights. Check affinities and use cheap effective attacks. This endurance event is separate from the ranked ladder and Champion Battle."
       ],
       "sources": [
-        {
-          "label": "Ranked arena rules",
-          "url": "https://gamefaqs.gamespot.com/ps5/410470-metaphor-refantazio/faqs/81508/colliseum"
-        },
-        {
-          "label": "Independent arena encounter check",
-          "url": "https://www.neoseeker.com/metaphor-refantazio/walkthrough/Skybound_Avatar_Conquest"
-        },
         {
           "label": "Arena strategies and barriers",
           "url": "https://www.pcgamer.com/games/rpg/metaphor-refantazio-varmareno-coliseum-ranked-battles/"
         },
         {
+          "label": "Ranked arena rules",
+          "url": "https://gamefaqs.gamespot.com/ps5/410470-metaphor-refantazio/faqs/81508/colliseum"
+        },
+        {
           "label": "Archetype skill tables",
           "url": "https://gamefaqs.gamespot.com/xbox-series-x/409958-metaphor-refantazio/faqs/81526/archetypes"
+        },
+        {
+          "label": "Brawler unlocks and inheritance slots",
+          "url": "https://www.gamerguides.com/metaphor-refantazio/guide/followers/characters/catherina-bond-unlock-guide-abilities-and-archetypes"
+        },
+        {
+          "label": "Independent arena encounter check",
+          "url": "https://www.neoseeker.com/metaphor-refantazio/walkthrough/Skybound_Avatar_Conquest"
         },
         {
           "label": "Championship weakness and time limit",
@@ -3058,8 +3480,8 @@
       ]
     },
     "day-october-16": {
-      "title": "Recovery-day battle preparation",
-      "summary": "Only change coverage if you are taking Bardon’s delayed battle today.",
+      "title": "Preparation for today’s recovery choices",
+      "summary": "If Bardon’s delayed quest fight is today, use these four roles with Ice and healing. If a town bond uses the evening, no further swap is needed. For an arena slot, follow the actual rank’s instructions below.",
       "members": [
         {
           "name": "Protagonist",
@@ -3072,7 +3494,7 @@
         },
         {
           "name": "Strohl",
-          "archetype": "Samurai",
+          "archetype": "Samurai if ready; otherwise Swordmaster",
           "role": "Keep party Defence raised and use Ice when it is safe to attack.",
           "inherit": "Marakukaja (Commander 1) and Icy Strike (General 2): two slots. Defence is the priority; Icy Strike supplies a cheap Ice attack.",
           "requires": "Strohl bond 7, Swordmaster 20 and General 10 on Strohl. General itself needs Bardon 3 and Commander 20.",
@@ -3081,7 +3503,7 @@
         },
         {
           "name": "Hulkenberg",
-          "archetype": "Paladin",
+          "archetype": "Paladin if ready; otherwise Magic Knight",
           "role": "Durable healer and defender. Heal first when the party is hurt; drawing attacks is a separate action and cannot also heal the party.",
           "inherit": "Medica (Cleric 3) and Dekunda (Healer 13): two slots. Medica heals everyone; Dekunda clears the party’s stat reductions.",
           "requires": "Hulkenberg bond 7 and Magic Knight 20. Medica must be learned on Hulkenberg herself. Cleric needs Maria 3 and Healer 20.",
@@ -3090,7 +3512,7 @@
         },
         {
           "name": "Junah",
-          "archetype": "Persona Master · Wizard’s Mask",
+          "archetype": "Persona Master if ready; otherwise Masked Dancer · Wizard’s Mask",
           "role": "Debuffs and economical elemental coverage. The mask provides Blizza, Kandera and Shield Blessing; it occupies her accessory slot.",
           "inherit": "Tarunda (Faker 3) and Dekaja (Faker 13): two slots. Lower a dangerous enemy’s Attack; remove its buffs when they appear.",
           "requires": "Junah bond 6, Masked Dancer 20 and Faker 10. Make Wizard’s Mask in Akademeia with a Magician White Mask and Priestess White Mask after Wizard is unlocked.",
@@ -3099,13 +3521,55 @@
         }
       ],
       "notes": [
-        "For Bardon’s delayed quest fight, use Ice, keep support characters in the back row and maintain party Defence and healing.",
-        "If the quest is already complete and you are doing town activities, keep your normal setup. No extra battle is required by this panel."
+        "Bardon’s delayed battle: use Ice and keep party healing, Defence and Dekunda ready. Dekunda removes the accuracy penalty from the sandstorm. When the boss goes underground, heal or buff, then guard before it emerges.",
+        "Bronze III: use the protagonist as Seeker, Strohl as Swordmaster, Hulkenberg as Magic Knight or Knight with inherited Medi/Medica, and Heismay as Faker. Keep Mage and Healer forms out of the active party. Use group physical damage, then remove the remaining enemy’s evasion buff with Dekaja (Faker 13); Sukunda (Faker 5) is a fallback if learned.",
+        "Bronze II is field combat: put the protagonist on Mage/Wizard or Seeker. The squad-battle setup is not the focus of this match.",
+        "Bronze I is solo: use Magic Seeker if the protagonist has Seeker 20 and More bond 3, otherwise Seeker. Defeat the Wind-weak target first. Bring his own healing and Forget/Hex/Poison cures. An inherited Poison Shot (Gunner 3) supplies Pierce from the back row for the other target. Allies and Synthesis cannot help.",
+        "Silver III: restore all four party members and bring single-target Fire, Ice, physical damage and a party heal. Hit Azure with Fire, Ochre with Ice and Platinum with physical attacks. Avoid all-target elemental spells while Platinum remains. Gold Attack (Merchant 1, 500 reeve) supplies Almighty for Golden; without it, finish the others first and use physical damage while keeping the party healed.",
+        "Silver II: this is field combat with a 90-second limit. Put the protagonist on Seeker for its support-attack passive, equip a current sword and dodge the large enemies before attacking again. Your squad spells are not the main tool in this match.",
+        "Silver I: take only the protagonist and Hulkenberg, both on Brawler or a trained Pugilist. Inherit Hamaon (Cleric 1), or Hama (Healer 1), on the protagonist. Give Hulkenberg Medica (Cleric 3), or Medi (Healer 3). Use Light on the Fighter first, then Strike on the Mage. Protect Ice weaknesses if you have suitable equipment; carry Daze cures and keep HP high because Brawler attacks spend HP. Brawler needs Catherina 1 and each character’s own study; Pugilist is optional. Prioritise the protagonist’s Light spell and Hulkenberg’s heal if each has only one inheritance slot.",
+        "Gold III: only the protagonist fights. Equip Prince and inherit Blizza (Wizard 2). Use Ice while the target has no magic-reflect barrier. After Mage Mirror appears, stop casting elemental spells: move to the front row and use Heroic Slash or, at Prince 20, Royal Slash. Royal Sword is a Synthesis skill and cannot be used alone. Carry healing and a buff-removing item if available; your allies cannot act.",
+        "Gold II: the protagonist fights in the field and must avoid every hit. Use Prince, or Gunner with a current crossbow for ranged attacks. Dodge first, then take a short attack opening. Party healing cannot rescue a failed no-hit attempt.",
+        "Gold I: the opponent resists ordinary damage types. Use Prince’s Royal Sword Synthesis with an ally, or Royal Slash once Prince reaches 20. Keep healing and revival ready; repeated ordinary elemental spells are inefficient.",
+        "Championship: use the four-person cards with Ice/Pierce coverage and win within two rounds. The protagonist and Junah can use Blizza; Strohl can inherit Icy Strike (General 2), and Hulkenberg can replace Dekunda with Heavy Rush (Magic Knight 9). Keep useful attacks ahead of unnecessary buffing. Hero’s Cry needs Prince 13 and 99 MP. Check Synthesis and accessory costs before entering; use the pre-entry save if your damage is insufficient.",
+        "Gold Gauntlet: enter only when the receptionist offers Gold: The Furthest Reaches. Restore all four equipped party members and start with healing, revival and enough resources for 30 consecutive fights. Check affinities and use cheap effective attacks. This endurance event is separate from the ranked ladder and Champion Battle."
       ],
       "sources": [
         {
           "label": "Bond battle preparation",
           "url": "https://gamefaqs.gamespot.com/ps5/410470-metaphor-refantazio/faqs/81508/finale-guide"
+        },
+        {
+          "label": "Bond fight mechanics",
+          "url": "https://www.neoseeker.com/metaphor-refantazio/guides/The_Right_to_Rule"
+        },
+        {
+          "label": "Independent weakness and underground phase check",
+          "url": "https://nightlygamingbinge.com/the-right-to-rule-quest-guide-metaphor-refantazio/"
+        },
+        {
+          "label": "Arena strategies and barriers",
+          "url": "https://www.pcgamer.com/games/rpg/metaphor-refantazio-varmareno-coliseum-ranked-battles/"
+        },
+        {
+          "label": "Ranked arena rules",
+          "url": "https://gamefaqs.gamespot.com/ps5/410470-metaphor-refantazio/faqs/81508/colliseum"
+        },
+        {
+          "label": "Archetype skill tables",
+          "url": "https://gamefaqs.gamespot.com/xbox-series-x/409958-metaphor-refantazio/faqs/81526/archetypes"
+        },
+        {
+          "label": "Brawler unlocks and inheritance slots",
+          "url": "https://www.gamerguides.com/metaphor-refantazio/guide/followers/characters/catherina-bond-unlock-guide-abilities-and-archetypes"
+        },
+        {
+          "label": "Independent arena encounter check",
+          "url": "https://www.neoseeker.com/metaphor-refantazio/walkthrough/Skybound_Avatar_Conquest"
+        },
+        {
+          "label": "Championship weakness and time limit",
+          "url": "https://www.neoseeker.com/metaphor-refantazio/guides/Become_Champion_of_the_Coliseum"
         }
       ]
     },
@@ -3124,7 +3588,7 @@
         },
         {
           "name": "Strohl",
-          "archetype": "Samurai",
+          "archetype": "Samurai if ready; otherwise Swordmaster",
           "role": "Physical attacker and backup party buffer. Use the cheapest attack that finishes an enemy; large attacks are for durable targets.",
           "inherit": "Slash Boost (Warrior 20) and Marakukaja (Commander 1): two slots. Marakukaja raises the whole party’s Defence.",
           "requires": "Strohl bond 7, Swordmaster 20 and General 10 on Strohl. General itself needs Bardon 3 and Commander 20.",
@@ -3133,7 +3597,7 @@
         },
         {
           "name": "Hulkenberg",
-          "archetype": "Paladin",
+          "archetype": "Paladin if ready; otherwise Magic Knight",
           "role": "Durable healer and defender. Heal first when the party is hurt; drawing attacks is a separate action and cannot also heal the party.",
           "inherit": "Medica (Cleric 3) and Dekunda (Healer 13): two slots. Medica heals everyone; Dekunda clears the party’s stat reductions.",
           "requires": "Hulkenberg bond 7 and Magic Knight 20. Medica must be learned on Hulkenberg herself. Cleric needs Maria 3 and Healer 20.",
@@ -3142,7 +3606,7 @@
         },
         {
           "name": "Junah",
-          "archetype": "Persona Master · Wizard’s Mask",
+          "archetype": "Persona Master if ready; otherwise Masked Dancer · Wizard’s Mask",
           "role": "Debuffs and economical elemental coverage. The mask provides Blizza, Kandera and Shield Blessing; it occupies her accessory slot.",
           "inherit": "Tarunda (Faker 3) and Dekaja (Faker 13): two slots. Lower a dangerous enemy’s Attack; remove its buffs when they appear.",
           "requires": "Junah bond 6, Masked Dancer 20 and Faker 10. Make Wizard’s Mask in Akademeia with a Magician White Mask and Priestess White Mask after Wizard is unlocked.",
