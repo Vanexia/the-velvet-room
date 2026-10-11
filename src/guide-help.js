@@ -16,6 +16,10 @@ export const guideHelp = [
     "Check your actual rank, inventory or quest log. The route's target does not prove you reached it. If an event is unavailable, check the date, time, earlier hand-ins and required virtue before spending a slot.",
   ],
   [
+    "Ongoing goals and later reminders",
+    "An ongoing goal, such as training an Archetype, can span several dungeon visits. A reminder for a later date tells you when to come back to it. Neither adds another activity today. Keep any specific deadline or prerequisite stated in the daily steps; the party panel's upgrade goals are not automatic same-day requirements.",
+  ],
+  [
     "Archetype ranks",
     "Studying unlocks an Archetype for one character. Training raises its Archetype rank; mastery is rank 20. These ranks are separate from character levels and follower bonds.",
   ],

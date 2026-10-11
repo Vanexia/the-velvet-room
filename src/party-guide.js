@@ -20,7 +20,7 @@ export function selectPartyGuide(game, dayId) {
 }
 
 function memberRow(member) {
-  return `<section class="party-member"><div class="party-member-heading"><h3>${e(member.name)}</h3><p class="party-archetype">${e(member.archetype)}</p></div><p class="party-role">${e(member.role)}</p><details class="party-options"><summary aria-label="Skills and alternatives for ${e(member.name)}">Skills & alternatives</summary><dl><dt>Inherit</dt><dd>${e(member.inherit)}</dd><dt>Requires</dt><dd>${e(member.requires)}</dd><dt>If unavailable</dt><dd>${e(member.fallback)}</dd><dt>Train next</dt><dd>${e(member.train)}</dd></dl></details></section>`;
+  return `<section class="party-member"><div class="party-member-heading"><h3>${e(member.name)}</h3><p class="party-archetype">${e(member.archetype)}</p></div><p class="party-role">${e(member.role)}</p><details class="party-options"><summary aria-label="Skills and alternatives for ${e(member.name)}">Skills & alternatives</summary><dl><dt>Inherit</dt><dd>${e(member.inherit)}</dd><dt>Requirements for this setup</dt><dd>${e(member.requires)}</dd><dt>If unavailable</dt><dd>${e(member.fallback)}</dd><dt>Training advice</dt><dd>${e(member.train)}</dd></dl></details></section>`;
 }
 
 function sourceLinks(sources) {

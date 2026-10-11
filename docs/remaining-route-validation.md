@@ -1,5 +1,7 @@
 # Remaining-route review
 
+Subsequent reading-clarity changes are recorded in [the August-onward wording review](wording-clarity-review.md).
+
 11 October 2026. Scope: **23 July through 26 October**, covering **94 dates and 269 existing instructions**. Earlier dates remain unchanged. The website remains the maintained edition; the Google Doc is an unsynchronised backup.
 
 ## Why this review was needed

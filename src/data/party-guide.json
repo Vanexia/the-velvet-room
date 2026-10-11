@@ -128,6 +128,69 @@
       ]
     },
     {
+      "from": "day-august-01",
+      "title": "Your regular party",
+      "summary": "A balanced setup for ordinary encounters. On battle days, this panel changes where the matchup calls for a different party.",
+      "members": [
+        {
+          "name": "Protagonist",
+          "archetype": "Wizard",
+          "role": "Back row. Use magic for weaknesses; save the stronger spells for enemies that need them.",
+          "inherit": "One cheap Mage spell: Bot (Mage 1), Blizz (Mage 2) or Kande (Mage 6). Each costs 4 MP. Choose the element needed for the outing.",
+          "requires": "Your Mage 20 and Gallica bond 3, then study Wizard.",
+          "fallback": "Keep Mage. Its cheap spells remain useful. Extra A-EXP on a mastered Archetype earns Hero’s Leaf of Light items for training another studied Archetype.",
+          "train": "Ongoing goal: Wizard 11 for Shield Blessing. You do not need to finish this today. While a stat buff is active, the skill restores MP during battle; Hulkenberg can supply Rakukaja from Magic Knight rank 1."
+        },
+        {
+          "name": "Strohl",
+          "archetype": "Samurai if ready; otherwise Swordmaster",
+          "role": "Front row for physical attacks. Samurai is an optional upgrade when those training requirements are actually met.",
+          "inherit": "Carry a useful Warrior skill such as Diagonal Slash (5 MP) for cheaper fights. Keep any other inherited skills you already use within the available slots.",
+          "requires": "Samurai needs Strohl bond 7, his Swordmaster 20 and his General 10. General first needs his Commander 20 and Bardon bond 3.",
+          "fallback": "Stay Swordmaster or mastered Warrior while building the prerequisites. The bond unlock alone is not a reason to change.",
+          "train": "Longer-term goal: his Commander 20, then General 10, toward Samurai. If Strohl is handling More’s task, work toward General 15 over later battles. You can leave a dungeon with this unfinished; keep Swordmaster for fights while building these ranks with earned A-EXP items."
+        },
+        {
+          "name": "Hulkenberg",
+          "archetype": "Magic Knight",
+          "role": "Healing and defence, with ordinary lance attacks when she has a safe opening. Stay back while healing.",
+          "inherit": "Medi (her Healer 3, 10 MP). If her Cleric is rank 3, Medica is the stronger 20-MP alternative. Equip one reliable party heal first.",
+          "requires": "Knight 20 and Mage 10 on Hulkenberg, plus Hulkenberg bond 3. Mastering Knight alone is not enough.",
+          "fallback": "Knight with the same inherited heal. Do not switch to an untrained Mage for a hard fight just to meet the upgrade requirement.",
+          "train": "Ongoing upgrades: Mage 10 toward Magic Knight, and Cleric 3 for Medica if missing. Use the Knight-and-heal fallback until these are ready; they are not all due today."
+        },
+        {
+          "name": "Heismay",
+          "archetype": "Assassin",
+          "role": "Dark damage, items and support. Lurking Nightblade also lowers the target’s Hit/Evasion, but costs 16 MP.",
+          "inherit": "Plunder Magic (his Thief 11) to recover his own MP. It costs 1 MP; the amount stolen varies. With a spare slot, Mudo (Thief 4, 4 MP) gives a cheaper Dark attack.",
+          "requires": "His Thief 20 and Heismay bond 3, then study Assassin.",
+          "fallback": "Keep mastered Thief for its cheap Mudo and native Plunder Magic. You do not lose training progress by staying on it.",
+          "train": "Optional training goal: Gunner 3 for Poison Shot and ranged Pierce attacks. Continue Assassin otherwise; no Gunner training is required just because this date has arrived."
+        }
+      ],
+      "notes": [
+        "Keep your usual setup on town days. Follower conversations do not require a matching Archetype.",
+        "Each character must learn a skill personally before inheriting it. An upgrade has its own skill list; earlier skills do not automatically carry across.",
+        "Buy the listed inheritance in Akademeia and equip it in the Archetype menu. After changing classes, equip a suitable current weapon; a starter weapon can make the new class feel much weaker.",
+        "For ordinary fights, ambush first and use free attacks when they will finish the enemy. Use healing items between fights when that saves MP; a party heal is unnecessary for one small injury."
+      ],
+      "sources": [
+        {
+          "label": "Mage skills and ranks",
+          "url": "https://gamefaqs.gamespot.com/ps5/410470-metaphor-refantazio/faqs/81508/mage-lineage"
+        },
+        {
+          "label": "Archetype requirements and skills",
+          "url": "https://gamefaqs.gamespot.com/xbox-series-x/409958-metaphor-refantazio/faqs/81526/archetypes"
+        },
+        {
+          "label": "Thief skills and ranks",
+          "url": "https://gamefaqs.gamespot.com/ps5/410470-metaphor-refantazio/faqs/81508/thief-lineage"
+        }
+      ]
+    },
+    {
       "from": "day-august-13",
       "title": "Keep the established party",
       "summary": "Use a familiar damage dealer, healer and support character. There is no reason to rebuild everyone for a story day.",
@@ -139,7 +202,7 @@
           "inherit": "Use one slot for Cyc from Seeker 1 when you need Wind. For cheaper Fire, Ice or Electric instead, swap that slot to Bot, Blizz or Kande from your mastered Mage; each costs 4 MP.",
           "requires": "Gallica bond 3 and Mage rank 20. Botra is immediate; Blizza needs Wizard 2, Kandera needs Wizard 6.",
           "fallback": "Mage. It keeps your mastered elemental spells and their cheaper 4 MP costs.",
-          "train": "Wizard 11 for Shield Blessing. It recovers MP in battle while an Attack, Defence or Hit/Evasion buff is active; extra Magic or Endurance equipment alone does not activate it."
+          "train": "Ongoing goal: Wizard 11 for Shield Blessing, not a rank you must reach today. It recovers MP in battle while an Attack, Defence or Hit/Evasion buff is active; extra Magic or Endurance equipment alone does not activate it."
         },
         {
           "name": "Strohl",
@@ -148,7 +211,7 @@
           "inherit": "Slicer from Warrior rank 8 is a cheaper single-target option. One slot is enough.",
           "requires": "Samurai needs Strohl bond 7, Swordmaster 20 and General 10. General itself needs Bardon bond 3 and Commander 20.",
           "fallback": "Swordmaster with Slicer. A mastered Swordmaster remains useful while you spend earned A-EXP items on its next prerequisites.",
-          "train": "Commander 20, then General 10, only if those Samurai requirements are still missing. Do this with saved A-EXP items or easy fights, not during a difficult boss."
+          "train": "Ongoing upgrade goal: Commander 20, then General 10, if still missing for Samurai. Keep Swordmaster until the upgrade is ready. Work on these ranks over later battles or with earned A-EXP items; this date is not a training deadline."
         },
         {
           "name": "Hulkenberg",
@@ -157,7 +220,7 @@
           "inherit": "Medica from Cleric rank 3. If you have two slots, add Dekunda from Healer rank 13 to remove party stat debuffs.",
           "requires": "Hulkenberg bond 3, Knight 20 and Mage 10. Two inherited slots require Hulkenberg bond 4.",
           "fallback": "Knight with Medica; if Medica is not learned yet, use Medi from Healer 3 and carry healing items.",
-          "train": "Finish Magic Knight 20. If her Cleric is below rank 3, get Medica first."
+          "train": "Ongoing goals: Cleric 3 for Medica if missing, then Magic Knight 20 toward her next upgrade. Use the listed healing fallback today if these ranks are unfinished."
         },
         {
           "name": "Heismay",
@@ -166,7 +229,7 @@
           "inherit": "Marakukaja from Commander rank 1 is a useful single-slot Defence buff. For a boss that buffs itself, replace it with Dekaja from Faker rank 13 if learned.",
           "requires": "Heismay bond 3 and Thief rank 20. Each inherited skill must be learned by Heismay himself.",
           "fallback": "Thief. Keep the support skill; use Steal only when the party is safe.",
-          "train": "Faker 13 for Dekaja is useful support training. Ninja can wait: it needs Heismay bond 7, Assassin 20 and Sniper 10."
+          "train": "Ongoing support goal: Faker 13 for Dekaja. The later Ninja upgrade needs Heismay bond 7, Assassin 20 and Sniper 10. These are targets to work toward, not ranks required by today’s date."
         }
       ],
       "notes": [
@@ -200,7 +263,7 @@
           "inherit": "Use one slot for Cyc from Seeker 1 when you need Wind. For cheaper Fire, Ice or Electric instead, swap that slot to Bot, Blizz or Kande from your mastered Mage; each costs 4 MP.",
           "requires": "Gallica bond 3 and Mage rank 20. Botra is immediate; Blizza needs Wizard 2, Kandera needs Wizard 6.",
           "fallback": "Mage. It keeps your mastered elemental spells and their cheaper 4 MP costs.",
-          "train": "Wizard 11 for Shield Blessing. It recovers MP in battle while an Attack, Defence or Hit/Evasion buff is active; extra Magic or Endurance equipment alone does not activate it."
+          "train": "Ongoing goal: Wizard 11 for Shield Blessing, not a rank you must reach today. It recovers MP in battle while an Attack, Defence or Hit/Evasion buff is active; extra Magic or Endurance equipment alone does not activate it."
         },
         {
           "name": "Strohl",
@@ -209,7 +272,7 @@
           "inherit": "Slicer from Warrior rank 8 is a cheaper single-target option. One slot is enough.",
           "requires": "Samurai needs Strohl bond 7, Swordmaster 20 and General 10. General itself needs Bardon bond 3 and Commander 20.",
           "fallback": "Swordmaster with Slicer. A mastered Swordmaster remains useful while you spend earned A-EXP items on its next prerequisites.",
-          "train": "Commander 20, then General 10, only if those Samurai requirements are still missing. Do this with saved A-EXP items or easy fights, not during a difficult boss."
+          "train": "Ongoing upgrade goal: Commander 20, then General 10, if still missing for Samurai. Keep Swordmaster until the upgrade is ready. Work on these ranks over later battles or with earned A-EXP items; this date is not a training deadline."
         },
         {
           "name": "Hulkenberg",
@@ -218,7 +281,7 @@
           "inherit": "Medica from Cleric rank 3. If you have two slots, add Dekunda from Healer rank 13 to remove party stat debuffs.",
           "requires": "Hulkenberg bond 3, Knight 20 and Mage 10. Two inherited slots require Hulkenberg bond 4.",
           "fallback": "Knight with Medica; if Medica is not learned yet, use Medi from Healer 3 and carry healing items.",
-          "train": "Finish Magic Knight 20. If her Cleric is below rank 3, get Medica first."
+          "train": "Ongoing goals: Cleric 3 for Medica if missing, then Magic Knight 20 toward her next upgrade. Use the listed healing fallback today if these ranks are unfinished."
         },
         {
           "name": "Heismay",
@@ -227,7 +290,7 @@
           "inherit": "Marakukaja from Commander rank 1 is a useful single-slot Defence buff. For a boss that buffs itself, replace it with Dekaja from Faker rank 13 if learned.",
           "requires": "Heismay bond 3 and Thief rank 20. Each inherited skill must be learned by Heismay himself.",
           "fallback": "Thief. Keep the support skill; use Steal only when the party is safe.",
-          "train": "Faker 13 for Dekaja is useful support training. Ninja can wait: it needs Heismay bond 7, Assassin 20 and Sniper 10."
+          "train": "Ongoing support goal: Faker 13 for Dekaja. The later Ninja upgrade needs Heismay bond 7, Assassin 20 and Sniper 10. These are targets to work toward, not ranks required by today’s date."
         }
       ],
       "notes": [
@@ -266,7 +329,7 @@
           "inherit": "Use one slot for Cyc from Seeker 1 when you need Wind. For cheaper Fire, Ice or Electric instead, swap that slot to Bot, Blizz or Kande from your mastered Mage; each costs 4 MP.",
           "requires": "Gallica bond 3 and Mage rank 20. Botra is immediate; Blizza needs Wizard 2, Kandera needs Wizard 6.",
           "fallback": "Mage. It keeps your mastered elemental spells and their cheaper 4 MP costs.",
-          "train": "Wizard 11 for Shield Blessing. It recovers MP in battle while an Attack, Defence or Hit/Evasion buff is active; extra Magic or Endurance equipment alone does not activate it."
+          "train": "Ongoing goal: Wizard 11 for Shield Blessing, not a rank you must reach today. It recovers MP in battle while an Attack, Defence or Hit/Evasion buff is active; extra Magic or Endurance equipment alone does not activate it."
         },
         {
           "name": "Strohl",
@@ -275,7 +338,7 @@
           "inherit": "Slicer from Warrior rank 8 is a cheaper single-target option. One slot is enough.",
           "requires": "Samurai needs Strohl bond 7, Swordmaster 20 and General 10. General itself needs Bardon bond 3 and Commander 20.",
           "fallback": "Swordmaster with Slicer. A mastered Swordmaster remains useful while you spend earned A-EXP items on its next prerequisites.",
-          "train": "Commander 20, then General 10, only if those Samurai requirements are still missing. Do this with saved A-EXP items or easy fights, not during a difficult boss."
+          "train": "Ongoing upgrade goal: Commander 20, then General 10, if still missing for Samurai. Keep Swordmaster until the upgrade is ready. Work on these ranks over later battles or with earned A-EXP items; this date is not a training deadline."
         },
         {
           "name": "Hulkenberg",
@@ -284,7 +347,7 @@
           "inherit": "Medica from Cleric rank 3. If you have two slots, add Dekunda from Healer rank 13 to remove party stat debuffs.",
           "requires": "Hulkenberg bond 3, Knight 20 and Mage 10. Two inherited slots require Hulkenberg bond 4.",
           "fallback": "Knight with Medica; if Medica is not learned yet, use Medi from Healer 3 and carry healing items.",
-          "train": "Finish Magic Knight 20. If her Cleric is below rank 3, get Medica first."
+          "train": "Ongoing goals: Cleric 3 for Medica if missing, then Magic Knight 20 toward her next upgrade. Use the listed healing fallback today if these ranks are unfinished."
         },
         {
           "name": "Heismay",
@@ -293,7 +356,7 @@
           "inherit": "Marakukaja from Commander rank 1 is a useful single-slot Defence buff. For a boss that buffs itself, replace it with Dekaja from Faker rank 13 if learned.",
           "requires": "Heismay bond 3 and Thief rank 20. Each inherited skill must be learned by Heismay himself.",
           "fallback": "Thief. Keep the support skill; use Steal only when the party is safe.",
-          "train": "Faker 13 for Dekaja is useful support training. Ninja can wait: it needs Heismay bond 7, Assassin 20 and Sniper 10."
+          "train": "Ongoing support goal: Faker 13 for Dekaja. The later Ninja upgrade needs Heismay bond 7, Assassin 20 and Sniper 10. These are targets to work toward, not ranks required by today’s date."
         }
       ],
       "notes": [
@@ -328,7 +391,7 @@
           "inherit": "Use one slot for Cyc from Seeker 1 when you need Wind. For cheaper Fire, Ice or Electric instead, swap that slot to Bot, Blizz or Kande from your mastered Mage; each costs 4 MP.",
           "requires": "Gallica bond 3 and Mage rank 20. Botra is immediate; Blizza needs Wizard 2, Kandera needs Wizard 6.",
           "fallback": "Mage. It keeps your mastered elemental spells and their cheaper 4 MP costs.",
-          "train": "Wizard 11 for Shield Blessing. It recovers MP in battle while an Attack, Defence or Hit/Evasion buff is active; extra Magic or Endurance equipment alone does not activate it."
+          "train": "Ongoing goal: Wizard 11 for Shield Blessing, not a rank you must reach today. It recovers MP in battle while an Attack, Defence or Hit/Evasion buff is active; extra Magic or Endurance equipment alone does not activate it."
         },
         {
           "name": "Strohl",
@@ -337,7 +400,7 @@
           "inherit": "Slicer from Warrior rank 8 is a cheaper single-target option. One slot is enough.",
           "requires": "Samurai needs Strohl bond 7, Swordmaster 20 and General 10. General itself needs Bardon bond 3 and Commander 20.",
           "fallback": "Swordmaster with Slicer. A mastered Swordmaster remains useful while you spend earned A-EXP items on its next prerequisites.",
-          "train": "Commander 20, then General 10, only if those Samurai requirements are still missing. Do this with saved A-EXP items or easy fights, not during a difficult boss."
+          "train": "Ongoing upgrade goal: Commander 20, then General 10, if still missing for Samurai. Keep Swordmaster until the upgrade is ready. Work on these ranks over later battles or with earned A-EXP items; this date is not a training deadline."
         },
         {
           "name": "Hulkenberg",
@@ -355,7 +418,7 @@
           "inherit": "Marakukaja from Commander rank 1 is a useful single-slot Defence buff. For a boss that buffs itself, replace it with Dekaja from Faker rank 13 if learned.",
           "requires": "Heismay bond 3 and Thief rank 20. Each inherited skill must be learned by Heismay himself.",
           "fallback": "Thief. Keep the support skill; use Steal only when the party is safe.",
-          "train": "Faker 13 for Dekaja is useful support training. Ninja can wait: it needs Heismay bond 7, Assassin 20 and Sniper 10."
+          "train": "Ongoing support goal: Faker 13 for Dekaja. The later Ninja upgrade needs Heismay bond 7, Assassin 20 and Sniper 10. These are targets to work toward, not ranks required by today’s date."
         }
       ],
       "notes": [
@@ -390,7 +453,7 @@
           "inherit": "Use one slot for Cyc from Seeker 1 when you need Wind. For cheaper Fire, Ice or Electric instead, swap that slot to Bot, Blizz or Kande from your mastered Mage; each costs 4 MP.",
           "requires": "Gallica bond 3 and Mage rank 20. Botra is immediate; Blizza needs Wizard 2, Kandera needs Wizard 6.",
           "fallback": "Mage. It keeps your mastered elemental spells and their cheaper 4 MP costs.",
-          "train": "Wizard 11 for Shield Blessing. It recovers MP in battle while an Attack, Defence or Hit/Evasion buff is active; extra Magic or Endurance equipment alone does not activate it."
+          "train": "Ongoing goal: Wizard 11 for Shield Blessing, not a rank you must reach today. It recovers MP in battle while an Attack, Defence or Hit/Evasion buff is active; extra Magic or Endurance equipment alone does not activate it."
         },
         {
           "name": "Strohl",
@@ -399,7 +462,7 @@
           "inherit": "Slicer from Warrior rank 8 is a cheaper single-target option. One slot is enough.",
           "requires": "Samurai needs Strohl bond 7, Swordmaster 20 and General 10. General itself needs Bardon bond 3 and Commander 20.",
           "fallback": "Swordmaster with Slicer. A mastered Swordmaster remains useful while you spend earned A-EXP items on its next prerequisites.",
-          "train": "Commander 20, then General 10, only if those Samurai requirements are still missing. Do this with saved A-EXP items or easy fights, not during a difficult boss."
+          "train": "Ongoing upgrade goal: Commander 20, then General 10, if still missing for Samurai. Keep Swordmaster until the upgrade is ready. Work on these ranks over later battles or with earned A-EXP items; this date is not a training deadline."
         },
         {
           "name": "Hulkenberg",
@@ -417,7 +480,7 @@
           "inherit": "Marakukaja from Commander rank 1 is a useful single-slot Defence buff. For a boss that buffs itself, replace it with Dekaja from Faker rank 13 if learned.",
           "requires": "Heismay bond 3 and Thief rank 20. Each inherited skill must be learned by Heismay himself.",
           "fallback": "Thief. Keep the support skill; use Steal only when the party is safe.",
-          "train": "Faker 13 for Dekaja is useful support training. Ninja can wait: it needs Heismay bond 7, Assassin 20 and Sniper 10."
+          "train": "Ongoing support goal: Faker 13 for Dekaja. The later Ninja upgrade needs Heismay bond 7, Assassin 20 and Sniper 10. These are targets to work toward, not ranks required by today’s date."
         }
       ],
       "notes": [
@@ -448,7 +511,7 @@
           "inherit": "Shield Blessing (Wizard 11), then Blizza (Wizard 2): two slots. Shield Blessing needs an active Attack, Defence or Hit/Evasion buff. Use Blizza for an Ice weakness instead of spending on a large Synthesis attack.",
           "requires": "Automatically obtained during the completed September story. Each inherited skill must first be learned by the protagonist and purchased in Skill Inheritance.",
           "fallback": "Wizard remains a good exploration choice. Elemental Master is available with Gallica 8 and Wizard 20; keep the cheaper inherited spells for small enemies.",
-          "train": "Prince 9 gives field HP/MP recovery through allies’ support attacks; rank 13 gives Hero’s Cry and rank 20 Royal Slash. These are training goals, not assumed starting skills."
+          "train": "Ongoing training goals: Prince 9 for field HP/MP recovery through allies’ support attacks, 13 for Hero’s Cry and 20 for Royal Slash. You do not need all three today; use the skills you have actually learned."
         },
         {
           "name": "Strohl",
@@ -466,7 +529,7 @@
           "inherit": "Medica (Cleric 3) and Dekunda (Healer 13): two slots. Medica heals everyone; Dekunda clears the party’s stat reductions.",
           "requires": "Hulkenberg bond 7 and Magic Knight 20. Medica must be learned on Hulkenberg herself. Cleric needs Maria 3 and Healer 20.",
           "fallback": "Magic Knight with inherited Medica and Dekunda. If Medica is unlearned, Mediline (Magic Knight 5, 10 MP) heals allies in her row; move anyone needing it into that row before she casts.",
-          "train": "Paladin 20 learns Revitalise 3 for MP recovery. Royal Knight is optional: bond 8, Paladin 20, Dark Knight 15 and Elemental Master 15."
+          "train": "Ongoing upgrade goals: Paladin 20 for Revitalise 3 and MP recovery. Optional Royal Knight needs bond 8, Paladin 20, Dark Knight 15 and Elemental Master 15. Keep the listed fallback while training; these are not all required today."
         },
         {
           "name": "Junah",
@@ -475,7 +538,7 @@
           "inherit": "Tarunda (Faker 3) and Dekaja (Faker 13): two slots. Lower a dangerous enemy’s Attack; remove its buffs when they appear.",
           "requires": "Junah bond 6, Masked Dancer 20 and Faker 10. Make Wizard’s Mask in Akademeia with a Magician White Mask and Priestess White Mask after Wizard is unlocked.",
           "fallback": "Masked Dancer with the same mask and inherited skills. Without that mask, use an available elemental mask and let the protagonist handle Ice. If Dekaja is unlearned, bring an item that removes enemy buffs.",
-          "train": "Faker 13 is a useful short goal for Dekaja. Royal Masked Dancer is optional after Junah 8, Persona Master 20 and Trickster 20."
+          "train": "Ongoing goal: Faker 13 for Dekaja. Optional Royal Masked Dancer also needs Junah 8, Persona Master 20 and Trickster 20. Use the listed current setup or fallback today; there is no need to complete all this training first."
         }
       ],
       "notes": [
@@ -515,7 +578,7 @@
           "inherit": "Blizza (Wizard 2) and Shield Blessing (Wizard 11): two slots. Blizza is for the championship’s Ice weakness; use Almighty for Gold I.",
           "requires": "Automatically obtained during the completed September story. Each inherited skill must first be learned by the protagonist and purchased in Skill Inheritance.",
           "fallback": "Wizard remains a good exploration choice. Elemental Master is available with Gallica 8 and Wizard 20; keep the cheaper inherited spells for small enemies.",
-          "train": "Prince 9 gives field HP/MP recovery through allies’ support attacks; rank 13 gives Hero’s Cry and rank 20 Royal Slash. These are training goals, not assumed starting skills."
+          "train": "Ongoing training goals: Prince 9 for field HP/MP recovery through allies’ support attacks, 13 for Hero’s Cry and 20 for Royal Slash. You do not need all three today; use the skills you have actually learned."
         },
         {
           "name": "Strohl",
@@ -533,7 +596,7 @@
           "inherit": "Gold I: Medica (Cleric 3) and Dekunda (Healer 13). For the championship, replace Dekunda with Heavy Rush (Magic Knight 9, 12 MP) for Pierce damage. Two slots; use Medi (Healer 3) if Medica is not learned.",
           "requires": "Hulkenberg bond 7 and Magic Knight 20. Medica must be learned on Hulkenberg herself. Cleric needs Maria 3 and Healer 20.",
           "fallback": "Magic Knight with inherited Medica and Dekunda. If Medica is unlearned, Mediline (Magic Knight 5, 10 MP) heals allies in her row; move anyone needing it into that row before she casts.",
-          "train": "Paladin 20 learns Revitalise 3 for MP recovery. Royal Knight is optional: bond 8, Paladin 20, Dark Knight 15 and Elemental Master 15."
+          "train": "Ongoing upgrade goals: Paladin 20 for Revitalise 3 and MP recovery. Optional Royal Knight needs bond 8, Paladin 20, Dark Knight 15 and Elemental Master 15. Keep the listed fallback while training; these are not all required today."
         },
         {
           "name": "Junah",
@@ -542,7 +605,7 @@
           "inherit": "Tarunda (Faker 3) and Dekaja (Faker 13): two slots. Lower a dangerous enemy’s Attack; remove its buffs when they appear.",
           "requires": "Junah bond 6, Masked Dancer 20 and Faker 10. Make Wizard’s Mask in Akademeia with a Magician White Mask and Priestess White Mask after Wizard is unlocked.",
           "fallback": "Masked Dancer with the same mask and inherited skills. Without that mask, use an available elemental mask and let the protagonist handle Ice. If Dekaja is unlearned, bring an item that removes enemy buffs.",
-          "train": "Faker 13 is a useful short goal for Dekaja. Royal Masked Dancer is optional after Junah 8, Persona Master 20 and Trickster 20."
+          "train": "Ongoing goal: Faker 13 for Dekaja. Optional Royal Masked Dancer also needs Junah 8, Persona Master 20 and Trickster 20. Use the listed current setup or fallback today; there is no need to complete all this training first."
         }
       ],
       "notes": [
@@ -829,7 +892,7 @@
           "inherit": "Hama (his Healer 1) for the chest enemies. At Thief 4, Mudo supplies a native 4-MP Dark spell.",
           "requires": "Study Thief and reach rank 4 for Mudo. Hama must be learned by the protagonist.",
           "fallback": "Faker with inherited Mudo if already learned, or use a Dark item while Heismay supplies Dark damage. Do not fall back to Wizard for Goborn fights.",
-          "train": "Thief 4 is enough for the cheap Dark spell; use owned A-EXP items if convenient."
+          "train": "For today’s suggested Dark spell: Thief 4 is enough. Use owned A-EXP items if convenient, or use the listed fallback; this is not a mastery target."
         },
         {
           "name": "Strohl",
@@ -838,7 +901,7 @@
           "inherit": "Mudo (his Thief 4) if available; otherwise focus on buffs and items.",
           "requires": "Bardon bond 1 and study Commander. Marakukaja is native from rank 1.",
           "fallback": "Swordmaster for the climb, then use items and pass during the boss. He does not need to force resisted sword attacks.",
-          "train": "Commander work can also contribute toward his later upgrades and More’s General task."
+          "train": "Ongoing benefit: Commander training also contributes toward his later upgrades and More’s General task. Neither needs completing before leaving this outing."
         },
         {
           "name": "Hulkenberg",
@@ -896,7 +959,7 @@
           "inherit": "Marakukaja (his Commander 1) to raise everyone’s Defence. Keep it active during the boss fight.",
           "requires": "Your Mage 20 and Gallica bond 3, then study Wizard.",
           "fallback": "Use Commander directly if you cannot buy Marakukaja inheritance; Bardon bond 1 unlocks it and the party defence buff is available at rank 1.",
-          "train": "Study Commander if he needs this skill. Wizard’s Wind resistance helps if you can keep Wizard equipped."
+          "train": "For today’s suggested buff: study Commander if he has not learned Marakukaja. If you cannot afford its inheritance, equip Commander directly. Keep Wizard equipped when you can inherit the buff, for its Wind resistance."
         },
         {
           "name": "Strohl",
@@ -1260,7 +1323,7 @@
           "inherit": "If Wizard is below rank 6, inherit Kande from Mage 6 for Electric damage; otherwise keep your normal coverage.",
           "requires": "Gallica bond 3 and Mage rank 20. Botra is immediate; Blizza needs Wizard 2, Kandera needs Wizard 6.",
           "fallback": "Mage. It keeps your mastered elemental spells and their cheaper 4 MP costs.",
-          "train": "Wizard 11 for Shield Blessing. It recovers MP in battle while an Attack, Defence or Hit/Evasion buff is active; extra Magic or Endurance equipment alone does not activate it."
+          "train": "Ongoing goal: Wizard 11 for Shield Blessing, not a rank you must reach today. It recovers MP in battle while an Attack, Defence or Hit/Evasion buff is active; extra Magic or Endurance equipment alone does not activate it."
         },
         {
           "name": "Strohl",
@@ -1269,7 +1332,7 @@
           "inherit": "Slicer from Warrior rank 8 is a cheaper single-target option. One slot is enough.",
           "requires": "Strohl bond 3 and Warrior 20.",
           "fallback": "Warrior with its learned attacks; do not spend all your MP before the fight.",
-          "train": "Commander 20, then General 10, only if those Samurai requirements are still missing. Do this with saved A-EXP items or easy fights, not during a difficult boss."
+          "train": "Ongoing upgrade goal: Commander 20, then General 10, if still missing for Samurai. Keep Swordmaster until the upgrade is ready. Work on these ranks over later battles or with earned A-EXP items; this date is not a training deadline."
         },
         {
           "name": "Hulkenberg",
@@ -1278,7 +1341,7 @@
           "inherit": "Medica from Cleric rank 3. If you have two slots, add Dekunda from Healer rank 13 to remove party stat debuffs.",
           "requires": "Hulkenberg bond 3, Knight 20 and Mage 10. Two inherited slots require Hulkenberg bond 4.",
           "fallback": "Knight with Medica; if Medica is not learned yet, use Medi from Healer 3 and carry healing items.",
-          "train": "Finish Magic Knight 20. If her Cleric is below rank 3, get Medica first."
+          "train": "Ongoing goals: Cleric 3 for Medica if missing, then Magic Knight 20 toward her next upgrade. Use the listed healing fallback today if these ranks are unfinished."
         },
         {
           "name": "Junah",
@@ -1287,7 +1350,7 @@
           "inherit": "No inherited skill is required for this setup.",
           "requires": "Her story awakening grants her Masked Dancer. Its first skill, Infernal Vortex, is already available.",
           "fallback": "Keep Heismay if you prefer the trained party. Junah can also study Mage for cheap Fire magic without levelling a second lineage to 20.",
-          "train": "Masked Dancer 11 for Masked Revelry helps her MP. Do not assume buying a mask ingredient automatically creates or equips a finished mask."
+          "train": "Ongoing goal: Masked Dancer 11 for Masked Revelry and better MP support. No need to finish it today. For a mask recommended in today’s setup, buying its ingredients is only the first step: craft and equip the finished mask."
         }
       ],
       "notes": [
@@ -1321,7 +1384,7 @@
           "inherit": "Use one slot for Cyc from Seeker 1 when you need Wind. For cheaper Fire, Ice or Electric instead, swap that slot to Bot, Blizz or Kande from your mastered Mage; each costs 4 MP.",
           "requires": "Gallica bond 3 and Mage rank 20. Botra is immediate; Blizza needs Wizard 2, Kandera needs Wizard 6.",
           "fallback": "Mage. It keeps your mastered elemental spells and their cheaper 4 MP costs.",
-          "train": "Wizard 11 for Shield Blessing. It recovers MP in battle while an Attack, Defence or Hit/Evasion buff is active; extra Magic or Endurance equipment alone does not activate it."
+          "train": "Ongoing goal: Wizard 11 for Shield Blessing, not a rank you must reach today. It recovers MP in battle while an Attack, Defence or Hit/Evasion buff is active; extra Magic or Endurance equipment alone does not activate it."
         },
         {
           "name": "Strohl",
@@ -1330,7 +1393,7 @@
           "inherit": "Slicer from Warrior rank 8 is a cheaper single-target option. One slot is enough.",
           "requires": "Samurai needs Strohl bond 7, Swordmaster 20 and General 10. General itself needs Bardon bond 3 and Commander 20.",
           "fallback": "Swordmaster with Slicer. A mastered Swordmaster remains useful while you spend earned A-EXP items on its next prerequisites.",
-          "train": "Commander 20, then General 10, only if those Samurai requirements are still missing. Do this with saved A-EXP items or easy fights, not during a difficult boss."
+          "train": "Ongoing upgrade goal: Commander 20, then General 10, if still missing for Samurai. Keep Swordmaster until the upgrade is ready. Work on these ranks over later battles or with earned A-EXP items; this date is not a training deadline."
         },
         {
           "name": "Hulkenberg",
@@ -1339,7 +1402,7 @@
           "inherit": "Medica from Cleric rank 3. If you have two slots, add Dekunda from Healer rank 13 to remove party stat debuffs.",
           "requires": "Hulkenberg bond 3, Knight 20 and Mage 10. Two inherited slots require Hulkenberg bond 4.",
           "fallback": "Knight with Medica; if Medica is not learned yet, use Medi from Healer 3 and carry healing items.",
-          "train": "Finish Magic Knight 20. If her Cleric is below rank 3, get Medica first."
+          "train": "Ongoing goals: Cleric 3 for Medica if missing, then Magic Knight 20 toward her next upgrade. Use the listed healing fallback today if these ranks are unfinished."
         },
         {
           "name": "Heismay",
@@ -1348,7 +1411,7 @@
           "inherit": "Marakukaja from Commander rank 1 is a useful single-slot Defence buff. For a boss that buffs itself, replace it with Dekaja from Faker rank 13 if learned.",
           "requires": "Heismay bond 3 and Thief rank 20. Each inherited skill must be learned by Heismay himself.",
           "fallback": "Thief. Keep the support skill; use Steal only when the party is safe.",
-          "train": "Faker 13 for Dekaja is useful support training. Ninja can wait: it needs Heismay bond 7, Assassin 20 and Sniper 10."
+          "train": "Ongoing support goal: Faker 13 for Dekaja. The later Ninja upgrade needs Heismay bond 7, Assassin 20 and Sniper 10. These are targets to work toward, not ranks required by today’s date."
         }
       ],
       "notes": [
@@ -1447,7 +1510,7 @@
           "inherit": "Use one slot for Cyc from Seeker 1 when you need Wind. For cheaper Fire, Ice or Electric instead, swap that slot to Bot, Blizz or Kande from your mastered Mage; each costs 4 MP.",
           "requires": "Gallica bond 3 and Mage rank 20. Botra is immediate; Blizza needs Wizard 2, Kandera needs Wizard 6.",
           "fallback": "Mage. It keeps your mastered elemental spells and their cheaper 4 MP costs.",
-          "train": "Wizard 11 for Shield Blessing. It recovers MP in battle while an Attack, Defence or Hit/Evasion buff is active; extra Magic or Endurance equipment alone does not activate it."
+          "train": "Ongoing goal: Wizard 11 for Shield Blessing, not a rank you must reach today. It recovers MP in battle while an Attack, Defence or Hit/Evasion buff is active; extra Magic or Endurance equipment alone does not activate it."
         },
         {
           "name": "Strohl",
@@ -1456,7 +1519,7 @@
           "inherit": "For Strike coverage, Perfect Punch from Brawler rank 1 can replace Slicer in one slot. Its HP cost means healing still matters.",
           "requires": "Samurai needs Strohl bond 7, Swordmaster 20 and General 10. General itself needs Bardon bond 3 and Commander 20.",
           "fallback": "Swordmaster with Slicer. A mastered Swordmaster remains useful while you spend earned A-EXP items on its next prerequisites.",
-          "train": "Commander 20, then General 10, only if those Samurai requirements are still missing. Do this with saved A-EXP items or easy fights, not during a difficult boss."
+          "train": "Ongoing upgrade goal: Commander 20, then General 10, if still missing for Samurai. Keep Swordmaster until the upgrade is ready. Work on these ranks over later battles or with earned A-EXP items; this date is not a training deadline."
         },
         {
           "name": "Hulkenberg",
@@ -1465,7 +1528,7 @@
           "inherit": "Medica from Cleric rank 3. If you have two slots, add Dekunda from Healer rank 13 to remove party stat debuffs.",
           "requires": "Hulkenberg bond 3, Knight 20 and Mage 10. Two inherited slots require Hulkenberg bond 4.",
           "fallback": "Knight with Medica; if Medica is not learned yet, use Medi from Healer 3 and carry healing items.",
-          "train": "Finish Magic Knight 20. If her Cleric is below rank 3, get Medica first."
+          "train": "Ongoing goals: Cleric 3 for Medica if missing, then Magic Knight 20 toward her next upgrade. Use the listed healing fallback today if these ranks are unfinished."
         },
         {
           "name": "Heismay",
@@ -1474,7 +1537,7 @@
           "inherit": "Marakukaja from Commander rank 1 is a useful single-slot Defence buff. For a boss that buffs itself, replace it with Dekaja from Faker rank 13 if learned.",
           "requires": "Heismay bond 3 and Thief rank 20. Each inherited skill must be learned by Heismay himself.",
           "fallback": "Thief. Keep the support skill; use Steal only when the party is safe.",
-          "train": "Faker 13 for Dekaja is useful support training. Ninja can wait: it needs Heismay bond 7, Assassin 20 and Sniper 10."
+          "train": "Ongoing support goal: Faker 13 for Dekaja. The later Ninja upgrade needs Heismay bond 7, Assassin 20 and Sniper 10. These are targets to work toward, not ranks required by today’s date."
         }
       ],
       "notes": [
@@ -1509,7 +1572,7 @@
           "inherit": "Hama from Healer rank 1, replacing Cyc for this outing. Use Fire on the main enemy and Light on the skeletons.",
           "requires": "Gallica bond 3 and Mage rank 20. Botra is immediate; Blizza needs Wizard 2, Kandera needs Wizard 6.",
           "fallback": "Mage. It keeps your mastered elemental spells and their cheaper 4 MP costs.",
-          "train": "Wizard 11 for Shield Blessing. It recovers MP in battle while an Attack, Defence or Hit/Evasion buff is active; extra Magic or Endurance equipment alone does not activate it."
+          "train": "Ongoing goal: Wizard 11 for Shield Blessing, not a rank you must reach today. It recovers MP in battle while an Attack, Defence or Hit/Evasion buff is active; extra Magic or Endurance equipment alone does not activate it."
         },
         {
           "name": "Hulkenberg",
@@ -1518,7 +1581,7 @@
           "inherit": "Medica from Cleric rank 3. If you have two slots, add Dekunda from Healer rank 13 to remove party stat debuffs.",
           "requires": "Hulkenberg bond 3, Knight 20 and Mage 10. Two inherited slots require Hulkenberg bond 4.",
           "fallback": "Knight with Medica; if Medica is not learned yet, use Medi from Healer 3 and carry healing items.",
-          "train": "Finish Magic Knight 20. If her Cleric is below rank 3, get Medica first."
+          "train": "Ongoing goals: Cleric 3 for Medica if missing, then Magic Knight 20 toward her next upgrade. Use the listed healing fallback today if these ranks are unfinished."
         },
         {
           "name": "Junah",
@@ -1527,7 +1590,7 @@
           "inherit": "No inherited skill is required for this setup.",
           "requires": "Her story awakening grants her Masked Dancer. Its first skill, Infernal Vortex, is already available.",
           "fallback": "Keep Heismay if you prefer the trained party. Junah can also study Mage for cheap Fire magic without levelling a second lineage to 20.",
-          "train": "Masked Dancer 11 for Masked Revelry helps her MP. Do not assume buying a mask ingredient automatically creates or equips a finished mask."
+          "train": "Ongoing goal: Masked Dancer 11 for Masked Revelry and better MP support. No need to finish it today. For a mask recommended in today’s setup, buying its ingredients is only the first step: craft and equip the finished mask."
         },
         {
           "name": "Eupha",
@@ -1570,7 +1633,7 @@
           "inherit": "Bot from Mage rank 1 is an optional cheap Fire spell; Wizard already has the stronger Botra.",
           "requires": "Gallica bond 3 and Mage rank 20. Botra is immediate; Blizza needs Wizard 2, Kandera needs Wizard 6.",
           "fallback": "Mage. It keeps your mastered elemental spells and their cheaper 4 MP costs.",
-          "train": "Wizard 11 for Shield Blessing. It recovers MP in battle while an Attack, Defence or Hit/Evasion buff is active; extra Magic or Endurance equipment alone does not activate it."
+          "train": "Ongoing goal: Wizard 11 for Shield Blessing, not a rank you must reach today. It recovers MP in battle while an Attack, Defence or Hit/Evasion buff is active; extra Magic or Endurance equipment alone does not activate it."
         },
         {
           "name": "Hulkenberg",
@@ -1588,7 +1651,7 @@
           "inherit": "No inherited skill is required for this setup.",
           "requires": "Her story awakening grants her Masked Dancer. Its first skill, Infernal Vortex, is already available.",
           "fallback": "Keep Junah on her native Masked Dancer with an ordinary accessory; no crafted mask is needed. Mage rank 1 is another option for its cheap Bot spell.",
-          "train": "Masked Dancer 11 for Masked Revelry helps her MP. Do not assume buying a mask ingredient automatically creates or equips a finished mask."
+          "train": "Ongoing goal: Masked Dancer 11 for Masked Revelry and better MP support. No need to finish it today. For a mask recommended in today’s setup, buying its ingredients is only the first step: craft and equip the finished mask."
         },
         {
           "name": "Heismay",
@@ -1632,7 +1695,7 @@
           "inherit": "Bot from Mage 1 is optional for cheaper Fire hits. Do not cast Wind or Ice at the boss.",
           "requires": "Gallica bond 3 and Mage rank 20. Botra is immediate; Blizza needs Wizard 2, Kandera needs Wizard 6.",
           "fallback": "Mage. It keeps your mastered elemental spells and their cheaper 4 MP costs.",
-          "train": "Wizard 11 for Shield Blessing. It recovers MP in battle while an Attack, Defence or Hit/Evasion buff is active; extra Magic or Endurance equipment alone does not activate it."
+          "train": "Ongoing goal: Wizard 11 for Shield Blessing, not a rank you must reach today. It recovers MP in battle while an Attack, Defence or Hit/Evasion buff is active; extra Magic or Endurance equipment alone does not activate it."
         },
         {
           "name": "Strohl",
@@ -1659,7 +1722,7 @@
           "inherit": "No inherited skill is required for this setup.",
           "requires": "Her story awakening grants her Masked Dancer. Its first skill, Infernal Vortex, is already available.",
           "fallback": "Keep Heismay if you prefer the trained party. Junah can also study Mage for cheap Fire magic without levelling a second lineage to 20.",
-          "train": "Masked Dancer 11 for Masked Revelry helps her MP. Do not assume buying a mask ingredient automatically creates or equips a finished mask."
+          "train": "Ongoing goal: Masked Dancer 11 for Masked Revelry and better MP support. No need to finish it today. For a mask recommended in today’s setup, buying its ingredients is only the first step: craft and equip the finished mask."
         }
       ],
       "notes": [
@@ -1694,7 +1757,7 @@
           "inherit": "If Wizard is below rank 2, inherit Blizz from Mage 2. Otherwise use native Blizza.",
           "requires": "Gallica bond 3 and Mage rank 20. Botra is immediate; Blizza needs Wizard 2, Kandera needs Wizard 6.",
           "fallback": "Mage. It keeps your mastered elemental spells and their cheaper 4 MP costs.",
-          "train": "Wizard 11 for Shield Blessing. It recovers MP in battle while an Attack, Defence or Hit/Evasion buff is active; extra Magic or Endurance equipment alone does not activate it."
+          "train": "Ongoing goal: Wizard 11 for Shield Blessing, not a rank you must reach today. It recovers MP in battle while an Attack, Defence or Hit/Evasion buff is active; extra Magic or Endurance equipment alone does not activate it."
         },
         {
           "name": "Strohl",
@@ -1703,7 +1766,7 @@
           "inherit": "Slicer from Warrior rank 8 is a cheaper single-target option. One slot is enough.",
           "requires": "Samurai needs Strohl bond 7, Swordmaster 20 and General 10. General itself needs Bardon bond 3 and Commander 20.",
           "fallback": "Swordmaster with Slicer. A mastered Swordmaster remains useful while you spend earned A-EXP items on its next prerequisites.",
-          "train": "Commander 20, then General 10, only if those Samurai requirements are still missing. Do this with saved A-EXP items or easy fights, not during a difficult boss."
+          "train": "Ongoing upgrade goal: Commander 20, then General 10, if still missing for Samurai. Keep Swordmaster until the upgrade is ready. Work on these ranks over later battles or with earned A-EXP items; this date is not a training deadline."
         },
         {
           "name": "Hulkenberg",
@@ -1721,7 +1784,7 @@
           "inherit": "Marakukaja from Commander 1 for Defence, or Dekaja from Faker 13 if you already have it. One support slot is enough.",
           "requires": "Heismay bond 3 and Thief rank 20. Each inherited skill must be learned by Heismay himself.",
           "fallback": "Thief. Keep the support skill; use Steal only when the party is safe.",
-          "train": "Faker 13 for Dekaja is useful support training. Ninja can wait: it needs Heismay bond 7, Assassin 20 and Sniper 10."
+          "train": "Ongoing support goal: Faker 13 for Dekaja. The later Ninja upgrade needs Heismay bond 7, Assassin 20 and Sniper 10. These are targets to work toward, not ranks required by today’s date."
         }
       ],
       "notes": [
@@ -1873,7 +1936,7 @@
           "inherit": "Use one slot for Cyc from Seeker 1 when you need Wind. For cheaper Fire, Ice or Electric instead, swap that slot to Bot, Blizz or Kande from your mastered Mage; each costs 4 MP.",
           "requires": "Gallica bond 3 and Mage rank 20. Botra is immediate; Blizza needs Wizard 2, Kandera needs Wizard 6.",
           "fallback": "Mage. It keeps your mastered elemental spells and their cheaper 4 MP costs.",
-          "train": "Wizard 11 for Shield Blessing. It recovers MP in battle while an Attack, Defence or Hit/Evasion buff is active; extra Magic or Endurance equipment alone does not activate it."
+          "train": "Ongoing goal: Wizard 11 for Shield Blessing, not a rank you must reach today. It recovers MP in battle while an Attack, Defence or Hit/Evasion buff is active; extra Magic or Endurance equipment alone does not activate it."
         },
         {
           "name": "Strohl",
@@ -1882,7 +1945,7 @@
           "inherit": "Slicer from Warrior rank 8 is a cheaper single-target option. One slot is enough.",
           "requires": "Samurai needs Strohl bond 7, Swordmaster 20 and General 10. General itself needs Bardon bond 3 and Commander 20.",
           "fallback": "Swordmaster with Slicer. A mastered Swordmaster remains useful while you spend earned A-EXP items on its next prerequisites.",
-          "train": "Commander 20, then General 10, only if those Samurai requirements are still missing. Do this with saved A-EXP items or easy fights, not during a difficult boss."
+          "train": "Ongoing upgrade goal: Commander 20, then General 10, if still missing for Samurai. Keep Swordmaster until the upgrade is ready. Work on these ranks over later battles or with earned A-EXP items; this date is not a training deadline."
         },
         {
           "name": "Hulkenberg",
@@ -1900,7 +1963,7 @@
           "inherit": "Marakukaja from Commander rank 1 is a useful single-slot Defence buff. For a boss that buffs itself, replace it with Dekaja from Faker rank 13 if learned.",
           "requires": "Heismay bond 3 and Thief rank 20. Each inherited skill must be learned by Heismay himself.",
           "fallback": "Thief. Keep the support skill; use Steal only when the party is safe.",
-          "train": "Faker 13 for Dekaja is useful support training. Ninja can wait: it needs Heismay bond 7, Assassin 20 and Sniper 10."
+          "train": "Ongoing support goal: Faker 13 for Dekaja. The later Ninja upgrade needs Heismay bond 7, Assassin 20 and Sniper 10. These are targets to work toward, not ranks required by today’s date."
         }
       ],
       "notes": [
@@ -1930,7 +1993,7 @@
           "inherit": "Use one slot for Cyc from Seeker 1 when you need Wind. For cheaper Fire, Ice or Electric instead, swap that slot to Bot, Blizz or Kande from your mastered Mage; each costs 4 MP.",
           "requires": "Gallica bond 3 and Mage rank 20. Botra is immediate; Blizza needs Wizard 2, Kandera needs Wizard 6.",
           "fallback": "Mage. It keeps your mastered elemental spells and their cheaper 4 MP costs.",
-          "train": "Wizard 11 for Shield Blessing. It recovers MP in battle while an Attack, Defence or Hit/Evasion buff is active; extra Magic or Endurance equipment alone does not activate it."
+          "train": "Ongoing goal: Wizard 11 for Shield Blessing, not a rank you must reach today. It recovers MP in battle while an Attack, Defence or Hit/Evasion buff is active; extra Magic or Endurance equipment alone does not activate it."
         },
         {
           "name": "Strohl",
@@ -1939,7 +2002,7 @@
           "inherit": "Slicer from Warrior rank 8 is a cheaper single-target option. One slot is enough.",
           "requires": "Samurai needs Strohl bond 7, Swordmaster 20 and General 10. General itself needs Bardon bond 3 and Commander 20.",
           "fallback": "Swordmaster with Slicer. A mastered Swordmaster remains useful while you spend earned A-EXP items on its next prerequisites.",
-          "train": "Commander 20, then General 10, only if those Samurai requirements are still missing. Do this with saved A-EXP items or easy fights, not during a difficult boss."
+          "train": "Ongoing upgrade goal: Commander 20, then General 10, if still missing for Samurai. Keep Swordmaster until the upgrade is ready. Work on these ranks over later battles or with earned A-EXP items; this date is not a training deadline."
         },
         {
           "name": "Hulkenberg",
@@ -1957,7 +2020,7 @@
           "inherit": "Marakukaja from Commander rank 1 is a useful single-slot Defence buff. For a boss that buffs itself, replace it with Dekaja from Faker rank 13 if learned.",
           "requires": "Heismay bond 3 and Thief rank 20. Each inherited skill must be learned by Heismay himself.",
           "fallback": "Thief. Keep the support skill; use Steal only when the party is safe.",
-          "train": "Faker 13 for Dekaja is useful support training. Ninja can wait: it needs Heismay bond 7, Assassin 20 and Sniper 10."
+          "train": "Ongoing support goal: Faker 13 for Dekaja. The later Ninja upgrade needs Heismay bond 7, Assassin 20 and Sniper 10. These are targets to work toward, not ranks required by today’s date."
         }
       ],
       "notes": [
@@ -1991,7 +2054,7 @@
           "inherit": "Use one slot for Cyc from Seeker 1 when you need Wind. For cheaper Fire, Ice or Electric instead, swap that slot to Bot, Blizz or Kande from your mastered Mage; each costs 4 MP.",
           "requires": "Gallica bond 3 and Mage rank 20. Botra is immediate; Blizza needs Wizard 2, Kandera needs Wizard 6.",
           "fallback": "Mage. It keeps your mastered elemental spells and their cheaper 4 MP costs.",
-          "train": "Wizard 11 for Shield Blessing. It recovers MP in battle while an Attack, Defence or Hit/Evasion buff is active; extra Magic or Endurance equipment alone does not activate it."
+          "train": "Ongoing goal: Wizard 11 for Shield Blessing, not a rank you must reach today. It recovers MP in battle while an Attack, Defence or Hit/Evasion buff is active; extra Magic or Endurance equipment alone does not activate it."
         },
         {
           "name": "Strohl",
@@ -2000,7 +2063,7 @@
           "inherit": "Slicer from Warrior rank 8 is a cheaper single-target option. One slot is enough.",
           "requires": "Samurai needs Strohl bond 7, Swordmaster 20 and General 10. General itself needs Bardon bond 3 and Commander 20.",
           "fallback": "Swordmaster with Slicer. A mastered Swordmaster remains useful while you spend earned A-EXP items on its next prerequisites.",
-          "train": "Commander 20, then General 10, only if those Samurai requirements are still missing. Do this with saved A-EXP items or easy fights, not during a difficult boss."
+          "train": "Ongoing upgrade goal: Commander 20, then General 10, if still missing for Samurai. Keep Swordmaster until the upgrade is ready. Work on these ranks over later battles or with earned A-EXP items; this date is not a training deadline."
         },
         {
           "name": "Hulkenberg",
@@ -2018,7 +2081,7 @@
           "inherit": "Marakukaja from Commander rank 1 is a useful single-slot Defence buff. For a boss that buffs itself, replace it with Dekaja from Faker rank 13 if learned.",
           "requires": "Heismay bond 3 and Thief rank 20. Each inherited skill must be learned by Heismay himself.",
           "fallback": "Thief. Keep the support skill; use Steal only when the party is safe.",
-          "train": "Faker 13 for Dekaja is useful support training. Ninja can wait: it needs Heismay bond 7, Assassin 20 and Sniper 10."
+          "train": "Ongoing support goal: Faker 13 for Dekaja. The later Ninja upgrade needs Heismay bond 7, Assassin 20 and Sniper 10. These are targets to work toward, not ranks required by today’s date."
         }
       ],
       "notes": [
@@ -2051,7 +2114,7 @@
           "inherit": "Use one slot for Cyc from Seeker 1 when you need Wind. For cheaper Fire, Ice or Electric instead, swap that slot to Bot, Blizz or Kande from your mastered Mage; each costs 4 MP.",
           "requires": "Gallica bond 3 and Mage rank 20. Botra is immediate; Blizza needs Wizard 2, Kandera needs Wizard 6.",
           "fallback": "Mage. It keeps your mastered elemental spells and their cheaper 4 MP costs.",
-          "train": "Wizard 11 for Shield Blessing. It recovers MP in battle while an Attack, Defence or Hit/Evasion buff is active; extra Magic or Endurance equipment alone does not activate it."
+          "train": "Ongoing goal: Wizard 11 for Shield Blessing, not a rank you must reach today. It recovers MP in battle while an Attack, Defence or Hit/Evasion buff is active; extra Magic or Endurance equipment alone does not activate it."
         },
         {
           "name": "Strohl",
@@ -2060,7 +2123,7 @@
           "inherit": "Slicer from Warrior rank 8 is a cheaper single-target option. One slot is enough.",
           "requires": "Samurai needs Strohl bond 7, Swordmaster 20 and General 10. General itself needs Bardon bond 3 and Commander 20.",
           "fallback": "Swordmaster with Slicer. A mastered Swordmaster remains useful while you spend earned A-EXP items on its next prerequisites.",
-          "train": "Commander 20, then General 10, only if those Samurai requirements are still missing. Do this with saved A-EXP items or easy fights, not during a difficult boss."
+          "train": "Ongoing upgrade goal: Commander 20, then General 10, if still missing for Samurai. Keep Swordmaster until the upgrade is ready. Work on these ranks over later battles or with earned A-EXP items; this date is not a training deadline."
         },
         {
           "name": "Hulkenberg",
@@ -2078,7 +2141,7 @@
           "inherit": "If using Assassin, inherit Dekaja from Faker 13. Faker 13 has it natively.",
           "requires": "Alonzo bond 1 unlocks Faker; Dekaja needs Faker rank 13 on Heismay.",
           "fallback": "Assassin or Thief using a buff-removing item when needed. Both are neutral to Ice and Light.",
-          "train": "Faker 13 is the useful target; its random turn skill is not required for this strategy."
+          "train": "For the suggested Dekaja option: Faker 13 is the target. If it is unavailable today, use the listed alternative. Its random turn skill is not required for this strategy."
         }
       ],
       "notes": [
@@ -2121,7 +2184,7 @@
           "inherit": "Use one slot for Cyc from Seeker 1 when you need Wind. For cheaper Fire, Ice or Electric instead, swap that slot to Bot, Blizz or Kande from your mastered Mage; each costs 4 MP.",
           "requires": "Gallica bond 3 and Mage rank 20. Botra is immediate; Blizza needs Wizard 2, Kandera needs Wizard 6.",
           "fallback": "Mage. It keeps your mastered elemental spells and their cheaper 4 MP costs.",
-          "train": "Wizard 11 for Shield Blessing. It recovers MP in battle while an Attack, Defence or Hit/Evasion buff is active; extra Magic or Endurance equipment alone does not activate it."
+          "train": "Ongoing goal: Wizard 11 for Shield Blessing, not a rank you must reach today. It recovers MP in battle while an Attack, Defence or Hit/Evasion buff is active; extra Magic or Endurance equipment alone does not activate it."
         },
         {
           "name": "Strohl",
@@ -2130,7 +2193,7 @@
           "inherit": "Slicer from Warrior rank 8 is a cheaper single-target option. One slot is enough.",
           "requires": "Samurai needs Strohl bond 7, Swordmaster 20 and General 10. General itself needs Bardon bond 3 and Commander 20.",
           "fallback": "Swordmaster with Slicer. A mastered Swordmaster remains useful while you spend earned A-EXP items on its next prerequisites.",
-          "train": "Commander 20, then General 10, only if those Samurai requirements are still missing. Do this with saved A-EXP items or easy fights, not during a difficult boss."
+          "train": "Ongoing upgrade goal: Commander 20, then General 10, if still missing for Samurai. Keep Swordmaster until the upgrade is ready. Work on these ranks over later battles or with earned A-EXP items; this date is not a training deadline."
         },
         {
           "name": "Hulkenberg",
@@ -2148,7 +2211,7 @@
           "inherit": "No inherited damage skill is required. Keep a support skill if you have one.",
           "requires": "Heismay bond 3 and Thief rank 20. Each inherited skill must be learned by Heismay himself.",
           "fallback": "Thief. Keep the support skill; use Steal only when the party is safe.",
-          "train": "Faker 13 for Dekaja is useful support training. Ninja can wait: it needs Heismay bond 7, Assassin 20 and Sniper 10."
+          "train": "Ongoing support goal: Faker 13 for Dekaja. The later Ninja upgrade needs Heismay bond 7, Assassin 20 and Sniper 10. These are targets to work toward, not ranks required by today’s date."
         }
       ],
       "notes": [
@@ -2177,7 +2240,7 @@
           "inherit": "A learned healing or buff skill can replace Cyc for this fight.",
           "requires": "Gallica bond 3 and Mage rank 20. Botra is immediate; Blizza needs Wizard 2, Kandera needs Wizard 6.",
           "fallback": "Mage. It keeps your mastered elemental spells and their cheaper 4 MP costs.",
-          "train": "Wizard 11 for Shield Blessing. It recovers MP in battle while an Attack, Defence or Hit/Evasion buff is active; extra Magic or Endurance equipment alone does not activate it."
+          "train": "Ongoing goal: Wizard 11 for Shield Blessing, not a rank you must reach today. It recovers MP in battle while an Attack, Defence or Hit/Evasion buff is active; extra Magic or Endurance equipment alone does not activate it."
         },
         {
           "name": "Strohl",
@@ -2186,7 +2249,7 @@
           "inherit": "Slicer from Warrior rank 8 is a cheaper single-target option. One slot is enough.",
           "requires": "Samurai needs Strohl bond 7, Swordmaster 20 and General 10. General itself needs Bardon bond 3 and Commander 20.",
           "fallback": "Swordmaster with Slicer. A mastered Swordmaster remains useful while you spend earned A-EXP items on its next prerequisites.",
-          "train": "Commander 20, then General 10, only if those Samurai requirements are still missing. Do this with saved A-EXP items or easy fights, not during a difficult boss."
+          "train": "Ongoing upgrade goal: Commander 20, then General 10, if still missing for Samurai. Keep Swordmaster until the upgrade is ready. Work on these ranks over later battles or with earned A-EXP items; this date is not a training deadline."
         },
         {
           "name": "Hulkenberg",
@@ -2204,7 +2267,7 @@
           "inherit": "Marakukaja from Commander rank 1 is a useful single-slot Defence buff. For a boss that buffs itself, replace it with Dekaja from Faker rank 13 if learned.",
           "requires": "Heismay bond 3 and Thief rank 20. Each inherited skill must be learned by Heismay himself.",
           "fallback": "Thief. Keep the support skill; use Steal only when the party is safe.",
-          "train": "Faker 13 for Dekaja is useful support training. Ninja can wait: it needs Heismay bond 7, Assassin 20 and Sniper 10."
+          "train": "Ongoing support goal: Faker 13 for Dekaja. The later Ninja upgrade needs Heismay bond 7, Assassin 20 and Sniper 10. These are targets to work toward, not ranks required by today’s date."
         }
       ],
       "notes": [
@@ -2234,7 +2297,7 @@
           "inherit": "Cyc from Seeker 1 for Wind. Use native Kandera against the main opponent; Mage’s Kande is the cheap fallback.",
           "requires": "Gallica bond 3 and Mage rank 20. Botra is immediate; Blizza needs Wizard 2, Kandera needs Wizard 6.",
           "fallback": "Mage. It keeps your mastered elemental spells and their cheaper 4 MP costs.",
-          "train": "Wizard 11 for Shield Blessing. It recovers MP in battle while an Attack, Defence or Hit/Evasion buff is active; extra Magic or Endurance equipment alone does not activate it."
+          "train": "Ongoing goal: Wizard 11 for Shield Blessing, not a rank you must reach today. It recovers MP in battle while an Attack, Defence or Hit/Evasion buff is active; extra Magic or Endurance equipment alone does not activate it."
         },
         {
           "name": "Hulkenberg",
@@ -2320,7 +2383,7 @@
           "inherit": "Use one slot for Cyc from Seeker 1 when you need Wind. For cheaper Fire, Ice or Electric instead, swap that slot to Bot, Blizz or Kande from your mastered Mage; each costs 4 MP.",
           "requires": "Gallica bond 3 and Mage rank 20. Botra is immediate; Blizza needs Wizard 2, Kandera needs Wizard 6.",
           "fallback": "Mage. It keeps your mastered elemental spells and their cheaper 4 MP costs.",
-          "train": "Wizard 11 for Shield Blessing. It recovers MP in battle while an Attack, Defence or Hit/Evasion buff is active; extra Magic or Endurance equipment alone does not activate it."
+          "train": "Ongoing goal: Wizard 11 for Shield Blessing, not a rank you must reach today. It recovers MP in battle while an Attack, Defence or Hit/Evasion buff is active; extra Magic or Endurance equipment alone does not activate it."
         },
         {
           "name": "Basilio",
@@ -2347,7 +2410,7 @@
           "inherit": "No inherited skill is required for this setup.",
           "requires": "Her story awakening grants her Masked Dancer. Its first skill, Infernal Vortex, is already available.",
           "fallback": "Keep Heismay if you prefer the trained party. Junah can also study Mage for cheap Fire magic without levelling a second lineage to 20.",
-          "train": "Masked Dancer 11 for Masked Revelry helps her MP. Do not assume buying a mask ingredient automatically creates or equips a finished mask."
+          "train": "Ongoing goal: Masked Dancer 11 for Masked Revelry and better MP support. No need to finish it today. For a mask recommended in today’s setup, buying its ingredients is only the first step: craft and equip the finished mask."
         }
       ],
       "notes": [
@@ -2405,7 +2468,7 @@
           "inherit": "Marakukaja from Commander rank 1 is a useful single-slot Defence buff. For a boss that buffs itself, replace it with Dekaja from Faker rank 13 if learned.",
           "requires": "Heismay bond 3 and Thief rank 20. Each inherited skill must be learned by Heismay himself.",
           "fallback": "Thief. Keep the support skill; use Steal only when the party is safe.",
-          "train": "Faker 13 for Dekaja is useful support training. Ninja can wait: it needs Heismay bond 7, Assassin 20 and Sniper 10."
+          "train": "Ongoing support goal: Faker 13 for Dekaja. The later Ninja upgrade needs Heismay bond 7, Assassin 20 and Sniper 10. These are targets to work toward, not ranks required by today’s date."
         }
       ],
       "notes": [
@@ -2439,7 +2502,7 @@
           "inherit": "Use one slot for Cyc from Seeker 1 when you need Wind. For cheaper Fire, Ice or Electric instead, swap that slot to Bot, Blizz or Kande from your mastered Mage; each costs 4 MP.",
           "requires": "Gallica bond 3 and Mage rank 20. Botra is immediate; Blizza needs Wizard 2, Kandera needs Wizard 6.",
           "fallback": "Mage. It keeps your mastered elemental spells and their cheaper 4 MP costs.",
-          "train": "Wizard 11 for Shield Blessing. It recovers MP in battle while an Attack, Defence or Hit/Evasion buff is active; extra Magic or Endurance equipment alone does not activate it."
+          "train": "Ongoing goal: Wizard 11 for Shield Blessing, not a rank you must reach today. It recovers MP in battle while an Attack, Defence or Hit/Evasion buff is active; extra Magic or Endurance equipment alone does not activate it."
         },
         {
           "name": "Strohl",
@@ -2448,7 +2511,7 @@
           "inherit": "Slicer from Warrior rank 8 is a cheaper single-target option. One slot is enough.",
           "requires": "Samurai needs Strohl bond 7, Swordmaster 20 and General 10. General itself needs Bardon bond 3 and Commander 20.",
           "fallback": "Swordmaster with Slicer. A mastered Swordmaster remains useful while you spend earned A-EXP items on its next prerequisites.",
-          "train": "Commander 20, then General 10, only if those Samurai requirements are still missing. Do this with saved A-EXP items or easy fights, not during a difficult boss."
+          "train": "Ongoing upgrade goal: Commander 20, then General 10, if still missing for Samurai. Keep Swordmaster until the upgrade is ready. Work on these ranks over later battles or with earned A-EXP items; this date is not a training deadline."
         },
         {
           "name": "Hulkenberg",
@@ -2466,7 +2529,7 @@
           "inherit": "Marakukaja from Commander rank 1 is a useful single-slot Defence buff. For a boss that buffs itself, replace it with Dekaja from Faker rank 13 if learned.",
           "requires": "Heismay bond 3 and Thief rank 20. Each inherited skill must be learned by Heismay himself.",
           "fallback": "Thief. Keep the support skill; use Steal only when the party is safe.",
-          "train": "Faker 13 for Dekaja is useful support training. Ninja can wait: it needs Heismay bond 7, Assassin 20 and Sniper 10."
+          "train": "Ongoing support goal: Faker 13 for Dekaja. The later Ninja upgrade needs Heismay bond 7, Assassin 20 and Sniper 10. These are targets to work toward, not ranks required by today’s date."
         }
       ],
       "notes": [
@@ -2517,7 +2580,7 @@
           "inherit": "Shield Blessing (Wizard 11), then Blizza (Wizard 2): two slots. Shield Blessing needs an active Attack, Defence or Hit/Evasion buff. Use Blizza for an Ice weakness instead of spending on a large Synthesis attack.",
           "requires": "Automatically obtained during the completed September story. Each inherited skill must first be learned by the protagonist and purchased in Skill Inheritance.",
           "fallback": "Wizard remains a good exploration choice. Elemental Master is available with Gallica 8 and Wizard 20; keep the cheaper inherited spells for small enemies.",
-          "train": "Prince 9 gives field HP/MP recovery through allies’ support attacks; rank 13 gives Hero’s Cry and rank 20 Royal Slash. These are training goals, not assumed starting skills."
+          "train": "Ongoing training goals: Prince 9 for field HP/MP recovery through allies’ support attacks, 13 for Hero’s Cry and 20 for Royal Slash. You do not need all three today; use the skills you have actually learned."
         },
         {
           "name": "Eupha",
@@ -2526,7 +2589,7 @@
           "inherit": "Medica (Cleric 3) if learned on Eupha: one optional backup-healing slot. Otherwise leave her on damage/support and let Hulkenberg heal.",
           "requires": "Eupha’s starting Archetype. Summon Eagle Lion and Summon Noctiluca are native skills; additional vessel-based summons must be crafted in Akademeia’s Special Experiments.",
           "fallback": "Keep Summoner if its upgrade is locked. Use your existing vessels and recovery items; do not assume a named high-level summon has already been crafted.",
-          "train": "Devil Summoner needs Eupha 6, Summoner 20 and Magic Seeker 10. An optional later Royal Summoner needs Eupha 8, Devil Summoner 20 and Soul Hacker 20."
+          "train": "Ongoing upgrade path: Devil Summoner needs Eupha 6, Summoner 20 and Magic Seeker 10. Optional Royal Summoner later needs Eupha 8, Devil Summoner 20 and Soul Hacker 20. Use Summoner today if these upgrades are not ready."
         },
         {
           "name": "Hulkenberg",
@@ -2535,7 +2598,7 @@
           "inherit": "Medica (Cleric 3) and Dekunda (Healer 13): two slots. Medica heals everyone; Dekunda clears the party’s stat reductions.",
           "requires": "Hulkenberg bond 7 and Magic Knight 20. Medica must be learned on Hulkenberg herself. Cleric needs Maria 3 and Healer 20.",
           "fallback": "Magic Knight with inherited Medica and Dekunda. If Medica is unlearned, Mediline (Magic Knight 5, 10 MP) heals allies in her row; move anyone needing it into that row before she casts.",
-          "train": "Paladin 20 learns Revitalise 3 for MP recovery. Royal Knight is optional: bond 8, Paladin 20, Dark Knight 15 and Elemental Master 15."
+          "train": "Ongoing upgrade goals: Paladin 20 for Revitalise 3 and MP recovery. Optional Royal Knight needs bond 8, Paladin 20, Dark Knight 15 and Elemental Master 15. Keep the listed fallback while training; these are not all required today."
         },
         {
           "name": "Junah",
@@ -2544,7 +2607,7 @@
           "inherit": "Tarunda (Faker 3) and Dekaja (Faker 13): two slots. Lower a dangerous enemy’s Attack; remove its buffs when they appear.",
           "requires": "Junah bond 6, Masked Dancer 20 and Faker 10. Make Wizard’s Mask in Akademeia with a Magician White Mask and Priestess White Mask after Wizard is unlocked.",
           "fallback": "Masked Dancer with the same mask and inherited skills. Without that mask, use an available elemental mask and let the protagonist handle Ice. If Dekaja is unlearned, bring an item that removes enemy buffs.",
-          "train": "Faker 13 is a useful short goal for Dekaja. Royal Masked Dancer is optional after Junah 8, Persona Master 20 and Trickster 20."
+          "train": "Ongoing goal: Faker 13 for Dekaja. Optional Royal Masked Dancer also needs Junah 8, Persona Master 20 and Trickster 20. Use the listed current setup or fallback today; there is no need to complete all this training first."
         }
       ],
       "notes": [
@@ -2579,7 +2642,7 @@
           "inherit": "Shield Blessing (Wizard 11), then Blizza (Wizard 2): two slots. Shield Blessing needs an active Attack, Defence or Hit/Evasion buff. Use Blizza for an Ice weakness instead of spending on a large Synthesis attack.",
           "requires": "Automatically obtained during the completed September story. Each inherited skill must first be learned by the protagonist and purchased in Skill Inheritance.",
           "fallback": "Wizard remains a good exploration choice. Elemental Master is available with Gallica 8 and Wizard 20; keep the cheaper inherited spells for small enemies.",
-          "train": "Prince 9 gives field HP/MP recovery through allies’ support attacks; rank 13 gives Hero’s Cry and rank 20 Royal Slash. These are training goals, not assumed starting skills."
+          "train": "Ongoing training goals: Prince 9 for field HP/MP recovery through allies’ support attacks, 13 for Hero’s Cry and 20 for Royal Slash. You do not need all three today; use the skills you have actually learned."
         },
         {
           "name": "Strohl",
@@ -2597,7 +2660,7 @@
           "inherit": "Medica (Cleric 3) and Dekunda (Healer 13): two slots. Medica heals everyone; Dekunda clears the party’s stat reductions.",
           "requires": "Hulkenberg bond 7 and Magic Knight 20. Medica must be learned on Hulkenberg herself. Cleric needs Maria 3 and Healer 20.",
           "fallback": "Magic Knight with inherited Medica and Dekunda. If Medica is unlearned, Mediline (Magic Knight 5, 10 MP) heals allies in her row; move anyone needing it into that row before she casts.",
-          "train": "Paladin 20 learns Revitalise 3 for MP recovery. Royal Knight is optional: bond 8, Paladin 20, Dark Knight 15 and Elemental Master 15."
+          "train": "Ongoing upgrade goals: Paladin 20 for Revitalise 3 and MP recovery. Optional Royal Knight needs bond 8, Paladin 20, Dark Knight 15 and Elemental Master 15. Keep the listed fallback while training; these are not all required today."
         },
         {
           "name": "Junah",
@@ -2606,7 +2669,7 @@
           "inherit": "Tarunda (Faker 3) and Dekaja (Faker 13): two slots. Lower a dangerous enemy’s Attack; remove its buffs when they appear.",
           "requires": "Junah bond 6, Masked Dancer 20 and Faker 10. Make Wizard’s Mask in Akademeia with a Magician White Mask and Priestess White Mask after Wizard is unlocked.",
           "fallback": "Masked Dancer with the same mask and inherited skills. Without that mask, use an available elemental mask and let the protagonist handle Ice. If Dekaja is unlearned, bring an item that removes enemy buffs.",
-          "train": "Faker 13 is a useful short goal for Dekaja. Royal Masked Dancer is optional after Junah 8, Persona Master 20 and Trickster 20."
+          "train": "Ongoing goal: Faker 13 for Dekaja. Optional Royal Masked Dancer also needs Junah 8, Persona Master 20 and Trickster 20. Use the listed current setup or fallback today; there is no need to complete all this training first."
         }
       ],
       "notes": [
@@ -2636,7 +2699,7 @@
           "inherit": "Shield Blessing (Wizard 11), then Blizza (Wizard 2): two slots. Shield Blessing needs an active Attack, Defence or Hit/Evasion buff. Use Blizza for an Ice weakness instead of spending on a large Synthesis attack.",
           "requires": "Automatically obtained during the completed September story. Each inherited skill must first be learned by the protagonist and purchased in Skill Inheritance.",
           "fallback": "Wizard remains a good exploration choice. Elemental Master is available with Gallica 8 and Wizard 20; keep the cheaper inherited spells for small enemies.",
-          "train": "Prince 9 gives field HP/MP recovery through allies’ support attacks; rank 13 gives Hero’s Cry and rank 20 Royal Slash. These are training goals, not assumed starting skills."
+          "train": "Ongoing training goals: Prince 9 for field HP/MP recovery through allies’ support attacks, 13 for Hero’s Cry and 20 for Royal Slash. You do not need all three today; use the skills you have actually learned."
         },
         {
           "name": "Basilio",
@@ -2645,7 +2708,7 @@
           "inherit": "Marakukaja (Commander 1): one optional slot for party defence. His main Strike attack is already native.",
           "requires": "His own starting Archetype. He does not need the Warrior/Brawler/Knight training required when other characters study Berserker.",
           "fallback": "Stay on Berserker if Destroyer is locked. Destroyer needs Basilio bond 6 and Berserker 20; inherit War Cry from Berserker 15 if you want it on Destroyer.",
-          "train": "Berserker 20, then Destroyer. Royal Berserker is optional after Basilio 8, Destroyer 20 and Martial Artist 20."
+          "train": "Ongoing upgrade path: Berserker 20, then Destroyer once its follower requirement is met. Optional Royal Berserker needs Basilio 8, Destroyer 20 and Martial Artist 20. Keep Berserker if the upgrade is not ready today."
         },
         {
           "name": "Hulkenberg",
@@ -2654,7 +2717,7 @@
           "inherit": "Medica (Cleric 3) and Dekunda (Healer 13): two slots. Medica heals everyone; Dekunda clears the party’s stat reductions.",
           "requires": "Hulkenberg bond 7 and Magic Knight 20. Medica must be learned on Hulkenberg herself. Cleric needs Maria 3 and Healer 20.",
           "fallback": "Magic Knight with inherited Medica and Dekunda. If Medica is unlearned, Mediline (Magic Knight 5, 10 MP) heals allies in her row; move anyone needing it into that row before she casts.",
-          "train": "Paladin 20 learns Revitalise 3 for MP recovery. Royal Knight is optional: bond 8, Paladin 20, Dark Knight 15 and Elemental Master 15."
+          "train": "Ongoing upgrade goals: Paladin 20 for Revitalise 3 and MP recovery. Optional Royal Knight needs bond 8, Paladin 20, Dark Knight 15 and Elemental Master 15. Keep the listed fallback while training; these are not all required today."
         },
         {
           "name": "Junah",
@@ -2663,7 +2726,7 @@
           "inherit": "Tarunda (Faker 3) and Dekaja (Faker 13): two slots. Lower a dangerous enemy’s Attack; remove its buffs when they appear.",
           "requires": "Junah bond 6, Masked Dancer 20 and Faker 10. Make Wizard’s Mask in Akademeia with a Magician White Mask and Priestess White Mask after Wizard is unlocked.",
           "fallback": "Masked Dancer with the same mask and inherited skills. Without that mask, use an available elemental mask and let the protagonist handle Ice. If Dekaja is unlearned, bring an item that removes enemy buffs.",
-          "train": "Faker 13 is a useful short goal for Dekaja. Royal Masked Dancer is optional after Junah 8, Persona Master 20 and Trickster 20."
+          "train": "Ongoing goal: Faker 13 for Dekaja. Optional Royal Masked Dancer also needs Junah 8, Persona Master 20 and Trickster 20. Use the listed current setup or fallback today; there is no need to complete all this training first."
         }
       ],
       "notes": [
@@ -2694,7 +2757,7 @@
           "inherit": "Shield Blessing (Wizard 11), then Blizza (Wizard 2): two slots. Shield Blessing needs an active Attack, Defence or Hit/Evasion buff. Use Blizza for an Ice weakness instead of spending on a large Synthesis attack.",
           "requires": "Automatically obtained during the completed September story. Each inherited skill must first be learned by the protagonist and purchased in Skill Inheritance.",
           "fallback": "Wizard remains a good exploration choice. Elemental Master is available with Gallica 8 and Wizard 20; keep the cheaper inherited spells for small enemies.",
-          "train": "Prince 9 gives field HP/MP recovery through allies’ support attacks; rank 13 gives Hero’s Cry and rank 20 Royal Slash. These are training goals, not assumed starting skills."
+          "train": "Ongoing training goals: Prince 9 for field HP/MP recovery through allies’ support attacks, 13 for Hero’s Cry and 20 for Royal Slash. You do not need all three today; use the skills you have actually learned."
         },
         {
           "name": "Basilio",
@@ -2703,7 +2766,7 @@
           "inherit": "Marakukaja (Commander 1): one optional slot for party defence. His main Strike attack is already native.",
           "requires": "His own starting Archetype. He does not need the Warrior/Brawler/Knight training required when other characters study Berserker.",
           "fallback": "Stay on Berserker if Destroyer is locked. Destroyer needs Basilio bond 6 and Berserker 20; inherit War Cry from Berserker 15 if you want it on Destroyer.",
-          "train": "Berserker 20, then Destroyer. Royal Berserker is optional after Basilio 8, Destroyer 20 and Martial Artist 20."
+          "train": "Ongoing upgrade path: Berserker 20, then Destroyer once its follower requirement is met. Optional Royal Berserker needs Basilio 8, Destroyer 20 and Martial Artist 20. Keep Berserker if the upgrade is not ready today."
         },
         {
           "name": "Hulkenberg",
@@ -2712,7 +2775,7 @@
           "inherit": "Medica (Cleric 3) and Dekunda (Healer 13): two slots. Medica heals everyone; Dekunda clears the party’s stat reductions.",
           "requires": "Hulkenberg bond 7 and Magic Knight 20. Medica must be learned on Hulkenberg herself. Cleric needs Maria 3 and Healer 20.",
           "fallback": "Magic Knight with inherited Medica and Dekunda. If Medica is unlearned, Mediline (Magic Knight 5, 10 MP) heals allies in her row; move anyone needing it into that row before she casts.",
-          "train": "Paladin 20 learns Revitalise 3 for MP recovery. Royal Knight is optional: bond 8, Paladin 20, Dark Knight 15 and Elemental Master 15."
+          "train": "Ongoing upgrade goals: Paladin 20 for Revitalise 3 and MP recovery. Optional Royal Knight needs bond 8, Paladin 20, Dark Knight 15 and Elemental Master 15. Keep the listed fallback while training; these are not all required today."
         },
         {
           "name": "Junah",
@@ -2721,7 +2784,7 @@
           "inherit": "Tarunda (Faker 3) and Dekaja (Faker 13): two slots. Lower a dangerous enemy’s Attack; remove its buffs when they appear.",
           "requires": "Junah bond 6, Masked Dancer 20 and Faker 10. Make Wizard’s Mask in Akademeia with a Magician White Mask and Priestess White Mask after Wizard is unlocked.",
           "fallback": "Masked Dancer with the same mask and inherited skills. Without that mask, use an available elemental mask and let the protagonist handle Ice. If Dekaja is unlearned, bring an item that removes enemy buffs.",
-          "train": "Faker 13 is a useful short goal for Dekaja. Royal Masked Dancer is optional after Junah 8, Persona Master 20 and Trickster 20."
+          "train": "Ongoing goal: Faker 13 for Dekaja. Optional Royal Masked Dancer also needs Junah 8, Persona Master 20 and Trickster 20. Use the listed current setup or fallback today; there is no need to complete all this training first."
         }
       ],
       "notes": [
@@ -2752,7 +2815,7 @@
           "inherit": "Shield Blessing (Wizard 11), then Blizza (Wizard 2): two slots. Shield Blessing needs an active Attack, Defence or Hit/Evasion buff. Use Blizza for an Ice weakness instead of spending on a large Synthesis attack.",
           "requires": "Automatically obtained during the completed September story. Each inherited skill must first be learned by the protagonist and purchased in Skill Inheritance.",
           "fallback": "Wizard remains a good exploration choice. Elemental Master is available with Gallica 8 and Wizard 20; keep the cheaper inherited spells for small enemies.",
-          "train": "Prince 9 gives field HP/MP recovery through allies’ support attacks; rank 13 gives Hero’s Cry and rank 20 Royal Slash. These are training goals, not assumed starting skills."
+          "train": "Ongoing training goals: Prince 9 for field HP/MP recovery through allies’ support attacks, 13 for Hero’s Cry and 20 for Royal Slash. You do not need all three today; use the skills you have actually learned."
         },
         {
           "name": "Strohl",
@@ -2770,7 +2833,7 @@
           "inherit": "Medica (Cleric 3) and Dekunda (Healer 13): two slots. Medica heals everyone; Dekunda clears the party’s stat reductions.",
           "requires": "Hulkenberg bond 7 and Magic Knight 20. Medica must be learned on Hulkenberg herself. Cleric needs Maria 3 and Healer 20.",
           "fallback": "Magic Knight with inherited Medica and Dekunda. If Medica is unlearned, Mediline (Magic Knight 5, 10 MP) heals allies in her row; move anyone needing it into that row before she casts.",
-          "train": "Paladin 20 learns Revitalise 3 for MP recovery. Royal Knight is optional: bond 8, Paladin 20, Dark Knight 15 and Elemental Master 15."
+          "train": "Ongoing upgrade goals: Paladin 20 for Revitalise 3 and MP recovery. Optional Royal Knight needs bond 8, Paladin 20, Dark Knight 15 and Elemental Master 15. Keep the listed fallback while training; these are not all required today."
         },
         {
           "name": "Junah",
@@ -2779,7 +2842,7 @@
           "inherit": "Tarunda (Faker 3) and Dekaja (Faker 13): two slots. Lower a dangerous enemy’s Attack; remove its buffs when they appear.",
           "requires": "Junah bond 6, Masked Dancer 20 and Faker 10. Make Wizard’s Mask in Akademeia with a Magician White Mask and Priestess White Mask after Wizard is unlocked.",
           "fallback": "Masked Dancer with the same mask and inherited skills. Without that mask, use an available elemental mask and let the protagonist handle Ice. If Dekaja is unlearned, bring an item that removes enemy buffs.",
-          "train": "Faker 13 is a useful short goal for Dekaja. Royal Masked Dancer is optional after Junah 8, Persona Master 20 and Trickster 20."
+          "train": "Ongoing goal: Faker 13 for Dekaja. Optional Royal Masked Dancer also needs Junah 8, Persona Master 20 and Trickster 20. Use the listed current setup or fallback today; there is no need to complete all this training first."
         }
       ],
       "notes": [
@@ -2845,7 +2908,7 @@
           "inherit": "Shield Blessing (Wizard 11), then Blizza (Wizard 2): two slots. Shield Blessing needs an active Attack, Defence or Hit/Evasion buff. Use Blizza for an Ice weakness instead of spending on a large Synthesis attack.",
           "requires": "Automatically obtained during the completed September story. Each inherited skill must first be learned by the protagonist and purchased in Skill Inheritance.",
           "fallback": "Wizard remains a good exploration choice. Elemental Master is available with Gallica 8 and Wizard 20; keep the cheaper inherited spells for small enemies.",
-          "train": "Prince 9 gives field HP/MP recovery through allies’ support attacks; rank 13 gives Hero’s Cry and rank 20 Royal Slash. These are training goals, not assumed starting skills."
+          "train": "Ongoing training goals: Prince 9 for field HP/MP recovery through allies’ support attacks, 13 for Hero’s Cry and 20 for Royal Slash. You do not need all three today; use the skills you have actually learned."
         },
         {
           "name": "Strohl",
@@ -2863,7 +2926,7 @@
           "inherit": "Medica (Cleric 3) and Dekunda (Healer 13): two slots. Medica heals everyone; Dekunda clears the party’s stat reductions.",
           "requires": "Hulkenberg bond 7 and Magic Knight 20. Medica must be learned on Hulkenberg herself. Cleric needs Maria 3 and Healer 20.",
           "fallback": "Magic Knight with inherited Medica and Dekunda. If Medica is unlearned, Mediline (Magic Knight 5, 10 MP) heals allies in her row; move anyone needing it into that row before she casts.",
-          "train": "Paladin 20 learns Revitalise 3 for MP recovery. Royal Knight is optional: bond 8, Paladin 20, Dark Knight 15 and Elemental Master 15."
+          "train": "Ongoing upgrade goals: Paladin 20 for Revitalise 3 and MP recovery. Optional Royal Knight needs bond 8, Paladin 20, Dark Knight 15 and Elemental Master 15. Keep the listed fallback while training; these are not all required today."
         },
         {
           "name": "Junah",
@@ -2872,7 +2935,7 @@
           "inherit": "Tarunda (Faker 3) and Dekaja (Faker 13): two slots. Lower a dangerous enemy’s Attack; remove its buffs when they appear.",
           "requires": "Junah bond 6, Masked Dancer 20 and Faker 10. Make Wizard’s Mask in Akademeia with a Magician White Mask and Priestess White Mask after Wizard is unlocked.",
           "fallback": "Masked Dancer with the same mask and inherited skills. Without that mask, use an available elemental mask and let the protagonist handle Ice. If Dekaja is unlearned, bring an item that removes enemy buffs.",
-          "train": "Faker 13 is a useful short goal for Dekaja. Royal Masked Dancer is optional after Junah 8, Persona Master 20 and Trickster 20."
+          "train": "Ongoing goal: Faker 13 for Dekaja. Optional Royal Masked Dancer also needs Junah 8, Persona Master 20 and Trickster 20. Use the listed current setup or fallback today; there is no need to complete all this training first."
         }
       ],
       "notes": [
@@ -2908,7 +2971,7 @@
           "inherit": "Shield Blessing (Wizard 11), then Blizza (Wizard 2): two slots. Shield Blessing needs an active Attack, Defence or Hit/Evasion buff. Use Blizza for an Ice weakness instead of spending on a large Synthesis attack.",
           "requires": "Automatically obtained during the completed September story. Each inherited skill must first be learned by the protagonist and purchased in Skill Inheritance.",
           "fallback": "Wizard remains a good exploration choice. Elemental Master is available with Gallica 8 and Wizard 20; keep the cheaper inherited spells for small enemies.",
-          "train": "Prince 9 gives field HP/MP recovery through allies’ support attacks; rank 13 gives Hero’s Cry and rank 20 Royal Slash. These are training goals, not assumed starting skills."
+          "train": "Ongoing training goals: Prince 9 for field HP/MP recovery through allies’ support attacks, 13 for Hero’s Cry and 20 for Royal Slash. You do not need all three today; use the skills you have actually learned."
         },
         {
           "name": "Eupha",
@@ -2917,7 +2980,7 @@
           "inherit": "Medica (Cleric 3) if learned on Eupha: one optional backup-healing slot. Otherwise leave her on damage/support and let Hulkenberg heal.",
           "requires": "Eupha’s starting Archetype. Summon Eagle Lion and Summon Noctiluca are native skills; additional vessel-based summons must be crafted in Akademeia’s Special Experiments.",
           "fallback": "Keep Summoner if its upgrade is locked. Use your existing vessels and recovery items; do not assume a named high-level summon has already been crafted.",
-          "train": "Devil Summoner needs Eupha 6, Summoner 20 and Magic Seeker 10. An optional later Royal Summoner needs Eupha 8, Devil Summoner 20 and Soul Hacker 20."
+          "train": "Ongoing upgrade path: Devil Summoner needs Eupha 6, Summoner 20 and Magic Seeker 10. Optional Royal Summoner later needs Eupha 8, Devil Summoner 20 and Soul Hacker 20. Use Summoner today if these upgrades are not ready."
         },
         {
           "name": "Hulkenberg",
@@ -2926,7 +2989,7 @@
           "inherit": "Medica (Cleric 3) and Dekunda (Healer 13): two slots. Medica is cheaper than Medicall when it provides enough healing.",
           "requires": "Maria bond 8 and Cleric 20 on Hulkenberg. Saviour 3 learns Medicall; rank 5 learns Pen Patra.",
           "fallback": "Keep trained Cleric with Medica, or Paladin/Magic Knight with an inherited party heal. Cover any Electric weakness with suitable equipment or a checked barrier. If Medica is unlearned, use Medi (Healer 3) and recovery items.",
-          "train": "Saviour 5 for Pen Patra is enough for the immediate utility; mastery is optional."
+          "train": "For the suggested party-wide Hex cure: Saviour 5 supplies Pen Patra. Bring items that cure Hex if Pen Patra is unavailable; you do not need Saviour mastery for this outing."
         },
         {
           "name": "Junah",
@@ -2935,7 +2998,7 @@
           "inherit": "Tarunda (Faker 3) and Dekaja (Faker 13): two slots. Lower a dangerous enemy’s Attack; remove its buffs when they appear.",
           "requires": "Junah bond 6, Masked Dancer 20 and Faker 10. Make Wizard’s Mask in Akademeia with a Magician White Mask and Priestess White Mask after Wizard is unlocked.",
           "fallback": "Masked Dancer with the same mask and inherited skills. Without that mask, use an available elemental mask and let the protagonist handle Ice. If Dekaja is unlearned, bring an item that removes enemy buffs.",
-          "train": "Faker 13 is a useful short goal for Dekaja. Royal Masked Dancer is optional after Junah 8, Persona Master 20 and Trickster 20."
+          "train": "Ongoing goal: Faker 13 for Dekaja. Optional Royal Masked Dancer also needs Junah 8, Persona Master 20 and Trickster 20. Use the listed current setup or fallback today; there is no need to complete all this training first."
         }
       ],
       "notes": [
@@ -2970,7 +3033,7 @@
           "inherit": "Shield Blessing (Wizard 11), then Blizza (Wizard 2): two slots. Shield Blessing needs an active Attack, Defence or Hit/Evasion buff. Use Blizza for an Ice weakness instead of spending on a large Synthesis attack.",
           "requires": "Automatically obtained during the completed September story. Each inherited skill must first be learned by the protagonist and purchased in Skill Inheritance.",
           "fallback": "Wizard remains a good exploration choice. Elemental Master is available with Gallica 8 and Wizard 20; keep the cheaper inherited spells for small enemies.",
-          "train": "Prince 9 gives field HP/MP recovery through allies’ support attacks; rank 13 gives Hero’s Cry and rank 20 Royal Slash. These are training goals, not assumed starting skills."
+          "train": "Ongoing training goals: Prince 9 for field HP/MP recovery through allies’ support attacks, 13 for Hero’s Cry and 20 for Royal Slash. You do not need all three today; use the skills you have actually learned."
         },
         {
           "name": "Strohl",
@@ -2988,7 +3051,7 @@
           "inherit": "Medica (Cleric 3) and Dekunda (Healer 13): two slots. Medica heals everyone; Dekunda clears the party’s stat reductions.",
           "requires": "Hulkenberg bond 7 and Magic Knight 20. Medica must be learned on Hulkenberg herself. Cleric needs Maria 3 and Healer 20.",
           "fallback": "Magic Knight with inherited Medica and Dekunda. If Medica is unlearned, Mediline (Magic Knight 5, 10 MP) heals allies in her row; move anyone needing it into that row before she casts.",
-          "train": "Paladin 20 learns Revitalise 3 for MP recovery. Royal Knight is optional: bond 8, Paladin 20, Dark Knight 15 and Elemental Master 15."
+          "train": "Ongoing upgrade goals: Paladin 20 for Revitalise 3 and MP recovery. Optional Royal Knight needs bond 8, Paladin 20, Dark Knight 15 and Elemental Master 15. Keep the listed fallback while training; these are not all required today."
         },
         {
           "name": "Junah",
@@ -2997,7 +3060,7 @@
           "inherit": "Tarunda (Faker 3) and Dekaja (Faker 13): two slots. Lower a dangerous enemy’s Attack; remove its buffs when they appear.",
           "requires": "Junah bond 6, Masked Dancer 20 and Faker 10. Make Wizard’s Mask in Akademeia with a Magician White Mask and Priestess White Mask after Wizard is unlocked.",
           "fallback": "Masked Dancer with the same mask and inherited skills. Without that mask, use an available elemental mask and let the protagonist handle Ice. If Dekaja is unlearned, bring an item that removes enemy buffs.",
-          "train": "Faker 13 is a useful short goal for Dekaja. Royal Masked Dancer is optional after Junah 8, Persona Master 20 and Trickster 20."
+          "train": "Ongoing goal: Faker 13 for Dekaja. Optional Royal Masked Dancer also needs Junah 8, Persona Master 20 and Trickster 20. Use the listed current setup or fallback today; there is no need to complete all this training first."
         }
       ],
       "notes": [
@@ -3029,7 +3092,7 @@
           "inherit": "Blizza (Wizard 2) first, then Shield Blessing (Wizard 11): two slots. Blizza exploits the boss’s Ice weakness.",
           "requires": "Automatically obtained during the completed September story. Each inherited skill must first be learned by the protagonist and purchased in Skill Inheritance.",
           "fallback": "Wizard remains a good exploration choice. Elemental Master is available with Gallica 8 and Wizard 20; keep the cheaper inherited spells for small enemies.",
-          "train": "Prince 9 gives field HP/MP recovery through allies’ support attacks; rank 13 gives Hero’s Cry and rank 20 Royal Slash. These are training goals, not assumed starting skills."
+          "train": "Ongoing training goals: Prince 9 for field HP/MP recovery through allies’ support attacks, 13 for Hero’s Cry and 20 for Royal Slash. You do not need all three today; use the skills you have actually learned."
         },
         {
           "name": "Strohl",
@@ -3047,7 +3110,7 @@
           "inherit": "Medica (Cleric 3) and Dekunda (Healer 13): two slots. Medica heals everyone; Dekunda clears the party’s stat reductions.",
           "requires": "Hulkenberg bond 7 and Magic Knight 20. Medica must be learned on Hulkenberg herself. Cleric needs Maria 3 and Healer 20.",
           "fallback": "Magic Knight with inherited Medica and Dekunda. If Medica is unlearned, Mediline (Magic Knight 5, 10 MP) heals allies in her row; move anyone needing it into that row before she casts.",
-          "train": "Paladin 20 learns Revitalise 3 for MP recovery. Royal Knight is optional: bond 8, Paladin 20, Dark Knight 15 and Elemental Master 15."
+          "train": "Ongoing upgrade goals: Paladin 20 for Revitalise 3 and MP recovery. Optional Royal Knight needs bond 8, Paladin 20, Dark Knight 15 and Elemental Master 15. Keep the listed fallback while training; these are not all required today."
         },
         {
           "name": "Junah",
@@ -3056,7 +3119,7 @@
           "inherit": "Tarunda (Faker 3) and Dekaja (Faker 13): two slots. Lower a dangerous enemy’s Attack; remove its buffs when they appear.",
           "requires": "Junah bond 6, Masked Dancer 20 and Faker 10. Make Wizard’s Mask in Akademeia with a Magician White Mask and Priestess White Mask after Wizard is unlocked.",
           "fallback": "Masked Dancer with the same mask and inherited skills. Without that mask, use an available elemental mask and let the protagonist handle Ice. If Dekaja is unlearned, bring an item that removes enemy buffs.",
-          "train": "Faker 13 is a useful short goal for Dekaja. Royal Masked Dancer is optional after Junah 8, Persona Master 20 and Trickster 20."
+          "train": "Ongoing goal: Faker 13 for Dekaja. Optional Royal Masked Dancer also needs Junah 8, Persona Master 20 and Trickster 20. Use the listed current setup or fallback today; there is no need to complete all this training first."
         }
       ],
       "notes": [
@@ -3087,7 +3150,7 @@
           "inherit": "Shield Blessing (Wizard 11), then Blizza (Wizard 2): two slots. Shield Blessing needs an active Attack, Defence or Hit/Evasion buff. Use Blizza for an Ice weakness instead of spending on a large Synthesis attack.",
           "requires": "Automatically obtained during the completed September story. Each inherited skill must first be learned by the protagonist and purchased in Skill Inheritance.",
           "fallback": "Wizard remains a good exploration choice. Elemental Master is available with Gallica 8 and Wizard 20; keep the cheaper inherited spells for small enemies.",
-          "train": "Prince 9 gives field HP/MP recovery through allies’ support attacks; rank 13 gives Hero’s Cry and rank 20 Royal Slash. These are training goals, not assumed starting skills."
+          "train": "Ongoing training goals: Prince 9 for field HP/MP recovery through allies’ support attacks, 13 for Hero’s Cry and 20 for Royal Slash. You do not need all three today; use the skills you have actually learned."
         },
         {
           "name": "Strohl",
@@ -3105,7 +3168,7 @@
           "inherit": "Medica (Cleric 3) and Dekunda (Healer 13): two slots. Medica heals everyone; Dekunda clears the party’s stat reductions.",
           "requires": "Hulkenberg bond 7 and Magic Knight 20. Medica must be learned on Hulkenberg herself. Cleric needs Maria 3 and Healer 20.",
           "fallback": "Magic Knight with inherited Medica and Dekunda. If Medica is unlearned, Mediline (Magic Knight 5, 10 MP) heals allies in her row; move anyone needing it into that row before she casts.",
-          "train": "Paladin 20 learns Revitalise 3 for MP recovery. Royal Knight is optional: bond 8, Paladin 20, Dark Knight 15 and Elemental Master 15."
+          "train": "Ongoing upgrade goals: Paladin 20 for Revitalise 3 and MP recovery. Optional Royal Knight needs bond 8, Paladin 20, Dark Knight 15 and Elemental Master 15. Keep the listed fallback while training; these are not all required today."
         },
         {
           "name": "Junah",
@@ -3114,7 +3177,7 @@
           "inherit": "Tarunda (Faker 3) and Dekaja (Faker 13): two slots. Lower a dangerous enemy’s Attack; remove its buffs when they appear.",
           "requires": "Junah bond 6, Masked Dancer 20 and Faker 10. Make Wizard’s Mask in Akademeia with a Magician White Mask and Priestess White Mask after Wizard is unlocked.",
           "fallback": "Masked Dancer with the same mask and inherited skills. Without that mask, use an available elemental mask and let the protagonist handle Ice. If Dekaja is unlearned, bring an item that removes enemy buffs.",
-          "train": "Faker 13 is a useful short goal for Dekaja. Royal Masked Dancer is optional after Junah 8, Persona Master 20 and Trickster 20."
+          "train": "Ongoing goal: Faker 13 for Dekaja. Optional Royal Masked Dancer also needs Junah 8, Persona Master 20 and Trickster 20. Use the listed current setup or fallback today; there is no need to complete all this training first."
         }
       ],
       "notes": [
@@ -3145,7 +3208,7 @@
           "inherit": "Shield Blessing (Wizard 11), then Blizza (Wizard 2): two slots. Shield Blessing needs an active Attack, Defence or Hit/Evasion buff. Use Blizza for an Ice weakness instead of spending on a large Synthesis attack.",
           "requires": "Automatically obtained during the completed September story. Each inherited skill must first be learned by the protagonist and purchased in Skill Inheritance.",
           "fallback": "Wizard remains a good exploration choice. Elemental Master is available with Gallica 8 and Wizard 20; keep the cheaper inherited spells for small enemies.",
-          "train": "Prince 9 gives field HP/MP recovery through allies’ support attacks; rank 13 gives Hero’s Cry and rank 20 Royal Slash. These are training goals, not assumed starting skills."
+          "train": "Ongoing training goals: Prince 9 for field HP/MP recovery through allies’ support attacks, 13 for Hero’s Cry and 20 for Royal Slash. You do not need all three today; use the skills you have actually learned."
         },
         {
           "name": "Strohl",
@@ -3163,7 +3226,7 @@
           "inherit": "Medica (Cleric 3) and Dekunda (Healer 13): two slots. Medica heals everyone; Dekunda clears the party’s stat reductions.",
           "requires": "Hulkenberg bond 7 and Magic Knight 20. Medica must be learned on Hulkenberg herself. Cleric needs Maria 3 and Healer 20.",
           "fallback": "Magic Knight with inherited Medica and Dekunda. If Medica is unlearned, Mediline (Magic Knight 5, 10 MP) heals allies in her row; move anyone needing it into that row before she casts.",
-          "train": "Paladin 20 learns Revitalise 3 for MP recovery. Royal Knight is optional: bond 8, Paladin 20, Dark Knight 15 and Elemental Master 15."
+          "train": "Ongoing upgrade goals: Paladin 20 for Revitalise 3 and MP recovery. Optional Royal Knight needs bond 8, Paladin 20, Dark Knight 15 and Elemental Master 15. Keep the listed fallback while training; these are not all required today."
         },
         {
           "name": "Junah",
@@ -3172,7 +3235,7 @@
           "inherit": "Tarunda (Faker 3) and Dekaja (Faker 13): two slots. Lower a dangerous enemy’s Attack; remove its buffs when they appear.",
           "requires": "Junah bond 6, Masked Dancer 20 and Faker 10. Make Wizard’s Mask in Akademeia with a Magician White Mask and Priestess White Mask after Wizard is unlocked.",
           "fallback": "Masked Dancer with the same mask and inherited skills. Without that mask, use an available elemental mask and let the protagonist handle Ice. If Dekaja is unlearned, bring an item that removes enemy buffs.",
-          "train": "Faker 13 is a useful short goal for Dekaja. Royal Masked Dancer is optional after Junah 8, Persona Master 20 and Trickster 20."
+          "train": "Ongoing goal: Faker 13 for Dekaja. Optional Royal Masked Dancer also needs Junah 8, Persona Master 20 and Trickster 20. Use the listed current setup or fallback today; there is no need to complete all this training first."
         }
       ],
       "notes": [
@@ -3208,7 +3271,7 @@
           "inherit": "Shield Blessing (Wizard 11), then Blizza (Wizard 2): two slots. Shield Blessing needs an active Attack, Defence or Hit/Evasion buff. Use Blizza for an Ice weakness instead of spending on a large Synthesis attack.",
           "requires": "Automatically obtained during the completed September story. Each inherited skill must first be learned by the protagonist and purchased in Skill Inheritance.",
           "fallback": "Wizard remains a good exploration choice. Elemental Master is available with Gallica 8 and Wizard 20; keep the cheaper inherited spells for small enemies.",
-          "train": "Prince 9 gives field HP/MP recovery through allies’ support attacks; rank 13 gives Hero’s Cry and rank 20 Royal Slash. These are training goals, not assumed starting skills."
+          "train": "Ongoing training goals: Prince 9 for field HP/MP recovery through allies’ support attacks, 13 for Hero’s Cry and 20 for Royal Slash. You do not need all three today; use the skills you have actually learned."
         },
         {
           "name": "Strohl",
@@ -3226,7 +3289,7 @@
           "inherit": "Medica (Cleric 3) and Dekunda (Healer 13): two slots. Medica heals everyone; Dekunda clears the party’s stat reductions.",
           "requires": "Hulkenberg bond 7 and Magic Knight 20. Medica must be learned on Hulkenberg herself. Cleric needs Maria 3 and Healer 20.",
           "fallback": "Magic Knight with inherited Medica and Dekunda. If Medica is unlearned, Mediline (Magic Knight 5, 10 MP) heals allies in her row; move anyone needing it into that row before she casts.",
-          "train": "Paladin 20 learns Revitalise 3 for MP recovery. Royal Knight is optional: bond 8, Paladin 20, Dark Knight 15 and Elemental Master 15."
+          "train": "Ongoing upgrade goals: Paladin 20 for Revitalise 3 and MP recovery. Optional Royal Knight needs bond 8, Paladin 20, Dark Knight 15 and Elemental Master 15. Keep the listed fallback while training; these are not all required today."
         },
         {
           "name": "Junah",
@@ -3235,7 +3298,7 @@
           "inherit": "Tarunda (Faker 3) and Dekaja (Faker 13): two slots. Lower a dangerous enemy’s Attack; remove its buffs when they appear.",
           "requires": "Junah bond 6, Masked Dancer 20 and Faker 10. Make Wizard’s Mask in Akademeia with a Magician White Mask and Priestess White Mask after Wizard is unlocked.",
           "fallback": "Masked Dancer with the same mask and inherited skills. Without that mask, use an available elemental mask and let the protagonist handle Ice. If Dekaja is unlearned, bring an item that removes enemy buffs.",
-          "train": "Faker 13 is a useful short goal for Dekaja. Royal Masked Dancer is optional after Junah 8, Persona Master 20 and Trickster 20."
+          "train": "Ongoing goal: Faker 13 for Dekaja. Optional Royal Masked Dancer also needs Junah 8, Persona Master 20 and Trickster 20. Use the listed current setup or fallback today; there is no need to complete all this training first."
         }
       ],
       "notes": [
@@ -3267,7 +3330,7 @@
           "inherit": "Blizza (Wizard 2) and Shield Blessing (Wizard 11): two slots. Blizza is for the championship’s Ice weakness; use Almighty for Gold I.",
           "requires": "Automatically obtained during the completed September story. Each inherited skill must first be learned by the protagonist and purchased in Skill Inheritance.",
           "fallback": "Wizard remains a good exploration choice. Elemental Master is available with Gallica 8 and Wizard 20; keep the cheaper inherited spells for small enemies.",
-          "train": "Prince 9 gives field HP/MP recovery through allies’ support attacks; rank 13 gives Hero’s Cry and rank 20 Royal Slash. These are training goals, not assumed starting skills."
+          "train": "Ongoing training goals: Prince 9 for field HP/MP recovery through allies’ support attacks, 13 for Hero’s Cry and 20 for Royal Slash. You do not need all three today; use the skills you have actually learned."
         },
         {
           "name": "Strohl",
@@ -3285,7 +3348,7 @@
           "inherit": "Gold I: Medica (Cleric 3) and Dekunda (Healer 13). For the championship, replace Dekunda with Heavy Rush (Magic Knight 9, 12 MP) for Pierce damage. Two slots; use Medi (Healer 3) if Medica is not learned.",
           "requires": "Hulkenberg bond 7 and Magic Knight 20. Medica must be learned on Hulkenberg herself. Cleric needs Maria 3 and Healer 20.",
           "fallback": "Magic Knight with inherited Medica and Dekunda. If Medica is unlearned, Mediline (Magic Knight 5, 10 MP) heals allies in her row; move anyone needing it into that row before she casts.",
-          "train": "Paladin 20 learns Revitalise 3 for MP recovery. Royal Knight is optional: bond 8, Paladin 20, Dark Knight 15 and Elemental Master 15."
+          "train": "Ongoing upgrade goals: Paladin 20 for Revitalise 3 and MP recovery. Optional Royal Knight needs bond 8, Paladin 20, Dark Knight 15 and Elemental Master 15. Keep the listed fallback while training; these are not all required today."
         },
         {
           "name": "Junah",
@@ -3294,7 +3357,7 @@
           "inherit": "Tarunda (Faker 3) and Dekaja (Faker 13): two slots. Lower a dangerous enemy’s Attack; remove its buffs when they appear.",
           "requires": "Junah bond 6, Masked Dancer 20 and Faker 10. Make Wizard’s Mask in Akademeia with a Magician White Mask and Priestess White Mask after Wizard is unlocked.",
           "fallback": "Masked Dancer with the same mask and inherited skills. Without that mask, use an available elemental mask and let the protagonist handle Ice. If Dekaja is unlearned, bring an item that removes enemy buffs.",
-          "train": "Faker 13 is a useful short goal for Dekaja. Royal Masked Dancer is optional after Junah 8, Persona Master 20 and Trickster 20."
+          "train": "Ongoing goal: Faker 13 for Dekaja. Optional Royal Masked Dancer also needs Junah 8, Persona Master 20 and Trickster 20. Use the listed current setup or fallback today; there is no need to complete all this training first."
         }
       ],
       "notes": [
@@ -3350,7 +3413,7 @@
           "inherit": "Shield Blessing (Wizard 11), then Blizza (Wizard 2): two slots. Shield Blessing needs an active Attack, Defence or Hit/Evasion buff. Use Blizza for an Ice weakness instead of spending on a large Synthesis attack.",
           "requires": "Automatically obtained during the completed September story. Each inherited skill must first be learned by the protagonist and purchased in Skill Inheritance.",
           "fallback": "Wizard remains a good exploration choice. Elemental Master is available with Gallica 8 and Wizard 20; keep the cheaper inherited spells for small enemies.",
-          "train": "Prince 9 gives field HP/MP recovery through allies’ support attacks; rank 13 gives Hero’s Cry and rank 20 Royal Slash. These are training goals, not assumed starting skills."
+          "train": "Ongoing training goals: Prince 9 for field HP/MP recovery through allies’ support attacks, 13 for Hero’s Cry and 20 for Royal Slash. You do not need all three today; use the skills you have actually learned."
         },
         {
           "name": "Basilio",
@@ -3359,7 +3422,7 @@
           "inherit": "Marakukaja (Commander 1): one optional slot for party defence. His main Strike attack is already native.",
           "requires": "His own starting Archetype. He does not need the Warrior/Brawler/Knight training required when other characters study Berserker.",
           "fallback": "Stay on Berserker if Destroyer is locked. Destroyer needs Basilio bond 6 and Berserker 20; inherit War Cry from Berserker 15 if you want it on Destroyer.",
-          "train": "Berserker 20, then Destroyer. Royal Berserker is optional after Basilio 8, Destroyer 20 and Martial Artist 20."
+          "train": "Ongoing upgrade path: Berserker 20, then Destroyer once its follower requirement is met. Optional Royal Berserker needs Basilio 8, Destroyer 20 and Martial Artist 20. Keep Berserker if the upgrade is not ready today."
         },
         {
           "name": "Hulkenberg",
@@ -3368,7 +3431,7 @@
           "inherit": "Medica (Cleric 3) and Dekunda (Healer 13): two slots. Medica heals everyone; Dekunda clears the party’s stat reductions.",
           "requires": "Hulkenberg bond 7 and Magic Knight 20. Medica must be learned on Hulkenberg herself. Cleric needs Maria 3 and Healer 20.",
           "fallback": "Magic Knight with inherited Medica and Dekunda. If Medica is unlearned, Mediline (Magic Knight 5, 10 MP) heals allies in her row; move anyone needing it into that row before she casts.",
-          "train": "Paladin 20 learns Revitalise 3 for MP recovery. Royal Knight is optional: bond 8, Paladin 20, Dark Knight 15 and Elemental Master 15."
+          "train": "Ongoing upgrade goals: Paladin 20 for Revitalise 3 and MP recovery. Optional Royal Knight needs bond 8, Paladin 20, Dark Knight 15 and Elemental Master 15. Keep the listed fallback while training; these are not all required today."
         },
         {
           "name": "Junah",
@@ -3377,7 +3440,7 @@
           "inherit": "Tarunda (Faker 3) and Dekaja (Faker 13): two slots. Lower a dangerous enemy’s Attack; remove its buffs when they appear.",
           "requires": "Junah bond 6, Masked Dancer 20 and Faker 10. Make Wizard’s Mask in Akademeia with a Magician White Mask and Priestess White Mask after Wizard is unlocked.",
           "fallback": "Masked Dancer with the same mask and inherited skills. Without that mask, use an available elemental mask and let the protagonist handle Ice. If Dekaja is unlearned, bring an item that removes enemy buffs.",
-          "train": "Faker 13 is a useful short goal for Dekaja. Royal Masked Dancer is optional after Junah 8, Persona Master 20 and Trickster 20."
+          "train": "Ongoing goal: Faker 13 for Dekaja. Optional Royal Masked Dancer also needs Junah 8, Persona Master 20 and Trickster 20. Use the listed current setup or fallback today; there is no need to complete all this training first."
         }
       ],
       "notes": [
@@ -3408,7 +3471,7 @@
           "inherit": "Blizza (Wizard 2) and Shield Blessing (Wizard 11): two slots. Blizza is for the championship’s Ice weakness; use Almighty for Gold I.",
           "requires": "Automatically obtained during the completed September story. Each inherited skill must first be learned by the protagonist and purchased in Skill Inheritance.",
           "fallback": "Wizard remains a good exploration choice. Elemental Master is available with Gallica 8 and Wizard 20; keep the cheaper inherited spells for small enemies.",
-          "train": "Prince 9 gives field HP/MP recovery through allies’ support attacks; rank 13 gives Hero’s Cry and rank 20 Royal Slash. These are training goals, not assumed starting skills."
+          "train": "Ongoing training goals: Prince 9 for field HP/MP recovery through allies’ support attacks, 13 for Hero’s Cry and 20 for Royal Slash. You do not need all three today; use the skills you have actually learned."
         },
         {
           "name": "Strohl",
@@ -3426,7 +3489,7 @@
           "inherit": "Gold I: Medica (Cleric 3) and Dekunda (Healer 13). For the championship, replace Dekunda with Heavy Rush (Magic Knight 9, 12 MP) for Pierce damage. Two slots; use Medi (Healer 3) if Medica is not learned.",
           "requires": "Hulkenberg bond 7 and Magic Knight 20. Medica must be learned on Hulkenberg herself. Cleric needs Maria 3 and Healer 20.",
           "fallback": "Magic Knight with inherited Medica and Dekunda. If Medica is unlearned, Mediline (Magic Knight 5, 10 MP) heals allies in her row; move anyone needing it into that row before she casts.",
-          "train": "Paladin 20 learns Revitalise 3 for MP recovery. Royal Knight is optional: bond 8, Paladin 20, Dark Knight 15 and Elemental Master 15."
+          "train": "Ongoing upgrade goals: Paladin 20 for Revitalise 3 and MP recovery. Optional Royal Knight needs bond 8, Paladin 20, Dark Knight 15 and Elemental Master 15. Keep the listed fallback while training; these are not all required today."
         },
         {
           "name": "Junah",
@@ -3435,7 +3498,7 @@
           "inherit": "Tarunda (Faker 3) and Dekaja (Faker 13): two slots. Lower a dangerous enemy’s Attack; remove its buffs when they appear.",
           "requires": "Junah bond 6, Masked Dancer 20 and Faker 10. Make Wizard’s Mask in Akademeia with a Magician White Mask and Priestess White Mask after Wizard is unlocked.",
           "fallback": "Masked Dancer with the same mask and inherited skills. Without that mask, use an available elemental mask and let the protagonist handle Ice. If Dekaja is unlearned, bring an item that removes enemy buffs.",
-          "train": "Faker 13 is a useful short goal for Dekaja. Royal Masked Dancer is optional after Junah 8, Persona Master 20 and Trickster 20."
+          "train": "Ongoing goal: Faker 13 for Dekaja. Optional Royal Masked Dancer also needs Junah 8, Persona Master 20 and Trickster 20. Use the listed current setup or fallback today; there is no need to complete all this training first."
         }
       ],
       "notes": [
@@ -3490,7 +3553,7 @@
           "inherit": "Blizza (Wizard 2) first, then Shield Blessing (Wizard 11): two slots. Blizza exploits the boss’s Ice weakness.",
           "requires": "Automatically obtained during the completed September story. Each inherited skill must first be learned by the protagonist and purchased in Skill Inheritance.",
           "fallback": "Wizard remains a good exploration choice. Elemental Master is available with Gallica 8 and Wizard 20; keep the cheaper inherited spells for small enemies.",
-          "train": "Prince 9 gives field HP/MP recovery through allies’ support attacks; rank 13 gives Hero’s Cry and rank 20 Royal Slash. These are training goals, not assumed starting skills."
+          "train": "Ongoing training goals: Prince 9 for field HP/MP recovery through allies’ support attacks, 13 for Hero’s Cry and 20 for Royal Slash. You do not need all three today; use the skills you have actually learned."
         },
         {
           "name": "Strohl",
@@ -3508,7 +3571,7 @@
           "inherit": "Medica (Cleric 3) and Dekunda (Healer 13): two slots. Medica heals everyone; Dekunda clears the party’s stat reductions.",
           "requires": "Hulkenberg bond 7 and Magic Knight 20. Medica must be learned on Hulkenberg herself. Cleric needs Maria 3 and Healer 20.",
           "fallback": "Magic Knight with inherited Medica and Dekunda. If Medica is unlearned, Mediline (Magic Knight 5, 10 MP) heals allies in her row; move anyone needing it into that row before she casts.",
-          "train": "Paladin 20 learns Revitalise 3 for MP recovery. Royal Knight is optional: bond 8, Paladin 20, Dark Knight 15 and Elemental Master 15."
+          "train": "Ongoing upgrade goals: Paladin 20 for Revitalise 3 and MP recovery. Optional Royal Knight needs bond 8, Paladin 20, Dark Knight 15 and Elemental Master 15. Keep the listed fallback while training; these are not all required today."
         },
         {
           "name": "Junah",
@@ -3517,7 +3580,7 @@
           "inherit": "Tarunda (Faker 3) and Dekaja (Faker 13): two slots. Lower a dangerous enemy’s Attack; remove its buffs when they appear.",
           "requires": "Junah bond 6, Masked Dancer 20 and Faker 10. Make Wizard’s Mask in Akademeia with a Magician White Mask and Priestess White Mask after Wizard is unlocked.",
           "fallback": "Masked Dancer with the same mask and inherited skills. Without that mask, use an available elemental mask and let the protagonist handle Ice. If Dekaja is unlearned, bring an item that removes enemy buffs.",
-          "train": "Faker 13 is a useful short goal for Dekaja. Royal Masked Dancer is optional after Junah 8, Persona Master 20 and Trickster 20."
+          "train": "Ongoing goal: Faker 13 for Dekaja. Optional Royal Masked Dancer also needs Junah 8, Persona Master 20 and Trickster 20. Use the listed current setup or fallback today; there is no need to complete all this training first."
         }
       ],
       "notes": [
@@ -3584,7 +3647,7 @@
           "inherit": "Shield Blessing (Wizard 11), then Blizza (Wizard 2): two slots. Shield Blessing needs an active Attack, Defence or Hit/Evasion buff. Use Blizza for an Ice weakness instead of spending on a large Synthesis attack.",
           "requires": "Automatically obtained during the completed September story. Each inherited skill must first be learned by the protagonist and purchased in Skill Inheritance.",
           "fallback": "Wizard remains a good exploration choice. Elemental Master is available with Gallica 8 and Wizard 20; keep the cheaper inherited spells for small enemies.",
-          "train": "Prince 9 gives field HP/MP recovery through allies’ support attacks; rank 13 gives Hero’s Cry and rank 20 Royal Slash. These are training goals, not assumed starting skills."
+          "train": "Ongoing training goals: Prince 9 for field HP/MP recovery through allies’ support attacks, 13 for Hero’s Cry and 20 for Royal Slash. You do not need all three today; use the skills you have actually learned."
         },
         {
           "name": "Strohl",
@@ -3602,7 +3665,7 @@
           "inherit": "Medica (Cleric 3) and Dekunda (Healer 13): two slots. Medica heals everyone; Dekunda clears the party’s stat reductions.",
           "requires": "Hulkenberg bond 7 and Magic Knight 20. Medica must be learned on Hulkenberg herself. Cleric needs Maria 3 and Healer 20.",
           "fallback": "Magic Knight with inherited Medica and Dekunda. If Medica is unlearned, Mediline (Magic Knight 5, 10 MP) heals allies in her row; move anyone needing it into that row before she casts.",
-          "train": "Paladin 20 learns Revitalise 3 for MP recovery. Royal Knight is optional: bond 8, Paladin 20, Dark Knight 15 and Elemental Master 15."
+          "train": "Ongoing upgrade goals: Paladin 20 for Revitalise 3 and MP recovery. Optional Royal Knight needs bond 8, Paladin 20, Dark Knight 15 and Elemental Master 15. Keep the listed fallback while training; these are not all required today."
         },
         {
           "name": "Junah",
@@ -3611,7 +3674,7 @@
           "inherit": "Tarunda (Faker 3) and Dekaja (Faker 13): two slots. Lower a dangerous enemy’s Attack; remove its buffs when they appear.",
           "requires": "Junah bond 6, Masked Dancer 20 and Faker 10. Make Wizard’s Mask in Akademeia with a Magician White Mask and Priestess White Mask after Wizard is unlocked.",
           "fallback": "Masked Dancer with the same mask and inherited skills. Without that mask, use an available elemental mask and let the protagonist handle Ice. If Dekaja is unlearned, bring an item that removes enemy buffs.",
-          "train": "Faker 13 is a useful short goal for Dekaja. Royal Masked Dancer is optional after Junah 8, Persona Master 20 and Trickster 20."
+          "train": "Ongoing goal: Faker 13 for Dekaja. Optional Royal Masked Dancer also needs Junah 8, Persona Master 20 and Trickster 20. Use the listed current setup or fallback today; there is no need to complete all this training first."
         }
       ],
       "notes": [
