@@ -3879,7 +3879,7 @@
         "text": "Check Proof of Power and Trial of the Dragon: Bygone Legacy are active, then depart from Altabury for Tower of Insolence. Save in a separate slot before leaving.",
         "kind": "time",
         "items": [
-          "Reread The Magical Future during travel. Watch for the Decaying Estate drawing and check your Key Items after the route event. The original schedule obtains it on this journey, but its first October appearance has not been independently confirmed.",
+          "Reread The Magical Future during travel. Watch for the Decaying Estate drawing and check your Key Items after the route event. Game Rant and PSNProfiles both place it on the route to Tower of Insolence; this is the route's first scheduled trip.",
           "In the tower, climb the first set of stairs and check the second floor beside the central railing for the Gold Beetle.",
           "Defeat Ziocropos and collect the Bramblethorn Baton for Proof of Power. The dragon trial is a separate encounter above this ordinary boss."
         ]
@@ -3891,7 +3891,7 @@
         "kind": "check",
         "items": [
           "If Decaying Estate did not appear, check whether you already gave that drawing to Maria or already have Vista Viewer. Giving Maria drawings awards rewards, but is not required for the trophy.",
-          "Reminder for later: if both the drawing and trophy are missing, keep the save from before this trip. The reserved recovery journey is 23 October. Identify the missing route before using that day; do not repeat the same trip on several days hoping it will appear. Its first October appearance remains unverified."
+          "If both the drawing and trophy are missing, recover it today: reload the save from before this trip and travel to Tower of Insolence again, watching for the route event. Do not leave it for a later date. PSNProfiles warns that some drawings become unobtainable once the story changes how you travel, and from 8 October the route may no longer be offered. 6 and 7 October are already used by the Abandoned Path journey."
         ]
       },
       {
@@ -4428,7 +4428,7 @@
       {
         "id": "october-23-step-01",
         "label": "Recovery day · choose one unfinished objective",
-        "text": "Use today for a missing request (including any unreported Neuras relic search), drawing journey, trial or available follower event. If the Decaying Estate check failed on 4 October, this is its reserved drawing-recovery day; identify the missing route before departing.",
+        "text": "Use today for a missing request (including any unreported Neuras relic search), drawing journey, trial or available follower event. Do not rely on today for Decaying Estate: its recovery belongs on 4 October, before the story changes how you travel. If a drawing is still missing, check that its route is still offered before departing.",
         "kind": "task",
         "items": [
           "If you choose a dungeon, that outing uses both afternoon and night. Do not plan another nighttime activity after it.",

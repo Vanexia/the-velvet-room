@@ -1022,12 +1022,12 @@ The game's calendar months have 30 days. These headings are in-game dates, not r
 
 ### 04 October
 - <!-- id: october-04-step-01 --> Afternoon · travel and dungeon: Check Proof of Power and Trial of the Dragon: Bygone Legacy are active, then depart from Altabury for Tower of Insolence. Save in a separate slot before leaving.
-  - Reread The Magical Future during travel. Watch for the Decaying Estate drawing and check your Key Items after the route event. The original schedule obtains it on this journey, but its first October appearance has not been independently confirmed.
+  - Reread The Magical Future during travel. Watch for the Decaying Estate drawing and check your Key Items after the route event. Game Rant and PSNProfiles both place it on the route to Tower of Insolence; this is the route's first scheduled trip.
   - In the tower, climb the first set of stairs and check the second floor beside the central railing for the Gold Beetle.
   - Defeat Ziocropos and collect the Bramblethorn Baton for Proof of Power. The dragon trial is a separate encounter above this ordinary boss.
 - <!-- id: october-04-step-02 --> Free checks after the route event: Note your Wisdom rank. Eupha needs Wisdom 5 for tomorrow’s town event; if you are still at 4, leave her event pending and use tomorrow’s Wisdom alternative. You do not need to stop this dungeon to reach Wisdom 5.
   - If Decaying Estate did not appear, check whether you already gave that drawing to Maria or already have Vista Viewer. Giving Maria drawings awards rewards, but is not required for the trophy.
-  - Reminder for later: if both the drawing and trophy are missing, keep the save from before this trip. The reserved recovery journey is 23 October. Identify the missing route before using that day; do not repeat the same trip on several days hoping it will appear. Its first October appearance remains unverified.
+  - If both the drawing and trophy are missing, recover it today: reload the save from before this trip and travel to Tower of Insolence again, watching for the route event. Do not leave it for a later date. PSNProfiles warns that some drawings become unobtainable once the story changes how you travel, and from 8 October the route may no longer be offered. 6 and 7 October are already used by the Abandoned Path journey.
 - <!-- id: october-04-step-03 --> Today’s tower trial · attempt when prepared: After the ordinary boss, the separate dragon trial is above it. It caps maximum HP at 300 and reflects ordinary damage types. Use Almighty damage or a confirmed method of bypassing resistance or creating a weakness, with healing and Hex protection or cures.
   - If your team is not ready, keep the ordinary quest completion and leave the trial unfinished for a recovery outing. Postponing this trial does not complete it; record that another dungeon day will be needed.
 - <!-- id: october-04-step-04 --> Night: Used by the dungeon. Return and rest.
@@ -1188,7 +1188,7 @@ The game's calendar months have 30 days. These headings are in-game dates, not r
   - Ongoing combat checklist: 50 different Synthesis skills used; 100 squad ambushes after a field stun; 50 unscathed battle wins; 10 Elementas defeated; 100,000 reeve spent through skills; one successful steal; Gallica conversations; and sword-riding distance. Review what is missing and work on it during suitable battles or free exploration. This list is not an instruction to finish every counter today. Instant field kills do not count as squad ambushes.
 
 ### 23 October
-- <!-- id: october-23-step-01 --> Recovery day · choose one unfinished objective: Use today for a missing request (including any unreported Neuras relic search), drawing journey, trial or available follower event. If the Decaying Estate check failed on 4 October, this is its reserved drawing-recovery day; identify the missing route before departing.
+- <!-- id: october-23-step-01 --> Recovery day · choose one unfinished objective: Use today for a missing request (including any unreported Neuras relic search), drawing journey, trial or available follower event. Do not rely on today for Decaying Estate: its recovery belongs on 4 October, before the story changes how you travel. If a drawing is still missing, check that its route is still offered before departing.
   - If you choose a dungeon, that outing uses both afternoon and night. Do not plan another nighttime activity after it.
   - If several trials remain, record each as its own outing and leave a separate day for their follow-up. Do not replace needed calendar activities with grinding. If the remaining outings no longer fit, keep the older save rather than treating this one recovery day as enough for all of them.
 

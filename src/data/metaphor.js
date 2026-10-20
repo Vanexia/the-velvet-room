@@ -462,7 +462,7 @@ export const metaphor = {
           "Current-region routes and drawings",
           [
             "Travel from Altabury toward Everfrost Forest to obtain Solstice Crossing, and toward the Tower of Insolence for Decaying Estate. Accept the corresponding bounties and requests before setting off.",
-            "The daily route visits Everfrost Forest on 18 September and the Tower of Insolence on 04 October. No separate September deadline for these two drawings was established by the source check. The October first-visit event has not been play-tested; keep the pre-trip save until its drawing is confirmed. Also check the earlier Peregrine Falls, Prismatic Sea and Sporico Cave drawings.",
+            "The daily route visits Everfrost Forest on 18 September and the Tower of Insolence on 04 October. No separate September deadline for these two drawings was established by the source check. Keep the pre-trip save until Decaying Estate is confirmed, and if it is missing, reload and repeat that trip the same day: the route may not be offered once the story changes how you travel on 8 October. Also check the earlier Peregrine Falls, Prismatic Sea and Sporico Cave drawings.",
           ],
           [
             item("vista-crossing", "Collected Solstice Crossing"),
