@@ -3861,7 +3861,7 @@
         "kind": "check",
         "items": [
           "Eupha’s final events are scheduled for 5 and 7 October, so some unlocks can still be unavailable today.",
-          "More's final tasks: Chapter Five needs 25 different Archetypes studied across the party (rank 7). Chapter Six: The End needs any one Elite Archetype at rank 20 (rank 8). More rank 8 is required for the all-followers trophy. For a Magic protagonist, Elemental Master is the natural candidate: it needs Wizard 20 and Gallica rank 8. Report each task in Akademeia as soon as it is done; reporting is free.",
+          "More's final tasks: Chapter Five needs 25 different Archetypes studied across the party (rank 7). Chapter Six: The End needs any one Elite Archetype at rank 20 (rank 8). More rank 8 is required for the all-followers trophy. The quickest candidate is usually Hulkenberg's Paladin, which the party guide already has her using. Elemental Master on the protagonist also counts; it needs Wizard 20 and Gallica rank 8. Report each task in Akademeia as soon as it is done; reporting is free.",
           "Ongoing trophy goal: train each required protagonist Archetype to rank 20 over the remaining battles. Completing every other character’s tree is optional. Continue checking the prerequisites of the particular Archetype you want to use."
         ]
       }
@@ -4140,7 +4140,7 @@
       {
         "id": "october-12-step-02",
         "label": "Afternoon · dungeon outing",
-        "text": "Save separately and visit Dragon Temple. Use its unlocked lift/teleport route to the deepest Magla Hollow and the follow-up chamber. Remove equipment that Repels or Drains/Absorbs attacks before the fight. One guide names this route Divine Altar Path and reports a party-wiping attack after about 24 turns, so bring enough damage to finish the fight rather than outlast it. If your party needs more preparation, use a later recovery day.",
+        "text": "Save separately and visit Dragon Temple. Use its unlocked lift/teleport route to the deepest Magla Hollow and the follow-up chamber. Remove equipment that Repels or Drains/Absorbs attacks before the fight. One guide names this route Divine Altar Path. Guides describe a party-wiping attack differently (after about 24 turns, or soon after the boss is nearly defeated), so bring enough damage to finish the fight rather than outlast it. If your party needs more preparation, use a later recovery day.",
         "kind": "time"
       },
       {

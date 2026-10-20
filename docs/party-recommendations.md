@@ -95,3 +95,18 @@ The data covers 101 selected dates with eight default phases and 46 dated prepar
 Automated tests exercise real-day rendering, introduction boundaries, itinerary preservation, source-link escaping, calendar navigation, viewport position and existing saved checkmarks. They validate the website, not the game tactics. A dedicated Chrome visual check was attempted, but the connected browser inventory did not expose Chrome. The prohibited in-app browser was not used, and no foreground window was opened. Pixel layout therefore remains visually unverified.
 
 The daily Markdown, generated instructions, checklist IDs and version-1 storage format are unchanged by this addition. Research working files and the player's private reference remain outside the repository.
+
+## 20 October 2026 review
+
+Two reviews checked every phase and outing from 16 July to 26 October for availability on this route, skill and unlock accuracy (two sources each), and whether each pick is a strong one on Normal for a Magic-focused protagonist.
+
+- **Medica.** It is Cleric 3, and Cleric needs the character's own Healer 20 plus Maria bond 3 ([RPG Site](https://www.rpgsite.net/guide/16409-metaphor-refantazio-archetypes-guide-how-to-unlock-all-46-archetype-job-classes-their-skills), [Gamer Guides](https://gamerguides.com/metaphor-refantazio/guide/archetypes/adept/cleric-archetype)). The route never trains Hulkenberg's Healer to 20, so August defaults now lead with Medi and treat Medica as a longer project. The 28 July Cleric pick became Healer.
+- **Paladin is Elite** ([Push Square](https://www.pushsquare.com/guides/metaphor-refantazio-all-archetypes-and-how-to-unlock-them)), so Hulkenberg's Paladin 20 also completes More's Chapter Six. Her training goals and the October route say so.
+- **Archetype Hero.** From Prince onward the protagonist's goals say to train unmastered Archetypes in ordinary fights and return to Prince for bosses. Earlier goals continue Wizard to 20 for Elemental Master.
+- **Persona Master** needs Junah bond 6, Masked Dancer 20 and Faker 10 ([GodIsAGeek](https://www.godisageek.com/2024/10/metaphor-refantazio-how-to-unlock-all-archetypes)). Earlier goals now start Faker on Junah.
+- **30 August.** The worm's only weakness is Ice and physical crits can make it burrow ([Gamer Guides](https://www.gamerguides.com/metaphor-refantazio/guide/side-quests/follower-quests/the-right-to-rule), [Nightly Gaming Binge](https://nightlygamingbinge.com/the-right-to-rule-quest-guide-metaphor-refantazio/)); Junah replaces Strohl.
+- **Notes added:** Gold Attack for 25 July; Poison on the first dragon trial; Frostbite, Paralysis and weak-gear warnings for Mad Mischief; the cockatrice's Pierce thrust against Wizard's Mask and its Dark attacks; Wizard's Mask affinities; an optional Electric Synthesis on 15 August.
+- **Removed unverified claims:** Leogron absorbing Ice and repelling Wind, and Kokasadors repelling Ice. Neither appeared in two sources; both bosses use those elements, so the advice to avoid them stands.
+- **Spoilers.** Member and summary text no longer names enemies or boss mechanics; those stay in the gated encounter notes. The 17 October phase's arena notes are now gated too (`gateNotes`).
+
+Conflicts left visible in the text: Royal Sword's scaling stat; Essence of Power's wipe trigger. Not changed: Heismay's Brawler pick on 28 July (guides prefer Assassin for accuracy; the guide avoids Thief forms' Electric weakness; both are defensible).

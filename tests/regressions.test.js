@@ -33,7 +33,7 @@ test("whole daily pages respect character and class introduction boundaries, wit
   const ids = metaphor.days.map((d) => d.id);
   const help = [
     ...Object.values(metaphor.dayHelp ?? {}).flat().map((h) => h.id),
-    ...Object.keys(metaphor.partyGuide.outings).map((d) => `party-${d}`),
+    ...metaphor.days.map((d) => `party-${d.id}`),
   ];
   const boundaries = [
     ["day-august-14", /Junah|Masked Dancer|Persona Master/iu],

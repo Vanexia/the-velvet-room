@@ -72,7 +72,7 @@ export function parseBackup(text, games) {
       ...Object.values(game.dayHelp ?? {})
         .flat()
         .map((h) => h.id),
-      ...Object.keys(game.partyGuide?.outings ?? {}).map((d) => `party-${d}`),
+      ...(game.partyGuide ? days.map((d) => `party-${d.id}`) : []),
     ]);
     const revealIds = new Set(cards.map((c) => c.id));
     const checkIds = new Set([

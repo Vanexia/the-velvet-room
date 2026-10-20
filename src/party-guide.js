@@ -1,5 +1,8 @@
 import { escapeHtml as e } from "./html.js";
 
+const encounterFor = (dayId, notes) =>
+  notes?.length ? { id: `party-${dayId}`, notes } : null;
+
 export function selectPartyGuide(game, dayId) {
   if (!game.partyGuide) return null;
   const index = game.days.findIndex((day) => day.id === dayId);
@@ -15,8 +18,8 @@ export function selectPartyGuide(game, dayId) {
     ...phase,
     ...outing,
     // Outing notes name encounters, so they stay behind a reveal.
-    notes: outing ? [] : phase.notes,
-    encounter: outing?.notes?.length ? { id: `party-${dayId}`, notes: outing.notes } : null,
+    notes: outing || phase.gateNotes ? [] : phase.notes,
+    encounter: encounterFor(dayId, outing?.notes ?? (phase.gateNotes ? phase.notes : [])),
     sources: sources.filter((source, i) => sources.findIndex((s) => s.url === source.url) === i),
     verifiedOn: game.partyGuide.verifiedOn,
   };
