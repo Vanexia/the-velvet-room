@@ -1527,10 +1527,10 @@
         },
         {
           "name": "Strohl",
-          "archetype": "Swordmaster",
+          "archetype": "Swordmaster, or Samurai if already unlocked",
           "role": "Use Round Slash or a learned stronger all-enemy Slash attack when several targets are present.",
           "inherit": "Slicer from Warrior rank 8 is a cheaper single-target option. One slot is enough.",
-          "requires": "Strohl bond 3 and Warrior 20.",
+          "requires": "Strohl bond 3 and Warrior 20. Keep Samurai if you already have it; do not switch down.",
           "fallback": "Warrior with its learned attacks; do not spend all your MP before the fight.",
           "train": "Ongoing upgrade goal: Commander 20, then General 10, if still missing for Samurai. Keep Swordmaster until the upgrade is ready. Work on these ranks over later battles or with earned A-EXP items; this date is not a training deadline."
         },

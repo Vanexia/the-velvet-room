@@ -43,7 +43,8 @@ test("selected-date party HTML respects character and class introduction boundar
     ["day-september-26", /\bPrince\b|Royal (?:Warrior|Knight|Thief|Summoner|Berserker|Masked Dancer)|Hero[’']s Cry/iu],
   ];
   for (const day of metaphor.days) {
-    const html = renderPartyGuide(selectPartyGuide(metaphor, day.id), day);
+    const help = Object.keys(metaphor.partyGuide.outings).map((d) => `party-${d}`);
+    const html = renderPartyGuide(selectPartyGuide(metaphor, day.id), day, { help });
     for (const [start, names] of boundaries) {
       if (ids.indexOf(day.id) < ids.indexOf(start)) assert.doesNotMatch(html, names, day.id);
     }

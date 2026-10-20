@@ -1,17 +1,19 @@
-import { z } from "zod";
+import * as z from "zod/mini";
 
 export const STORAGE_KEY = "the-velvet-room.progress.v1";
-const id = z.string().regex(/^[a-z0-9][a-z0-9-]{0,79}$/);
+const id = z.string().check(z.regex(/^[a-z0-9][a-z0-9-]{0,79}$/));
+const ids = (max) => z.array(id).check(z.maxLength(max));
+const idOrEmpty = z.union([id, z.literal("")]);
 const progressSchema = z.strictObject({
   status: z.enum(["playing", "planning", "completed"]),
-  revealed: z.array(id).max(2000),
-  checked: z.array(id).max(4000),
-  notes: z.string().max(5000),
-  bookmark: id.or(z.literal("")),
+  revealed: ids(2000),
+  checked: ids(4000),
+  notes: z.string().check(z.maxLength(5000)),
+  bookmark: idOrEmpty,
   // Retain the old field name for backups; it now records visited dates.
-  openedDays: z.array(id).max(400).default([]),
-  dayBookmark: id.or(z.literal("")).default(""),
-  help: z.array(id).max(2000).default([]),
+  openedDays: z._default(ids(400), []),
+  dayBookmark: z._default(idOrEmpty, ""),
+  help: z._default(ids(2000), []),
 });
 const backupSchema = z.strictObject({
   version: z.literal(1),
@@ -66,11 +68,12 @@ export function parseBackup(text, games) {
     const cards = game.stages.flatMap((s) => s.cards);
     const days = game.days ?? [];
     const dayIds = new Set(days.map((d) => d.id));
-    const helpIds = new Set(
-      Object.values(game.dayHelp ?? {})
+    const helpIds = new Set([
+      ...Object.values(game.dayHelp ?? {})
         .flat()
         .map((h) => h.id),
-    );
+      ...Object.keys(game.partyGuide?.outings ?? {}).map((d) => `party-${d}`),
+    ]);
     const revealIds = new Set(cards.map((c) => c.id));
     const checkIds = new Set([
       ...game.tips.map((t) => t.id),
@@ -140,6 +143,16 @@ export function createStore(storage, games) {
       state = updateGame(state, gameId, patch);
       persist();
       return state;
+    },
+    // Adopt progress another tab saved, so this tab's next write keeps it.
+    sync(text) {
+      if (blocked || !text) return false;
+      try {
+        state = parseBackup(text, games);
+        return true;
+      } catch {
+        return false;
+      }
     },
     replace(text) {
       const next = parseBackup(text, games);

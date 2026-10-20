@@ -641,7 +641,7 @@
       },
       {
         "id": "june-25-step-03",
-        "label": "To do",
+        "label": "Reference · no action",
         "text": "These two evening conversations and More's first hand-in are part of the original schedule's early Imagination assumptions.",
         "kind": "task"
       }
@@ -722,7 +722,7 @@
       {
         "id": "june-29-step-04",
         "label": "Night · uses time",
-        "text": "Return to Martira → Thoroughfare Square. Speak to the Spirited Youth at the wooden ledge on the northwestern side of the square. Save, then pay 250 reeve for your first cliff jump. Receiving a Foreign Coin confirms success; gaining Courage alone does not. If you fail, reload the save before retrying. After a successful jump, he offers a thinner rope on your next visit. Stop after tonight's success; the guide schedules the other visits later.",
+        "text": "Return to Martira → Thoroughfare Square. Speak to the Spirited Youth at the wooden ledge on the northwestern side of the square. Save, then pay 250 reeve for your first cliff jump. The scene shows whether you landed the jump. Courage can rise even on a failure, and sources disagree on which jumps give a Foreign Coin, so do not reload only because no coin appeared. The reliable check is his next price: 375 reeve means this jump succeeded. If you fail, reload the save before retrying. After a successful jump, he offers a thinner rope on your next visit. Stop after tonight's success; the guide schedules the other visits later.",
         "kind": "time"
       }
     ]
@@ -792,7 +792,7 @@
       {
         "id": "july-01-step-04",
         "label": "Night · uses time",
-        "text": "Return to the Spirited Youth at the wooden ledge on the northwestern side of Martira's Thoroughfare Square. Save before starting. After your first successful jump, he offers a thinner rope for 375 reeve; this second challenge needs Courage rank 2. Accept it and check for a Foreign Coin reward to confirm success. The jump can look the same as before; the fee and reward identify your progress. If he still asks for 250 reeve, you have not cleared the first challenge on this save. If you fail despite meeting the Courage requirement, reload before retrying.",
+        "text": "Return to the Spirited Youth at the wooden ledge on the northwestern side of Martira's Thoroughfare Square. Save before starting. After your first successful jump, he offers a thinner rope for 375 reeve; this second challenge needs Courage rank 2. Accept it. The scene shows whether you landed; his next price of 500 reeve confirms it. Sources disagree on which jumps award a Foreign Coin, so a missing coin is not proof of failure. If he still asks for 250 reeve, you have not cleared the first challenge on this save. If you fail despite meeting the Courage requirement, reload before retrying.",
         "kind": "time"
       }
     ]
@@ -981,7 +981,10 @@
         "id": "july-08-step-01",
         "label": "Afternoon",
         "text": "Clear the Castle Waterways objective. Train Merchant to rank 15 on a party member and report More's Chapter Two task for rank 4. Accept the 15-Archetype task.",
-        "kind": "time"
+        "kind": "time",
+        "items": [
+          "If Merchant is still below 15, keep it equipped and keep training during the Abandoned Tomb trip on 14 July, then report Chapter Two there. Chapter Three cannot be reported before Chapter Two, and both feed the Imagination 3 target for 23 July."
+        ]
       },
       {
         "id": "july-08-reserve-worm-meat",
@@ -1018,14 +1021,17 @@
       {
         "id": "july-09-step-02",
         "label": "Afternoon · uses time",
-        "text": "Speak to Bardon in Martira's Thoroughfare Square to begin his follower bond, rank 1. Study Commander if useful. Check your total of different studied Archetypes; after 15 distinct types across the party, report More's next task for rank 5. A follower unlock without studying the type does not count as a study.",
+        "text": "Speak to Bardon in Martira's Thoroughfare Square to begin his follower bond, rank 1. Study Commander today: it is normally your 15th different Archetype for More's Chapter Three, and General later builds on it. Studying is free. Check your total of different studied Archetypes; after 15 distinct types across the party, report More's next task for rank 5. A follower unlock without studying the type does not count as a study.",
         "kind": "time"
       },
       {
         "id": "july-09-step-03",
         "label": "Night · uses time",
         "text": "Go to the speech podium in Martira's Stairstone Market. Check that Roger is the opponent and take the debate. Choose “Taxes benefit us all.” Record a win, not merely a speech. Save before the event if you want the option to retry.",
-        "kind": "time"
+        "kind": "time",
+        "items": [
+          "Trophy count: debate wins against 8 different opponents count toward a trophy, and opponents appear only on certain evenings, so take each one on its scheduled date. This is the first of the eight."
+        ]
       }
     ]
   },
@@ -1395,7 +1401,10 @@
         "id": "july-20-step-07",
         "label": "Free introduction · Arenafront Wharf",
         "text": "Speak to the Gold Beetle collector to activate his collection. This schedule holds beetles until your inventory reaches 46, then completes the exchanges together. If you already exchanged some, note the rewards you claimed; a lower held count does not mean those beetles were lost.",
-        "kind": "free"
+        "kind": "free",
+        "items": [
+          "If you have already exchanged some beetles, count those exchanges toward the 46."
+        ]
       },
       {
         "id": "july-20-step-08",
@@ -1448,8 +1457,11 @@
       {
         "id": "july-23-step-01",
         "label": "Free priority · Angler's Inn Square",
-        "text": "Speak to Julian beside the fountain and obtain The Magical Future. Check the runner bookshelf afterwards. This is a book pickup, not today's reading activity; collect it during this stay.",
-        "kind": "free"
+        "text": "Speak to Julian beside the fountain and obtain The Magical Future. Check the runner bookshelf afterwards. This is a book pickup, not today's reading activity.",
+        "kind": "free",
+        "items": [
+          "Missable for the reading trophy: you need this book for the 30 July reading, and sources give 13 August as the last day to collect it. If Julian is not at the fountain, check again in daytime on 24, 26 or 27 July before leaving Brilehaven."
+        ]
       },
       {
         "id": "july-23-step-02",
@@ -1624,7 +1636,7 @@
       {
         "id": "july-27-step-02",
         "label": "Night · uses time",
-        "text": "At the Merchants' Bazaar podium in Brilehaven, debate Milo. Choose “Beauty is deeper than our skin!” Record the win. Check your actual Eloquence afterwards; rank 4 is not required for this debate. The next scheduled Bardon requirement is rank 3, which you reported having on July 23.",
+        "text": "At the Merchants' Bazaar podium in Brilehaven, debate Milo. Choose “Beauty is deeper than our skin!” Record the win. Check your actual Eloquence afterwards; rank 4 is not required for this debate. Note the rank for later Bardon events; it does not change tonight's plan.",
         "kind": "time"
       }
     ]
@@ -1934,7 +1946,7 @@
         "kind": "night",
         "items": [
           "He asks for 500 reeve: Pay for the super-fine rope and complete the final jump. Check that At Your Own Risk unlocks. Reload your save if you fail, then retry.",
-          "He asks for 250 or 375 reeve: An earlier jump is still unfinished. Courage 3 is sufficient to attempt either one. Pay the offered price and look for a Foreign Coin reward to confirm success; reload if you fail. That is your activity for tonight. Leave the next jump for a later free evening.",
+          "He asks for 250 or 375 reeve: An earlier jump is still unfinished. Courage 3 is sufficient to attempt either one. Pay the offered price and watch the result; reload if you fail. A missing Foreign Coin is not proof of failure; his next price confirms progress. That is your activity for tonight. Leave the next jump for a later free evening.",
           "Use the arena INSTEAD only if Courage is below 3 OR you already have At Your Own Risk: Go to Brilehaven → Arenafront Wharf → Varmareno Coliseum. Win the next available ranked match offered by the Spirited Receptionist, then record the win and check your Courage. If the arena is closed, keep your start-of-evening save and get the route adjusted before advancing.",
           "Reminder for later: If the jump trophy remains locked, record how many jumps are still unfinished. Each needs its own free period. Later recovery evenings may also be needed for arena or bond catch-up; one spare evening cannot cover two missing jumps."
         ]
@@ -2643,7 +2655,7 @@
         "text": "Continue the journey and meditate with Eupha. Choose the response about focusing on numbness.",
         "kind": "time",
         "items": [
-          "At Silento, open the village shop before continuing the route. Passing the map marker alone does not count as the shop visit."
+          "At Silento, open the village shop before continuing the route. Passing the map marker alone does not count as the shop visit. This visit counts toward the village list checked on 20 October."
         ]
       },
       {
@@ -2716,7 +2728,10 @@
         "id": "august-28-step-02",
         "label": "Reminder for 30 August · no battle or level target today",
         "text": "Bardon's planned event includes a level-60 boss. Save before attempting that event on 30 August. If your team struggles then, the guide offers a different activity that day and moves his battle to 16 October, followed by his final bond on 18 October. You do not need to grind to a specific level before leaving today's dungeon.",
-        "kind": "task"
+        "kind": "task",
+        "items": [
+          "Reference: the original route suggests about level 57 for your main damage dealers. If you want to try on 30 August and are well below that, the top floor before this dungeon's boss is a good repeatable spot. Optional; the 16 October fallback remains."
+        ]
       },
       {
         "id": "august-28-step-03",
@@ -2876,7 +2891,7 @@
         "items": [
           "If it did: meet him in Brilehaven's Angler's Inn Square for rank 6 today. Stay in town and skip the runner outing below.",
           "Otherwise, take the optional runner outing: select a route toward Inundo that intercepts Jin's runner. Check the encounter marker and active party before leaving. Meditate with Eupha while travelling. If this is your fourth meditation, following 21, 25 and 26 August, choose “A burning fire.” Complete the encounter and return to town for tonight's bond.",
-          "Reminder for later: this early outing does not complete the Petty Thief request. That request has a separate trip after Neuras rank 7, even if you fought this runner today."
+          "Reminder for later: this outing is self-contained. A later request may send you back to this runner; that trip is scheduled separately."
         ]
       },
       {
@@ -2989,7 +3004,7 @@
         "text": "Read the third session of How to Walk Outside the Island to finish the book. Receive the next route drawing during the journey.",
         "kind": "time",
         "items": [
-          "Check after the reward: note your Tolerance rank. Catherina will need rank 5 on 16 September; reaching it is not a requirement to leave this journey today, and the book does not guarantee it. If you are still below 5, use the Tolerance alternative on the relevant later date."
+          "Check after the reward: note your Tolerance rank. Catherina's rank-6 event on 16 September needs Tolerance 5; reaching it is not a requirement to leave this journey today, and the book does not guarantee it. If you are still below 5, use the Tolerance alternative on the relevant later date."
         ]
       },
       {
@@ -3124,7 +3139,7 @@
         "items": [
           "Buy Durable Spider Silk for Warmth in Winter.",
           "Buy enough Altabury Wheat Flour to hold 4: 1 for tomorrow's pottage, 2 for Indestructible Honey Cake on 17 September and 1 for Adamantine Honey Cake on 18 September.",
-          "Return to Altabury."
+          "This visit counts toward the village list checked on 20 October. Return to Altabury."
         ]
       },
       {
@@ -3145,7 +3160,8 @@
         "text": "Keep this morning's save until you have won Julian's debate. His scheduled appearance is tonight, after returning from Malva.",
         "kind": "check",
         "items": [
-          "If he is absent, confirm that the game says 13 September at night and that you are at the Upper Blue Sky Bridge podium. Keep the save and resolve this before spending the night on something else or moving to another date."
+          "If he is absent, confirm that the game says 13 September at night and that you are at the Upper Blue Sky Bridge podium. Do not spend the night on something else yet.",
+          "Fallback: Game8 lists Julian at this podium on later Flamesday, Arboursday and Metalsday nights until 25 October; record the debate as pending and take it on the next such free night. One trophy guide shows a 13 September afternoon appearance instead; to settle it today, reload this morning's save, debate him this afternoon, and move the Malva trip and its hand-ins to 14 September."
         ]
       },
       {
@@ -3369,14 +3385,17 @@
         "items": [
           "Cooking catch-up, only if needed: before reading, use Speed Cooking for one unfinished dish for which you already have ingredients. Otherwise skip cooking today.",
           "Read the second session of Literacy Workbook while travelling.",
-          "At Ligno, open the village shop before continuing. You will still have tonight's activity on the runner; follow the Neuras step below."
+          "At Ligno, open the village shop before continuing; it counts toward the village list checked on 20 October. You will still have tonight's activity on the runner; follow the Neuras step below."
         ]
       },
       {
         "id": "september-20-step-02",
         "label": "Night · relic report",
         "text": "Speak to Neuras on the runner and give him the Panhandled Ore relic from Everfrost Forest. Complete the report and check that his follower rank reaches 5.",
-        "kind": "night"
+        "kind": "night",
+        "items": [
+          "If Neuras does not accept the Panhandled Ore tonight, keep it. Give him the Parquet Chest relic after 21 September first, then the Ore on the next free night, and check rank 7 is still reachable before 30 September."
+        ]
       }
     ]
   },
@@ -3436,7 +3455,7 @@
         "items": [
           "Catherina reached rank 6 on 19 September: take her rank-7 event. Her rank 8 remains scheduled for 3 October.",
           "Otherwise, Alonzo is rank 6 and Courage is at least 5: take his rank-7 event.",
-          "Otherwise, Alonzo is rank 7: speak to Daturam at Alonzo's usual spot in Brilehaven's Angler's Inn Square for rank 8. There must be a full intervening day since Alonzo's last event.",
+          "Otherwise, Alonzo is rank 7: go to Alonzo's usual spot in Brilehaven's Angler's Inn Square for rank 8. Guides differ on whether Alonzo or Daturam starts it; talk to whichever shows the rank-up icon. There must be a full intervening day since Alonzo's last event.",
           "If Courage still blocks Alonzo rank 7: do one available Coliseum challenge for Courage. Record a ranked win only if you chose and won a ranked match.",
           "Reminder for later: leave any remaining Alonzo events for the reserved October nights. This step does not ask you to finish his whole bond tonight."
         ]
@@ -3842,6 +3861,7 @@
         "kind": "check",
         "items": [
           "Eupha’s final events are scheduled for 5 and 7 October, so some unlocks can still be unavailable today.",
+          "More's final tasks: Chapter Five needs 25 different Archetypes studied across the party (rank 7). Chapter Six: The End needs any one Elite Archetype at rank 20 (rank 8). More rank 8 is required for the all-followers trophy. For a Magic protagonist, Elemental Master is the natural candidate: it needs Wizard 20 and Gallica rank 8. Report each task in Akademeia as soon as it is done; reporting is free.",
           "Ongoing trophy goal: train each required protagonist Archetype to rank 20 over the remaining battles. Completing every other character’s tree is optional. Continue checking the prerequisites of the particular Archetype you want to use."
         ]
       }
@@ -3955,8 +3975,8 @@
         "text": "If Hulkenberg or Heismay still lacks town rank 7, note two unfinished events: town rank 7 first, then travelling rank 8 after a full intervening day. There is no additional bond activity to do tonight after the one above.",
         "kind": "task",
         "items": [
-          "The planned recovery was the town event on 2 October followed by today’s travelling event. If that did not happen, look for an unused town period on 14 or 16 October, then a later village journey after the required gap.",
-          "Use those periods only if their named Basilio, Brigitta or Bardon event is already finished. Otherwise keep the delayed work for the remaining 21–24 October periods and check that each event has its own slot. This note does not promise several unfinished chains will all fit."
+          "The planned recovery was the town event on 2 October followed by today’s travelling event. If that did not happen, the 14 and 16 October periods are usually taken by Basilio, Brigitta and Bardon, so plan on 20 October afternoon for the town rank 7 (or 21 October if the cooking plan needs the 20th). Take the travelling rank 8 as the main activity of the 22 or 23 October journey.",
+          "If both Hulkenberg and Heismay are delayed, give the second town event the other of 20 or 21 October afternoon, and the second travelling event the other of 22 or 23 October. Check that each event has its own period; skip optional cooking trips before skipping a bond."
         ]
       }
     ]
@@ -3990,7 +4010,8 @@
         "text": "Open Followers and note any of the 14 followers who are still below rank 8. You are only checking the menu here; today’s dungeon has already used the night.",
         "kind": "check",
         "items": [
-          "Ongoing goal for the recovery dates: complete missing town events and then their later travelling events before using spare days for optional grinding. The date alone does not mean every bond is finished."
+          "Ongoing goal for the recovery dates: complete missing town events and then their later travelling events before using spare days for optional grinding. The date alone does not mean every bond is finished.",
+          "More is the exception: he ranks up only through his Akademeia task reports, not Followers events. Check his current task now. If Chapter Six (one Elite Archetype at rank 20) is unfinished, train that Archetype in every remaining dungeon and report it by 24 October."
         ]
       }
     ]
@@ -4119,7 +4140,7 @@
       {
         "id": "october-12-step-02",
         "label": "Afternoon · dungeon outing",
-        "text": "Save separately and visit Dragon Temple. Use its unlocked lift/teleport route to the deepest Magla Hollow and the follow-up chamber. Remove equipment that Repels or Drains/Absorbs attacks before the fight. If your party needs more preparation, use a later recovery day.",
+        "text": "Save separately and visit Dragon Temple. Use its unlocked lift/teleport route to the deepest Magla Hollow and the follow-up chamber. Remove equipment that Repels or Drains/Absorbs attacks before the fight. One guide names this route Divine Altar Path and reports a party-wiping attack after about 24 turns, so bring enough damage to finish the fight rather than outlast it. If your party needs more preparation, use a later recovery day.",
         "kind": "time"
       },
       {
@@ -4156,7 +4177,7 @@
           "Eupha is delayed and Wisdom is below 5: watch The Princess Predicament at Altabury’s Opera House, then check the resulting Wisdom rank.",
           "Otherwise, Alonzo has an available unfinished rank-7 or rank-8 event: take that event. Rank 7 requires Courage 5; rank 8 is with Daturam.",
           "Otherwise, take the next unfinished arena event. Use the actual ranked wins you have completed, including replacement matches from earlier dates.",
-          "Arena option · choose one event at Brilehaven → Arenafront Wharf → Varmareno Coliseum. First, win the next ranked match offered by the Spirited Receptionist. Once Gold I is won, accept Become Champion of the Coliseum and take her Champion Battle. After those are finished, ask the Taciturn Receptionist for Gauntlet Challenge → Gold: The Furthest Reaches and win its 30 consecutive fights. Do only the first unfinished event available tonight; each uses a separate period.",
+          "Arena option · choose one event at Brilehaven → Arenafront Wharf → Varmareno Coliseum. First, win the next ranked match offered by the Spirited Receptionist. Once Gold I is won, accept Become Champion of the Coliseum and take her Champion Battle; Bronze and Silver Gauntlets are not prerequisites. After those are finished, ask the Taciturn Receptionist for Gauntlet Challenge → Gold: The Furthest Reaches and win its 30 consecutive fights. Do only the first unfinished event available tonight; each uses a separate period.",
           "Reminder for later: leave the unchosen events unfinished for the remaining October nights. A championship win and the Gold endurance challenge are separate from ranked wins."
         ]
       }
@@ -4207,7 +4228,7 @@
           "Alonzo has an available unfinished rank-7 or rank-8 event: take it tonight. Rank 7 requires Courage 5; rank 8 is with Daturam after a full intervening day.",
           "Alonzo still needs rank 7 but Courage is below 5: watch The King and The Knight’s of the Dinner Table at Altabury’s Opera House instead, then check your Courage rank.",
           "Otherwise, take the next unfinished arena event. Count the ranked matches you have actually won, including replacement matches.",
-          "Arena option · choose one event at Brilehaven → Arenafront Wharf → Varmareno Coliseum. First, win the next ranked match offered by the Spirited Receptionist. Once Gold I is won, accept Become Champion of the Coliseum and take her Champion Battle. After those are finished, ask the Taciturn Receptionist for Gauntlet Challenge → Gold: The Furthest Reaches and win its 30 consecutive fights. Do only the first unfinished event available tonight; each uses a separate period.",
+          "Arena option · choose one event at Brilehaven → Arenafront Wharf → Varmareno Coliseum. First, win the next ranked match offered by the Spirited Receptionist. Once Gold I is won, accept Become Champion of the Coliseum and take her Champion Battle; Bronze and Silver Gauntlets are not prerequisites. After those are finished, ask the Taciturn Receptionist for Gauntlet Challenge → Gold: The Furthest Reaches and win its 30 consecutive fights. Do only the first unfinished event available tonight; each uses a separate period.",
           "Reminder for later: if tonight’s opera raises Courage to 5, reserve Alonzo rank 7 for 17 October and rank 8 for 19 October. If Courage is still short, you need another activity and revised reservations; do not assume those two events are ready."
         ]
       },
@@ -4237,7 +4258,7 @@
           "Afternoon: if Bardon’s rank-7 battle was postponed, take his bond event and complete The Right to Rule. If that chain is already complete, use this afternoon for one other unfinished town bond.",
           "Reminder for later: after Bardon rank 7 today, keep 18 October afternoon for his rank 8.",
           "Night: if Brigitta reached rank 7 on 14 October, finish her rank 8 tonight. Otherwise take the next unfinished arena event. If weather closes the arena, leave the event pending.",
-          "Arena option · choose one event at Brilehaven → Arenafront Wharf → Varmareno Coliseum. First, win the next ranked match offered by the Spirited Receptionist. Once Gold I is won, accept Become Champion of the Coliseum and take her Champion Battle. After those are finished, ask the Taciturn Receptionist for Gauntlet Challenge → Gold: The Furthest Reaches and win its 30 consecutive fights. Do only the first unfinished event available tonight; each uses a separate period."
+          "Arena option · choose one event at Brilehaven → Arenafront Wharf → Varmareno Coliseum. First, win the next ranked match offered by the Spirited Receptionist. Once Gold I is won, accept Become Champion of the Coliseum and take her Champion Battle; Bronze and Silver Gauntlets are not prerequisites. After those are finished, ask the Taciturn Receptionist for Gauntlet Challenge → Gold: The Furthest Reaches and win its 30 consecutive fights. Do only the first unfinished event available tonight; each uses a separate period."
         ]
       }
     ]
@@ -4257,7 +4278,7 @@
           "Afternoon: if Eupha’s town rank 7 was delayed on 5 October, take it today with Wisdom 5 and The Wayward Shepherd complete. If the requirement is still missing, keep the save and record the extra recovery needed; the reservation does not make the event available.",
           "If Eupha’s bond is already finished, use the afternoon for one other unfinished town bond. You may choose a delayed dungeon instead only if tonight has no reserved event left; a dungeon also uses the night.",
           "Night, only if you stayed in town: take Alonzo’s next available event if it is unfinished and the required gap has passed. Otherwise take the next unfinished arena event.",
-          "Arena option · choose one event at Brilehaven → Arenafront Wharf → Varmareno Coliseum. First, win the next ranked match offered by the Spirited Receptionist. Once Gold I is won, accept Become Champion of the Coliseum and take her Champion Battle. After those are finished, ask the Taciturn Receptionist for Gauntlet Challenge → Gold: The Furthest Reaches and win its 30 consecutive fights. Do only the first unfinished event available tonight; each uses a separate period.",
+          "Arena option · choose one event at Brilehaven → Arenafront Wharf → Varmareno Coliseum. First, win the next ranked match offered by the Spirited Receptionist. Once Gold I is won, accept Become Champion of the Coliseum and take her Champion Battle; Bronze and Silver Gauntlets are not prerequisites. After those are finished, ask the Taciturn Receptionist for Gauntlet Challenge → Gold: The Furthest Reaches and win its 30 consecutive fights. Do only the first unfinished event available tonight; each uses a separate period.",
           "Reminder for later: if you completed Eupha rank 7 today, her travelling rank 8 is reserved for the 19 October journey."
         ]
       }
@@ -4292,7 +4313,7 @@
         "items": [
           "Afternoon: if Bardon reached rank 7 on 16 October, take his town rank-8 event. If his bond is finished, use this period for one other unfinished town bond.",
           "Night: first finish any free Daturam follow-up available from an Alonzo rank-8 event completed on an earlier night. Then take a still-reserved Brigitta event if one needs tonight; otherwise take the next unfinished arena event.",
-          "Arena option · choose one event at Brilehaven → Arenafront Wharf → Varmareno Coliseum. First, win the next ranked match offered by the Spirited Receptionist. Once Gold I is won, accept Become Champion of the Coliseum and take her Champion Battle. After those are finished, ask the Taciturn Receptionist for Gauntlet Challenge → Gold: The Furthest Reaches and win its 30 consecutive fights. Do only the first unfinished event available tonight; each uses a separate period."
+          "Arena option · choose one event at Brilehaven → Arenafront Wharf → Varmareno Coliseum. First, win the next ranked match offered by the Spirited Receptionist. Once Gold I is won, accept Become Champion of the Coliseum and take her Champion Battle; Bronze and Silver Gauntlets are not prerequisites. After those are finished, ask the Taciturn Receptionist for Gauntlet Challenge → Gold: The Furthest Reaches and win its 30 consecutive fights. Do only the first unfinished event available tonight; each uses a separate period."
         ]
       }
     ]
@@ -4312,7 +4333,7 @@
           "Afternoon: if Eupha reached rank 7 on 17 October, travel from Virga Island to Silento and take her travelling rank-8 event. Return to town after the village stop.",
           "If Eupha’s bond is already complete, use that journey for one other available travelling bond, an unfinished book or one main activity from the cooking-recovery plan. Do not add fishing or cleaning after a bond event in the same travel period.",
           "Night: if Alonzo reached rank 7 on 17 October, complete his rank 8 tonight. Otherwise take the next unfinished arena event. This night activity is separate from the afternoon journey.",
-          "Arena option · choose one event at Brilehaven → Arenafront Wharf → Varmareno Coliseum. First, win the next ranked match offered by the Spirited Receptionist. Once Gold I is won, accept Become Champion of the Coliseum and take her Champion Battle. After those are finished, ask the Taciturn Receptionist for Gauntlet Challenge → Gold: The Furthest Reaches and win its 30 consecutive fights. Do only the first unfinished event available tonight; each uses a separate period."
+          "Arena option · choose one event at Brilehaven → Arenafront Wharf → Varmareno Coliseum. First, win the next ranked match offered by the Spirited Receptionist. Once Gold I is won, accept Become Champion of the Coliseum and take her Champion Battle; Bronze and Silver Gauntlets are not prerequisites. After those are finished, ask the Taciturn Receptionist for Gauntlet Challenge → Gold: The Furthest Reaches and win its 30 consecutive fights. Do only the first unfinished event available tonight; each uses a separate period."
         ]
       }
     ]
@@ -4330,14 +4351,20 @@
         "kind": "check"
       },
       {
+        "id": "october-20-beetle-exchange",
+        "label": "Free collection reward · Arenafront Wharf, Brilehaven",
+        "text": "If All That Glitters is still missing, return to the Elderly Entomophile after the October dungeon pickups. Finish his exchanges once beetles held plus beetles exchanged this run reach 46. Count the exchanges already made; do not demand 46 still held after trading. Save first. If the total is short, keep unspent beetles for further pickups or New Game Plus rather than assuming this checklist proves completion.",
+        "kind": "free"
+      },
+      {
         "id": "october-20-step-01",
         "label": "Recovery day · make today’s plan before spending time",
-        "text": "Check the bookshelf, kitchen records, Followers and trophy list. Record what is unfinished. Complete the free checks below, including any beetle exchange, before leaving town.",
+        "text": "Check the bookshelf, kitchen records, Followers and trophy list against these targets: all seven books Finished, 21 different dishes cooked, all 14 followers at rank 8, all five villages visited and Vista Viewer earned. Record what is unfinished. Complete the free checks below, including any beetle exchange, before leaving town.",
         "kind": "task",
         "items": [
           "Afternoon, if cooking ingredients are missing: use the 18 October plan. Travel from Virga Island to Silento and choose one main activity: fish if you already have Tail Bait, or clean the storage room if you still need it. Return to town after the village stop. Cooking the resulting dish belongs to a later journey. If you do not need this ingredient trip, use the afternoon for one available unfinished bond or request; the route leaves this period free for that purpose.",
           "Night · choose one main activity: first finish any free Daturam follow-up available from an Alonzo rank-8 event completed on an earlier night. Then take the next arena event described below. If the arena is closed, leave that event unfinished and use a later free arena period. If all arena events are complete, use tonight for another available unfinished event.",
-          "Arena option · choose one event at Brilehaven → Arenafront Wharf → Varmareno Coliseum. First, win the next ranked match offered by the Spirited Receptionist. Once Gold I is won, accept Become Champion of the Coliseum and take her Champion Battle. After those are finished, ask the Taciturn Receptionist for Gauntlet Challenge → Gold: The Furthest Reaches and win its 30 consecutive fights. Do only the first unfinished event available tonight; each uses a separate period."
+          "Arena option · choose one event at Brilehaven → Arenafront Wharf → Varmareno Coliseum. First, win the next ranked match offered by the Spirited Receptionist. Once Gold I is won, accept Become Champion of the Coliseum and take her Champion Battle; Bronze and Silver Gauntlets are not prerequisites. After those are finished, ask the Taciturn Receptionist for Gauntlet Challenge → Gold: The Furthest Reaches and win its 30 consecutive fights. Do only the first unfinished event available tonight; each uses a separate period."
         ]
       },
       {
@@ -4348,12 +4375,6 @@
         "items": [
           "Record any missing location for an available journey. This is a checklist of places, not an instruction to visit all five villages today. Keep any required journey separate from the main activities already chosen above."
         ]
-      },
-      {
-        "id": "october-20-beetle-exchange",
-        "label": "Free collection reward · Arenafront Wharf, Brilehaven",
-        "text": "If All That Glitters is still missing, return to the Elderly Entomophile after the October dungeon pickups. Finish his exchanges once beetles held plus beetles exchanged this run reach 46. Count the exchanges already made; do not demand 46 still held after trading. Save first. If the total is short, keep unspent beetles for further pickups or New Game Plus rather than assuming this checklist proves completion.",
-        "kind": "free"
       }
     ]
   },
@@ -4372,7 +4393,7 @@
           "Afternoon, if following the cooking-recovery plan: travel from Virga Island to Silento. If you cleaned yesterday and now have Tail Bait, use the main activity to fish. If you already caught the ingredients, use Speed Cooking for one unfinished dish before choosing one main travel activity. Return to town after the village stop.",
           "If you need no journey, use the afternoon for one available unfinished bond or request.",
           "Night · choose one main activity: first finish any free Daturam follow-up available from an Alonzo rank-8 event completed on an earlier night. Then take the next arena event described below. If the arena is closed, leave that event unfinished and use a later free arena period. If all arena events are complete, use tonight for another available unfinished event.",
-          "Arena option · choose one event at Brilehaven → Arenafront Wharf → Varmareno Coliseum. First, win the next ranked match offered by the Spirited Receptionist. Once Gold I is won, accept Become Champion of the Coliseum and take her Champion Battle. After those are finished, ask the Taciturn Receptionist for Gauntlet Challenge → Gold: The Furthest Reaches and win its 30 consecutive fights. Do only the first unfinished event available tonight; each uses a separate period.",
+          "Arena option · choose one event at Brilehaven → Arenafront Wharf → Varmareno Coliseum. First, win the next ranked match offered by the Spirited Receptionist. Once Gold I is won, accept Become Champion of the Coliseum and take her Champion Battle; Bronze and Silver Gauntlets are not prerequisites. After those are finished, ask the Taciturn Receptionist for Gauntlet Challenge → Gold: The Furthest Reaches and win its 30 consecutive fights. Do only the first unfinished event available tonight; each uses a separate period.",
           "Ongoing goals: keep More’s unfinished tasks and the protagonist’s missing rank-20 masteries recorded for the remaining battles. These are not extra training tasks to complete tonight after the arena."
         ]
       }
@@ -4391,8 +4412,8 @@
         "kind": "time",
         "items": [
           "Night · choose one main activity: first finish any free Daturam follow-up available from an Alonzo rank-8 event completed on an earlier night. Then take the next arena event described below. If the arena is closed, leave that event unfinished and use a later free arena period. If all arena events are complete, use tonight for another available unfinished event.",
-          "Arena option · choose one event at Brilehaven → Arenafront Wharf → Varmareno Coliseum. First, win the next ranked match offered by the Spirited Receptionist. Once Gold I is won, accept Become Champion of the Coliseum and take her Champion Battle. After those are finished, ask the Taciturn Receptionist for Gauntlet Challenge → Gold: The Furthest Reaches and win its 30 consecutive fights. Do only the first unfinished event available tonight; each uses a separate period.",
-          "Alternative night activity, only if the arena work is already complete: if At Your Own Risk is still locked, save and visit the Spirited Youth at the northwestern ledge in Martira’s Thoroughfare Square. With Courage 3 or higher, take the jump he offers: 250 or 375 reeve means an earlier jump, while 500 reeve means the final super-fine rope. Check for a Foreign Coin after an earlier jump or the trophy after the final jump; reload on failure. Do only one jump tonight. Keep any remaining jump for 24 October night if that period is free; each unfinished jump needs a separate period.",
+          "Arena option · choose one event at Brilehaven → Arenafront Wharf → Varmareno Coliseum. First, win the next ranked match offered by the Spirited Receptionist. Once Gold I is won, accept Become Champion of the Coliseum and take her Champion Battle; Bronze and Silver Gauntlets are not prerequisites. After those are finished, ask the Taciturn Receptionist for Gauntlet Challenge → Gold: The Furthest Reaches and win its 30 consecutive fights. Do only the first unfinished event available tonight; each uses a separate period.",
+          "Alternative night activity, only if the arena work is already complete: if At Your Own Risk is still locked, save and visit the Spirited Youth at the northwestern ledge in Martira’s Thoroughfare Square. With Courage 3 or higher, take the jump he offers: 250 or 375 reeve means an earlier jump, while 500 reeve means the final super-fine rope. After an earlier jump, his price on the next visit confirms success; after the final jump, check the trophy. Reload on failure. Do only one jump tonight. Keep any remaining jump for 24 October night if that period is free; each unfinished jump needs a separate period.",
           "Ongoing combat checklist: 50 different Synthesis skills used; 100 squad ambushes after a field stun; 50 unscathed battle wins; 10 Elementas defeated; 100,000 reeve spent through skills; one successful steal; Gallica conversations; and sword-riding distance. Review what is missing and work on it during suitable battles or free exploration. This list is not an instruction to finish every counter today. Instant field kills do not count as squad ambushes."
         ]
       }
@@ -4407,7 +4428,7 @@
       {
         "id": "october-23-step-01",
         "label": "Recovery day · choose one unfinished objective",
-        "text": "Use today for a missing request, drawing journey, trial or available follower event. If the Decaying Estate check failed on 4 October, this is its reserved drawing-recovery day; identify the missing route before departing.",
+        "text": "Use today for a missing request (including any unreported Neuras relic search), drawing journey, trial or available follower event. If the Decaying Estate check failed on 4 October, this is its reserved drawing-recovery day; identify the missing route before departing.",
         "kind": "task",
         "items": [
           "If you choose a dungeon, that outing uses both afternoon and night. Do not plan another nighttime activity after it.",
@@ -4423,14 +4444,20 @@
     "number": 24,
     "steps": [
       {
+        "id": "october-24-last-chance",
+        "label": "Last-chance check · free, before spending time",
+        "text": "After 25 October the story moves into the final area and you cannot return to towns, travel, the arena or follower events this run. Confirm in the menus now: all 14 followers at rank 8 (including More through his Akademeia tasks), every request complete, every book finished, beetle exchanges done and missing crafting materials bought. Use today and tomorrow afternoon for anything missing: bonds and requests first, then trophies with counters.",
+        "kind": "check"
+      },
+      {
         "id": "october-24-step-01",
         "label": "Recovery day · plan each period separately",
         "text": "Use the afternoon for one remaining activity that needs free time. Tomorrow afternoon is also available for an eligible final preparation, but tomorrow night is reserved for farewell visits. Keep an older save if you are unsure a requirement is complete.",
         "kind": "task",
         "items": [
           "Night · choose one main activity: first finish any free Daturam follow-up available from an Alonzo rank-8 event completed on an earlier night. Then take the next arena event described below. If the arena is closed, keep your save and check whether tomorrow afternoon can accommodate it; do not assume another normal evening remains. If all arena events are complete, use tonight for another available unfinished event.",
-          "Arena option · choose one event at Brilehaven → Arenafront Wharf → Varmareno Coliseum. First, win the next ranked match offered by the Spirited Receptionist. Once Gold I is won, accept Become Champion of the Coliseum and take her Champion Battle. After those are finished, ask the Taciturn Receptionist for Gauntlet Challenge → Gold: The Furthest Reaches and win its 30 consecutive fights. Do only the first unfinished event available tonight; each uses a separate period.",
-          "Alternative night activity, only after arena work is complete: if At Your Own Risk is still locked, save and visit the Spirited Youth at the northwestern ledge in Martira’s Thoroughfare Square. With Courage 3 or higher, take the offered jump: 250 or 375 reeve means an earlier jump, while 500 reeve means the final super-fine rope. Check for a Foreign Coin after an earlier jump or the trophy after the final jump; reload on failure. This uses tonight’s activity. If another jump remains, keep your save and get the route adjusted; do not count one evening as completing multiple jumps."
+          "Arena option · choose one event at Brilehaven → Arenafront Wharf → Varmareno Coliseum. First, win the next ranked match offered by the Spirited Receptionist. Once Gold I is won, accept Become Champion of the Coliseum and take her Champion Battle; Bronze and Silver Gauntlets are not prerequisites. After those are finished, ask the Taciturn Receptionist for Gauntlet Challenge → Gold: The Furthest Reaches and win its 30 consecutive fights. Do only the first unfinished event available tonight; each uses a separate period.",
+          "Alternative night activity, only after arena work is complete: if At Your Own Risk is still locked, save and visit the Spirited Youth at the northwestern ledge in Martira’s Thoroughfare Square. With Courage 3 or higher, take the offered jump: 250 or 375 reeve means an earlier jump, while 500 reeve means the final super-fine rope. After an earlier jump, his price on the next visit confirms success; after the final jump, check the trophy. Reload on failure. This uses tonight’s activity. If another jump remains, use tomorrow afternoon for it. One guide lists this trophy as missable, so do not leave it for New Game Plus. One period completes one jump."
         ]
       }
     ]
@@ -4470,13 +4497,13 @@
       {
         "id": "october-26-step-02",
         "label": "Trophy route",
-        "text": "Leave every optional boss in the final area undefeated and go to the final main objective. Defeating the final boss at full strength is the condition for Star Shatterer. Do not weaken it first. Save near the end if the game permits it.",
+        "text": "Leave every optional boss in the final area undefeated and go to the final main objective. Do not take side lifts or teleport circles off the main route; they lead to optional fights. If one starts, reload rather than winning it. Defeating the final boss at full strength is the condition for Star Shatterer. Do not weaken it first. Save near the end if the game permits it.",
         "kind": "task"
       },
       {
         "id": "october-26-step-03",
         "label": "Optional training in today’s final area",
-        "text": "If you need more preparation, fight regular enemies or use the tooth spawners for rewards. Keep the optional bosses undefeated for the full-strength trophy route above. Keep the permanent pre-finale save while any first-run trophy checks remain unfinished.",
+        "text": "If you need more preparation, fight regular enemies. On the last map, two tooth spawners keep producing enemies, which makes them the best place to finish the protagonist's remaining rank-20 masteries. Do not destroy them while you still need to train. Keep the optional bosses undefeated for the full-strength trophy route above. Keep the permanent pre-finale save while any first-run trophy checks remain unfinished.",
         "kind": "optional",
         "items": [
           "Reminder for your return run: its exclusive challenge has equipment restrictions, including responses to gear that repels attacks. Check that fight’s advice when you reach it; this is not an extra fight to do today."

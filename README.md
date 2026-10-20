@@ -4,7 +4,7 @@ A compact game collection with daily guides and platinum reminders. Choose a gam
 
 [Open The Velvet Room](https://vanexia.github.io/the-velvet-room/)
 
-The first guide is **Metaphor: ReFantazio**: 145 dates and 433 ordered instructions adapted from the audited personal schedule. The existing chronological platinum reminders remain under **Reference & notes**. Preparation and separate boss help are available for the early dungeon scheduled on 13 June.
+The first guide is **Metaphor: ReFantazio**: 145 dates and 434 ordered instructions adapted from the audited personal schedule. The existing chronological platinum reminders remain under **Reference & notes**. Preparation and separate boss help are available for the early dungeon scheduled on 13 June.
 
 ## Following the daily guide
 
@@ -23,11 +23,11 @@ The website is now the maintained reading edition. The earlier personal Google D
 - Start with **Before you start**, then follow the stages in order.
 - Read each card's **When to reveal** cue. Revealing one card never opens another.
 - Reveals stay open between visits. **Hide again** or **Hide all spoilers** closes them without losing checklists or notes.
-- **Save place** gives the library's **Continue reading** link a destination.
+- **Save place** gives the library's **Continue reading** link a destination for reference-only guides. For a game with a daily guide, the library continues from your saved day instead.
 - Checkboxes track reminders, independently of PlayStation trophies.
 - **Backups** exports or restores your shelf status, reveals, checklists, notes and reading place.
 
-Progress is saved in this browser at this site address. There is no account, cloud sync or trophy-service connection. Export a backup before clearing site data or changing browsers. Importing replaces the current saved progress only after you confirm it. If storage fails, a persistent notice appears and the current session can still be exported.
+Progress is saved in this browser at this site address. Other open tabs of the guide pick up each other's changes rather than overwriting them. There is no account, cloud sync or trophy-service connection. Export a backup before clearing site data or changing browsers. Importing replaces the current saved progress only after you confirm it. If storage fails, a persistent notice appears and the current session can still be exported.
 
 ## Spoiler boundaries
 
@@ -35,7 +35,7 @@ Only the selected day's instructions appear in the daily reader, including its a
 
 Full-source links warn that PSNProfiles contains unhidden spoilers. Repository content and compiled scripts include the complete companion; inspecting them can expose spoilers. The site's disclosure controls protect ordinary reading, not deliberate source inspection.
 
-Party recommendations follow the same selected-date boundary. Future party identities and story-unlocked classes stay out of the reader until their safe date. External research links are under **Research & sources**, with a spoiler warning.
+Party recommendations follow the same selected-date boundary. A battle day's encounter notes, which name enemies and tactics, have their own reveal control; the summary above them stays visible. Future party identities and story-unlocked classes stay out of the reader until their safe date. External research links are under **Research & sources**, with a spoiler warning.
 
 ## Maintaining the route
 

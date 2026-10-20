@@ -196,7 +196,7 @@ export const metaphor = {
           "From 6 July, once you can explore the current town freely. Check before its mid-July departure.",
           "Current town, candidates and answer hints",
           [
-            "At Martira’s podium, win against Lina, Roger and Loveless during this stay. Check who is present whenever you have free time; do not leave these until your final day.",
+            "At Martira’s podium, win against Lina, Roger and Loveless during this stay. Candidates appear only on certain evenings and guides list different dates. Take each debate on the date the daily guide gives (Roger 9 July, Lina 12 July, Loveless 16 July); do not count on a later chance.",
             "For Lina, ask about her policies. For Roger, support the shared benefits of taxation. For Loveless, challenge the idea that alcohol creates equality.",
             "Keep a save before the debate so you can retry an answer. Tick each name only after winning.",
           ],
@@ -230,7 +230,7 @@ export const metaphor = {
           "Local activity and virtue requirement",
           [
             "In Martira's Thoroughfare Square, talk to the Spirited Youth at the northwestern wooden ledge. The first cliff jump costs 250 reeve. After each successful challenge he offers a thinner rope: 375 reeve for the second, then 500 for the third. You do not select a difficulty from a menu.",
-            "Save before starting. A Foreign Coin reward confirms a successful jump; Courage also increases on failure. The second challenge requires Courage rank 2. The final super-fine rope requires rank 3 and awards At Your Own Risk on success. Each visit uses time, so return on the guide's scheduled evenings or a free evening if you need to catch up.",
+            "Save before starting. The scene shows whether you landed; Courage also increases on failure, and sources disagree on which jumps award a Foreign Coin. His next price (375, then 500 reeve) confirms each success. The second challenge requires Courage rank 2. The final super-fine rope requires rank 3 and awards At Your Own Risk on success. Each visit uses time, so return on the guide's scheduled evenings or a free evening if you need to catch up.",
           ],
           [
             item("courage-start", "Started the test of courage"),
@@ -309,7 +309,7 @@ export const metaphor = {
           "After the 23 July arrival scenes, during free exploration; finish before departing this stage.",
           "Current candidates and answer hints",
           [
-            "Win the Brilehaven debates against Jin, Glodell, Rudolf and Milo. Visit the podium regularly during this stay and save before each attempt.",
+            "Win the Brilehaven debates against Jin, Glodell, Rudolf and Milo. Each appears only on certain evenings. Take each debate on the date the daily guide gives (Jin 23 July, Glodell 24 July, Rudolf 26 July, Milo 27 July) and save before each attempt.",
             "For Jin, favour helping anyone. For Glodell, point out that he repeats Louis’s views. For Rudolf, argue for the tribes standing together. For Milo, say beauty goes beyond appearance.",
             "Treat the main quest’s deadline in your game as the last limit. Finish these in the free days beforehand.",
           ],

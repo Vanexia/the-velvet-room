@@ -12,11 +12,11 @@ export function renderCollection(games, state) {
       const group = games.filter((g) => state.games[g.id].status === status);
       if (!group.length) return "";
       return `<section class="shelf" aria-label="${label}"><h2 class="shelf-label"><span class="status-dot ${status}"></span>${label}</h2><div class="case-grid">${group
-        .map((g) => {
+        .map((g, i) => {
           const p = state.games[g.id],
             day = g.days?.find((d) => d.id === p.dayBookmark);
           const href = `#game/${g.id}${day ? "/" + day.id : !g.days && p.bookmark ? "/" + p.bookmark : ""}`;
-          return `<article class="game-case"><a class="case-cover" href="${e(href)}" aria-label="Open ${e(g.title)} guide"><img src="${e(g.cover)}" alt="${e(g.title)} cover artwork" width="200" height="300" fetchpriority="high"><span class="case-hover">Open guide <span aria-hidden="true">↗</span></span></a><div class="case-caption"><h3><a href="${e(href)}">${e(g.title)}</a></h3><p>${g.days ? "Day-by-day platinum guide" : "Platinum companion"}</p><a class="case-resume" href="${e(href)}">${day ? `Continue · ${e(day.label)}` : "Open guide"}<span aria-hidden="true">→</span></a></div></article>`;
+          return `<article class="game-case"><a class="case-cover" href="${e(href)}" aria-label="Open ${e(g.title)} guide"><img src="${e(g.cover)}" alt="${e(g.title)} cover artwork" width="200" height="300" ${i === 0 && status === Object.keys(statusLabels).find((k) => games.some((x) => state.games[x.id].status === k)) ? 'fetchpriority="high"' : 'loading="lazy"'}><span class="case-hover">Open guide <span aria-hidden="true">↗</span></span></a><div class="case-caption"><h3><a href="${e(href)}">${e(g.title)}</a></h3><p>${g.days ? "Day-by-day platinum guide" : "Platinum companion"}</p><a class="case-resume" href="${e(href)}">${day ? `Continue · ${e(day.label)}` : "Open guide"}<span aria-hidden="true">→</span></a></div></article>`;
         })
         .join("")}</div></section>`;
     })

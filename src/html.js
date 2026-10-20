@@ -6,3 +6,6 @@ export const escapeHtml = (value) =>
         c
       ],
   );
+// Content links must stay on the web; anything else becomes inert.
+export const safeUrl = (value) =>
+  /^https:\/\//i.test(String(value ?? "")) ? value : "#";

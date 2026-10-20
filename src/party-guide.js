@@ -14,6 +14,9 @@ export function selectPartyGuide(game, dayId) {
   const guide = {
     ...phase,
     ...outing,
+    // Outing notes name encounters, so they stay behind a reveal.
+    notes: outing ? [] : phase.notes,
+    encounter: outing?.notes?.length ? { id: `party-${dayId}`, notes: outing.notes } : null,
     sources: sources.filter((source, i) => sources.findIndex((s) => s.url === source.url) === i),
     verifiedOn: game.partyGuide.verifiedOn,
   };
@@ -34,7 +37,13 @@ function sourceLinks(sources) {
   }).map((source) => `<li><a href="${e(source.url)}" target="_blank" rel="noopener noreferrer">${e(source.label)} ↗</a></li>`).join("");
 }
 
-export function renderPartyGuide(guide, day) {
+function encounterNotes(encounter, p) {
+  if (!encounter) return "";
+  const open = p.help.includes(encounter.id);
+  return `<section class="party-preparation day-help ${open ? "is-open" : ""}"><div><h3>Encounter notes</h3><p>Open when you reach today's fights. Names enemies and their tactics.</p></div><button class="button small" id="help-${e(encounter.id)}" data-help="${e(encounter.id)}" aria-expanded="${open}" aria-controls="help-content-${e(encounter.id)}">${open ? "Hide notes −" : "Reveal notes +"}</button><div id="help-content-${e(encounter.id)}" ${open ? "" : "hidden"}>${open ? `<ul>${encounter.notes.map((note) => `<li>${e(note)}</li>`).join("")}</ul>` : ""}</div></section>`;
+}
+
+export function renderPartyGuide(guide, day, p = { help: [] }) {
   if (!guide) return "";
   const notes = guide.notes?.length
     ? `<div class="party-preparation"><h3>Keep in mind</h3><ul>${guide.notes.map((note) => `<li>${e(note)}</li>`).join("")}</ul></div>`
@@ -46,5 +55,5 @@ export function renderPartyGuide(guide, day) {
   const reserves = guide.reserves?.length
     ? `<section class="party-reserves party-preparation"><h3>Reserve options</h3><div class="party-roster">${guide.reserves.map(memberRow).join("")}</div></section>`
     : "";
-  return `<aside class="party-panel" aria-labelledby="party-heading"><header class="party-header"><p class="eyebrow">Party · ${e(day.label)}</p><h2 id="party-heading">${e(guide.title)}</h2><p>${e(guide.summary)}</p></header><p class="party-assumptions">For Normal difficulty and a Magic-focused protagonist. Check the requirements if an upgrade is unavailable.</p>${activeHeading}<div class="party-roster">${guide.members.map(memberRow).join("")}</div>${reserves}${notes}${sources ? `<details class="party-sources"><summary>Research & sources</summary><p>Mechanics checked ${e(guide.verifiedOn)}. These are suggested tactics, with alternatives for missing training. Source pages may contain later-game spoilers.</p><ul>${sources}</ul></details>` : ""}</aside>`;
+  return `<aside class="party-panel" aria-labelledby="party-heading"><header class="party-header"><p class="eyebrow">Party · ${e(day.label)}</p><h2 id="party-heading">${e(guide.title)}</h2><p>${e(guide.summary)}</p></header><p class="party-assumptions">For Normal difficulty and a Magic-focused protagonist. Check the requirements if an upgrade is unavailable.</p>${activeHeading}<div class="party-roster">${guide.members.map(memberRow).join("")}</div>${reserves}${notes}${encounterNotes(guide.encounter, p)}${sources ? `<details class="party-sources"><summary>Research & sources</summary><p>Mechanics checked ${e(guide.verifiedOn)}. These are suggested tactics, with alternatives for missing training. Source pages may contain later-game spoilers.</p><ul>${sources}</ul></details>` : ""}</aside>`;
 }

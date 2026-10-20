@@ -1,4 +1,9 @@
-import { createStore, parseBackup, serializeBackup } from "./state.js";
+import {
+  STORAGE_KEY,
+  createStore,
+  parseBackup,
+  serializeBackup,
+} from "./state.js";
 import { renderGame, renderLibrary } from "./render.js";
 import { renderDaily, selectDay } from "./daily-render.js";
 
@@ -18,6 +23,7 @@ export function mountApp(win, games) {
     hasRouted = false,
     pendingBackup = null,
     pendingCalendar = null,
+    monthKeyed = false,
     toastTimer;
   const getGame = () => games.find((g) => g.id === activeGame);
   const progress = () => store.state.games[activeGame];
@@ -26,7 +32,8 @@ export function mountApp(win, games) {
     (!activeSection || activeSection.startsWith("day-"));
   function notice() {
     const el = doc.getElementById("storage-warning");
-    el.textContent = store.warning;
+    // Rewriting an unchanged alert makes screen readers announce it again.
+    if (el.textContent !== store.warning) el.textContent = store.warning;
     el.hidden = !store.warning;
   }
   function toast(message) {
@@ -90,8 +97,12 @@ export function mountApp(win, games) {
       });
       doc.querySelector(calendarPosition.focus)?.focus({ preventScroll: true });
     } else if (isDaily() && changed && shouldFocus) {
-      win.scrollTo(0, 0);
-      doc.getElementById("day-heading")?.focus({ preventScroll: true });
+      // On narrow screens the day sheet sits below the calendar and party
+      // panel, so bring the focused heading into view rather than the top.
+      const heading = doc.getElementById("day-heading");
+      heading?.focus({ preventScroll: true });
+      if (heading) heading.scrollIntoView({ block: "start", behavior: "instant" });
+      else win.scrollTo(0, 0);
     } else if (next && parts[2]) {
       const target = doc.getElementById(parts[2]);
       if (target) {
@@ -219,6 +230,10 @@ export function mountApp(win, games) {
         pendingBackup = null;
         render();
         dialog.close();
+        // The button that opened the dialog may have been re-rendered away.
+        const heading = app.querySelector("h1");
+        heading?.setAttribute("tabindex", "-1");
+        heading?.focus();
         toast("Backup restored");
       } catch (error) {
         doc.getElementById("import-result").textContent = error.message;
@@ -257,6 +272,9 @@ export function mountApp(win, games) {
         );
       }
     } else if (target.matches("[data-month]") && getGame()) {
+      // Arrow keys on a closed select fire change on each press; wait for
+      // Enter so browsing months does not open each month's first day.
+      if (monthKeyed) return;
       navigateCalendar(`#game/${getGame().id}/${target.value}`, "[data-month]");
     } else if (target.matches("[data-status]") && getGame()) {
       update({ status: target.value });
@@ -265,6 +283,7 @@ export function mountApp(win, games) {
       pendingBackup = null;
       const file = target.files?.[0],
         result = doc.getElementById("import-result");
+      result.textContent = "";
       if (!file) return;
       try {
         if (file.size > 300000)
@@ -286,6 +305,38 @@ export function mountApp(win, games) {
         ? "Not saved in this browser. Export a backup before leaving."
         : "Notes saved in this browser.";
     }
+  });
+  const monthKeys = ["ArrowUp", "ArrowDown", "Home", "End", "PageUp", "PageDown"];
+  doc.addEventListener("keydown", (event) => {
+    if (!event.target.matches?.("[data-month]") || !getGame()) return;
+    if (monthKeys.includes(event.key)) monthKeyed = true;
+    else if (event.key === "Enter" && monthKeyed) {
+      event.preventDefault();
+      monthKeyed = false;
+      navigateCalendar(
+        `#game/${getGame().id}/${event.target.value}`,
+        "[data-month]",
+      );
+    }
+  });
+  doc.addEventListener("pointerdown", (event) => {
+    if (event.target.matches?.("[data-month]")) monthKeyed = false;
+  });
+  doc.addEventListener("focusout", (event) => {
+    if (!event.target.matches?.("[data-month]") || !monthKeyed) return;
+    // Leaving without Enter keeps the month that is actually shown.
+    monthKeyed = false;
+    const shown = selectDay(getGame(), progress(), activeSection);
+    event.target.value =
+      getGame().days.find((d) => d.month === shown.month)?.id ??
+      event.target.value;
+  });
+  win.addEventListener("storage", (event) => {
+    if (event.key !== STORAGE_KEY || !store.sync(event.newValue)) return;
+    // Another tab saved progress; show it here so this tab does not overwrite it.
+    const active = doc.activeElement;
+    if (active?.matches?.("[data-notes]")) return;
+    render();
   });
   win.addEventListener("hashchange", route);
   route();
