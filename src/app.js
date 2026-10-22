@@ -6,6 +6,7 @@ import {
 } from "./state.js";
 import { renderGame, renderLibrary } from "./render.js";
 import { renderDaily, selectDay } from "./daily-render.js";
+import { parseTrophies } from "./trophies.js";
 
 export function mountApp(win, games) {
   const doc = win.document,
@@ -24,6 +25,7 @@ export function mountApp(win, games) {
     pendingBackup = null,
     pendingCalendar = null,
     monthKeyed = false,
+    trophies = {},
     toastTimer;
   const getGame = () => games.find((g) => g.id === activeGame);
   const progress = () => store.state.games[activeGame];
@@ -48,9 +50,9 @@ export function mountApp(win, games) {
     const before = old?.getBoundingClientRect().top;
     app.innerHTML = getGame()
       ? isDaily()
-        ? renderDaily(getGame(), progress(), activeSection)
-        : `${getGame().days ? `<a class="daily-return" href="#game/${getGame().id}">← Back to daily guide</a>` : ""}${renderGame(getGame(), progress())}`
-      : renderLibrary(games, store.state);
+        ? renderDaily(getGame(), progress(), activeSection, trophies[activeGame])
+        : `${getGame().days ? `<a class="daily-return" href="#game/${getGame().id}">← Back to daily guide</a>` : ""}${renderGame(getGame(), progress(), trophies[activeGame])}`
+      : renderLibrary(games, store.state, trophies);
     doc.title = getGame()
       ? `${getGame().title} · The Velvet Room`
       : "The Velvet Room · Your game journal";
@@ -341,4 +343,16 @@ export function mountApp(win, games) {
   win.addEventListener("hashchange", route);
   route();
   notice();
+  return {
+    // Trophy progress arrives after first paint; re-render without moving focus.
+    setTrophies(raw) {
+      const parsed = parseTrophies(raw, games);
+      if (!parsed) return;
+      trophies = { ...trophies, [parsed.game]: parsed };
+      const active = doc.activeElement;
+      if (active?.matches?.("[data-notes], #guide-month")) return;
+      const focusId = active?.id && app.contains(active) ? active.id : undefined;
+      render(focusId);
+    },
+  };
 }

@@ -1,6 +1,7 @@
 import { escapeHtml as e, safeUrl } from "./html.js";
 import { guideHelp } from "./guide-help.js";
 import { selectPartyGuide, renderPartyGuide } from "./party-guide.js";
+import { trophySummary } from "./trophies.js";
 
 const dayHref = (g, d) => `#game/${g.id}/${d.id}`;
 export function selectDay(game, progress, section) {
@@ -37,14 +38,14 @@ function instructions(day, p) {
     })
     .join("")}</ol>`;
 }
-export function renderDaily(game, p, section) {
+export function renderDaily(game, p, section, trophies = null) {
   const day = selectDay(game, p, section),
     index = game.days.indexOf(day);
   const count = day.steps.filter((s) => p.checked.includes(s.id)).length;
   const prev = game.days[index - 1],
     next = game.days[index + 1];
   const party = selectPartyGuide(game, day.id);
-  return `<a class="back-link" href="#library">← The collection</a><header class="reader-game"><img src="${e(game.cover)}" width="56" height="84" alt="${e(game.title)} cover"><div><p class="eyebrow">Daily platinum guide</p><h1>${e(game.title)}</h1></div><a class="reference-link" href="#game/${e(game.id)}/reference">Tips & reminders ↗</a></header><div class="reader-tabs"><a aria-current="page" href="#game/${e(game.id)}">Day by day</a><a href="#game/${e(game.id)}/reference">Reference & notes</a><span>Your reading place saves automatically</span></div><details class="guide-primer"><summary>How to follow this guide</summary><div>${guideHelp.map(([title, text]) => `<section><h3>${e(title)}</h3><p>${e(text)}</p></section>`).join("")}</div></details><div class="daily-layout${party ? " daily-layout--party" : ""}">${calendar(game, p, day)}${renderPartyGuide(party, day, p)}<article class="day-sheet" aria-labelledby="day-heading"><header class="day-heading"><div><p class="eyebrow">Your itinerary</p><h2 id="day-heading" tabindex="-1"><span>${String(day.number).padStart(2, "0")}</span> ${e(day.month)}</h2></div></header><div class="day-progress"><span data-day-count>${count} of ${day.steps.length} steps checked</span><progress value="${count}" max="${day.steps.length}" aria-label="Steps checked on ${e(day.label)}"></progress></div><div class="day-guidance"><strong>Today’s actions, in order.</strong> Finish free errands before an activity marked “uses time”. When a step says “choose one”, follow only the option that matches your game. Ongoing goals can carry over to later days.</div>${(
+  return `<a class="back-link" href="#library">← The collection</a><header class="reader-game"><img src="${e(game.cover)}" width="56" height="84" alt="${e(game.title)} cover"><div><p class="eyebrow">Daily platinum guide</p><h1>${e(game.title)}</h1>${trophySummary(trophies)}</div><a class="reference-link" href="#game/${e(game.id)}/reference">Tips & reminders ↗</a></header><div class="reader-tabs"><a aria-current="page" href="#game/${e(game.id)}">Day by day</a><a href="#game/${e(game.id)}/reference">Reference & notes</a><span>Your reading place saves automatically</span></div><details class="guide-primer"><summary>How to follow this guide</summary><div>${guideHelp.map(([title, text]) => `<section><h3>${e(title)}</h3><p>${e(text)}</p></section>`).join("")}</div></details><div class="daily-layout${party ? " daily-layout--party" : ""}">${calendar(game, p, day)}${renderPartyGuide(party, day, p)}<article class="day-sheet" aria-labelledby="day-heading"><header class="day-heading"><div><p class="eyebrow">Your itinerary</p><h2 id="day-heading" tabindex="-1"><span>${String(day.number).padStart(2, "0")}</span> ${e(day.month)}</h2></div></header><div class="day-progress"><span data-day-count>${count} of ${day.steps.length} steps checked</span><progress value="${count}" max="${day.steps.length}" aria-label="Steps checked on ${e(day.label)}"></progress></div><div class="day-guidance"><strong>Today’s actions, in order.</strong> Finish free errands before an activity marked “uses time”. When a step says “choose one”, follow only the option that matches your game. Ongoing goals can carry over to later days.</div>${(
     game.dayHelp?.[day.id] ?? []
   )
     .filter((h) => !h.id.endsWith("-boss"))

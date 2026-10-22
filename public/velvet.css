@@ -1818,3 +1818,27 @@ dialog p {
   clip-path: inset(50%);
   white-space: nowrap;
 }
+
+.trophy-sync {
+  margin: 0.35rem 0 0;
+  font-size: 0.82rem;
+  color: var(--accent);
+}
+.trophy-sync--warn {
+  color: #e8a25c;
+}
+.card-states {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  align-items: center;
+  justify-content: flex-end;
+}
+.trophy-earned {
+  font-size: 0.75rem;
+  padding: 0.15rem 0.5rem;
+  border: 1px solid currentColor;
+  border-radius: 999px;
+  color: var(--accent);
+  white-space: nowrap;
+}

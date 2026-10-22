@@ -3,6 +3,9 @@ name: Publish The Velvet Room
 on:
   push:
     branches: [main]
+  # Refresh PSN trophy progress a few times a day.
+  schedule:
+    - cron: "17 */6 * * *"
   workflow_dispatch:
 
 permissions:
@@ -24,6 +27,10 @@ jobs:
       - run: npm ci
       - run: npm test
       - run: npm run build
+      - name: Sync PSN trophies
+        run: node scripts/sync-trophies.mjs
+        env:
+          PSN_NPSSO: ${{ secrets.PSN_NPSSO }}
       - uses: actions/configure-pages@v6
       - uses: actions/upload-pages-artifact@v4
         with:
