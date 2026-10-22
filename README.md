@@ -27,7 +27,7 @@ The website is now the maintained reading edition. The earlier personal Google D
 - Checkboxes track reminders, independently of PlayStation trophies.
 - **Backups** exports or restores your shelf status, reveals, checklists, notes and reading place.
 
-Progress is saved in this browser at this site address. Other open tabs of the guide pick up each other's changes rather than overwriting them. There is no account, cloud sync or trophy-service connection. Export a backup before clearing site data or changing browsers. Importing replaces the current saved progress only after you confirm it. If storage fails, a persistent notice appears and the current session can still be exported.
+Progress is saved in this browser at this site address. Other open tabs of the guide pick up each other's changes rather than overwriting them. There is no account or cloud sync; PSN trophy progress is shown separately (see below). Export a backup before clearing site data or changing browsers. Importing replaces the current saved progress only after you confirm it. If storage fails, a persistent notice appears and the current session can still be exported.
 
 ## Spoiler boundaries
 
@@ -50,6 +50,16 @@ For shopping lists, recipe ingredients or ordered directions inside one instruct
 Verify added NPC names, locations, quest triggers and time costs against sources, and record the evidence against the affected step IDs in [route direction checks](docs/route-direction-checks.md). Distinguish the original requester, the hand-in recipient and any separate bond event. A date used by another walkthrough is not by itself proof of an unlock date. Record conflicting evidence or missing information instead of filling gaps from memory. The automated checks verify the website and content conversion; they do not establish that the gameplay directions are correct.
 
 Existing version-1 backups are accepted and gain empty daily-progress fields. The storage key and all existing reference IDs are retained. No browser data is deleted during migration.
+
+## PSN trophy progress
+
+The publish workflow also runs every six hours. When the `PSN_NPSSO` repository secret is set, `scripts/sync-trophies.mjs` signs in to PSN with the unofficial [psn-api](https://github.com/achievements-app/psn-api) library and writes `trophies.json` into the published site. The library and daily reader then show the earned count, and each reference card whose trophy is earned shows **Earned on PSN**. Checklists stay separate from trophies.
+
+- Only earned trophies are published, so the file never names a trophy you have not reached. The file is public, like a public PSN profile.
+- To set or renew the token: sign in at playstation.com, open `https://ca.account.sony.com/api/v1/ssocookie` in the same browser, copy the `npsso` value, then run `gh secret set PSN_NPSSO -R Vanexia/the-velvet-room` and paste it at the prompt. Treat it like a password.
+- Tokens expire after roughly two months. The site then shows "PSN sync needs a new sign-in token" and the workflow logs a warning; deploys continue.
+- Without the secret the step is skipped. GitHub pauses scheduled workflows after 60 days without repository activity; re-enable it from the Actions tab if that happens.
+- Cards match trophies by the PSNProfiles section name in their source link (`#46-at-your-own-risk` matches "At Your Own Risk").
 
 ## Local development
 
