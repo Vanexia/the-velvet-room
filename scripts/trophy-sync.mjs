@@ -4,7 +4,7 @@
 export const trophySlug = (name) =>
   String(name ?? "")
     .toLowerCase()
-    .replace(/[’']/g, "")
+    .replace(/[’'.]/g, "")
     .replace(/[^a-z0-9]+/g, "-")
     .replace(/^-|-$/g, "");
 
@@ -31,18 +31,9 @@ async function allUserTitles(api, auth) {
   return titles;
 }
 
-export async function buildTrophyFile(api, npsso, game, now = new Date()) {
-  const base = { version: 1, game: game.id, syncedAt: now.toISOString() };
-  let auth;
-  try {
-    const code = await api.exchangeNpssoForAccessCode(npsso);
-    auth = await api.exchangeAccessCodeForAuthTokens(code);
-  } catch {
-    return { ...base, status: "auth-failed", earned: [] };
-  }
-  const titles = await allUserTitles(api, auth);
+async function gameEntry(api, auth, titles, game, base) {
   const title = pickTitle(titles, game.titlePattern);
-  if (!title) return { ...base, status: "title-not-found", earned: [] };
+  if (!title) return { ...base, game: game.id, status: "title-not-found", earned: [] };
   const options = { npServiceName: title.npServiceName };
   const [defs, mine] = await Promise.all([
     api.getTitleTrophies(auth, title.npCommunicationId, "all", options),
@@ -69,9 +60,36 @@ export async function buildTrophyFile(api, npsso, game, now = new Date()) {
     .sort((a, b) => String(a.earnedAt).localeCompare(String(b.earnedAt)));
   return {
     ...base,
+    game: game.id,
     status: "ok",
     platform: title.trophyTitlePlatform,
     total: defs.trophies.length,
     earned,
   };
+}
+
+// One sign-in and one title list for every configured game.
+export async function buildTrophyFile(api, npsso, games, now = new Date()) {
+  const base = { version: 1, syncedAt: now.toISOString() };
+  const failed = (status) => ({
+    ...base,
+    games: games.map((g) => ({ ...base, game: g.id, status, earned: [] })),
+  });
+  let auth;
+  try {
+    const code = await api.exchangeNpssoForAccessCode(npsso);
+    auth = await api.exchangeAccessCodeForAuthTokens(code);
+  } catch {
+    return failed("auth-failed");
+  }
+  const titles = await allUserTitles(api, auth);
+  const entries = [];
+  for (const game of games) {
+    try {
+      entries.push(await gameEntry(api, auth, titles, game, base));
+    } catch (error) {
+      entries.push({ ...base, game: game.id, status: "sync-failed", earned: [] });
+    }
+  }
+  return { ...base, games: entries };
 }

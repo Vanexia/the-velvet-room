@@ -1,2 +1,3 @@
 import { metaphor } from "./metaphor.js";
-export const games = [metaphor];
+import { residentEvil } from "./resident-evil.js";
+export const games = [metaphor, residentEvil];

@@ -4,7 +4,7 @@ A compact game collection with daily guides and platinum reminders. Choose a gam
 
 [Open The Velvet Room](https://vanexia.github.io/the-velvet-room/)
 
-The first guide is **Metaphor: ReFantazio**: 145 dates and 434 ordered instructions adapted from the audited personal schedule. The existing chronological platinum reminders remain under **Reference & notes**. Preparation and separate boss help are available for the early dungeon scheduled on 13 June.
+**Resident Evil** (HD Remaster) is a platinum companion: one stage per remaining playthrough, tailored to the trophies already earned on 22 October 2026. The first guide is **Metaphor: ReFantazio**: 145 dates and 434 ordered instructions adapted from the audited personal schedule. The existing chronological platinum reminders remain under **Reference & notes**. Preparation and separate boss help are available for the early dungeon scheduled on 13 June.
 
 ## Following the daily guide
 
@@ -79,9 +79,10 @@ Open `http://127.0.0.1:4173/the-velvet-room/`. Run the build again after changin
 1. Research the complete companion using PSNProfiles for trophy guidance. Write original reminders and record sources, verification date and any uncertainty.
 2. Add a module under `src/data/` using `metaphor.js` as the content structure: metadata, `sourceCredit`, `verifiedOn`, safe `tips`, and ordered `stages` containing small `cards`.
 3. Give each card a neutral title, advance warning, recognisable reveal cue, spoiler category, protected paragraphs, checks and a source anchor. Put late advice at the bottom. Review cues separately from revealed content.
-4. Add a standard cover to `public/assets/`, record its rights and origin in `credits.md`, and add the game to `src/data/index.js`.
-5. Use stable IDs unique within the game. Never reuse an old ID for unrelated content. A materially more revealing addition needs a new card ID so it starts hidden for existing readers.
-6. Extend the content audit and run the tests and build. Test the new companion while every card is hidden, then verify its reveals in order.
+4. Add the game's PSN title pattern to `scripts/sync-trophies.mjs` so its trophies sync, and use PSNProfiles section anchors as card sources so earned trophies mark their cards.
+5. Add a standard cover to `public/assets/`, record its rights and origin in `credits.md`, and add the game to `src/data/index.js`.
+6. Use stable IDs unique within the game. Never reuse an old ID for unrelated content. A materially more revealing addition needs a new card ID so it starts hidden for existing readers.
+7. Extend the content audit and run the tests and build. Test the new companion while every card is hidden, then verify its reveals in order.
 
 The interface is shared between games. Each game needs its content prepared once; playing further into it requires no code or content update. Imported backups discard unknown game and content IDs, so old backups cannot reveal newly added cards.
 
